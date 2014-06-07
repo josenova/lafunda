@@ -1,0 +1,52 @@
+<div id="homebox">
+
+    <div class="left">
+
+      <!-- start Basic Jquery Slider -->
+      <ul class="bxslider">
+        <li><a href="#"><img src="assets/slider/1.jpg"></a></li>
+        <li><a href="#"><img src="assets/slider/2.jpg"></a></li>
+        <li><a href="#"><img src="assets/slider/3.jpg"></a></li>
+      </ul>
+
+      <script>
+          $(document).ready(function(){
+              $('.bxslider').bxSlider();
+          });
+      </script>
+      <!-- end Basic jQuery Slider -->
+
+
+      <a id="lottery-animation" href="#">
+        <ul class="lottery-info">
+          <li class="lottery-logo"><%= image_tag asset_path "lotteries/newyork.png" %></li>
+          <li class="lottery-name">New York Lottery</li>
+          <li class="lottery-subname">Pick 4</li>
+          <li class="numbers">
+            <ul>
+              <li>28</li>
+              <li>45</li>
+              <li>11</li>
+              <li>3</li>
+              <li>29</li>
+              <li>8</li>
+            </ul>
+          </li>
+        </ul>
+        <span id="lottery-all">ver todos los resultados</span>
+      </a>
+
+
+
+    </div> <!--- End Left --->
+
+
+
+
+
+    <div class="right">
+      <%= link_to image_tag(asset_path("registrate.png")), sign_up_path %>
+      <%= link_to image_tag(asset_path("soporte.jpg")), new_inquiry_path %>
+    </div> <!--- End Right --->
+
+</div> <!--- End Homebox --->

@@ -1,0 +1,67 @@
+# ruby encoding: utf-8
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+es:
+    views:
+      categories: Categorias
+      home: Inicio
+      live_casino: "Casino en Vivo"
+      sportsbook: Deportes
+      support: Soporte
+      live_chat: "Chat en Vivo"
+      chat_now: "Abrir Chat"
+      faq: "Preguntas Frecuentes"
+      terms_and_conditions: "Terminos y Condiciones"
+      responsible_gaming: "Juego Responsable"
+      privacy_policy: "Politicas de Privacidad"
+      information: Informacion
+      payment_methods: "Metodos de Pago"
+      follow_us: Siguenos
+      user: Usuario
+      password: Contrasena
+      log_in: Ingresar
+      username: Usuario
+      name: Nombre
+      surname: Apellido
+      email: Email
+      message: Mensaje
+      submit: Enviar
+      community: Comunidad
+      poker: Poker
+      casino: Casino
+      lottery: Loteria
+      confirm_password: "Confirmar Contrasena"
+      identification: Cedula
+      date_of_birth: "Fecha de Nacimiento"
+      cellphone: Celular
+      coin: Moneda
+      country: Pais
+      Dominican_Republic: "Republica Dominicana"
+      register: Registrate
+      pin: Pin
+      welcome: Bienvenido
+      racebook: Hipico
+      update: Actualizar
+      security: Seguridad
+      personal: Personal
+      
+

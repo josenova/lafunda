@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>La Funda</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+  <%= favicon_link_tag 'favicon.ico' %>
+</head>
+<body>
+
+    <%= render "layouts/miniheader" %>
+    <div class="wrapper">
+
+
+        <%= render "layouts/header" %>
+        <%= render "welcome/homebox" if controller_name == 'welcome' %>
+
+
+        <% if controller_name != 'welcome' %>
+        <div id="content" class="<%= params[:controller] %>">
+
+          <div class="left">
+            <% if flash[:notice] %><div id="notice"><%= flash[:notice] %></div><% end %>
+            <% if flash[:alert] %><div id="alert"><%= flash[:alert] %></div><% end %>
+            <% if flash[:error] %><div id="error"><%= flash[:error] %></div><% end %>
+            <%= yield %>
+            <!--<%= debug(params) if Rails.env.development? %>-->
+          </div>
+
+          <div class="right">
+            <%= yield :modules %>
+          </div>
+
+        </div>
+        <% end %>
+
+    </div>
+
+    <%= render "layouts/footer" %>
+    <%= render "layouts/copyright" %>
+
+</body>
+</html>

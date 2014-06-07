@@ -1,0 +1,118 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*********************************************************************** HOMEBOX **************************************************************************************/
+
+#homebox {
+  overflow:hidden;
+  margin-bottom: 1.315%;
+}
+
+#homebox .right a {
+  display:block;
+  margin-bottom: 3.444%;
+}
+
+
+/*********************************************************************** SLIDER **************************************************************************************/
+
+.bx-wrapper {
+  margin-bottom: 2.1289% !important;
+}
+
+
+/*********************************************************************** LOTTERY  **************************************************************************************/
+
+#lottery-animation {
+
+  background:rgba(0,0,0,0.3);
+  display:block;
+  border:1px solid rgba(0,0,0,0.5);
+  width:100%;
+  padding:0.813% 1.315% 0.502%;
+  overflow:hidden;
+  height: 80px;
+  position: relative;
+}
+
+.lottery-info {
+  width:100%;
+  display:inline-block;
+  -webkit-animation:slideDown 5s infinite;
+  position:relative;
+}
+
+.lottery-info>li {
+  margin-right: 2.1289%;
+  display: inline-block;
+  float:left;
+  height: 63px;
+  line-height: 63px;
+  overflow:hidden;
+}
+
+@-webkit-keyframes slideDown {
+  0%   { top: 0; left:0; }
+  40%  { top: 0; left:0; }
+
+  48%  { top: 75px; left:0px; }
+  49%  { left:-600px; top:75px }
+  51%  { top: -75px; left:-600px;}
+  52%  { left: 0px; top: -75px; }
+
+  60%  { top: 0; left:0; }
+  100% { top: 0; left:0; }
+}
+
+
+
+.lottery-logo {
+  width:7.7019%;
+}
+
+.lottery-name {
+  color:#fff;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:1em;
+}
+
+.lottery-subname {
+  color:#fff;
+  text-transform:uppercase;
+}
+
+#lottery-all {
+  color:#fff;
+  float:right;
+  text-decoration:underline;
+  position: absolute;
+  top: 28px;
+  right: 15px;
+}
+
+.numbers {
+  width:38.198%;
+  padding: 2.1289% 0;
+}
+
+.numbers ul {
+
+}
+.numbers ul li {
+  background:#fff;
+  border-radius:15px;
+  color:#222;
+  padding: 1.315%;
+  width: 9.017%;
+  text-align:center;
+  float:left;
+  font-size:0.9375em;
+  font-weight:bold;
+  line-height: normal;
+  margin-right:1.315%;
+  box-shadow: 1px 1px #333;
+}
+
+

@@ -1,0 +1,29 @@
+%h1= t('views.support')
+%p Nuestro soporte en línea está disponible en horario laboral. Para cualquier duda o sugerencia favor comunícate con nosotros a través de una de las siguientes vías:
+%table
+  %tr
+    %td#phone
+      %h3 Teléfono
+      %p Servicio al cliente:
+      %ul
+        %li 829.946.5550
+        %li 829.947.5510
+    %td#chat
+      %h3= t('views.live_chat')
+      %p Chatea con uno de nuestros representantes.
+      %a.button= t('views.chat_now')
+    %td#inquiry
+      %h3= t('views.email')
+      %p Envíanos un email detallado y te responderemos en la mayor brevedad posible.
+      %a.button Enviar Email
+
+
+= form_for @inquiry do |f|
+  = f.text_field :name, :required => true, :placeholder => t('views.name')
+  = f.email_field :email, :required => true, :placeholder => t('views.email')
+  = f.text_area :message, :as => :text, :required => true, :input_html => {:rows => 10}, :placeholder => t('views.message')
+
+  .hidden
+    = f.text_field :nickname
+
+  = f.submit t('views.submit')

@@ -1,0 +1,40 @@
+= form_for @user do |f|
+  = render 'error_messages'
+
+  %br
+  = label :username, t('views.username')
+  = f.text_field :username, :required => true
+
+  = label :email, t('views.email')
+  = f.email_field :email, :required => true
+
+  = label :password, t('views.password')
+  = f.password_field :password, :required => true
+
+  = label :password_confirmation, t('views.confirm_password')
+  = f.password_field :password_confirmation, :required => true
+
+  %br
+  = field_set_tag t('views.personal') do
+    = label :name, t('views.name')
+    = f.text_field :name, :required => true
+
+    = label :surname, t('views.surname')
+    = f.text_field :surname, :required => true
+
+    = label :identification, t('views.identification')
+    = f.text_field :identification, :required => true
+
+    = label :birthday, t('views.date_of_birth')
+    = f.date_field :birthday, :required => true
+
+    = label :cellphone, t('views.cellphone')
+    = f.telephone_field :cellphone, :required => true
+
+  %br
+  = field_set_tag t('views.security') do
+    = label :pin, t('views.pin')
+    = f.number_field :pin, :required => true
+
+
+  = f.submit t('views.submit')

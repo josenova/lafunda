@@ -1,0 +1,32 @@
+= form_for @user do |f|
+  = render 'error_messages'
+  /= f.text_field :username, :required => true, :placeholder => t('views.username'), :readonly => true
+  /= f.email_field :email, :required => true, :placeholder => t('views.email'), :readonly => true
+  /= f.password_field :password_digest, :required => true, :placeholder => t('views.password'), :disabled => true
+  /= f.password_field :password_confirmation, :required => true, :placeholder => t('views.confirm_password')
+  /= f.radio_button :gender, 'male', :checked => true
+  /= f.radio_button :gender, 'female'
+
+  = field_set_tag 'Personal' do
+    = label :name, t('views.name')
+    = f.text_field :name, :required => true
+
+    = label :surname, t('views.surname')
+    = f.text_field :surname, :required => true
+
+    = label :identification, t('views.identification')
+    = f.text_field :identification, :required => true
+
+    = label :birthday, t('views.date_of_birth')
+    = f.date_field :birthday, :required => true
+
+    = label :cellphone, t('views.cellphone')
+    = f.telephone_field :cellphone, :required => true
+
+  %br
+  = field_set_tag 'Seguridad' do
+    = label :pin, 'Pin'
+    = f.number_field :pin, :required => true
+
+
+  = f.submit t('views.update')

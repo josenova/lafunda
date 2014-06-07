@@ -1,0 +1,47 @@
+<div id="footer">
+    <div class="wrapper">
+
+      <ul>
+        <h6><%= t('views.categories') %></h6>
+        <!--<li><%= link_to t('views.casino'), casino_path %></li>
+        <li><%= link_to t('views.live_casino'), live_casino_path %></li>
+        <li><%= link_to t('views.poker'), poker_path %></li>-->
+        <li><%= link_to t('views.sportsbook'), sportsbook_path %></li>
+        <li><%= link_to t('views.racebook'), racebook_path %></li>
+        <!--<li><%= link_to t('views.lottery'), lottery_path %></li>-->
+      </ul>
+
+
+      <ul>
+        <h6><%= t('views.information') %></h6>
+        <li><%= link_to t('views.faq'), faq_path %></li>
+        <li><%= link_to t('views.terms_and_conditions'), terms_path %></li>
+        <li><%= link_to t('views.responsible_gaming'), responsible_path %></li>
+        <li><%= link_to t('views.privacy_policy'), privacy_path %></li>
+
+      </ul>
+
+
+      <ul id="paymentmethods">
+        <h6><%= t('views.payment_methods') %></h6>
+        <li><%= link_to image_tag(asset_path("payment-methods/visa.png")), "www.com" %></li>
+        <li><%= link_to image_tag(asset_path("payment-methods/mastercard.png")), "www.com" %></li>
+        <li><%= link_to image_tag(asset_path("payment-methods/cash.png")), "www.com" %></li>
+        <li></li>
+      </ul>
+
+
+      <ul id="social">
+        <h6><%= t('views.follow_us') %></h6>
+        <li><%= link_to image_tag(asset_path("social/facebook.png")), "http://www.facebook.com", target: '_blank' %></li>
+        <li><%= link_to image_tag(asset_path("social/twitter.png")), "http://www.twitter.com", target: '_blank' %></li>
+        <li><%= link_to image_tag(asset_path("social/instagram.png")), "http://www.instagram.com", target: '_blank' %></li>
+        <li><%= link_to image_tag(asset_path("social/youtube.png")), "http://www.youtube.com", target: '_blank' %></li>
+        <li></li>
+      </ul>
+
+
+
+    </div>
+</div>
+

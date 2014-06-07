@@ -1,0 +1,51 @@
+// Place all the styles related to the inquiries controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#phone {
+  padding-right: 2.1289%;
+ width: 30%;
+}
+
+#phone li {
+
+font-size:1em;
+font-weight: bold;
+}
+
+#chat {
+  border-left: 1px solid #dbdbdb;
+  padding: 0 2.1289%;
+  width: 35%;
+}
+#inquiry {
+  border-left: 1px solid #dbdbdb;
+  padding-left: 2.1289%;
+  width: 35%;
+
+}
+
+
+#content table {
+  width:100%;
+}
+
+#content td {
+  display:inline-block;
+}
+
+#content td p {
+  font-size:0.875em;
+}
+
+
+
+#new_inquiry {
+  width: 61.804%;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-top: 5.573%;
+  display: none;
+
+}
+
