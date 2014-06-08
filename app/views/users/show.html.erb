@@ -1,17 +1,11 @@
-<h1><%= t('views.welcome') + ', ' + @current_user.name %></h1>
+<h1><%= t('views.my_account') %></h1>
+<h3><%= t('views.welcome') + ', ' + @current_user.name %></h3>
 
 
-<p>
-  <strong>Name:</strong>
-  <%= @current_user.name %>
-</p>
+<div id="controlpanel">
+  <%= link_to edit_account_path do %><%= image_tag(asset_path("controlpanel/edit-profile.png")) %><span><%= t('views.edit_profile') %></span><% end %>
+</div>
 
-<p>
-  <strong>Email:</strong>
-  <%= @current_user.email %>
-</p>
-
-<%= link_to 'Edit', edit_account_path %>
 
 
 
@@ -20,7 +14,7 @@
     <div id="balance">
       <span>Balance:</span>
       <p>RD$<%= @current_user_funds %></p>
-      <a href="#" id="deposit">Deposit</a>
-      <a href="#" id="withdraw">Withdraw</a>
+      <%= link_to t('views.deposit'), '#', id: 'deposit' %>
+      <%= link_to t('views.withdraw'), '#',id: 'withdraw' %>
     </div>
 <% end %>

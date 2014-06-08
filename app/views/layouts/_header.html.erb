@@ -8,8 +8,16 @@
     <%= link_to '', root_path, id: "logo" %>
     <div id="topright">
       <% if user_signed_in? %>
-        <%= link_to sign_out_path, class: "logout" do %><span>Log Out</span><%= image_tag(asset_path("bg/logout.png"))%><% end %>
-        <%= link_to account_path, id: "usertag" do %>Logged in as <strong><%= @current_user.username %></strong><% end %>
+        <%= link_to sign_out_path, class: "logout" do %><span><%= t('views.sign_out') %></span><%= image_tag(asset_path("bg/logout.png"))%><% end %>
+        <div style="position:relative;overflow:hidden;height:200px;">
+            <div id="tagarrow">&#9662;</div>
+            <%= link_to account_path, id: "usertag" do %><span class="entypo">&#128100;</span> <strong><%= @current_user.username %></strong><% end %>
+            <ul id="tagmenu">
+              <%= nav_link t('views.my_account'), account_path %>
+              <%= nav_link t('views.deposit'), '#' %>
+              <%= nav_link t('views.withdraw'), '#' %>
+            </ul>
+        </div>
       <% else %>
         <%= render 'sessions/top_sign_in_form' %>
       <% end %>

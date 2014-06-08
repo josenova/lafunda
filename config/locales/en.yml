@@ -1,3 +1,4 @@
+# encoding: utf-8
 # Files in the config/locales directory are used for internationalization
 # and are automatically loaded by Rails. If you want to use locales other
 # than English, add the necessary files in this directory.
@@ -41,4 +42,7 @@ en:
       cellphone: Cellphone
       pin: Pin
       update: Update
+      edit_profile: "Edit Profile"
+      deposit: Deposit
+      withdraw: Withdraw
 

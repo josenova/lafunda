@@ -68,7 +68,6 @@ display:block;
 
 /*********************************************************************** HEADER ********************************************************************************/
 #header {
-overflow:hidden;
 position:relative;
 padding-top: 2.1289%;
 }
@@ -79,7 +78,7 @@ right:0px;
 }
 
 #topmenu {
-overflow:hidden;	
+height:178px;	
 margin-bottom:1.315%;
 }
 
@@ -90,12 +89,28 @@ margin-top:12.5%;
 padding:0.502% 0;
 }
 
+#topleft .entypo {
+font-family: Entypo;
+font-size: 2.6875em;
+margin-top: -3px;
+color: #1e5127;
+display: block;
+padding: 2px;
+background: #dfab3e;
+border-radius: 3px;
+height: 25px;
+box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
+line-height: 0px;
+float: left;
+overflow: hidden;
+}
+
 #topleft li {
 display:inline-block;	
 }
 
 #topleft li a {
-padding: 2.12% 28px 2.12% 38px;
+padding: 2.12% 28px 2.12% 9px;
 color: #fff;
 font-weight: bold;
 text-transform: uppercase;
@@ -137,6 +152,7 @@ text-shadow: 1px 1px rgba(0,0,0,0.3);
 display: inline-block;
 text-transform: uppercase;
 float:right;
+margin-left: 30px;
 }
 
 .logout img {
@@ -148,6 +164,84 @@ padding-left: 8px;
 float: left;
 line-height: 29px;	
 }
+
+/******************************************************************* USER TAG ********************************************************************************/
+
+
+#topright #usertag {
+	float: right;
+background: rgba(255,255,255,0.9);
+color: #222;
+height: 29px;
+line-height: 29px;
+padding: 0 2.1289%;
+text-decoration:none;
+border-radius:3px 0 0 3px;
+font-size:1em;
+box-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+
+#usertag .entypo {
+font-family: Entypo;
+font-size: 2.6875em;
+color: #1e5127;
+padding: 0px;
+line-height: 0;
+position: relative;
+top: 4px;
+right:2px;
+}
+
+#tagarrow {
+float: right;
+background: rgba(255,255,255,1);
+display: block;
+height: 29px;
+width: 29px;
+border-radius: 0 3px 3px 0;
+text-decoration: none;
+font-size: 1.5em;
+line-height: 29px;
+text-align: center;
+color:#333;
+box-shadow: 1px 1px rgba(0,0,0,0.3);
+
+}
+
+#tagarrow:hover {
+cursor:pointer;	
+}
+
+#tagmenu {
+position: absolute; 
+right: 0;
+top: 30px;
+background: #fff;
+width: 160px;
+border-radius: 3px 0px 3px 3px;
+padding: 2.1289% 0;
+display:none;
+}
+
+#tagmenu li {
+	
+}
+
+#tagmenu li a {
+color: #333;
+padding: 3.444% 14.591%;
+width: 100%;
+display: block;
+text-decoration: none;
+font-size: 0.875em;
+font-weight: bold;
+}
+
+#tagmenu li a:hover {
+color: #222;
+background:#ededed;
+}
+
 
 /***************************************************************** LOG IN ******************************************************************/
 
@@ -183,20 +277,7 @@ text-align:center;
 
 }
 
-#topright #usertag {
-	float: right;
-background: #fff;
-color: #333;
-height: 29px;
-line-height: 29px;
-padding: 0 2.1289%;
-box-shadow: 1px 1px rgba(0,0,0,0.3);
-text-decoration:none;
-border-radius:3px;
-margin-right:30px;
-text-transform:uppercase;
-font-size:0.9375em;
-}
+
 
 /********************************************************************* MAIN MENU ************************************************************/
 
@@ -239,7 +320,7 @@ background:#fff;
 padding:2.128%;
 border-radius:3px;
 margin-bottom: 2.128%;
-border:1px solid #1e5127;
+border:0px solid #1e5127;
 }
 
 .left {
@@ -371,13 +452,20 @@ color:#222;
 
 h2 {
 text-transform:uppercase;
-margin:2.12% 0;
+margin:2.1289% 0;
 color:#111;
 font-size:1.25em;
 	
 }
 
 h3 {
+	font-size: 1.25em;
+margin: 2.1289% 0;
+color:#333;
+font-weight:normal;
+}
+
+h4 {
 font-size: 1em;
 margin: 2.128% 0 1.315% 0;
 color:#222;
@@ -437,11 +525,13 @@ padding: 0 1.315% 0;
   border: 1px solid #444;
   padding: 3px 5px;
   background: #dbdbdb;
-  width: 100%;
+  width: 40%;
   margin: 0 0 10px;
   font-family:calibri;
   display: block;
   height: 120px;
+  float:left;
+  margin-right:30%;
 }
 
 .left input[type="submit"] {
@@ -453,8 +543,9 @@ padding: 0 1.315% 0;
   float: right;
   width: initial;
   cursor: pointer;
-  padding: 0 2.12%;
+  padding: 0 5.573%;
   height:30px;
+  margin:0;
 }
 
 .left input[readonly="readonly"] {
@@ -479,22 +570,29 @@ display: block;
 font-size:0.8125em;
 }
 
+.buttons {
+margin:0 30%;	
+}
+
+.cancel {
+background: #ae4f50;
+font-weight: bold;
+text-transform: uppercase;
+float: left;
+text-decoration: none;
+color: #fff !important;
+border: 1px solid #8c2d30;
+padding: 6px 5.573%;
+margin: 0;
+font-family: calibri;
+display: block;
+font-size: 0.8125em;
+text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+
 /****************************************************************** FONT FACE **************************************************************************************/
 
-.entypo {
-font-family: Entypo;
-font-size: 2.6875em;
-position: absolute;
-margin-top: -3px;
-color: #1e5127;
-display: block;
-padding: 2px;
-background: #dfab3e;
-border-radius: 3px;
-height: 9.017%;
-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
-line-height: 0px;
-}
+
 
  @font-face {
 font-family: 'Entypo';

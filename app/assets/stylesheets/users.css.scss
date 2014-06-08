@@ -10,6 +10,8 @@
   background:#1e5127;
 }
 
+/********************************************** BALANCE *****************************************************************/
+
 .right #balance {
   background: #222;
   background:rgba(0,0,0,0.6);
@@ -50,4 +52,27 @@ margin-right:4%;
 
 .right #balance #withdraw {
 
+}
+
+
+/********************************************** CONTROL PANEL *****************************************************************/
+
+#controlpanel a {
+  float:left;
+  display:block;
+  padding:2.1289%;
+  background:#f1f1f1;
+  text-align:center;
+  text-decoration: none;
+  border:1px solid #d0d0d0;
+  width:120px;
+}
+
+#controlpanel span {
+  display: block;
+  font-size: 0.875em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+  padding-top:3.444%
 }

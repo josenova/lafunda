@@ -1,4 +1,4 @@
-# ruby encoding: utf-8
+# encoding: utf-8
 # Files in the config/locales directory are used for internationalization
 # and are automatically loaded by Rails. If you want to use locales other
 # than English, add the necessary files in this directory.
@@ -38,7 +38,6 @@ es:
       follow_us: Siguenos
       user: Usuario
       password: Contrasena
-      log_in: Ingresar
       username: Usuario
       name: Nombre
       surname: Apellido
@@ -63,5 +62,13 @@ es:
       update: Actualizar
       security: Seguridad
       personal: Personal
+      edit_profile: "Editar Perfil"
+      my_account: "Mi Cuenta"
+      cancel: Cancelar
+      withdraw: Retiro
+      deposit: Deposito
+      sign_in: "Iniciar Sesion"
+      sign_out: "Cerrar Sesion" 
+      log_in: Ingresar
       
 

@@ -28,5 +28,6 @@
     = label :pin, 'Pin'
     = f.number_field :pin, :required => true
 
-
-  = f.submit t('views.update')
+  .buttons
+    = link_to t('views.cancel'), account_path, class: 'cancel'
+    = f.submit t('views.update')

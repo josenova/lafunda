@@ -13,6 +13,14 @@
       <jdbc-url>jdbc:sqlite:C:\Users\webmaster\Desktop\lafunda\db\test.sqlite3</jdbc-url>
       <libraries />
     </data-source>
+    <data-source source="LOCAL" name="Rails lafunda: production" uuid="977f3203-028e-40fe-8f5a-1abcb2d621ac">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/lafundac_main</jdbc-url>
+      <user-name>lafunda_mainusr</user-name>
+      <user-password>dfe6dfecdf8edf93df9bdf98df84df99df8b</user-password>
+      <libraries />
+    </data-source>
   </component>
 </project>
 

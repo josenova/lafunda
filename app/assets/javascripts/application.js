@@ -18,6 +18,8 @@
 //= require_tree .
 
 
+/************************************ MINI HEADER *****************************************/
+
 
 $(document).ready(function(){
 
@@ -28,4 +30,21 @@ $(document).ready(function(){
 		$("#miniheader").css( "margin-top", "-74px" );
 	}
    });
-});                
+});    
+
+
+/********************************** TAG MENU *******************************************/
+
+$(document).ready(function(){
+
+	$('#tagarrow').click(function () {
+	  event.preventDefault();
+	  $('#tagmenu').toggle();
+   });
+
+	$(document).mouseup(function() {
+		if ($("#tagmenu").is(":visible"))  {
+	  		$("#tagmenu").toggle();
+		}
+   });
+});    
