@@ -5,6 +5,7 @@ gem 'rails', '4.0.4'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+gem 'mysql2', group: :production
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
@@ -37,7 +38,7 @@ end
 gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+#gem 'unicorn'
 
 # Use Capistrano for deployment
 gem 'capistrano', group: :development
@@ -51,7 +52,7 @@ gem 'html2haml'
 
 gem 'mail_form'
 
-gem 'rake','10.3.1'
+gem 'rake','10.3.2'
 
 gem 'savon'
 
