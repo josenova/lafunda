@@ -3,7 +3,7 @@ class UsersController < ApplicationController
   before_action :confirm_logged_in, only: [:show, :edit, :update]
   before_action :already_logged_in, only: [:new]
   before_action :set_user
-  before_action :get_funds, only: [:show]
+  before_action :get_funds, only: [:show, :edit]
 
 
   # GET /users/1

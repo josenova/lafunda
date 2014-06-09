@@ -11,13 +11,13 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery.turbolinks
+// require jquery.turbolinks
 //= require jquery_ujs
+
+//= require_tree .
 //= require jquery.ui.accordion
 
-//= require turbolinks
-//= require_tree .
-
+// require turbolinks
 
 /************************************ MINI HEADER *****************************************/
 
@@ -40,13 +40,13 @@ $(document).ready(function(){
 
 	$('#tagarrow').click(function () {
 	  event.preventDefault();
-	  $('#tagmenu').toggle();
+	  $('#tagmenu').show();
    });
-/*
+
 	$(document).mouseup(function() {
 	  		$("#tagmenu").hide();
    });
-*/
+
 });    
 
 /********************************************************************************/
@@ -54,8 +54,10 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 $(function() {
-    $( "#accordion" ).accordion({
-      heightStyle: "content"
+    $( ".accordion" ).accordion({
+      heightStyle: "content",
+	  collapsible: true,
+	  active: false
     });
   });
 

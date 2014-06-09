@@ -1,3 +1,27 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.ui-accordion-header {
+  border-radius: 3px;
+  padding: 4px 9px;
+  margin: 0 0 2px;
+  font-weight: normal;
+  font-size: 0.9375em;
+  border: 1px solid #dbdbdb;
+  color: #222;
+}
+
+.accordion p {
+  padding: 9px;
+}
+
+.ui-accordion-header[aria-selected="false"] {
+  background:url(/assets/bg/plus.png) no-repeat right center #f1f1f1;
+}
+
+.ui-accordion-header[aria-selected="true"] {
+  background:url(/assets/bg/minus.png) no-repeat right center #f1f1f1;
+}
+
+

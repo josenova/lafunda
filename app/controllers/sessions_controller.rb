@@ -23,7 +23,7 @@ class SessionsController < ApplicationController
               <tem:sourceId>#{$source_id}</tem:sourceId>
               <tem:sourcePassword>#{$source_password}</tem:sourcePassword>
               <tem:playerId>#{user.username}</tem:playerId>
-              <tem:password>$2a$10$Jl.cxkBQvzffui5iKkd5reKZAWZj8ZAf0KXRvP3jRAUmofspbUP/q</tem:password>
+              <tem:password>#{user.password_digest}</tem:password>
               <tem:userId>#{$user_id}</tem:userId>
               <tem:workstationId></tem:workstationId>
               <tem:applicationId>#{$application_id}</tem:applicationId>
