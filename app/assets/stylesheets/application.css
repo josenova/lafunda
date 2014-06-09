@@ -10,6 +10,7 @@
  *
  *= require_self
  *= require_tree .
+ *= require jquery.ui.accordion
  */
  
  * {
@@ -181,7 +182,7 @@ font-size:1em;
 box-shadow: 1px 1px rgba(0,0,0,0.3);
 }
 
-#usertag .entypo {
+#usertag > .entypo {
 font-family: Entypo;
 font-size: 2.6875em;
 color: #1e5127;

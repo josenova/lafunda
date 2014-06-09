@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery.turbolinks
 //= require jquery_ujs
+//= require jquery.ui.accordion
 
 //= require turbolinks
 //= require_tree .
@@ -41,10 +42,21 @@ $(document).ready(function(){
 	  event.preventDefault();
 	  $('#tagmenu').toggle();
    });
-
+/*
 	$(document).mouseup(function() {
-		if ($("#tagmenu").is(":visible"))  {
-	  		$("#tagmenu").toggle();
-		}
+	  		$("#tagmenu").hide();
    });
+*/
 });    
+
+/********************************************************************************/
+
+$(document).ready(function(){
+
+$(function() {
+    $( "#accordion" ).accordion({
+      heightStyle: "content"
+    });
+  });
+
+}); 
