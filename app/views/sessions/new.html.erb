@@ -1,5 +1,5 @@
 <h1><%= t('views.sign_in') %></h1>
-<p>New user? <%= link_to "Sign up now!", sign_up_path %></p>
+<p><%= t('views.new_user?') %> <%= link_to t('views.register!'), sign_up_path %></p>
 <%= render 'sign_in_form' %>
 
 

@@ -1,5 +1,12 @@
 = form_for @user do |f|
   = render 'error_messages'
+
+  = field_set_tag t('views.account') do
+    = label :username, t('views.username')
+    = f.text_field :username, :readonly => true
+
+    = label :email, t('views.email')
+    = f.text_field :email, :readonly => true
   /= f.text_field :username, :required => true, :placeholder => t('views.username'), :readonly => true
   /= f.email_field :email, :required => true, :placeholder => t('views.email'), :readonly => true
   /= f.password_field :password_digest, :required => true, :placeholder => t('views.password'), :disabled => true
@@ -7,15 +14,12 @@
   /= f.radio_button :gender, 'male', :checked => true
   /= f.radio_button :gender, 'female'
 
-  = field_set_tag 'Personal' do
+  = field_set_tag t('views.personal') do
     = label :name, t('views.name')
     = f.text_field :name, :required => true
 
     = label :surname, t('views.surname')
     = f.text_field :surname, :required => true
-
-    = label :identification, t('views.identification')
-    = f.text_field :identification, :required => true
 
     = label :birthday, t('views.date_of_birth')
     = f.date_field :birthday, :required => true
@@ -23,10 +27,13 @@
     = label :cellphone, t('views.cellphone')
     = f.telephone_field :cellphone, :required => true
 
+    = label :city, t('views.city')
+    = f.telephone_field :city, :required => true
+
   %br
-  = field_set_tag 'Seguridad' do
+  = field_set_tag t('views.security') do
     = label :pin, 'Pin'
-    = f.number_field :pin, :required => true
+    = f.text_field :pin, :required => true
 
   .buttons
     = link_to t('views.cancel'), account_path, class: 'cancel'

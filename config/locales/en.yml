@@ -45,4 +45,10 @@ en:
       edit_profile: "Edit Profile"
       deposit: Deposit
       withdraw: Withdraw
+      city: City
+      account: Account
+      new_user?: "New user?"
+      register!: Register now!
+      have_an_account?: "Already have an account?"
+      click_to_sign_in: "Click here to sign in."
 

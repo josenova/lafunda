@@ -247,23 +247,23 @@ background:#ededed;
 /***************************************************************** LOG IN ******************************************************************/
 
 #topright form {
-padding-left:9.017%;	
+padding-left:14.591%;	
 }
 
 #topright form input {
 display: inline-block;
-width: 38%;
+width: 37%;
 background: rgba(255,255,255,0.99);
 height: 30px;
 font-size: 11px;
 border-radius: 3px;
 box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
 padding: 0 2.128%;
-color: #555;
+color: #333;
 }
 
 #topright form input[type="submit"] {
-	width: 20%;
+	width: 22%;
 border-radius: 3px;
 background: #dfab3e;
 text-transform: uppercase;
@@ -272,6 +272,7 @@ color: #1e5127;
 font-weight: bold;
 cursor:pointer;
 text-align:center;
+letter-spacing: -0.01em;
 }
 
 #topright form input:focus {
@@ -511,7 +512,7 @@ padding: 0 1.315% 0;
 .left input {
   border: 1px solid #444;
   padding: 3px 5px;
-  background: #dbdbdb;
+  background: #eee;
   width: 40%;
   margin: 0 0 10px;
   font-family:calibri;
@@ -552,7 +553,8 @@ padding: 0 1.315% 0;
 .left input[readonly="readonly"] {
 background: none;
 border: none;
-font-size: 16px;	
+font-size: 0.9375em;
+font-weight:bold;	
 }
 
 
@@ -644,4 +646,35 @@ margin-bottom:2.1289%;
 
 input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 background-color:#fff;	
+}
+
+
+/************************************************** TOOL TIPS *******************************************************/
+
+[data_tip] {
+	position:relative;
+
+}
+
+[data_tip]:after {
+	display:none;
+	content:attr(data_tip);
+	position:absolute;
+	right:20px;
+	padding:5px 8px;
+	background:#1a1a1a;
+	color:#fff;
+	z-index:9;
+	font-size: 0.75em;
+	height:18px;
+	line-height:18px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	white-space:nowrap;
+	word-wrap:normal;
+}
+
+[data_tip]:hover:after {
+	display:block;
 }

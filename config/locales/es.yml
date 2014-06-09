@@ -55,10 +55,10 @@ es:
       coin: Moneda
       country: País
       Dominican_Republic: "República Dominicana"
-      register: Registrate
+      register: Regístrate
       pin: Pin
       welcome: Bienvenido
-      racebook: Hipico
+      racebook: Hípico
       update: Actualizar
       security: Seguridad
       personal: Personal
@@ -70,5 +70,13 @@ es:
       sign_in: "Iniciar Sesión"
       sign_out: "Cerrar Sesión" 
       log_in: Ingresar
+      city: Ciudad
+      account: Cuenta
+      new_user?: "¿No tienes usuario?"
+      register!: Regístrate!
+      have_an_account?: "¿Ya tienes una cuenta?"
+      click_to_sign_in: "Clic aquí para iniciar sesión."
+
+
       
 

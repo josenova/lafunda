@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140602212247) do
+ActiveRecord::Schema.define(version: 20140609200015) do
 
   create_table "inquiries", force: true do |t|
     t.datetime "created_at"
@@ -43,6 +43,7 @@ ActiveRecord::Schema.define(version: 20140602212247) do
     t.datetime "confirmation_sent_at"
     t.integer  "failed_attempts",        default: 0,    null: false
     t.datetime "locked_at"
+    t.string   "city"
   end
 
   add_index "users", ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true

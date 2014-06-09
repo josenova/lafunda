@@ -1,4 +1,6 @@
 %h1= t('views.register')
-%p Already have an account? #{link_to "Sign In", sign_in_path}
+%p
+  = t('views.have_an_account?') + ' '
+  = link_to(t('views.click_to_sign_in'), sign_in_path)
 
 = render 'register_form'

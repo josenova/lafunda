@@ -41,6 +41,7 @@ class User < ActiveRecord::Base
   validates :identification, presence: true, uniqueness: true, numericality: { only_integer: true }, length: { is: 11 }
   validates :birthday, presence: true
   validates :cellphone, presence: true, uniqueness: true, numericality: { only_integer: true }
+  validates :city, presence: true
 
   validates :pin, presence: true, length: { is: 4 }, numericality: { only_integer: true, greater_than: -1 }
 
@@ -74,8 +75,8 @@ class User < ActiveRecord::Base
             <tem:middleName></tem:middleName>
             <tem:password>#{self.password_digest}</tem:password>
             <tem:nickname>#{self.username}</tem:nickname>
-            <tem:firstSecurityQuestion>0</tem:firstSecurityQuestion>
-            <tem:firstSecurityAnswer></tem:firstSecurityAnswer>
+            <tem:firstSecurityQuestion>¿Cual es mi numero de pin?</tem:firstSecurityQuestion>
+            <tem:firstSecurityAnswer>#{self.pin}</tem:firstSecurityAnswer>
             <tem:secondSecurityQuestion>0</tem:secondSecurityQuestion>
             <tem:secondSecurityAnswer></tem:secondSecurityAnswer>
             <tem:thirdSecurityQuestion>0</tem:thirdSecurityQuestion>
@@ -91,7 +92,7 @@ class User < ActiveRecord::Base
             <tem:allowEmail>#{$allow_emails}</tem:allowEmail>
             <tem:address></tem:address>
             <tem:secondAddress></tem:secondAddress>
-            <tem:city></tem:city>
+            <tem:city>#{self.city}</tem:city>
             <tem:state></tem:state>
             <tem:country></tem:country>
             <tem:zipCode></tem:zipCode>

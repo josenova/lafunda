@@ -40,7 +40,7 @@ class UsersController < ApplicationController
   def update
     respond_to do |format|
       #if @user.update(user_params)
-      if @user.update(name: params[:user][:name], surname: params[:user][:surname], identification: params[:user][:identification], birthday: params[:user][:birthday], cellphone: params[:user][:cellphone], pin: params[:user][:pin])
+      if @user.update(name: params[:user][:name], surname: params[:user][:surname], birthday: params[:user][:birthday], cellphone: params[:user][:cellphone], pin: params[:user][:pin], city: params[:user][:city])
         format.html { redirect_to account_url, notice: 'User has been updated successfully!' }
         format.json { head :no_content }
       else
@@ -60,7 +60,7 @@ class UsersController < ApplicationController
 
   # Never trust parameters from the scary internet, only allow the white list through.
   def user_params
-    params.require(:user).permit(:username, :password, :password_confirmation, :email, :name, :surname, :identification, :birthday, :cellphone, :pin, :gender)
+    params.require(:user).permit(:username, :password, :password_confirmation, :email, :name, :surname, :identification, :birthday, :cellphone, :pin, :gender, :city)
   end
 
 end
