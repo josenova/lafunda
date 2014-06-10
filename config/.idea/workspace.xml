@@ -22,15 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../app/controllers/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="23" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="952">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sessions_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../app/controllers/sessions_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,10 +49,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="34" selection-start="269" selection-end="269" vertical-scroll-proportion="0.107368425" vertical-offset="0" max-vertical-offset="1122">
+            <state line="6" column="34" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schema.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../db/schema.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -125,7 +125,6 @@
         <option value="$PROJECT_DIR$/environments/production.rb" />
         <option value="$PROJECT_DIR$/../app/helpers/sessions_helper.rb" />
         <option value="$PROJECT_DIR$/../app/controllers/users_controller.rb" />
-        <option value="$PROJECT_DIR$/../db/migrate/20140602205431_remove_old_password.rb" />
         <option value="$PROJECT_DIR$/application.rb" />
         <option value="$PROJECT_DIR$/locales/es.erb" />
         <option value="$PROJECT_DIR$/deploy.rb" />
@@ -133,6 +132,8 @@
         <option value="$PROJECT_DIR$/../app/assets/stylesheets/users.css.scss" />
         <option value="$PROJECT_DIR$/../app/models/user.rb" />
         <option value="$PROJECT_DIR$/../Gemfile" />
+        <option value="$PROJECT_DIR$/../db/migrate/20140602205431_remove_old_password.rb" />
+        <option value="$PROJECT_DIR$/../db/schema.rb" />
       </list>
     </option>
   </component>
@@ -216,7 +217,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -258,11 +259,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../app/assets/stylesheets/inquiries.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="833" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="25" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1394" />
@@ -398,11 +394,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="929" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="1088" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="52" selection-start="696" selection-end="696" vertical-scroll-proportion="0.3042105" vertical-offset="0" max-vertical-offset="950" />
@@ -428,24 +419,9 @@
         <state line="29" column="0" selection-start="1419" selection-end="1419" vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="595" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../db/migrate/20140529171753_remove_unlock_token_from_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="39" selection-start="76" selection-end="111" vertical-scroll-proportion="0.035789475" vertical-offset="0" max-vertical-offset="950" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="52" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1921" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../db/migrate/20140528155142_add_devise_to_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="48" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../db/migrate/20140602205431_remove_old_password.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="44" selection-start="193" selection-end="193" vertical-scroll-proportion="0.07157895" vertical-offset="0" max-vertical-offset="950" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../app/controllers/application_controller.rb">
@@ -514,9 +490,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../db/migrate/20140529171753_remove_unlock_token_from_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.09149623" vertical-offset="0" max-vertical-offset="929">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../db/migrate/20140602205431_remove_old_password.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="45" selection-start="108" selection-end="108" vertical-scroll-proportion="0.035789475" vertical-offset="0" max-vertical-offset="950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../db/migrate/20140528155142_add_devise_to_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.8768421" vertical-offset="0" max-vertical-offset="950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="269" selection-end="269" vertical-scroll-proportion="0.107368425" vertical-offset="0" max-vertical-offset="1122">
+        <state line="6" column="34" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
