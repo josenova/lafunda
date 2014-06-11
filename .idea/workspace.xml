@@ -26,7 +26,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="308" selection-end="308" vertical-scroll-proportion="-0.0" vertical-offset="238" max-vertical-offset="850">
+            <state line="14" column="0" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="850">
               <folding />
             </state>
           </provider>
@@ -41,10 +41,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="29" selection-start="5169" selection-end="5169" vertical-scroll-proportion="2.04" vertical-offset="0" max-vertical-offset="2244">
+            <state line="114" column="29" selection-start="5169" selection-end="5169" vertical-scroll-proportion="0.0" vertical-offset="1294" max-vertical-offset="2244">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="565" selection-end="565" vertical-scroll-proportion="0.35578948" vertical-offset="2" max-vertical-offset="952">
               <folding />
             </state>
           </provider>
@@ -53,7 +62,7 @@
       <file leaf-file-name="_register_form.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/_register_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="45" selection-start="145" selection-end="145" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="850">
+            <state line="5" column="45" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="850">
               <folding />
             </state>
           </provider>
@@ -71,7 +80,7 @@
       <file leaf-file-name="_sign_in_form.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/sessions/_sign_in_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="10" selection-start="257" selection-end="266" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="272">
+            <state line="7" column="10" selection-start="257" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -80,7 +89,7 @@
       <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="10" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+            <state line="19" column="10" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1224">
               <folding />
             </state>
           </provider>
@@ -200,7 +209,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -221,6 +229,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -327,7 +336,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -546,13 +555,6 @@
         <state line="5" column="0" selection-start="107" selection-end="107" vertical-scroll-proportion="0.08947369" vertical-offset="0" max-vertical-offset="950" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="26" selection-start="673" selection-end="789" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/_edit_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="993" selection-end="993" vertical-scroll-proportion="0.4047619" vertical-offset="0" max-vertical-offset="924" />
@@ -613,7 +615,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/_register_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="45" selection-start="145" selection-end="145" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="850">
+        <state line="5" column="45" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="850">
           <folding />
         </state>
       </provider>
@@ -634,7 +636,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sessions/_sign_in_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="10" selection-start="257" selection-end="266" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="272">
+        <state line="7" column="10" selection-start="257" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="272">
           <folding />
         </state>
       </provider>
@@ -648,7 +650,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="29" selection-start="5169" selection-end="5169" vertical-scroll-proportion="2.04" vertical-offset="0" max-vertical-offset="2244">
+        <state line="114" column="29" selection-start="5169" selection-end="5169" vertical-scroll-proportion="0.0" vertical-offset="1294" max-vertical-offset="2244">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="565" selection-end="565" vertical-scroll-proportion="0.35578948" vertical-offset="2" max-vertical-offset="952">
           <folding />
         </state>
       </provider>

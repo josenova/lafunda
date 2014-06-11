@@ -32,7 +32,7 @@ body {
 background:url(/assets/bg/pokertablebg.jpg) repeat-y;	
 background-size:contain;
 width:100%;
-font-family:calibri;
+font-family:calibri, arial;
 color:#fff;
 
 }
@@ -104,6 +104,7 @@ box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
 line-height: 0px;
 float: left;
 overflow: hidden;
+text-shadow:none;
 }
 
 #topleft li {
