@@ -24,19 +24,19 @@ class User < ActiveRecord::Base
 
   validates :username, presence: true,
             uniqueness: { case_sensitive: false },
-            length: {minimum: 4, maximum: 14},
+            length: {minimum: 6, maximum: 14},
             format: {with: /\A[-a-z\d_]+\Z/i, message: 'debe contener solo letras, numeros y guiones.'}
   has_secure_password
-  validates :password, length: { minimum: 8, maximum: 120 }, on: :create
-  validates :password, length: {minimum: 8, maximum: 120}, on: :update, allow_blank: true
+  validates :password, length: { minimum: 8, maximum: 120 }
+
 
   validates :email, presence:   true,
             format:     { with: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i },
             uniqueness: { case_sensitive: false }
 
 
-  validates :name, presence: true, length: { maximum: 20 }
-  validates :surname, presence: true, length: { maximum: 20 }
+  validates :name, presence: true, length: { minimum: 3, maximum: 20 }
+  validates :surname, presence: true, length: { minimum:3, maximum: 20 }
   validates :gender, presence: true
   validates :identification, presence: true, uniqueness: true, numericality: { only_integer: true }, length: { is: 11 }
   validates :birthday, presence: true

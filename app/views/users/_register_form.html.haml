@@ -6,13 +6,14 @@
   = f.text_field :username, :required => true
 
   = label :email, t('views.email')
-  = f.email_field :email, :required => true
+  .tip_wrapper{data_tip: 'Must be a valid email.'}
+    = f.email_field :email, :required => true
 
   = label :password, t('views.password')
   = f.password_field :password, :required => true
 
   = label :password_confirmation, t('views.confirm_password')
-  %div{data_tip: 'Please repeat password.'}
+  .tip_wrapper{data_tip: 'Please repeat password.'}
     = f.password_field :password_confirmation, :required => true
 
 
@@ -25,13 +26,14 @@
     = f.text_field :surname, :required => true
 
     = label :identification, t('views.identification')
-    = f.text_field :identification, :required => true
+    = f.text_field :identification, :required => true, :placeholder => '001-2345678-9'
 
     = label :birthday, t('views.date_of_birth')
-    = f.date_field :birthday, :required => true
+    .tip_wrapper{data_tip: 'You must be over 18 to join.'}
+      = f.date_field :birthday, :required => true, :placeholder => 'dd/mm/aaaa'
 
     = label :cellphone, t('views.cellphone')
-    = f.telephone_field :cellphone, :required => true
+    = f.telephone_field :cellphone, :required => true, :placeholder => '(809)555-5555'
 
     = label :city, t('views.city')
     = f.text_field :city, :required => true
@@ -39,7 +41,8 @@
   %br
   = field_set_tag t('views.security') do
     = label :pin, t('views.pin')
-    = f.text_field :pin, :required => true
+    .tip_wrapper{data_tip: '4-digit number of your choice.'}
+      = f.text_field :pin, :required => true
 
   .buttons
     = f.submit t('views.submit')
