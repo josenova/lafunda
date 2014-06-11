@@ -25,6 +25,9 @@ class ApplicationController < ActionController::Base
   extend Savon::Model
   $client = client wsdl: 'http://services.colchian.eu/BOSS_DEMO/BOSSWebServices/IncomingIntegrationService/IncomingIntegrationService.svc?wsdl'
 
+  require "rest-client"
+  RestClient.proxy = ENV["QUOTAGUARDSTATIC_URL"] if ENV["QUOTAGUARDSTATIC_URL"]
+
   private
   def set_locale
     I18n.locale = params[:locale] || I18n.default_locale
