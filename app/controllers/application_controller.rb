@@ -23,10 +23,8 @@ class ApplicationController < ActionController::Base
   before_action :current_user
 
   extend Savon::Model
-  $client = client wsdl: 'http://services.colchian.eu/BOSS_DEMO/BOSSWebServices/IncomingIntegrationService/IncomingIntegrationService.svc?wsdl'
-  if ENV["QUOTAGUARDSTATIC_URL"]
-    Savon.client(proxy: ENV["QUOTAGUARDSTATIC_URL"])
-  end
+  $client = client wsdl: 'http://services.colchian.eu/BOSS_DEMO/BOSSWebServices/IncomingIntegrationService/IncomingIntegrationService.svc?wsdl', proxy: 'http://quotaguard1366:93daf37f3983@us-east-1-static.quotaguard.com:9293'
+
 
 
   private
