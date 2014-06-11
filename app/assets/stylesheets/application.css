@@ -216,10 +216,10 @@ cursor:pointer;
 
 #tagmenu {
 position: absolute; 
-right: 0;
+right: 174px;
 top: 30px;
 background: #fff;
-width: 174px;
+width: 160px;
 border-radius: 3px 0px 3px 3px;
 padding: 2.1289% 0;
 display:none;
