@@ -91,7 +91,6 @@ Lafunda::Application.configure do
       :password => "Jrnova_0392810",
   }
 
-  require "rest-client"
 
   RestClient.proxy = ENV["QUOTAGUARDSTATIC_URL"] if ENV["QUOTAGUARDSTATIC_URL"]
 end
