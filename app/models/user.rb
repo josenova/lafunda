@@ -27,7 +27,8 @@ class User < ActiveRecord::Base
             length: {minimum: 6, maximum: 14},
             format: {with: /\A[-a-z\d_]+\Z/i, message: 'debe contener solo letras, números y guiones.'}
   has_secure_password
-  validates :password, length: { minimum: 8, maximum: 120, message: 'debe tener mínimo 8 caracteres.' }
+  validates :password, length: { minimum: 8, maximum: 120, message: 'debe tener mínimo 8 caracteres.' }, on: :create
+  validates :password, length: { minimum: 8, maximum: 120, message: 'debe tener mínimo 8 caracteres.' }, on: :update, allow_blank: true
 
 
   validates :email, presence:   true,
