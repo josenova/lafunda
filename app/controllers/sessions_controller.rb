@@ -41,6 +41,7 @@ class SessionsController < ApplicationController
           @response = @response.to_hash
           if @response[:player_login_response][:player_login_result][:error_code] != '0'
             flash.now[:error] = @response
+            logger.warn @response
             render 'new'
           else
             session[:user_token] = @response[:player_login_response][:player_login_result][:token]
@@ -49,6 +50,7 @@ class SessionsController < ApplicationController
           end
         else
           flash.now[:error] = @response
+          logger.warn @response
           render 'new'
         end
 

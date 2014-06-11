@@ -75,7 +75,7 @@ class User < ActiveRecord::Base
             <tem:middleName></tem:middleName>
             <tem:password>#{self.password_digest}</tem:password>
             <tem:nickname>#{self.username}</tem:nickname>
-            <tem:firstSecurityQuestion>¿Cual es mi numero de pin?</tem:firstSecurityQuestion>
+            <tem:firstSecurityQuestion>0</tem:firstSecurityQuestion>
             <tem:firstSecurityAnswer>#{self.pin}</tem:firstSecurityAnswer>
             <tem:secondSecurityQuestion>0</tem:secondSecurityQuestion>
             <tem:secondSecurityAnswer></tem:secondSecurityAnswer>
@@ -112,12 +112,14 @@ class User < ActiveRecord::Base
       @response = @response.to_hash
       if @response[:sign_up_player_response][:sign_up_player_result][:error_code] != '0'
         self.errors.add(:base, @response)
+        logger.warn @response
         return false
       else
         return true
       end
     else
       self.errors.add(:base, @response)
+      logger.warn @response
       return false
     end
   end
