@@ -77,19 +77,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="0" selection-start="3706" selection-end="3706" vertical-scroll-proportion="1.6642106" vertical-offset="0" max-vertical-offset="1717">
+            <state line="93" column="0" selection-start="3706" selection-end="3810" vertical-scroll-proportion="0.0" vertical-offset="801" max-vertical-offset="1751">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
+            <state line="9" column="34" selection-start="307" selection-end="307" vertical-scroll-proportion="0.16105263" vertical-offset="0" max-vertical-offset="1190">
               <folding />
             </state>
           </provider>
@@ -617,13 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="17" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
@@ -633,7 +626,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="0" selection-start="3706" selection-end="3706" vertical-scroll-proportion="1.6642106" vertical-offset="0" max-vertical-offset="1717">
+        <state line="93" column="0" selection-start="3706" selection-end="3810" vertical-scroll-proportion="0.0" vertical-offset="801" max-vertical-offset="1751">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="34" selection-start="307" selection-end="307" vertical-scroll-proportion="0.16105263" vertical-offset="0" max-vertical-offset="1190">
           <folding />
         </state>
       </provider>
