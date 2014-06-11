@@ -44,7 +44,7 @@
       <file leaf-file-name="application_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="874" selection-end="874" vertical-scroll-proportion="0.4831579" vertical-offset="0" max-vertical-offset="986">
+            <state line="21" column="27" selection-start="593" selection-end="593" vertical-scroll-proportion="0.3810032" vertical-offset="0" max-vertical-offset="986">
               <folding />
             </state>
           </provider>
@@ -584,13 +584,6 @@
         <state line="19" column="0" selection-start="698" selection-end="740" vertical-scroll-proportion="0.34" vertical-offset="0" max-vertical-offset="950" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/_register_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="45" selection-start="145" selection-end="145" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="850">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="0" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
@@ -612,13 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="33" selection-start="1850" selection-end="1850" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="58" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
@@ -633,9 +619,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_register_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="45" selection-start="145" selection-end="145" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="33" selection-start="1850" selection-end="1850" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="874" selection-end="874" vertical-scroll-proportion="0.4831579" vertical-offset="0" max-vertical-offset="986">
+        <state line="21" column="27" selection-start="593" selection-end="593" vertical-scroll-proportion="0.3810032" vertical-offset="0" max-vertical-offset="986">
           <folding />
         </state>
       </provider>
