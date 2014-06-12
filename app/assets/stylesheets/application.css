@@ -70,7 +70,7 @@ display:block;
 /*********************************************************************** HEADER ********************************************************************************/
 #header {
 position:relative;
-padding-top: 2.1289%;
+padding-top: 26px;
 }
 
 #langselect {
@@ -84,27 +84,29 @@ margin-bottom:1.315%;
 }
 
 #topleft {
-width:35%;
-float:left;	
-margin-top:12.5%;
-padding:0.502% 0;
+width: 35%;
+float: left;
+margin-top: 149px;
+padding: 0;
+overflow: hidden;
+height: 29px;
 }
 
 #topleft .entypo {
 font-family: Entypo;
 font-size: 2.6875em;
-margin-top: -3px;
+margin-top: 0px;
 color: #1e5127;
 display: block;
 padding: 2px;
 background: #dfab3e;
 border-radius: 3px;
-height: 25px;
+height: 29px;
 box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
-line-height: 0px;
+line-height: 3px;
 float: left;
 overflow: hidden;
-text-shadow:none;
+text-shadow: none;
 }
 
 #topleft li {
@@ -112,7 +114,7 @@ display:inline-block;
 }
 
 #topleft li a {
-padding: 2.12% 28px 2.12% 9px;
+padding: 0 28px 0 9px;
 color: #fff;
 font-weight: bold;
 text-transform: uppercase;
@@ -120,6 +122,7 @@ font-family: calibri;
 font-size: 1em;
 text-decoration: none;
 text-shadow: 1px 1px rgba(0,0,0,0.3);
+line-height: 29px;
 }
 
 #logo {
@@ -131,11 +134,11 @@ width:30%;
 }
 
 #topright {
-width:35%;
-float:left;
-margin-top:12.5%;
-padding:0;
-height:29px;
+width: 35%;
+float: left;
+margin-top: 149px;
+padding: 0;
+height: 29px;
 }
 
 #corner {
@@ -255,7 +258,7 @@ padding-left:14.591%;
 display: inline-block;
 width: 37%;
 background: rgba(255,255,255,0.99);
-height: 30px;
+height: 29px;
 font-size: 11px;
 border-radius: 3px;
 box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
