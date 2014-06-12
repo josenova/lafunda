@@ -59,11 +59,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="116" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.2505263" vertical-offset="255" max-vertical-offset="2261">
+            <state line="29" column="116" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2261">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/devise/confirmations/new.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="32" selection-start="321" selection-end="321" vertical-scroll-proportion="0.18398269" vertical-offset="0" max-vertical-offset="924">
+              <folding>
+                <element signature="n#t('devise.mailer.resend_confirmation_instructions')#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,15 +83,6 @@
         <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="62" column="0" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.0" vertical-offset="580" max-vertical-offset="1530">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_edit_form.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/_edit_form.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -114,9 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20140527184349_remove_balance_from_user.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20140527184649_add_index_to_users_usernames.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20140527185208_add_gender_to_user.rb" />
         <option value="$PROJECT_DIR$/app/controllers/users/sessions_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/confirm_email.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
@@ -165,6 +164,9 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/race_games/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/devise/confirmations/new2.haml" />
+        <option value="$PROJECT_DIR$/app/views/devise/confirmations/new.haml" />
       </list>
     </option>
   </component>
@@ -201,6 +203,7 @@
     </navigator>
     <panes>
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -209,19 +212,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lafunda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lafunda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -376,16 +368,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140529171753_remove_unlock_token_from_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.08947369" vertical-offset="0" max-vertical-offset="950" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140528155142_add_devise_to_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="67" selection-start="830" selection-end="830" vertical-scroll-proportion="0.4473684" vertical-offset="0" max-vertical-offset="950" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="59" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289" />
@@ -618,11 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/_register_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="47" selection-start="229" selection-end="229" vertical-scroll-proportion="0.14718615" vertical-offset="0" max-vertical-offset="924" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="0" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.0" vertical-offset="580" max-vertical-offset="1530">
@@ -630,24 +607,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/_edit_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/race_games/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="174" selection-start="375" selection-end="375" vertical-scroll-proportion="0.055194806" vertical-offset="0" max-vertical-offset="924">
+        <state line="3" column="174" selection-start="375" selection-end="375" vertical-scroll-proportion="0.055194806" vertical-offset="0" max-vertical-offset="924" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_edit_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="993" selection-end="993" vertical-scroll-proportion="0.4047619" vertical-offset="0" max-vertical-offset="924">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="116" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.2505263" vertical-offset="255" max-vertical-offset="2261">
+        <state line="29" column="116" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2261">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_register_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="32" selection-start="1525" selection-end="1543" vertical-scroll-proportion="0.8647186" vertical-offset="0" max-vertical-offset="924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/confirmations/new.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="32" selection-start="321" selection-end="321" vertical-scroll-proportion="0.18398269" vertical-offset="0" max-vertical-offset="924">
+          <folding>
+            <element signature="n#t('devise.mailer.resend_confirmation_instructions')#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

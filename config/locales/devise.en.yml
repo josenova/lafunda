@@ -17,6 +17,7 @@ en:
       unauthenticated: "You need to sign in or sign up before continuing."
       unconfirmed: "You have to confirm your account before continuing."
     mailer:
+      resend_confirmation_instructions: "Resend confirmation instructions"
       confirmation_instructions:
         subject: "Confirmation instructions"
       reset_password_instructions:
