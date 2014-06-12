@@ -86,27 +86,22 @@ margin-bottom:1.315%;
 #topleft {
 width: 35%;
 float: left;
-margin-top: 149px;
+margin-top: 150px;
 padding: 0;
 overflow: hidden;
 height: 29px;
 }
 
-#topleft .entypo {
-font-family: Entypo;
-font-size: 2.6875em;
-margin-top: 0px;
-color: #1e5127;
+#topleft .icon {	
 display: block;
-padding: 2px;
+padding: 3px;
 background: #dfab3e;
 border-radius: 3px;
-height: 29px;
-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
-line-height: 3px;
+width: 28px;
+height: 28px;
 float: left;
 overflow: hidden;
-text-shadow: none;
+box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
 }
 
 #topleft li {

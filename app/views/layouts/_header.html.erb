@@ -2,8 +2,8 @@
   <!--<div id="langselect"><%= link_to_unless I18n.locale == :es, "Español", locale: :es %> | <%= link_to_unless I18n.locale == :en, "English", locale: :en %></div>-->
   <div id="topmenu">
     <ul id="topleft">
-      <li><%= link_to new_inquiry_path do %><span class="entypo">&#59141;</span><%= t('views.support') %><% end %></li>
-      <li><%= link_to community_path do %><span class="entypo">&#128101;</span><%= t('views.community') %><% end %></li>
+      <li><%= link_to new_inquiry_path do %><%= image_tag(asset_path("bg/support_icon.png"), class: 'icon' ) %><%= t('views.support') %><% end %></li>
+      <li><%= link_to community_path do %><%= image_tag(asset_path("bg/community_icon.png"), class: 'icon' ) %><%= t('views.community') %><% end %></li>
     </ul>
     <%= link_to '', root_path, id: "logo" %>
     <div id="topright">
