@@ -2,16 +2,16 @@
   <!--<div id="langselect"><%= link_to_unless I18n.locale == :es, "Español", locale: :es %> | <%= link_to_unless I18n.locale == :en, "English", locale: :en %></div>-->
   <div id="topmenu">
     <ul id="topleft">
-      <li><%= link_to new_inquiry_path do %><%= image_tag(asset_path("bg/support_icon.png"), class: 'icon' ) %><%= t('views.support') %><% end %></li>
-      <li><%= link_to community_path do %><%= image_tag(asset_path("bg/community_icon.png"), class: 'icon' ) %><%= t('views.community') %><% end %></li>
+      <li><%= link_to new_inquiry_path do %><%= image_tag(asset_path("icons/support.png"), class: 'icon' ) %><%= t('views.support') %><% end %></li>
+      <li><%= link_to community_path do %><%= image_tag(asset_path("icons/community.png"), class: 'icon' ) %><%= t('views.community') %><% end %></li>
     </ul>
     <%= link_to '', root_path, id: "logo" %>
     <div id="topright">
       <% if user_signed_in? %>
         <%= link_to sign_out_path, class: "logout" do %><span><%= t('views.sign_out') %></span><%= image_tag(asset_path("bg/logout.png"))%><% end %>
         <div style="position: relative;">
-            <div id="tagarrow">&#9662;</div>
-            <%= link_to account_path, id: "usertag" do %><%= image_tag(asset_path("bg/tag_icon.png"), class: 'icon' ) %><strong><%= @current_user.username %></strong><% end %>
+            <div id="tagarrow"><%= image_tag(asset_path("icons/arrow.png")) %></div>
+            <%= link_to account_path, id: "usertag" do %><%= image_tag(asset_path("icons/tag.png"), class: 'icon' ) %> <strong><%= @current_user.username %></strong><% end %>
             <ul id="tagmenu">
               <%= nav_link t('views.my_account'), account_path %>
               <%= nav_link t('views.deposit'), '#' %>
