@@ -40,13 +40,11 @@ $(document).ready(function(){
 
 	$('#tagarrow').click(function () {
 	  event.preventDefault();
-	  $('#tagmenu').css("display", "inline-block");
+	  $('#tagmenu').show();
    });
 
 	$(document).mouseup(function() {
-	  		if ($("#tagmenu").is(':visible')) {
-				$("#tagmenu").hide();
-			}
+	  		$("#tagmenu").hide();
    });
 
 });    

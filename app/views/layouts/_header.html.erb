@@ -12,7 +12,7 @@
         <div style="position: relative;">
             <div id="tagarrow"><%= image_tag(asset_path("icons/arrow.png")) %></div>
             <%= link_to account_path, id: "usertag" do %><%= image_tag(asset_path("icons/tag.png"), class: 'icon' ) %> <strong><%= @current_user.username %></strong><% end %>
-            <ul id="tagmenu">
+            <ul id="tagmenu" style="display: none">
               <%= nav_link t('views.my_account'), account_path %>
               <%= nav_link t('views.deposit'), '#' %>
               <%= nav_link t('views.withdraw'), '#' %>
