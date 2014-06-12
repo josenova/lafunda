@@ -181,10 +181,7 @@ font-size:1em;
 box-shadow: 1px 1px rgba(0,0,0,0.3);
 }
 
-#usertag > .entypo {
-font-family: Entypo;
-font-size: 2.6875em;
-color: #1e5127;
+#usertag > .icon {
 padding: 0px;
 line-height: 0;
 position: relative;

@@ -11,7 +11,7 @@
         <%= link_to sign_out_path, class: "logout" do %><span><%= t('views.sign_out') %></span><%= image_tag(asset_path("bg/logout.png"))%><% end %>
         <div style="position: relative;">
             <div id="tagarrow">&#9662;</div>
-            <%= link_to account_path, id: "usertag" do %><span class="entypo">&#128100;</span> <strong><%= @current_user.username %></strong><% end %>
+            <%= link_to account_path, id: "usertag" do %><%= image_tag(asset_path("bg/tag_icon.png"), class: 'icon' ) %><strong><%= @current_user.username %></strong><% end %>
             <ul id="tagmenu">
               <%= nav_link t('views.my_account'), account_path %>
               <%= nav_link t('views.deposit'), '#' %>
