@@ -44,7 +44,9 @@ $(document).ready(function(){
    });
 
 	$(document).mouseup(function() {
-	  		$("#tagmenu").hide();
+	  		if ($("#tagmenu").is(':visible')) {
+				$("#tagmenu").hide();
+			}
    });
 
 });    
