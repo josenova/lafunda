@@ -45,8 +45,15 @@
 
 
     <div class="right">
-      <ul></ul>
-      <%= link_to image_tag(asset_path("registrate.png")), sign_up_path %>
+      <ul id="tabs">
+        <li><%= link_to '#' do %><%= image_tag(asset_path("icons/casino.png")) %><%= t('views.casino') %><% end %></li>
+        <li><%= link_to '#' do %><%= image_tag(asset_path("icons/live_casino.png")) %><%= t('views.live_casino') %><% end %></li>
+        <li><%= link_to '#' do %><%= image_tag(asset_path("icons/poker.png")) %><%= t('views.poker') %><% end %></li>
+        <li><%= link_to sportsbook_path do %><%= image_tag(asset_path("icons/sportsbook.png")) %><%= t('views.sportsbook') %><% end %></li>
+        <li><%= link_to racebook_path do %><%= image_tag(asset_path("icons/racebook.png")) %><%= t('views.racebook') %><% end %></li>
+        <li><%= link_to '#' do %><%= image_tag(asset_path("icons/lottery.png")) %><%= t('views.lottery') %><% end %></li>
+      </ul>
+      <!---<%= link_to image_tag(asset_path("registrate.png")), sign_up_path %>--->
       <%= link_to image_tag(asset_path("soporte.jpg")), new_inquiry_path %>
     </div> <!--- End Right --->
 

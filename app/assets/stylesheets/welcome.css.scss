@@ -11,7 +11,7 @@
 
 #homebox .right a {
   display:block;
-  margin-bottom: 3.444%;
+  margin-bottom: 0.813%;
 }
 
 
@@ -21,6 +21,37 @@
   margin-bottom: 2.1289% !important;
 }
 
+
+/************************************************************************ TABS **************************************************************************************/
+
+#tabs {
+  padding-bottom: 4px;
+}
+
+#tabs li img {
+  float: left;
+  height: 30px;
+  display: block;
+  padding-right: 5.573%;
+  width: 54px;
+}
+
+#tabs li a {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0,0,0,0.2);
+  padding: 2.12% 5.573%;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  height: 45px;
+  line-height: 33px;
+  border-right-width: 5px;
+  border-radius: 0 3px 3px 0;
+  border-right-color: #dfab3e;
+}
 
 /*********************************************************************** LOTTERY  **************************************************************************************/
 
