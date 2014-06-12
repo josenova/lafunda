@@ -40,7 +40,7 @@ $(document).ready(function(){
 
 	$('#tagarrow').click(function () {
 	  event.preventDefault();
-	  $('#tagmenu').show();
+	  $('#tagmenu').css("display", "inline-block");
    });
 
 	$(document).mouseup(function() {
