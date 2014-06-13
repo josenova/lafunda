@@ -66,7 +66,8 @@ module SessionsHelper
         if @response[:get_funds_response][:get_funds_result][:error_code] != '0'
           logger.warn @response
         else
-          @current_user_funds ||= sprintf( "%0.02f", @response[:get_funds_response][:get_funds_result][:result])
+          #@current_user_funds ||= sprintf( "%0.02f", @response[:get_funds_response][:get_funds_result][:result])
+          @current_user_funds = number_with_precision(@response[:get_funds_response][:get_funds_result][:result], :precision => 2, :delimiter => ',')
         end
       else
         logger.warn @response
