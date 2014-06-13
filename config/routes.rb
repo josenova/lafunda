@@ -17,7 +17,7 @@ Lafunda::Application.routes.draw do
   get "pending_confirmation" => 'pages#confirm'
 
   #Users and Sessions
-  get "sign_up" => 'users#new'
+  get "register" => 'users#new'
   get "account" => 'users#show'
   get "account/edit" => 'users#edit', as: :edit_account
   get "sign_in" => 'sessions#new'
