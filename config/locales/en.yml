@@ -35,6 +35,8 @@ en:
       casino: Casino
       lottery: Lottery
       confirm_password: "Confirm Password"
+      confirm_email: "Confirm Email"
+      gender: Gender
       racebook: Racebook
       surname: Surname
       identification: Identification
@@ -51,4 +53,7 @@ en:
       register!: Register now!
       have_an_account?: "Already have an account?"
       click_to_sign_in: "Click here to sign in."
+    tooltips:
+      must_be_over: "You must be over 18 to join."
+      four_digit_number: "4-digit number of your choice."
 

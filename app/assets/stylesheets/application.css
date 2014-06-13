@@ -506,6 +506,8 @@ font-size: 15px;
 font-weight: bold;
 text-align: right;
 padding: 0 1.315% 0;
+text-transform: capitalize;
+margin:0 0 10px;
 }
 
 

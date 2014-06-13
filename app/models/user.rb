@@ -13,6 +13,8 @@ class User < ActiveRecord::Base
     self.email = email.downcase
   end
 
+  validates_confirmation_of :email
+
 
 #////////////////////////////////////////////////////////////////////////////////////////
 

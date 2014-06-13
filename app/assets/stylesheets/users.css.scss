@@ -3,13 +3,46 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-#new_user input[type="radio"] {
-
-  width:50%;
+#gender {
   float:left;
-  background:#1e5127;
+  width:40%;
+  margin-right:30%;
+  overflow:hidden;
 }
 
+#gender label {
+  width:25%;
+  margin:0;
+}
+
+#gender input[type="radio"] {
+  width: 25%;
+  margin: 0;
+  overflow: hidden;
+  display: block;
+}
+
+/*
+#gender input[type="radio"] + label {
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  display:inline-block;
+  height:23px;
+  line-height:23px;
+  margin:0;
+  color:#fff;
+  cursor:pointer;
+  text-align:center;
+  background-color:blue;
+  width: 50%;
+
+}
+
+
+#gender input[type="radio"]:checked + label {
+  background-color:orange;
+}
+*/
 /********************************************** BALANCE *****************************************************************/
 
 .right #balance {

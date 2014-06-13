@@ -42,6 +42,7 @@ es:
       name: Nombre
       surname: Apellido
       email: Email
+      gender: Sexo
       message: Mensaje
       submit: Enviar
       community: Comunidad
@@ -49,6 +50,7 @@ es:
       casino: Casino
       lottery: Lotería
       confirm_password: "Confirmar Contraseña"
+      confirm_email: "Confirmar Email"
       identification: Cédula
       date_of_birth: "Fecha de Nacimiento"
       cellphone: Celular
@@ -76,6 +78,9 @@ es:
       register!: Regístrate!
       have_an_account?: "¿Ya tienes una cuenta?"
       click_to_sign_in: "Clic aquí para iniciar sesión."
+    tooltips:
+      must_be_over: "Debes ser mayor de 18 años."
+      four_digit_number: "4 dígitos de tu elección."
 
 
       

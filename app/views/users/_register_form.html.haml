@@ -6,15 +6,22 @@
   = f.text_field :username, :required => true
 
   = label :email, t('views.email')
-  .tip_wrapper{data_tip: 'Must be a valid email.'}
-    = f.email_field :email, :required => true
+  = f.email_field :email, :required => true
+
+  = label :email_confirmation, t('views.confirm_email')
+  = f.email_field :email_confirmation, :required => true
 
   = label :password, t('views.password')
   = f.password_field :password, :required => true
 
   = label :password_confirmation, t('views.confirm_password')
-  .tip_wrapper{data_tip: 'Please repeat password.'}
-    = f.password_field :password_confirmation, :required => true
+  = f.password_field :password_confirmation, :required => true
+
+  /= label :gender, t('views.gender')
+  /#gender
+  /  = f.radio_button :gender, true
+  /  = f.radio_button :gender, false
+
 
 
   %br
@@ -29,7 +36,7 @@
     = f.text_field :identification, :required => true, :placeholder => '001-2345678-9'
 
     = label :birthday, t('views.date_of_birth')
-    .tip_wrapper{data_tip: 'You must be over 18 to join.'}
+    .tip_wrapper{data_tip: t('tooltips.must_be_over')}
       = f.date_field :birthday, :required => true, :placeholder => 'dd/mm/aaaa'
 
     = label :cellphone, t('views.cellphone')
@@ -41,7 +48,7 @@
   %br
   = field_set_tag t('views.security') do
     = label :pin, t('views.pin')
-    .tip_wrapper{data_tip: '4-digit number of your choice.'}
+    .tip_wrapper{data_tip: t('tooltips.four_digit_number')}
       = f.text_field :pin, :required => true
 
   .buttons
