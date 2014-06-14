@@ -229,12 +229,16 @@ width: 100%;
 display: block;
 text-decoration: none;
 font-size: 0.875em;
-font-weight: bold;
 }
 
 #tagmenu li a:hover {
 color: #222;
-background:#ededed;
+background:#f2f2f2;
+}
+
+#tagmenu .current a {
+color: #222;
+background:#ededed;	
 }
 
 
