@@ -29,7 +29,7 @@ img {
 
 
 body {
-background:url(/assets/bg/pokertablebg.jpg) repeat-y;	
+background:url(/assets/bg/pokertablebg.jpg) repeat center;	
 background-size:contain;
 width:100%;
 font-family:calibri, arial;

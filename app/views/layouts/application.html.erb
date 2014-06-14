@@ -25,7 +25,6 @@
             <% if flash[:alert] %><div id="alert"><%= flash[:alert] %></div><% end %>
             <% if flash[:error] %><div id="error"><%= flash[:error] %></div><% end %>
             <%= yield %>
-            <!--<%= debug(params) if Rails.env.development? %>-->
           </div>
 
           <div class="right">

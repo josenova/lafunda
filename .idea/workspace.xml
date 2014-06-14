@@ -41,11 +41,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/inquiries/new.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="18" selection-start="670" selection-end="670" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="714">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="13" column="27" selection-start="340" selection-end="340" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="340">
-              <folding />
+              <folding>
+                <marker date="1402774729103" expanded="true" signature="125:276" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,14 +113,12 @@
         <option value="$PROJECT_DIR$/config/locales/es.erb" />
         <option value="$PROJECT_DIR$/app/views/users/_error_messages.html.erb" />
         <option value="$PROJECT_DIR$/app/views/sessions/_sign_in_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/inquiries/new.html.haml" />
         <option value="$PROJECT_DIR$/app/views/sessions/_sign_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/sessions/_sign_in_form.html.haml" />
         <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/app/views/sessions/_top_sign_in_form.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/inquiries.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/pages.js.coffee" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/faq.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20140609200015_add_cityto_user.rb" />
@@ -138,6 +147,8 @@
         <option value="$PROJECT_DIR$/app/views/users/_edit_form.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/inquiries/new.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -359,11 +370,6 @@
         <state line="3" column="41" selection-start="139" selection-end="139" vertical-scroll-proportion="0.056478404" vertical-offset="0" max-vertical-offset="903" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/inquiries/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="32" selection-start="681" selection-end="681" vertical-scroll-proportion="0.38636363" vertical-offset="0" max-vertical-offset="924" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/backtrace_silencers.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="929" />
@@ -499,11 +505,6 @@
         <state line="13" column="22" selection-start="466" selection-end="466" vertical-scroll-proportion="0.2391775" vertical-offset="0" max-vertical-offset="2635" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="850" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="2" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="986" />
@@ -573,7 +574,9 @@
     <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="27" selection-start="340" selection-end="340" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="340">
-          <folding />
+          <folding>
+            <marker date="1402774729103" expanded="true" signature="125:276" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -594,6 +597,20 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="82" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/inquiries/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="18" selection-start="670" selection-end="670" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="24" selection-start="845" selection-end="845" vertical-scroll-proportion="0.478355" vertical-offset="0" max-vertical-offset="924">
           <folding />
         </state>
       </provider>
