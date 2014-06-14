@@ -229,6 +229,7 @@ width: 100%;
 display: block;
 text-decoration: none;
 font-size: 0.875em;
+margin-bottom: 1px;
 }
 
 #tagmenu li a:hover {

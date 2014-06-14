@@ -11,10 +11,5 @@
 
 
 <% content_for :modules do %>
-    <div id="balance">
-      <span>Balance:</span>
-      <p>RD$<%= number_with_delimiter @current_user_funds %></p>
-      <%= link_to t('views.deposit'), '#', id: 'deposit' %>
-      <%= link_to t('views.withdraw'), '#',id: 'withdraw' %>
-    </div>
+    <%= render 'balance' %>
 <% end %>
