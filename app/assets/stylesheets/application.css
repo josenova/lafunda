@@ -535,6 +535,7 @@ margin:0 0 10px;
   height: 30px;
   float:left;
   margin-right:30%;
+  font-size:0.875em;
 
 }
 
@@ -576,12 +577,13 @@ padding-right: 30%;
   padding: 0 5.573%;
   height:30px;
   margin:0;
+  font-size:0.8125em;
 }
 
 .left input[readonly="readonly"] {
 background: none;
 border: none;
-font-size: 0.9375em;
+font-size:0.875em;
 font-weight:bold;	
 }
 
