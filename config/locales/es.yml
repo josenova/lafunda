@@ -78,6 +78,7 @@ es:
       register!: Regístrate!
       have_an_account?: "¿Ya tienes una cuenta?"
       click_to_sign_in: "Clic aquí para iniciar sesión."
+      help: Ayuda
     tooltips:
       must_be_over: "Debes ser mayor de 18 años."
       four_digit_number: "4 dígitos de tu elección."
