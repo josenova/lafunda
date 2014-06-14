@@ -239,7 +239,8 @@ background:#f2f2f2;
 
 #tagmenu .current a {
 color: #222;
-background:#ededed;	
+background:#f2f2f2;	
+font-weight:bold;
 }
 
 
@@ -372,7 +373,7 @@ overflow:hidden;
 
 #footer ul {
 float:left;
-width:25%;	
+width:24.99%;	
 padding-right: 3.444%;
 height:129px;
 }

@@ -40,7 +40,7 @@ class UsersController < ApplicationController
   def update
     respond_to do |format|
       #if @user.update(user_params)
-      if @user.update(name: params[:user][:name], surname: params[:user][:surname], birthday: params[:user][:birthday], cellphone: params[:user][:cellphone], pin: params[:user][:pin], city: params[:user][:city])
+      if @user.update(name: params[:user][:name], surname: params[:user][:surname], cellphone: params[:user][:cellphone], pin: params[:user][:pin], city: params[:user][:city])
         format.html { redirect_to account_url, notice: 'User has been updated successfully!' }
         format.json { head :no_content }
       else

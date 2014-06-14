@@ -22,7 +22,7 @@
     = f.text_field :surname, :required => true
 
     = label :birthday, t('views.date_of_birth')
-    = f.date_field :birthday, :required => true
+    = f.date_field :birthday, :readonly => true
 
     = label :cellphone, t('views.cellphone')
     = f.telephone_field :cellphone, :required => true
