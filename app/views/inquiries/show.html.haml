@@ -12,11 +12,14 @@
       %h4= t('views.live_chat')
       %p Chatea con uno de nuestros representantes.
       %a.button= t('views.chat_now')
-    = if @current_user
-      %td#inquiry
-        %h4= t('views.open_ticket')
+    %td#inquiry
+      %h4= t('views.open_ticket')
+      - if @current_user
         %p Envíanos tu requerimiento detallado y te responderemos en la mayor brevedad posible.
         = link_to t('views.open_ticket'), new_inquiry_path, class: :button
+      - else
+        %p Debes iniciar sesión para crear un ticket de soporte.
+        .disabled= t('views.open_ticket')
 
 
 %br
