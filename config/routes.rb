@@ -23,6 +23,8 @@ Lafunda::Application.routes.draw do
   get "sign_in" => 'sessions#new'
   get "sign_out" => 'sessions#destroy'
 
+  #Support
+  get "support" => 'inquiries#show'
 
   resources "inquiries", only: [:new, :create]
   resources "users", only: [:create, :update]

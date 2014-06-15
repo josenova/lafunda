@@ -2,7 +2,7 @@
   <!--<div id="langselect"><%= link_to_unless I18n.locale == :es, "Español", locale: :es %> | <%= link_to_unless I18n.locale == :en, "English", locale: :en %></div>-->
   <div id="topmenu">
     <ul id="topleft">
-      <li><%= link_to new_inquiry_path do %><%= image_tag(asset_path("icons/support.png"), class: 'icon' ) %><%= t('views.support') %><% end %></li>
+      <li><%= link_to support_path do %><%= image_tag(asset_path("icons/support.png"), class: 'icon' ) %><%= t('views.support') %><% end %></li>
       <li><%= link_to community_path do %><%= image_tag(asset_path("icons/community.png"), class: 'icon' ) %><%= t('views.community') %><% end %></li>
     </ul>
     <%= link_to '', root_path, id: "logo" %>
@@ -16,7 +16,7 @@
               <%= nav_link t('views.my_account'), account_path %>
               <%= nav_link t('views.deposit'), '#' %>
               <%= nav_link t('views.withdraw'), '#' %>
-              <%= nav_link t('views.help'), new_inquiry_path %>
+              <%= nav_link t('views.help'), support_path %>
             </ul>
         </div>
       <% else %>

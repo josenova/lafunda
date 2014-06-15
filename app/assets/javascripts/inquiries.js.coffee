@@ -3,12 +3,5 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 
-$ ->
-  $("#inquiry .button").click (event) ->
-    $("#new_inquiry").show 200
-
-
-
-
 
 

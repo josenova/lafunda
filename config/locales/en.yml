@@ -57,6 +57,7 @@ en:
       sign_out: "Sign Out" 
       log_in: "Log In"
       help: Help
+      open_ticket: "Open Ticket"
     tooltips:
       must_be_over: "You must be over 18 to join."
       four_digit_number: "4-digit number of your choice."

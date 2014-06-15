@@ -1,6 +1,8 @@
-<div id="balance">
-  <span>Balance:</span>
-  <p>RD$<%= number_with_delimiter @current_user_funds %></p>
-  <%= link_to t('views.deposit'), '#', id: 'deposit' %>
-  <%= link_to t('views.withdraw'), '#',id: 'withdraw' %>
+<div class="module">
+  <h5>Balance:</h5>
+  <div id="balance">
+      <p>RD$<%= number_with_delimiter @current_user_funds %></p>
+      <%= link_to t('views.deposit'), '#', id: 'deposit' %>
+      <%= link_to t('views.withdraw'), '#',id: 'withdraw' %>
+  </div>
 </div>

@@ -45,26 +45,16 @@
 */
 /********************************************** BALANCE *****************************************************************/
 
+
 .right #balance {
-  background: #222;
-  background:rgba(0,0,0,0.6);
-  padding: 5.573%;
+  padding:5.573%;
   overflow:hidden;
 }
 
-.right #balance span {
-  text-transform: uppercase;
-  color: #dfab3e;
-  width: 100%;
-  display: block;
-  margin-bottom: 1.315%;
-  font-weight: bold;
-}
-
 .right #balance p {
-  font-size: 2.25em;
+  font-size: 2em;
   text-align: center;
-  margin-bottom: 3.444%;
+  margin-bottom: 5.573%;
 }
 
 .right #balance a {
