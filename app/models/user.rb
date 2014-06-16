@@ -38,8 +38,8 @@ class User < ActiveRecord::Base
             uniqueness: { case_sensitive: false }
 
 
-  validates :name, presence: true, length: { minimum: 3, maximum: 20 }
-  validates :surname, presence: true, length: { minimum:3, maximum: 20 }
+  validates :name, presence: true, length: { minimum: 2, maximum: 20 }
+  validates :surname, presence: true, length: { minimum: 2, maximum: 20 }
   validates :gender, presence: true
   validates :identification, presence: true, uniqueness: true, numericality: { only_integer: true }, length: { is: 11 }
   validates :birthday, presence: true
