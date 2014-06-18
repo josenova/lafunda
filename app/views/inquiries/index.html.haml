@@ -33,12 +33,14 @@
       %td= t('views.subject')
       %td= t('views.status')
       %td= t('views.last_update')
-    - @user_inquiries.each do |ticket|
-      %tr
+      %td ver
+    - @user_inquiries.order("created_at desc").each do |ticket|
+      %tr{:class => cycle('odd', 'even')}
         %td= ticket.created_at
         %td= ticket.subject
-        %td= ticket.status
+        %td= get_status(ticket.status)
         %td= ticket.updated_at
+        %td= link_to 'ver', ticket
 
 
 %br

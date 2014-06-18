@@ -62,6 +62,7 @@ en:
       status: Status
       date: Date
       last_update: "Last Update"
+      opened_tickets: "Opened Tickets"
     tooltips:
       must_be_over: "You must be over 18 to join."
       four_digit_number: "4-digit number of your choice."

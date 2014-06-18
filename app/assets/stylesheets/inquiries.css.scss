@@ -57,6 +57,17 @@ font-weight: bold;
 
 #tickets tr td {
   padding: 0.502% 2.1289% 0.502% 2.1289%;
-  width: 25%;
   font-size:0.875em;
+}
+
+#tickets tr td:nth-child(1), #tickets tr td:nth-child(4) {
+width:25%;
+}
+
+#tickets tr td:nth-child(2) {
+  width:30%
+}
+
+#tickets tr td:nth-child(3), #tickets tr td:nth-child(5) {
+  width:10%
 }

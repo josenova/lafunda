@@ -26,7 +26,7 @@ Lafunda::Application.routes.draw do
   #Support
   get "support" => 'inquiries#index'
 
-  resources "inquiries", only: [:new, :create]
+  resources "inquiries", only: [:new, :create, :show]
   resources "users", only: [:create, :update]
   resources "sessions", only: [:new, :create, :destroy]
 
