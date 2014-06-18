@@ -60,7 +60,7 @@ es:
       register: Regístrate
       pin: Pin
       welcome: Bienvenido
-      racebook: Hípico
+      racebook: Hipismo
       update: Actualizar
       security: Seguridad
       personal: Personal
@@ -80,6 +80,10 @@ es:
       click_to_sign_in: "Clic aquí para iniciar sesión."
       help: Ayuda
       open_ticket: "Crear un Ticket"
+      subject: Asunto
+      status: Estatus
+      date: Fecha
+      last_update: "Última Actualización"
     tooltips:
       must_be_over: "Debes ser mayor de 18 años."
       four_digit_number: "4 dígitos de tu elección."

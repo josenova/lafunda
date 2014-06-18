@@ -1,0 +1,63 @@
+%h1= t('views.support')
+%p Nuestro soporte en línea está disponible en horario laboral. Para cualquier duda o sugerencia favor comunícate con nosotros a través de una de las siguientes vías:
+%table
+  %tr
+    %td#phone
+      %h4 Teléfono
+      %p Servicio al cliente:
+      %ul
+        %li 829.946.5550
+        %li 829.947.5510
+    %td#chat
+      %h4= t('views.live_chat')
+      %p Chatea con uno de nuestros representantes.
+      %a.button= t('views.chat_now')
+    %td#inquiry
+      %h4= t('views.open_ticket')
+      - if @current_user
+        %p Envíanos tu requerimiento detallado y te responderemos en la mayor brevedad posible.
+        = link_to t('views.open_ticket'), new_inquiry_path, class: :button
+      - else
+        %p Debes iniciar sesión para crear un ticket de soporte.
+        .disabled= t('views.open_ticket')
+
+
+%br
+%br
+
+- if @current_user
+  %h2= t('views.opened_tickets')
+  %table{:id => "tickets"}
+    %tr{:class => "tabletop"}
+      %td= t('views.date')
+      %td= t('views.subject')
+      %td= t('views.status')
+      %td= t('views.last_update')
+    - @user_inquiries.each do |ticket|
+      %tr
+        %td= ticket.created_at
+        %td= ticket.subject
+        %td= ticket.status
+        %td= ticket.updated_at
+
+
+%br
+%br
+%h2= t('views.faq')
+.accordion
+  %h4 ¿Cómo registro un nuevo usuario?
+  %div
+    %p Debes hacer clic en Regístrate en el panel superior.
+
+  %h4 ¿He olvidado mi usuario y/o contraseña, como puedo recuperar la información?
+  %div
+    %p Para recuperar tu nombre de usuario y/o contraseña, debes hacer click en <em>Olvidé mi Contraseña</em> y escribir en el campo correspondiente el correo electrónico que se introdujo durante el proceso de registro. El nombre de usuario y las instrucciones de como reiniciar la contraseña te serán enviadas a este correo electrónico. Si al transcurrir cinco (5) minutos no has recibido la información, por favor verifica tu buzón de “correo no deseado”. Para mayor asistencia, favor contacta a servicioalcliente@lafunda.com.do
+
+  %h4 ¿Cómo cambio mi contraseña?
+  %div
+    %p Al momento de ingresar en LAFUNDA.COM.DO, ingresa a tu cuenta y haz clic en "Mi Cuenta", luego en “Editar Cuenta” y elige una contraseña con igual o mayor de 6 caracteres.
+
+  %h4 ¿Cómo cancelo mi cuenta?
+  %div
+    %p Debes comunicarte con nosotros para inactivar o cancelar tu cuenta.
+

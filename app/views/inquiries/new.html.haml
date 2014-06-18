@@ -1,19 +1,22 @@
-= if @current_user
-  = form_for @inquiry do |f|
-    = label :name, t('views.name')
-    = f.text_field :name, :required => true
+%h1= t('views.open_ticket')
 
-    = label :email, t('views.email')
-    = f.email_field :email, :required => true
 
-    = label :message, t('views.message')
-    = f.text_area :message, :as => :text, :required => true, :input_html => {:rows => 10}
+= form_for @inquiry do |f|
+  = label :name, t('views.name')
+  = f.text_field :name, :readonly => true, :value => @current_user.name + ' ' + @current_user.surname
 
-    .hidden
-      = f.text_field :nickname
+  = label :email, t('views.email')
+  = f.email_field :email, :readonly => true, :value => @current_user.email
 
-    .buttons
-      = f.submit t('views.submit')
+  = label :subject, t('views.subject')
+  = f.text_field :subject, :required => true
+
+  = label :message, t('views.message')
+  = f.text_area :message, :as => :text, :required => true, :input_html => {:rows => 10}
+
+
+  .buttons
+    = f.submit t('views.submit')
 
 
 

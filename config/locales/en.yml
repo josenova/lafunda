@@ -58,6 +58,10 @@ en:
       log_in: "Log In"
       help: Help
       open_ticket: "Open Ticket"
+      subject: Subject
+      status: Status
+      date: Date
+      last_update: "Last Update"
     tooltips:
       must_be_over: "You must be over 18 to join."
       four_digit_number: "4-digit number of your choice."
