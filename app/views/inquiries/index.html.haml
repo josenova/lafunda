@@ -34,13 +34,16 @@
       %td= t('views.status')
       %td= t('views.last_update')
       %td ver
-    - @user_inquiries.order("created_at desc").each do |ticket|
-      %tr{:class => cycle('odd', 'even')}
-        %td= ticket.created_at
-        %td= ticket.subject
-        %td= get_status(ticket.status)
-        %td= ticket.updated_at
-        %td= link_to 'ver', ticket
+    - if @user_inquiries.exists?
+      - @user_inquiries.order("created_at desc").each do |ticket|
+        %tr{:class => cycle('odd', 'even')}
+          %td= ticket.created_at
+          %td= ticket.subject
+          %td= get_status(ticket.status)
+          %td= ticket.updated_at
+          %td= link_to 'ver', ticket
+    - else
+      %td No has creado ningun ticket de soporte.
 
 
 %br

@@ -589,6 +589,7 @@ padding-right: 30%;
   height: 120px;
   float:left;
   margin-right:30%;
+  font-size: 0.875em;
 }
 
 .left input[type="submit"] {

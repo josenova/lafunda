@@ -35,7 +35,7 @@
       <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/inquiries/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="13" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.5708013" vertical-offset="75" max-vertical-offset="1207">
+            <state line="47" column="0" selection-start="1460" selection-end="1460" vertical-scroll-proportion="0.7947311" vertical-offset="75" max-vertical-offset="1258">
               <folding>
                 <element signature="n#t('views.support')#0;n#!!top" expanded="true" />
                 <element signature="n#t('views.live_chat')#0;n#!!top" expanded="true" />
@@ -46,19 +46,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/inquiries/new.html.haml">
+      <file leaf-file-name="inquiries_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/inquiries_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="565" selection-end="565" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="476">
+            <state line="33" column="9" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inquiries_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/inquiries_controller.rb">
+      <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/inquiries/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="9" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+            <state line="22" column="0" selection-start="565" selection-end="565" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
@@ -650,13 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/inquiries_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="9" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/inquiries.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="10" selection-start="1089" selection-end="1089" vertical-scroll-proportion="-30.307692" vertical-offset="419" max-vertical-offset="1343">
@@ -671,9 +664,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/inquiries_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="9" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/inquiries/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="13" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.5708013" vertical-offset="75" max-vertical-offset="1207">
+        <state line="47" column="0" selection-start="1460" selection-end="1460" vertical-scroll-proportion="0.7947311" vertical-offset="75" max-vertical-offset="1258">
           <folding>
             <element signature="n#t('views.support')#0;n#!!top" expanded="true" />
             <element signature="n#t('views.live_chat')#0;n#!!top" expanded="true" />
