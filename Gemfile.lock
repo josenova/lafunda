@@ -193,7 +193,7 @@ DEPENDENCIES
   passenger (~> 4.0.45)
   pg
   rails (= 4.0.4)
-  rake
+  rake (= 10.3.2)
   sass-rails (~> 4.0.2)
   savon
   sdoc

@@ -58,7 +58,7 @@ gem 'passenger', '~> 4.0.45', group: :production
 gem 'haml-rails'
 gem 'html2haml'
 
-gem 'rake'#, '10.3.2'
+gem 'rake', '10.3.2'
 
 gem 'savon'
 

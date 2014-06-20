@@ -8,7 +8,7 @@ set :repo_url, 'git@bitbucket.org:kinbar/lafunda.git'
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
 
 # Default deploy_to directory is /var/www/my_app
-set :deploy_to, '/home/lafundac/rails_apps/lafunda'
+set :deploy_to, '/var/www/apps/lafunda'
 
 # Default value for :scm is :git
 # set :scm, :git
@@ -32,7 +32,13 @@ set :pty, true
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 
 # Default value for keep_releases is 5
-# set :keep_releases, 5
+ set :keep_releases, 2
+
+set :user, "deploy"
+set :group, "deployers"
+set :use_sudo, false
+set :rails_env, "production"
+set :deploy_via, :copy
 
 namespace :deploy do
 
@@ -62,20 +68,11 @@ end
 =begin
 require 'bundler/capistrano'
 
-set :application, "Your App's Name"
-set :repository,  "git@github.com:you-github-username/your-app-repository.git"
-set :deploy_to, "/var/www/example.com"
-set :scm, :git
-set :branch, "master"
-set :user, "bill"
-set :group, "deployers"
-set :use_sudo, false
-set :rails_env, "production"
-set :deploy_via, :copy
+
+
 set :ssh_options, { :forward_agent => true, :port => 4321 }
-set :keep_releases, 5
-default_run_options[:pty] = true
-server "example.com", :app, :web, :db, :primary => true
+
+
 
 namespace :deploy do
   task :start do ; end
