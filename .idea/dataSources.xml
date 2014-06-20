@@ -3,22 +3,24 @@
   <component name="DataSourceManagerImpl" format="xml" hash="1750464546">
     <data-source source="LOCAL" name="Rails lafunda: development" uuid="58a9d5b1-a273-4827-a2c4-2521bf830452">
       <driver-ref>sqlite.xerial</driver-ref>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\webmaster\Desktop\lafunda\db\development.sqlite3</jdbc-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:lafunda_development</jdbc-url>
+      <user-name>lafunda_usr</user-name>
+      <user-password>dfe1df8bdfc4dfc8df9edfd8df8edf93df9e</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails lafunda: test" uuid="da3e3cc1-4703-4bda-86d6-8128df5ce561">
       <driver-ref>sqlite.xerial</driver-ref>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\webmaster\Desktop\lafunda\db\test.sqlite3</jdbc-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:lafunda_test</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails lafunda: production" uuid="977f3203-028e-40fe-8f5a-1abcb2d621ac">
       <driver-ref>mysql</driver-ref>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1/lafundac_main</jdbc-url>
-      <user-name>lafunda_mainusr</user-name>
-      <user-password>dfe6dfecdf8edf93df9bdf98df84df99df8b</user-password>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/lafunda</jdbc-url>
+      <user-name>lafunda_usr</user-name>
+      <user-password>dfe1df8bdfc4dfc8df9edfd8df8edf93df9e</user-password>
       <libraries />
     </data-source>
   </component>

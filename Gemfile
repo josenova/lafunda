@@ -48,6 +48,9 @@ gem 'bcrypt', '~> 3.1.7'
 # Use Capistrano for deployment
 gem 'capistrano', group: :development
 
+# Use Passenger for production
+gem 'passenger', '~> 4.0.45', group: :production
+
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
@@ -55,7 +58,7 @@ gem 'capistrano', group: :development
 gem 'haml-rails'
 gem 'html2haml'
 
-gem 'rake'
+gem 'rake'#, '10.3.2'
 
 gem 'savon'
 
