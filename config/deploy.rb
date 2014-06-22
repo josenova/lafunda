@@ -4,14 +4,19 @@ lock '3.2.1'
 set :application, 'lafunda'
 set :repo_url, 'git@bitbucket.org:kinbar/lafunda.git'
 
+# Default value for :scm is :git
+set :scm, :git
+
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
 
 # Default deploy_to directory is /var/www/my_app
 set :deploy_to, '/var/www/apps/lafunda'
 
-# Default value for :scm is :git
-# set :scm, :git
+set :user, "deploy"
+set :group, "deployers"
+set :use_sudo, false
+
 
 # Default value for :format is :pretty
 # set :format, :pretty
@@ -32,22 +37,34 @@ set :pty, true
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 
 # Default value for keep_releases is 5
- set :keep_releases, 2
+ set :keep_releases, 3
 
-set :user, "deploy"
-set :group, "deployers"
-set :use_sudo, false
+
 set :rails_env, "production"
 set :deploy_via, :copy
+set :copy_strategy, :export
+
 
 namespace :deploy do
 
   desc 'Restart application'
   task :restart do
     on roles(:app), in: :sequence, wait: 5 do
-      # Your restart mechanism here, for example:
-      # execute :touch, release_path.join('tmp/restart.txt')
+      run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
     end
+  end
+
+  desc "Copy the database.yml file into the latest release"
+  task :copy_in_database_yml do
+    run "cp #{shared_path}/config/database.yml #{latest_release}/config/"
+  end
+
+  desc "Precompile assets after deploy"
+  task :precompile_assets do
+    run <<-CMD
+      cd #{ current_path } &&
+      #{ sudo } bundle exec rake assets:precompile RAILS_ENV=#{ rails_env }
+    CMD
   end
 
   after :publishing, :restart
@@ -63,43 +80,10 @@ namespace :deploy do
 
 end
 
-
-
-=begin
-require 'bundler/capistrano'
+before "deploy:precompile_assets", "deploy:copy_in_database_yml"
 
 
 
-set :ssh_options, { :forward_agent => true, :port => 4321 }
 
 
 
-namespace :deploy do
-  task :start do ; end
-  task :stop do ; end
-
-  desc "Symlink shared config files"
-  task :symlink_config_files do
-    run "#{ sudo } ln -s #{ deploy_to }/shared/config/database.yml #{ current_path }/config/database.yml"
-  end
-
-  # NOTE: I don't use this anymore, but this is how I used to do it.
-  desc "Precompile assets after deploy"
-  task :precompile_assets do
-    run <<-CMD
-      cd #{ current_path } &&
-      #{ sudo } bundle exec rake assets:precompile RAILS_ENV=#{ rails_env }
-    CMD
-  end
-
-  desc "Restart applicaiton"
-  task :restart do
-    run "#{ try_sudo } touch #{ File.join(current_path, 'tmp', 'restart.txt') }"
-  end
-end
-
-after "deploy", "deploy:symlink_config_files"
-after "deploy", "deploy:restart"
-after "deploy", "deploy:cleanup"
-
-=end

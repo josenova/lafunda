@@ -18,8 +18,15 @@
 
 #server 'example.com', user: 'deploy', roles: %w{web app}, my_property: :my_value
 
-set :password, ask('password:', nil)
-server '190.4.89.88', user: 'deploy', port: 22, password: fetch(:password), roles: %w{web app db}
+
+server '190.4.89.88',
+       user: 'deploy',
+       roles: %w{web app db},
+       port: 22,
+       password: 'apJagNiho'
+
+#set :ssh_options, { auth_methods: %w(password) }
+
 # Custom SSH Options
 # ==================
 # You may pass any option but keep in mind that net/ssh understands a

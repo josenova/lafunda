@@ -35,7 +35,7 @@
       <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="38" selection-start="321" selection-end="321" vertical-scroll-proportion="0.17894737" vertical-offset="0" max-vertical-offset="1870">
+            <state line="61" column="5" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.55473685" vertical-offset="510" max-vertical-offset="1870">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/deploy/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="30" selection-start="795" selection-end="795" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+            <state line="14" column="69" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
@@ -581,14 +581,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="30" selection-start="795" selection-end="795" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+        <state line="14" column="69" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="38" selection-start="321" selection-end="321" vertical-scroll-proportion="0.17894737" vertical-offset="0" max-vertical-offset="1870">
+        <state line="61" column="5" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.55473685" vertical-offset="510" max-vertical-offset="1870">
           <folding />
         </state>
       </provider>
