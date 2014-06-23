@@ -38,7 +38,7 @@ set :pty, true
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 
 # Default value for keep_releases is 5
- set :keep_releases, 3
+set :keep_releases, 3
 
 
 set :rails_env, "production"
@@ -75,9 +75,9 @@ namespace :deploy do
   after :restart, :clear_cache do
     on roles(:web), in: :groups, limit: 3, wait: 10 do
       # Here we can do anything such as:
-       within release_path do
-         execute :rake, 'cache:clear'
-       end
+      within release_path do
+        execute :rake, 'cache:clear'
+      end
     end
   end
 
@@ -96,10 +96,5 @@ namespace :deploy do
 end
 
 #before "deploy:precompile_assets", "deploy:copy_in_database_yml"
+after "deploy", "deploy:restart"
 after "deploy", "deploy:cleanup"
-
-
-
-
-
-
