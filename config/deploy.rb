@@ -78,11 +78,24 @@ namespace :deploy do
     end
   end
 
+  desc "Check that we can access everything"
+  task :check_write_permissions do
+    on roles(:all) do |host|
+      if test("[ -w #{fetch(:deploy_to)} ]")
+        info "#{fetch(:deploy_to)} is writable on #{host}"
+      else
+        error "#{fetch(:deploy_to)} is not writable on #{host}"
+      end
+    end
+  end
+
+
 end
 
-before "deploy:precompile_assets", "deploy:copy_in_database_yml"
-
-
+after "deploy", "deploy:copy_in_database_yml"
+#after "deploy", "deploy:precompile_assets"
+after "deploy", "deploy:restart"
+after "deploy", "deploy:cleanup"
 
 
 

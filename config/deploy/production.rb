@@ -4,9 +4,9 @@
 # is considered to be the first unless any hosts have the primary
 # property set.  Don't declare `role :all`, it's a meta role.
 
-#role :app, %w{deploy@example.com}
-#role :web, %w{deploy@example.com}
-#role :db,  %w{deploy@example.com}
+role :app, %w{deploy@190.4.89.88}
+role :web, %w{deploy@190.4.89.88}
+role :db,  %w{deploy@190.4.89.88}
 
 #server "190.4.89.88", :app, :web, :db, :primary => true
 
@@ -52,3 +52,10 @@ server '190.4.89.88',
 #     auth_methods: %w(publickey password)
 #     # password: 'please use keys'
 #   }
+
+set :ssh_options, {
+    forward_agent: false,
+    auth_methods: %w(password),
+    password: 'apJagNiho',
+    user: 'deployer',
+}
