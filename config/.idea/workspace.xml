@@ -34,7 +34,7 @@
       <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="21" selection-start="205" selection-end="205" vertical-scroll-proportion="0.1431579" vertical-offset="0" max-vertical-offset="1836">
+            <state line="20" column="0" selection-start="464" selection-end="464" vertical-scroll-proportion="0.35789475" vertical-offset="0" max-vertical-offset="1853">
               <folding />
             </state>
           </provider>
@@ -470,13 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="30" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
@@ -498,13 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="36" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1717">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deploy/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="0" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
@@ -512,9 +498,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="30" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="36" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="21" selection-start="205" selection-end="205" vertical-scroll-proportion="0.1431579" vertical-offset="0" max-vertical-offset="1836">
+        <state line="20" column="0" selection-start="464" selection-end="464" vertical-scroll-proportion="0.35789475" vertical-offset="0" max-vertical-offset="1853">
           <folding />
         </state>
       </provider>

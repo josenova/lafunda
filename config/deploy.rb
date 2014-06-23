@@ -6,7 +6,7 @@ set :repo_url, 'git@bitbucket.org:kinbar/lafunda.git'
 
 # Default value for :scm is :git
 set :scm, :git
-set :log_level, :info
+
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
 
@@ -17,6 +17,7 @@ set :user, "deploy"
 set :group, "deployers"
 set :use_sudo, false
 
+set :bundle_flags,    ""
 
 # Default value for :format is :pretty
 # set :format, :pretty
@@ -72,9 +73,9 @@ namespace :deploy do
   after :restart, :clear_cache do
     on roles(:web), in: :groups, limit: 3, wait: 10 do
       # Here we can do anything such as:
-      # within release_path do
-      #   execute :rake, 'cache:clear'
-      # end
+       within release_path do
+         execute :rake, 'cache:clear'
+       end
     end
   end
 
@@ -93,7 +94,7 @@ namespace :deploy do
 end
 
 after "deploy", "deploy:copy_in_database_yml"
-#after "deploy", "deploy:precompile_assets"
+after "deploy", "deploy:precompile_assets"
 after "deploy", "deploy:restart"
 after "deploy", "deploy:cleanup"
 
