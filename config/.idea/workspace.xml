@@ -22,19 +22,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="11" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.8568421" vertical-offset="257" max-vertical-offset="1207">
+            <state line="65" column="12" selection-start="1593" selection-end="1593" vertical-scroll-proportion="0.0" vertical-offset="257" max-vertical-offset="1207">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853">
+            <state line="98" column="1" selection-start="2372" selection-end="2372" vertical-scroll-proportion="0.80315787" vertical-offset="903" max-vertical-offset="1887">
               <folding />
             </state>
           </provider>
@@ -106,9 +106,9 @@
         <option value="$PROJECT_DIR$/../db/schema.rb" />
         <option value="$PROJECT_DIR$/environments/production.rb" />
         <option value="$PROJECT_DIR$/../app/views/welcome/_homebox.html.erb" />
-        <option value="$PROJECT_DIR$/deploy.rb" />
         <option value="$PROJECT_DIR$/deploy/production.rb" />
         <option value="$PROJECT_DIR$/../Gemfile" />
+        <option value="$PROJECT_DIR$/deploy.rb" />
       </list>
     </option>
   </component>
@@ -505,16 +505,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deploy.rb">
+    <entry file="file://$PROJECT_DIR$/../Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853">
+        <state line="65" column="12" selection-start="1593" selection-end="1593" vertical-scroll-proportion="0.0" vertical-offset="257" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Gemfile">
+    <entry file="file://$PROJECT_DIR$/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="11" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.8568421" vertical-offset="257" max-vertical-offset="1207">
+        <state line="98" column="1" selection-start="2372" selection-end="2372" vertical-scroll-proportion="0.80315787" vertical-offset="903" max-vertical-offset="1887">
           <folding />
         </state>
       </provider>
