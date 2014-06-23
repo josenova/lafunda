@@ -6,7 +6,7 @@ set :repo_url, 'git@bitbucket.org:kinbar/lafunda.git'
 
 # Default value for :scm is :git
 set :scm, :git
-
+set :log_level, :info
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
 
