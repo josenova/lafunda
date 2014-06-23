@@ -51,20 +51,22 @@ namespace :deploy do
   desc 'Restart application'
   task :restart do
     on roles(:app), in: :sequence, wait: 5 do
-      run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
+      # run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
+      execute :touch, release_path.join('tmp/restart.txt')
     end
   end
 
   desc "Copy the database.yml file into the latest release"
   task :copy_in_database_yml do
-    run "cp #{shared_path}/config/database.yml #{latest_release}/config/"
+    #run "cp #{shared_path}/config/database.yml #{latest_release}/config/"
+    run "#{ try_sudo } ln -s #{ deploy_to }/shared/config/database.yml #{ current_path }/config/database.yml"
   end
 
   desc "Precompile assets after deploy"
   task :precompile_assets do
     run <<-CMD
       cd #{ current_path } &&
-      #{ sudo } bundle exec rake assets:precompile RAILS_ENV=#{ rails_env }
+      #{ try_sudo } bundle exec rake assets:precompile RAILS_ENV=#{ rails_env }
     CMD
   end
 
@@ -93,12 +95,10 @@ namespace :deploy do
 
 end
 
-before "deploy:precompile_assets", "deploy:copy_in_database_yml"
-
-#after "deploy", "deploy:copy_in_database_yml"
-#after "deploy", "deploy:precompile_assets"
-after "deploy", "deploy:restart"
+#before "deploy:precompile_assets", "deploy:copy_in_database_yml"
 after "deploy", "deploy:cleanup"
+
+
 
 
 
