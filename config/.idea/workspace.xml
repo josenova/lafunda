@@ -22,19 +22,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="30" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+            <state line="64" column="23" selection-start="1603" selection-end="1603" vertical-scroll-proportion="0.87473685" vertical-offset="257" max-vertical-offset="1224">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="464" selection-end="464" vertical-scroll-proportion="0.35789475" vertical-offset="0" max-vertical-offset="1853">
+            <state line="20" column="0" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853">
               <folding />
             </state>
           </provider>
@@ -104,11 +104,11 @@
         <option value="$PROJECT_DIR$/../app/models/user.rb" />
         <option value="$PROJECT_DIR$/../db/migrate/20140602205431_remove_old_password.rb" />
         <option value="$PROJECT_DIR$/../db/schema.rb" />
-        <option value="$PROJECT_DIR$/../Gemfile" />
         <option value="$PROJECT_DIR$/environments/production.rb" />
         <option value="$PROJECT_DIR$/deploy/production.rb" />
         <option value="$PROJECT_DIR$/../app/views/welcome/_homebox.html.erb" />
         <option value="$PROJECT_DIR$/deploy.rb" />
+        <option value="$PROJECT_DIR$/../Gemfile" />
       </list>
     </option>
   </component>
@@ -498,13 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="30" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="36" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1717">
@@ -514,7 +507,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="464" selection-end="464" vertical-scroll-proportion="0.35789475" vertical-offset="0" max-vertical-offset="1853">
+        <state line="20" column="0" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="23" selection-start="1603" selection-end="1603" vertical-scroll-proportion="0.87473685" vertical-offset="257" max-vertical-offset="1224">
           <folding />
         </state>
       </provider>

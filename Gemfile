@@ -62,5 +62,6 @@ gem 'html2haml'
 gem 'rake', '10.3.2'
 
 gem 'savon'
+gem 'nokogiri', '1.4.7'
 
 gem 'devise'
