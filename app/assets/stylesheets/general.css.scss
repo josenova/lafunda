@@ -113,7 +113,7 @@ body {
 }
 
 #logo {
-  background-image: image-url("/assets/mainlogo.png");
+  background-image: url(asset-path('mainlogo.png'));
   background-repeat: no-repeat;
   background-position: center;
   background-size:contain;

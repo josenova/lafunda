@@ -83,7 +83,9 @@ namespace :deploy do
 
   desc "Remove Symbolic Link from Shared folder"
   task :removesharedsymlink do
-    run "rm #{deploy_to}/shared/public/assets/assets"
+    on roles(:web) do
+      execute "rm #{deploy_to}/shared/public/assets/assets"
+    end
   end
 
   desc "Check that we can access everything"
