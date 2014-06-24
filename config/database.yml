@@ -25,6 +25,6 @@ production:
   encoding: utf8
   database: lafunda
   pool: 5
-  username: lafunda_usr
-  password: K!nb4r$94
+  username: postgres
+  password: 
   host: localhost
