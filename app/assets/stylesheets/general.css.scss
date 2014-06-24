@@ -19,7 +19,7 @@ img {
 
 
 body {
-  background-image: image-url("/assets/bg/pokertablebg.jpg");
+  background-image: url(image-path("/assets/bg/pokertablebg.jpg"));
   background-repeat: repeat;
   background-position: center;
   /*background-size:contain;*/

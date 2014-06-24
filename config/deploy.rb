@@ -56,29 +56,34 @@ namespace :deploy do
     end
   end
 
-  desc "Copy the database.yml file into the latest release"
-  task :copy_in_database_yml do
-    #run "cp #{shared_path}/config/database.yml #{latest_release}/config/"
-    run "#{ try_sudo } ln -s #{ deploy_to }/shared/config/database.yml #{ current_path }/config/database.yml"
-  end
-
-  desc "Precompile assets after deploy"
-  task :precompile_assets do
-    run <<-CMD
-      cd #{ current_path } &&
-      #{ try_sudo } bundle exec rake assets:precompile RAILS_ENV=#{ rails_env }
-    CMD
-  end
-
   after :publishing, :restart
 
   after :restart, :clear_cache do
     on roles(:web), in: :groups, limit: 3, wait: 10 do
       # Here we can do anything such as:
       # within release_path do
-        # execute :rake, 'cache:clear'
+      # execute :rake, 'cache:clear'
       # end
     end
+  end
+
+  desc "Copy the database.yml file into the latest release"
+  task :copy_in_database_yml do
+    #run "cp #{shared_path}/config/database.yml #{latest_release}/config/"
+    run "#{try_sudo} ln -s #{deploy_to}/shared/config/database.yml #{current_path}/config/database.yml"
+  end
+
+  desc "Precompile assets after deploy"
+  task :precompile_assets do
+    run <<-CMD
+      cd #{current_path} &&
+      #{try_sudo} bundle exec rake assets:precompile RAILS_ENV=#{rails_env}
+    CMD
+  end
+
+  desc "Remove Symbolic Link from Shared folder"
+  task :removesharedsymlink do
+    run "rm #{deploy_to}/shared/public/assets/assets"
   end
 
   desc "Check that we can access everything"
@@ -96,5 +101,6 @@ namespace :deploy do
 end
 
 #before "deploy:precompile_assets", "deploy:copy_in_database_yml"
+#before "deploy", "deploy:removesharedsymlink"
 after "deploy", "deploy:restart"
-#after "deploy", "deploy:cleanup"
+
