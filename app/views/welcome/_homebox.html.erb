@@ -4,8 +4,10 @@
 
       <!-- start Basic Jquery Slider -->
       <ul class="bxslider">
-        <li><a href="#"><img src="assets/slider/1.jpg"></a></li>
-        <li><a href="#"><img src="assets/slider/3.jpg"></a></li>
+        <li><%= link_to sportsbook_path do %><%= image_tag "slider/1.jpg" %><% end %></li>
+        <li><%= link_to 'http://rdfw.do/', :target => "_blank" do %><%= image_tag "slider/2.jpg" %><% end %></li>
+        <li><%= link_to racebook_path do %><%= image_tag "slider/3.jpg" %><% end %></li>
+        <li><%= link_to '#' do %><%= image_tag "slider/4.jpg" %><% end %></li>
       </ul>
 
       <script>
