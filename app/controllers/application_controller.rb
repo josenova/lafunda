@@ -23,9 +23,12 @@ class ApplicationController < ActionController::Base
   before_action :current_user
 
   extend Savon::Model
-  $client = Savon.client(wsdl: 'http://services.colchian.eu/BOSS_DEMO/BOSSWebServices/IncomingIntegrationService/IncomingIntegrationService.svc?wsdl')
 
-
+  if Rails.env.production?
+    $client = Savon.client(wsdl: 'http://services.americasimulcast.es/IncomingIntegrationService/IncomingIntegrationService.svc?wsdl')
+  else
+    $client = Savon.client(wsdl: 'http://services.colchian.eu/BOSS_DEMO/BOSSWebServices/IncomingIntegrationService/IncomingIntegrationService.svc?wsdl')
+  end
 
   private
   def set_locale
