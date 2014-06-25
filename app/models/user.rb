@@ -64,7 +64,6 @@ class User < ActiveRecord::Base
 #////////////////////////////////////////////////////////////////////////////////////////////
 
   def save_in_remote
-    #@client = Savon.client(wsdl: 'http://services.colchian.eu/BOSS_DEMO/BOSSWebServices/IncomingIntegrationService/IncomingIntegrationService.svc?wsdl')
     @request = %Q(
       <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
         <soapenv:Header/>
