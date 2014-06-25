@@ -19,10 +19,10 @@ img {
 
 
 body {
-  background-image: url(image-path("/assets/bg/pokertablebg.jpg"));
+  background-image: url(asset-path('bg/pokertablebg.jpg'));
   background-repeat: repeat;
   background-position: center;
-  /*background-size:contain;*/
+  background-size:contain;
   width:100%;
   font-family:calibri, arial;
   color:#fff;

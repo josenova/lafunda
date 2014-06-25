@@ -17,8 +17,6 @@ set :user, "deploy"
 set :group, "deployers"
 set :use_sudo, false
 
-set :bundle_flags,    ""
-
 # Default value for :format is :pretty
 # set :format, :pretty
 
@@ -102,7 +100,6 @@ namespace :deploy do
 
 end
 
-#before "deploy:precompile_assets", "deploy:copy_in_database_yml"
-#before "deploy", "deploy:removesharedsymlink"
+
 after "deploy", "deploy:restart"
 

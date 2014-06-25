@@ -1,6 +1,7 @@
-<!--<iframe src="http://wagering.lafunda.com.do/BOSSWagering/Sportsbook/InternetBetTaker?siteid=lafunda&stoken=<%= session[:user_token] %>" width="100%" seamless="seamless" height="800"></iframe>-->
 
-
-<iframe src="http://www.colchian.eu/BOSS_DEMO/BOSSWagering/Sportsbook/InternetBetTaker/?SSC=5959&stoken=<%= session[:user_token] %>" width="100%" seamless="seamless" height="1300" scrolling="no"></iframe>
-
+<% if Rails.env.production? %>
+  <iframe src="http://wagering.lafunda.com.do/BOSSWagering/Sportsbook/InternetBetTaker?siteid=lafunda&stoken=<%= session[:user_token] %>" width="100%" seamless="seamless" height="1300" scrolling="no"></iframe>
+<% else %>
+  <iframe src="http://www.colchian.eu/BOSS_DEMO/BOSSWagering/Sportsbook/InternetBetTaker/?SSC=5959&stoken=<%= session[:user_token] %>" width="100%" seamless="seamless" height="1300" scrolling="no"></iframe>
+<% end %>
 
