@@ -17,6 +17,7 @@ set :user, "deploy"
 set :group, "deployers"
 set :use_sudo, false
 
+set :bundle_flags,    ""
 # Default value for :format is :pretty
 # set :format, :pretty
 
@@ -36,7 +37,7 @@ set :pty, true
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 
 # Default value for keep_releases is 5
-set :keep_releases, 3
+set :keep_releases, 5
 
 
 set :rails_env, "production"
