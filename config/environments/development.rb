@@ -15,19 +15,21 @@ Lafunda::Application.configure do
 
 
   # Don't care if the mailer can't send.
-  config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.raise_delivery_errors = true
 
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
   config.action_mailer.delivery_method = :smtp
 
   config.action_mailer.smtp_settings = {
       :enable_starttls_auto => true,
-      :address => "smtp.gmail.com",
+      :address => "cp20.webhostdominicana.com",
       :port => 587,
-      :domain => "gmail.com",
+      :domain => "lafunda.do",
       :authentication => :login,
-      :user_name => "novajose@gmail.com",
-      :password => "Jrnova_0392810",
+      :user_name => "admin@lafunda.do",
+      :password => "JN809cHp$",
+      openssl_verify_mode: 'none',
+      tls: false
   }
 
   # Print deprecation notices to the Rails logger.

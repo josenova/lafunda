@@ -83,13 +83,16 @@ Lafunda::Application.configure do
 
   config.action_mailer.smtp_settings = {
       :enable_starttls_auto => true,
-      :address => "smtp.gmail.com",
+      :address => "cp20.webhostdominicana.com",
       :port => 587,
-      :domain => "gmail.com",
+      :domain => "lafunda.do",
       :authentication => :login,
-      :user_name => "novajose@gmail.com",
-      :password => "Jrnova_0392810",
+      :user_name => "admin@lafunda.do",
+      :password => "JN809cHp$",
+      openssl_verify_mode: 'none',
+      tls: false
   }
+
 
 
 end

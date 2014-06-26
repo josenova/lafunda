@@ -124,7 +124,6 @@ class User < ActiveRecord::Base
     else
       self.errors.add(:base, @response)
       logger.warn @response
-      return false
     end
   end
 end
