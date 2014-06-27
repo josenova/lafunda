@@ -30,6 +30,7 @@ class ApplicationController < ActionController::Base
     $client = Savon.client(wsdl: 'http://services.colchian.eu/BOSS_DEMO/BOSSWebServices/IncomingIntegrationService/IncomingIntegrationService.svc?wsdl')
   end
 
+
   private
   def set_locale
     I18n.locale = params[:locale] || I18n.default_locale
@@ -38,7 +39,7 @@ class ApplicationController < ActionController::Base
 
   def confirm_logged_in
     unless @current_user
-      flash[:error] = "Please log in."
+      flash[:error] = t('flash.please_log_in')
       redirect_to sign_in_url
     end
   end
@@ -46,6 +47,12 @@ class ApplicationController < ActionController::Base
   def already_logged_in
     redirect_to account_url if @current_user
   end
+
+  def remote_ip
+    request.remote_ip
+    @user_ip = remote_ip
+  end
+
 
 
 end

@@ -1,5 +1,5 @@
-= form_for @user do |f|
-  = render 'error_messages'
+= form_for @current_user do |f|
+  /= render 'error_messages'
 
   = field_set_tag t('views.account') do
     = label :username, t('views.username')
@@ -16,10 +16,10 @@
 
   = field_set_tag t('views.personal') do
     = label :name, t('views.name')
-    = f.text_field :name, :required => true
+    = f.text_field :name, :readonly => true
 
     = label :surname, t('views.surname')
-    = f.text_field :surname, :required => true
+    = f.text_field :surname, :readonly => true
 
     = label :birthday, t('views.date_of_birth')
     = f.date_field :birthday, :readonly => true

@@ -85,6 +85,17 @@ es:
       date: Fecha
       last_update: "Última Actualización"
       opened_tickets: "Tickets Creados"
+    flash:
+      cannot_log_in: "No puedes ingresar en estos momentos."
+      confirm_account: "Debes de confirmar tu cuenta."
+      invalid_combination: "El usuario y/o contraseña son incorrectos."
+      please_log_in: "Debes iniciar tu sesión."  
+      update_succesful: "Tu usuario ha sido actualizado."
+      update_failed: "Error al actualizar el usuario."
+      user_created: "Tu usuario ha sido creado con éxito."
+      user_not_created: "No se ha podido crear el usuario. Favor intenta mas tarde."
+    validate:
+      at_least_8_characters: "debe tener al menos 8 caracteres."
     tooltips:
       must_be_over: "Debes ser mayor de 18 años."
       four_digit_number: "4 dígitos de tu elección."

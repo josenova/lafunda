@@ -5,17 +5,17 @@ class User < ActiveRecord::Base
 
   has_many :inquiries, dependent: :destroy
 
-  before_create :save_in_remote
+  before_create :create_in_remote
 
   before_validation do
-    self.cellphone = cellphone.gsub(/[^0-9]/, '') if cellphone.present?
-    self.identification = identification.gsub(/[^0-9]/, '') if identification.present?
-    self.name = name.downcase.camelize
-    self.surname = surname.downcase.camelize
-    self.email = email.downcase
+    self.cellphone = cellphone.strip.gsub(/[^0-9]/, '') if cellphone.present?
+    self.name = name.strip.downcase.camelize if name.present?
+    self.surname = surname.downcase.camelize if surname.present?
+    self.email = email.strip.downcase if email.present?
+    #self.identification = identification.strip.gsub(/[^0-9]/, '') if identification.present?
   end
 
-  validates_confirmation_of :email
+  #validates_confirmation_of :email
 
 
 #////////////////////////////////////////////////////////////////////////////////////////
@@ -28,10 +28,11 @@ class User < ActiveRecord::Base
 
   validates :username, presence: true,
             uniqueness: { case_sensitive: false },
-            length: {minimum: 5, maximum: 14},
-            format: {with: /\A[-a-z\d_]+\Z/i, message: 'debe contener solo letras, números y guiones.'}
+            length: { minimum: 5, maximum: 14 },
+            format: { with: /\A[-a-z\d_]+\Z/i, message: 'debe contener solo letras, números y guiones.' }
+
   has_secure_password
-  validates :password, length: { minimum: 8, maximum: 120, message: 'debe tener mínimo 8 caracteres.' }, on: :create
+  validates :password, presence: true, length: { minimum: 8, maximum: 120, message: 'debe tener mínimo 8 caracteres.' }, on: :create
   validates :password, length: { minimum: 8, maximum: 120, message: 'debe tener mínimo 8 caracteres.' }, on: :update, allow_blank: true
 
 
@@ -40,10 +41,10 @@ class User < ActiveRecord::Base
             uniqueness: { case_sensitive: false }
 
 
-  validates :name, presence: true, length: { minimum: 2, maximum: 20 }
-  validates :surname, presence: true, length: { minimum: 2, maximum: 20 }
+  validates :name, presence: true, length: { minimum: 2, maximum: 30 }, format: { with: /\A([a-z]+\s)*[a-z]+\Z/i }
+  validates :surname, presence: true, length: { minimum: 2, maximum: 30 }, format: { with: /\A([a-z]+\s)*[a-z]+\Z/i }
   validates :gender, presence: true
-  validates :identification, presence: true, uniqueness: true, numericality: { only_integer: true }, length: { is: 11 }
+  #validates :identification, presence: true, uniqueness: true, numericality: { only_integer: true }, length: { is: 11 }
   validates :birthday, presence: true
   validates :cellphone, presence: true, uniqueness: true, numericality: { only_integer: true }
   validates :city, presence: true
@@ -51,7 +52,6 @@ class User < ActiveRecord::Base
   validates :pin, presence: true, length: { is: 4 }, numericality: { only_integer: true, greater_than: -1 }
 
   validate :at_least_18
-
 
   def at_least_18
     if self.birthday
@@ -63,7 +63,7 @@ class User < ActiveRecord::Base
 
 #////////////////////////////////////////////////////////////////////////////////////////////
 
-  def save_in_remote
+  def create_in_remote
     @request = %Q(
       <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
         <soapenv:Header/>
@@ -115,15 +115,15 @@ class User < ActiveRecord::Base
     if @response.success?
       @response = @response.to_hash
       if @response[:sign_up_player_response][:sign_up_player_result][:error_code] != '0'
-        self.errors.add(:base, @response)
-        logger.warn @response
+        self.errors.add(:base, t('flash.user_not_created'))
+        logger.warn "User could not be created in remote: #{@user.attributes.inspect}, is valid?: #{@user.valid?}"
         return false
       else
         return true
       end
     else
-      self.errors.add(:base, @response)
-      logger.warn @response
+      self.errors.add(:base, t('flash.user_not_created'))
+      logger.warn "Call failed for user create at remote: #{@user.attributes.inspect}"
     end
   end
 end

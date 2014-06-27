@@ -1,6 +1,7 @@
 module SessionsHelper
 
 
+
   private
 
   def current_user

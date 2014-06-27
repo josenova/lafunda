@@ -63,6 +63,17 @@ en:
       date: Date
       last_update: "Last Update"
       opened_tickets: "Opened Tickets"
+    flash:
+      cannot_log_in: "Cannot log in at this time."
+      confirm_account: "Please confirm your account."
+      invalid_combination: "Invalid username/password combination."
+      please_log_in: "Please log in."
+      update_succesful: "Your user has been updated successfully."
+      update_failed: "Could not update user."
+      user_created: "Your user has been created."
+      user_not_created: "Could not create user. Please try again later."
+    validate:
+      at_least_8_characters: "must have at least 8 characters."
     tooltips:
       must_be_over: "You must be over 18 to join."
       four_digit_number: "4-digit number of your choice."
