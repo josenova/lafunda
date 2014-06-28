@@ -1,5 +1,12 @@
 = form_for @current_user do |f|
-  /= render 'error_messages'
+
+  - if @current_user.errors.any?
+    #error_explanation
+      .alert.alert-error
+        The form contains #{pluralize(@current_user.errors.count, "error")}.
+        %ul
+          - @current_user.errors.full_messages.each do |msg|
+            %li= msg
 
   = field_set_tag t('views.account') do
     = label :username, t('views.username')
@@ -7,8 +14,7 @@
 
     = label :email, t('views.email')
     = f.text_field :email, :readonly => true
-  /= f.text_field :username, :required => true, :placeholder => t('views.username'), :readonly => true
-  /= f.email_field :email, :required => true, :placeholder => t('views.email'), :readonly => true
+
   /= f.password_field :password_digest, :required => true, :placeholder => t('views.password'), :disabled => true
   /= f.password_field :password_confirmation, :required => true, :placeholder => t('views.confirm_password')
   /= f.radio_button :gender, 'male', :checked => true

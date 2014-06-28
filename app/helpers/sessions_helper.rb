@@ -24,8 +24,9 @@ module SessionsHelper
       if @response.success?
         @response = @response.to_hash
         if @response[:validate_session_response][:validate_session_result][:error_code] != '0'
+          logger.warn @response
           session[:user_token] = nil
-          sign_out(@current_user)
+          sign_out(@current_user) if @current_user
           @current_user = nil
           flash.now[:error] = 'Your session has expired. Please log in.'
           redirect_to sign_in_url
@@ -34,11 +35,12 @@ module SessionsHelper
           @current_user ||= User.ci_find('username', @response[:validate_session_response][:validate_session_result][:result])
         end
       else
-        flash.now[:error] = @response
+        logger.warn @response if @response
         session[:user_token] = nil
-        sign_out(@current_user)
+        sign_out(@current_user) if @current_user
         @current_user = nil
-        redirect_to root_url
+        flash.now[:error] = 'Cannot sign in. Please try again later.'
+        redirect_to sign_in_url
         return false
       end
     end
@@ -70,8 +72,7 @@ module SessionsHelper
           @current_user_funds ||= sprintf( "%0.02f", @response[:get_funds_response][:get_funds_result][:result])
         end
       else
-        logger.warn @response
-        return false
+        logger.warn @response if @response
       end
     end
   end

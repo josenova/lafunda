@@ -83,7 +83,7 @@ class SessionsController < ApplicationController
       end
     else
       logger.warn 'Response failed for login'
-      logger.warn @response if @response != nil
+      logger.warn @response if @response
       flash.now[:error] = t('flash.cannot_log_in')
       render 'new'
     end
