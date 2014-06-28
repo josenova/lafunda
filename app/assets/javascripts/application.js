@@ -39,12 +39,11 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 	$('#tagarrow').click(function () {
-	  event.preventDefault();
 	  $('#tagmenu').show();
    });
 
 	$(document).mouseup(function() {
-	  		$("#tagmenu").hide();
+	  $("#tagmenu").hide();
    });
 
 });    

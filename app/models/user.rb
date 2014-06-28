@@ -27,13 +27,13 @@ class User < ActiveRecord::Base
   validates :username, presence: true,
             uniqueness: { case_sensitive: false },
             length: { minimum: 5, maximum: 10 },
-            format: { with: /\A[-a-z\d_]+\Z/i, message: 'puede tener solo letras, números y guiones.' }
+            format: { with: /\A[-a-z\d_]+\Z/i }
 
   has_secure_password
-  validates :password, presence: true, length: { minimum: 8, maximum: 120, message: 'debe tener mínimo 8 caracteres.' },
-            format: { with: /\A(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z\d@#$%_-]+\z/, message: 'debe contener una mayúscula, una minúscula y un número. Sin espacios.' }, on: :create
-  validates :password, length: { minimum: 8, maximum: 120, message: 'debe tener mínimo 8 caracteres.' },
-            format: { with: /\A(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z\d@#$%_-]+\z/, message: 'debe contener una mayúscula, una minúscula y un número. Sin espacios.' }, on: :update, allow_blank: true
+  validates :password, presence: true, length: { minimum: 8, maximum: 120 },
+            format: { with: /\A(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z\d@#$%_-]+\z/ }, on: :create
+  validates :password, length: { minimum: 8, maximum: 120 },
+            format: { with: /\A(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z\d@#$%_-]+\z/ }, on: :update, allow_blank: true
 
 
   validates :email, presence:   true,
@@ -41,8 +41,8 @@ class User < ActiveRecord::Base
             uniqueness: { case_sensitive: false }
 
 
-  validates :name, presence: true, length: { minimum: 2, maximum: 30 }, format: { with: /\A([a-z]+\s)*[a-z]+\Z/i, message: 'debe contener solo letras.' }
-  validates :surname, presence: true, length: { minimum: 2, maximum: 30 }, format: { with: /\A([a-z]+\s)*[a-z]+\Z/i, message: 'debe contener solo letras.' }
+  validates :name, presence: true, length: { minimum: 2, maximum: 30 }, format: { with: /\A([a-z]+\s)*[a-z]+\Z/i }
+  validates :surname, presence: true, length: { minimum: 2, maximum: 30 }, format: { with: /\A([a-z]+\s)*[a-z]+\Z/i }
   validates :gender, presence: true
   #validates :identification, presence: true, uniqueness: true, numericality: { only_integer: true }, length: { is: 11 }
   validates :birthday, presence: true
