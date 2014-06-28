@@ -28,7 +28,7 @@ Lafunda::Application.routes.draw do
 
   resources "inquiries", only: [:new, :create, :show]
   resources "users", only: [:create, :update]
-  resources "sessions", only: [:new, :create, :destroy]
+  resources "sessions", only: [:new, :create]
 
 
   #get "welcome/index"

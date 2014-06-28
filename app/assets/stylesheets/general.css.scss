@@ -539,13 +539,13 @@ legend {
   font-weight: normal;
   text-align: right;
   padding: 0 1.315% 0;
-  text-transform: capitalize;
+  text-transform: initial;
   margin:0 0 10px;
 }
 
 
 .left input {
-  border: 1px solid #444;
+  border: 1px solid #bbb;
   padding: 3px 5px;
   background: #eee;
   width: 40%;
@@ -599,6 +599,7 @@ legend {
   height:30px;
   margin:0;
   font-size:0.8125em;
+  border:1px solid #444;
 }
 
 .left input[readonly="readonly"] {
@@ -667,6 +668,18 @@ legend {
 
 .disabled:hover {
   cursor:default;
+}
+
+/******************************************************************* FORMS ERRORS *******************************************************************************/
+
+.field_with_errors input {
+  border-width: 1px;
+  border-color: #ae6f6f;
+}
+
+.field_with_errors label {
+  color: #ae4f50;
+  font-style: italic;
 }
 
 /****************************************************************** FONT FACE **************************************************************************************/

@@ -76,5 +76,12 @@ en:
       at_least_8_characters: "must have at least 8 characters."
     tooltips:
       must_be_over: "You must be over 18 to join."
-      four_digit_number: "4-digit number of your choice."
+      four_digit_number: "4-digit number of your choice."	  
+    activerecord:
+      errors:
+        models:
+          user:
+            attributes:
+              terms_of_service:
+                accepted: "must be agreed upon to create your account."
 

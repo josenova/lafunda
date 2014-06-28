@@ -26,7 +26,7 @@ class User < ActiveRecord::Base
 
   validates :username, presence: true,
             uniqueness: { case_sensitive: false },
-            length: { minimum: 5, maximum: 14 },
+            length: { minimum: 5, maximum: 10 },
             format: { with: /\A[-a-z\d_]+\Z/i, message: 'puede tener solo letras, números y guiones.' }
 
   has_secure_password
@@ -50,6 +50,9 @@ class User < ActiveRecord::Base
   validates :city, presence: true
 
   validates :pin, presence: true, length: { is: 4 }, numericality: { only_integer: true, greater_than: -1 }
+
+
+  validates :terms_of_service, acceptance: true, :allow_nil => false, :on => :create
 
   validate :at_least_18
 

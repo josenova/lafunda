@@ -11,15 +11,35 @@
 }
 
 #gender label {
-  width:25%;
-  margin:0;
+  width: 43%;
+  margin: 0;
+  text-align: center;
+  float:right;
 }
 
 #gender input[type="radio"] {
-  width: 25%;
+  width: 7%;
   margin: 0;
   overflow: hidden;
   display: block;
+  float:right;
+}
+
+.terms {
+  margin: 0 30% 12px 30%;
+  font-size: 0.9375em;
+  font-style: italic;
+}
+
+#user_terms_of_service {
+  width:6%;
+  margin:0;
+}
+
+.terms label {
+  width: 94%;
+  text-align: left;
+  padding-left: 2.1289%;
 }
 
 /*

@@ -98,7 +98,14 @@ es:
       at_least_8_characters: "debe tener al menos 8 caracteres."
     tooltips:
       must_be_over: "Debes ser mayor de 18 años."
-      four_digit_number: "4 dígitos de tu elección."
+      four_digit_number: "4 dígitos de tu elección."  
+    activerecord:
+      errors:
+        models:
+          user:
+            attributes:
+              terms_of_service:
+                accepted: "- debes aceptar nuestros términos y condiciones para crear tu cuenta."
 
 
       
