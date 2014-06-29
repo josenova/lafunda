@@ -3,10 +3,12 @@
 es:
   devise:
     confirmations:
-      user:	
-        confirmed: "Tu cuenta ha sido confirmada."
-        send_instructions: "You will receive an email with instructions about how to confirm your account in a few minutes."
-        send_paranoid_instructions: "If your email address exists in our database, you will receive an email with instructions about how to confirm your account in a few minutes."
+      confirmed: "Tu cuenta ha sido confirmada."
+      send_instructions: "En los próximos minutos recibirás un email con las instrucciones para confirmar tu cuenta."
+      send_paranoid_instructions: "Si tu email existe en nuestra base de datos recibirás un email con las instrucciones para confirmar tu cuenta."
+      pending_confirmation: "Confirmación pendiente"
+      please_confirm: "Por favor confirma tu cuenta haciendo clic en el vínculo enviado a tu email."
+      wish_to_resend: "si deseas reenviar el email de confirmación."
     failure:
       already_authenticated: "You are already signed in."
       inactive: "Your account is not activated yet."
@@ -18,7 +20,7 @@ es:
       unauthenticated: "You need to sign in or sign up before continuing."
       unconfirmed: "You have to confirm your account before continuing."
     mailer:
-      resend_confirmation_instructions: "Reenviar email para confirmar cuenta"
+      resend_confirmation_instructions: "Reenviar token para confirmar cuenta"
       confirmation_instructions:
         subject: "Confirmation instructions"
       reset_password_instructions:
@@ -51,7 +53,7 @@ es:
       unlocked: "Your account has been unlocked successfully. Please sign in to continue."
   errors:
     messages:
-      already_confirmed: "was already confirmed, please try signing in"
+      already_confirmed: "ya confirmado, intenta iniciando sesión."
       confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
       expired: "has expired, please request a new one"
       not_found: "not found"

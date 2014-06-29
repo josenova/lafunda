@@ -6,6 +6,9 @@ en:
       confirmed: "Your account was successfully confirmed."
       send_instructions: "You will receive an email with instructions about how to confirm your account in a few minutes."
       send_paranoid_instructions: "If your email address exists in our database, you will receive an email with instructions about how to confirm your account in a few minutes."
+      pending_confirmation: "Pending confirmation"
+      please_confirm: "Please confirm your email address by clicking on the link that was emailed to you."
+      wish_to_resend: "if you wish to resend the confirmation email."
     failure:
       already_authenticated: "You are already signed in."
       inactive: "Your account is not activated yet."

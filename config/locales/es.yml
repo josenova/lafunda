@@ -87,6 +87,7 @@ es:
       opened_tickets: "Tickets Creados"
       male: Masculino
       female: Femenino
+      click_here: "Clic aquí"
     flash:
       cannot_log_in: "No puedes ingresar en estos momentos."
       confirm_account: "Debes de confirmar tu cuenta."
@@ -127,7 +128,9 @@ es:
                 wrong_length: "- tu pin debe ser de 4 dígitos."
               terms_of_service:
                 accepted: "- debes aceptar nuestros términos y condiciones para crear tu cuenta."
-
+              confirmation_token:
+                blank: "inválido."
+                invalid: "inválido."
 
       
 

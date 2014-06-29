@@ -31,9 +31,9 @@ class User < ActiveRecord::Base
 
   has_secure_password
   validates :password, presence: true, length: { minimum: 8, maximum: 120 },
-            format: { with: /\A(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z\d@#$%_-]+\z/ }, on: :create
+            on: :create #format: { with: /\A(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z\d@#$%_-]+\z/ },
   validates :password, length: { minimum: 8, maximum: 120 },
-            format: { with: /\A(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z\d@#$%_-]+\z/ }, on: :update, allow_blank: true
+            on: :update, allow_blank: true #format: { with: /\A(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z\d@#$%_-]+\z/ },
 
 
   validates :email, presence: true, length: { maximum: 60 },
