@@ -95,7 +95,7 @@ es:
       update_succesful: "Tu usuario ha sido actualizado."
       update_failed: "Error al actualizar el usuario."
       user_created: "Tu usuario ha sido creado con éxito."
-      user_not_created: "No se ha podido crear el usuario. Favor intenta más tarde."
+      user_not_created: "No se ha podido crear el usuario."
     validate:
       at_least_8_characters: "debe tener al menos 8 caracteres."
     tooltips:
@@ -106,11 +106,25 @@ es:
         models:
           user:
             attributes:
+              username:
+                too_long: "- tu usuario no debe tener más de 10 caracteres."
+                too_short: "- tu usuario debe tener mínimo 5 caracteres."
+              name: 
+                too_short: "- nombre inválido."
+              surname:
+                too_short: "- apellido inválido."
               password:
                 invalid: "- tu contraseña debe contener una mayúscula, una minúscula y un número. Sin espacios."
                 too_short: "- tu contraseña debe tener mínimo 8 caracteres."
               password_confirmation: 
                 confirmation: "- tus contraseñas no coinciden."
+              birthdate:
+                must_be_over: "- debes ser mayor de 18 años."
+              cellphone:
+                too_short: "- número de celular inválido."
+                too_long: "- número de celular inválido."
+              pin:
+                wrong_length: "- tu pin debe ser de 4 dígitos."
               terms_of_service:
                 accepted: "- debes aceptar nuestros términos y condiciones para crear tu cuenta."
 

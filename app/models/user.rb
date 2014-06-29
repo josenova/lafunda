@@ -36,7 +36,7 @@ class User < ActiveRecord::Base
             format: { with: /\A(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z\d@#$%_-]+\z/ }, on: :update, allow_blank: true
 
 
-  validates :email, presence:   true,
+  validates :email, presence: true, length: { maximum: 60 },
             format:     { with: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i },
             uniqueness: { case_sensitive: false }
 
@@ -47,7 +47,7 @@ class User < ActiveRecord::Base
   #validates :identification, presence: true, uniqueness: true, numericality: { only_integer: true }, length: { is: 11 }
   validates :birthday, presence: true
   validates :cellphone, presence: true, uniqueness: true, numericality: { only_integer: true }, length: { minimum: 10, maximum: 11}
-  validates :city, presence: true
+  validates :city, presence: true, length: { maximum: 30}
 
   validates :pin, presence: true, length: { is: 4 }, numericality: { only_integer: true, greater_than: -1 }
 
@@ -58,7 +58,7 @@ class User < ActiveRecord::Base
 
   def at_least_18
     if self.birthday
-      errors.add(:birthday, 'You must be 18 years or older.') if self.birthday > 18.years.ago.to_date
+      errors.add(:birthday, I18n.t('activerecord.errors.models.user.attributes.birthdate.must_be_over')) if self.birthday > 18.years.ago.to_date
     end
   end
 

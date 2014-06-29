@@ -34,7 +34,16 @@
       <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1834" selection-end="1834" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312">
+            <state line="46" column="51" selection-start="2178" selection-end="2178" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../app/controllers/users_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="120" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.69789475" vertical-offset="0" max-vertical-offset="1037">
               <folding />
             </state>
           </provider>
@@ -49,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schema.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="42" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.46526316" vertical-offset="0" max-vertical-offset="1122">
+            <state line="26" column="42" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1122">
               <folding />
             </state>
           </provider>
@@ -132,11 +141,11 @@
         <option value="$PROJECT_DIR$/../app/views/sessions/_sign_in_form.html.haml" />
         <option value="$PROJECT_DIR$/routes.rb" />
         <option value="$PROJECT_DIR$/initializers/devise.rb" />
-        <option value="$PROJECT_DIR$/../app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/../app/assets/stylesheets/users.css.scss" />
         <option value="$PROJECT_DIR$/../app/views/users/_register_form.html.haml" />
-        <option value="$PROJECT_DIR$/../app/models/user.rb" />
         <option value="$PROJECT_DIR$/environments/development.rb" />
+        <option value="$PROJECT_DIR$/../app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/../app/models/user.rb" />
       </list>
     </option>
   </component>
@@ -236,7 +245,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -539,30 +548,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="54" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1751">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../app/views/sessions/_sign_in_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="34" selection-start="363" selection-end="363" vertical-scroll-proportion="0.14718615" vertical-offset="0" max-vertical-offset="924">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/initializers/devise.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="114" column="36" selection-start="6524" selection-end="6524" vertical-scroll-proportion="2.04" vertical-offset="0" max-vertical-offset="4454">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="113" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.9126316" vertical-offset="0" max-vertical-offset="1071">
           <folding />
         </state>
       </provider>
@@ -598,13 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1834" selection-end="1834" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../app/controllers/sessions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="0" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2210">
@@ -614,7 +595,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="42" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.46526316" vertical-offset="0" max-vertical-offset="1122">
+        <state line="26" column="42" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="54" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1751">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/views/sessions/_sign_in_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="34" selection-start="363" selection-end="363" vertical-scroll-proportion="0.14718615" vertical-offset="0" max-vertical-offset="924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="51" selection-start="2178" selection-end="2178" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="2312">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="120" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.69789475" vertical-offset="0" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>

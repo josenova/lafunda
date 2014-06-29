@@ -73,7 +73,7 @@ en:
       update_succesful: "Your user has been updated successfully."
       update_failed: "Could not update user."
       user_created: "Your user has been created."
-      user_not_created: "Could not create user. Please try again later."
+      user_not_created: "Could not create user."
     validate:
       at_least_8_characters: "must have at least 8 characters."
     tooltips:
@@ -84,6 +84,28 @@ en:
         models:
           user:
             attributes:
+              username:
+                too_long: "must have at least 5 characters."
+                too_short: "cant have more than 10 characters."
+              name: 
+                too_short: "is too short."
+              surname:
+                too_short: "is too short."
+              password:
+                invalid: "must have at least one lower case letter, one uppercase letter and a number. No spaces allowed."
+                too_short: "must have at least 8 characters."
+              password_confirmation: 
+                confirmation: "does not match."
+              birthdate:
+                must_be_over: "must be over 18 years old."
+              cellphone:
+                too_short: "number is too short."
+                too_long: "number is too long."
+              pin:
+                wrong_length: "your pin must have 4 digits."
               terms_of_service:
-                accepted: "must be agreed upon to create your account."
+                accepted: "must be agreed upon."
+
+
+      
 
