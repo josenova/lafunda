@@ -16,8 +16,9 @@ class UsersController < ApplicationController
         format.html { redirect_to pending_confirmation_url, notice: t('flash.user_created') }
         #format.json { render action: 'show', status: :created, location: @user }
       else
-        format.html { render action: 'new', error: t('flash.user_not_created') }
+        format.html { render action: 'new' }
         logger.warn "User could not be created: #{@user.attributes.inspect}, is valid?: #{@user.valid?}"
+        flash.now[:error] = t('flash.user_not_created')
         #format.json { render json: @user.errors, status: :unprocessable_entity }
       end
     end
@@ -36,8 +37,9 @@ class UsersController < ApplicationController
         format.html { redirect_to account_url, notice: t('flash.update_succesful') }
         #format.json { head :no_content }
       else
-        format.html { render action: 'edit', error: t('flash.update_failed') }
+        format.html { render action: 'edit' }
         logger.warn "User could not be updated: #{@current_user.attributes.inspect}, is valid?: #{@current_user.valid?}"
+        flash.now[:error] =  t('flash.update_failed')
         #format.json { render json: @current_user.errors, status: :unprocessable_entity }
       end
     end
@@ -47,7 +49,7 @@ class UsersController < ApplicationController
   private
   # Never trust parameters from the scary internet, only allow the white list through.
   def user_params
-    params.require(:user).permit(:username, :password, :password_confirmation, :email, :name, :surname, :identification, :birthday, :cellphone, :pin, :gender, :city, :terms_of_service)
+    params.require(:user).permit(:username, :password, :password_confirmation, :email, :name, :surname, :gender, :birthday, :cellphone, :pin, :city, :terms_of_service)
   end
 
 

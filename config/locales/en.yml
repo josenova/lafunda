@@ -63,6 +63,8 @@ en:
       date: Date
       last_update: "Last Update"
       opened_tickets: "Opened Tickets"
+      male: Male
+      female: Female
     flash:
       cannot_log_in: "Cannot log in at this time."
       confirm_account: "Please confirm your account."

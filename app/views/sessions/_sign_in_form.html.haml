@@ -1,9 +1,9 @@
 = form_tag sessions_path do
   = label :username, t('views.username')
-  = text_field_tag :username, params[:username], :required => true, :autofocus => true
+  = text_field_tag :username, params[:username], :required => true, :autofocus => (true unless flash[:error])
 
   = label :password, t('views.password')
-  = password_field_tag :password, nil, :required => true
+  = password_field_tag :password, nil, :required => true, :autofocus => (true if flash[:error])
 
   .buttons
     = submit_tag t('views.log_in')

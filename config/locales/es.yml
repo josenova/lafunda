@@ -85,6 +85,8 @@ es:
       date: Fecha
       last_update: "Última Actualización"
       opened_tickets: "Tickets Creados"
+      male: Masculino
+      female: Femenino
     flash:
       cannot_log_in: "No puedes ingresar en estos momentos."
       confirm_account: "Debes de confirmar tu cuenta."
@@ -93,7 +95,7 @@ es:
       update_succesful: "Tu usuario ha sido actualizado."
       update_failed: "Error al actualizar el usuario."
       user_created: "Tu usuario ha sido creado con éxito."
-      user_not_created: "No se ha podido crear el usuario. Favor intenta mas tarde."
+      user_not_created: "No se ha podido crear el usuario. Favor intenta más tarde."
     validate:
       at_least_8_characters: "debe tener al menos 8 caracteres."
     tooltips:
@@ -104,6 +106,11 @@ es:
         models:
           user:
             attributes:
+              password:
+                invalid: "- tu contraseña debe contener una mayúscula, una minúscula y un número. Sin espacios."
+                too_short: "- tu contraseña debe tener mínimo 8 caracteres."
+              password_confirmation: 
+                confirmation: "- tus contraseñas no coinciden."
               terms_of_service:
                 accepted: "- debes aceptar nuestros términos y condiciones para crear tu cuenta."
 

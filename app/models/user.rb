@@ -1,7 +1,7 @@
 class User < ActiveRecord::Base
   # Include default devise modules. Others available are:
   # :timeoutable, :rememberable, :validatable and :omniauthable, :registerable, :database_authenticatable, :recoverable
-  devise  :confirmable, :trackable, :lockable
+  devise :confirmable, :trackable, :lockable
 
   has_many :inquiries, dependent: :destroy
 
@@ -118,15 +118,13 @@ class User < ActiveRecord::Base
     if @response.success?
       @response = @response.to_hash
       if @response[:sign_up_player_response][:sign_up_player_result][:error_code] != '0'
-        self.errors.add(:base, t('flash.user_not_created'))
-        logger.warn "User could not be created in remote: #{@user.attributes.inspect}, is valid?: #{@user.valid?}, response: #{@response}"
+        logger.warn "User could not be created in remote: response: #{@response}"
         return false
       else
         return true
       end
     else
-      self.errors.add(:base, t('flash.user_not_created'))
-      logger.warn "Call failed for user create at remote: #{@user.attributes.inspect}"
+      logger.warn "Call failed for user create at remote: Response was unsuccessful."
     end
   end
 end

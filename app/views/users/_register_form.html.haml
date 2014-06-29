@@ -17,13 +17,6 @@
   = f.label :password_confirmation, t('views.confirm_password')
   = f.password_field :password_confirmation, :required => true
 
-  = label :gender, t('views.gender')
-  #gender
-    = f.radio_button :gender, false
-    = f.label :false, 'Female'
-    = f.radio_button :gender, true
-    = f.label :true, 'Male'
-
 
   %br
   = field_set_tag t('views.personal') do
@@ -32,6 +25,13 @@
 
     = f.label :surname, t('views.surname')
     = f.text_field :surname, :required => true
+
+    = f.label :gender, t('views.gender')
+    #gender
+      = f.radio_button :gender, false
+      = f.label :false, t('views.female')
+      = f.radio_button :gender, true
+      = f.label :true, t('views.male')
 
     /= label :identification, t('views.identification')
     /= f.text_field :identification, :required => true, :placeholder => '001-2345678-9'
@@ -45,6 +45,7 @@
 
     = f.label :city, t('views.city')
     = f.text_field :city, :required => true
+
 
   %br
   = field_set_tag t('views.security') do
