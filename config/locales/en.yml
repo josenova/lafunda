@@ -71,6 +71,7 @@ en:
       male: Male
       female: Female
       click_here: "Click here"
+      form_errors: "The form contains errors."
     flash:
       cannot_log_in: "Cannot log in at this time."
       confirm_account: "Please confirm your account."
@@ -93,6 +94,8 @@ en:
               username:
                 too_long: "must have at least 5 characters."
                 too_short: "cant have more than 10 characters."
+              email:
+                taken: "is already in use."
               name: 
                 too_short: "is too short."
               surname:

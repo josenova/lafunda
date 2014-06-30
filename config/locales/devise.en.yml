@@ -9,6 +9,7 @@ en:
       pending_confirmation: "Pending confirmation"
       please_confirm: "Please confirm your email address by clicking on the link that was emailed to you."
       wish_to_resend: "if you wish to resend the confirmation email."
+      confirm_my_account: "Confirm my account"
     failure:
       already_authenticated: "You are already signed in."
       inactive: "Your account is not activated yet."
@@ -22,7 +23,7 @@ en:
     mailer:
       resend_confirmation_instructions: "Resend confirmation instructions"
       confirmation_instructions:
-        subject: "Confirmation instructions"
+        subject: "Confirmation instructions for La Funda"
       reset_password_instructions:
         subject: "Reset password instructions"
       unlock_instructions:

@@ -93,6 +93,7 @@ es:
       male: Masculino
       female: Femenino
       click_here: "Clic aquí"
+      form_errors: "El formulario contiene errores."
     flash:
       cannot_log_in: "No puedes ingresar en estos momentos."
       confirm_account: "Debes de confirmar tu cuenta."
@@ -115,6 +116,8 @@ es:
               username:
                 too_long: "- tu usuario no debe tener más de 10 caracteres."
                 too_short: "- tu usuario debe tener mínimo 5 caracteres."
+              email:
+                taken: "- ya está en uso."
               name: 
                 too_short: "- nombre inválido."
               surname:

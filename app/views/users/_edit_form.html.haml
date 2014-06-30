@@ -3,7 +3,7 @@
   - if @current_user.errors.any?
     #error_explanation
       .alert.alert-error
-        The form contains #{pluralize(@current_user.errors.count, "error")}.
+        = t('views.form_errors')
         %ul
           - @current_user.errors.full_messages.each do |msg|
             %li= msg

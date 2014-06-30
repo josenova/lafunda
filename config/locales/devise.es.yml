@@ -9,6 +9,7 @@ es:
       pending_confirmation: "Confirmación pendiente"
       please_confirm: "Por favor confirma tu cuenta haciendo clic en el vínculo enviado a tu email."
       wish_to_resend: "si deseas reenviar el email de confirmación."
+      confirm_my_account: "Confirmar mi cuenta"
     failure:
       already_authenticated: "You are already signed in."
       inactive: "Your account is not activated yet."
@@ -22,7 +23,7 @@ es:
     mailer:
       resend_confirmation_instructions: "Reenviar token para confirmar cuenta"
       confirmation_instructions:
-        subject: "Confirmation instructions"
+        subject: "Confirma tu cuenta en La Funda"
       reset_password_instructions:
         subject: "Reset password instructions"
       unlock_instructions:
