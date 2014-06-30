@@ -22,10 +22,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="48" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.7157895" vertical-offset="0" max-vertical-offset="2312">
+            <state line="40" column="48" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../app/views/sport_games/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="178" selection-start="416" selection-end="416" vertical-scroll-proportion="0.07359307" vertical-offset="0" max-vertical-offset="924">
               <folding />
             </state>
           </provider>
@@ -109,8 +118,6 @@
         <option value="$PROJECT_DIR$/deploy/production.rb" />
         <option value="$PROJECT_DIR$/../app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/../app/views/welcome/_homebox.html.erb" />
-        <option value="$PROJECT_DIR$/../app/views/sport_games/index.html.erb" />
-        <option value="$PROJECT_DIR$/../app/views/race_games/index.html.erb" />
         <option value="$PROJECT_DIR$/../app/assets/stylesheets/pages.css.scss" />
         <option value="$PROJECT_DIR$/deploy.rb" />
         <option value="$PROJECT_DIR$/../Gemfile" />
@@ -155,6 +162,8 @@
         <option value="$PROJECT_DIR$/../app/views/devise/mailer/confirmation_instructions.html.erb" />
         <option value="$PROJECT_DIR$/environments/production.rb" />
         <option value="$PROJECT_DIR$/../app/models/user.rb" />
+        <option value="$PROJECT_DIR$/../app/views/race_games/index.html.erb" />
+        <option value="$PROJECT_DIR$/../app/views/sport_games/index.html.erb" />
       </list>
     </option>
   </component>
@@ -254,7 +263,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -296,20 +305,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/deploy/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="27" selection-start="1607" selection-end="1607" vertical-scroll-proportion="0.8947368" vertical-offset="0" max-vertical-offset="1156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/environments/test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
@@ -604,13 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../app/controllers/inquiries_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="0" selection-start="1759" selection-end="1759" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
@@ -646,9 +634,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../app/controllers/inquiries_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/views/race_games/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="182" selection-start="214" selection-end="214" vertical-scroll-proportion="0.036796536" vertical-offset="0" max-vertical-offset="924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="48" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.7157895" vertical-offset="0" max-vertical-offset="2312">
+        <state line="40" column="48" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/views/sport_games/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="178" selection-start="416" selection-end="416" vertical-scroll-proportion="0.07359307" vertical-offset="0" max-vertical-offset="924">
           <folding />
         </state>
       </provider>
