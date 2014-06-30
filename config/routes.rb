@@ -23,6 +23,10 @@ Lafunda::Application.routes.draw do
   get "sign_in" => 'sessions#new'
   get "sign_out" => 'sessions#destroy'
 
+  #Transactions
+  get "deposit" => 'transactions#deposit'
+  get "withdraw" => 'transactions#withdraw'
+
   #Support
   get "support" => 'inquiries#index'
 

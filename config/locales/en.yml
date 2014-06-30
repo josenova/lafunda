@@ -58,8 +58,13 @@ en:
       log_in: "Log In"
       help: Help
       open_ticket: "Open Ticket"
+      support_ticket: "Support Ticket"
+      ticket_created: "Ticket was successfully created."
+      ticket_failed: "Could not create ticket."
       subject: Subject
       status: Status
+      open: Open
+      closed: Closed
       date: Date
       last_update: "Last Update"
       opened_tickets: "Opened Tickets"

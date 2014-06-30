@@ -17,8 +17,8 @@ class UsersController < ApplicationController
         #format.json { render action: 'show', status: :created, location: @user }
       else
         format.html { render action: 'new', error: t('flash.user_not_created') }
-        logger.warn "User could not be created: #{@user.attributes.inspect}, is valid?: #{@user.valid?}"
         #format.json { render json: @user.errors, status: :unprocessable_entity }
+        logger.warn "User could not be created: #{@user.attributes.inspect}, is valid?: #{@user.valid?}"
       end
     end
   end

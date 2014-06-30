@@ -3,9 +3,9 @@ module InquiriesHelper
 
   def get_status(status)
     if status
-      'Abierto'
+      t('views.open')
     else
-      'Cerrado'
+      t('views.closed')
     end
   end
 

@@ -1,15 +1,24 @@
 class PagesController < ApplicationController
-  def contact
+
+  before_action :already_logged_in, only: [:confirm]
+  before_action :confirm_logged_in, only: [:community]
+
+  def faq
+  end
+
+  def privacy
   end
 
   def terms
   end
 
-  def community
+  def responsible
+  end
 
+  def community
   end
 
   def confirm
-
   end
+
 end

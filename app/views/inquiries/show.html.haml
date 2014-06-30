@@ -1,1 +1,18 @@
-%h1 Ticket #
+%h1 Ticket ##{@inquiry.id}
+
+%h3= @inquiry.subject
+
+%table
+  %tr
+    %td= t('views.date')
+    %td= t('views.status')
+    %td= t('views.last_update')
+  %tr
+    %td= @inquiry.created_at.strftime("%d/%m/%Y")
+    %td.status= get_status(@inquiry.status)
+    %td= @inquiry.updated_at.strftime("%d/%m/%Y %H:%M:%S")
+
+
+%p= @inquiry.message
+
+= link_to 'Responder', "#", :class => 'button'

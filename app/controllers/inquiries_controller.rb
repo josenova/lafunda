@@ -1,6 +1,6 @@
 class InquiriesController < ApplicationController
 
-  before_action :confirm_logged_in, only: [:new, :create]
+  before_action :confirm_logged_in, only: [:new, :create, :show]
   before_action :set_inquiries, only: [:index]
 
   def new
@@ -12,11 +12,12 @@ class InquiriesController < ApplicationController
     @inquiry.user = @current_user
     respond_to do |format|
       if @inquiry.save
-        format.html { redirect_to support_url, notice: 'Ticket was successfully created.' }
-        format.json { render action: 'show', status: :created, location: @inquiry }
+        format.html { redirect_to support_url, notice: t('views.ticket_created') }
+        #format.json { render action: 'show', status: :created, location: @inquiry }
       else
-        format.html { render action: 'new', error: 'Could not create ticket.' }
-        format.json { render json: @inquiry.errors, status: :unprocessable_entity }
+        format.html { render action: 'new', error: t('views.ticket_failed') }
+        #format.json { render json: @inquiry.errors, status: :unprocessable_entity }
+        logger.warn "Ticket could not be created: #{@inquiry.attributes.inspect}, is valid?: #{@inquiry.valid?}"
       end
     end
   end
@@ -26,7 +27,7 @@ class InquiriesController < ApplicationController
   end
 
   def show
-
+    @inquiry = Inquiry.find(params[:id])
   end
 
 

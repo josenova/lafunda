@@ -79,9 +79,14 @@ es:
       have_an_account?: "¿Ya tienes una cuenta?"
       click_to_sign_in: "Clic aquí para iniciar sesión."
       help: Ayuda
-      open_ticket: "Crear un Ticket"
+      open_ticket: "Abre un Ticket"
+      support_ticket: "Ticket de Soporte"
+      ticket_created: "El ticket fue creado con éxito."
+      ticket_failed: "El ticket no se pudo crear."
       subject: Asunto
-      status: Estatus
+      status: Estado
+      open: Abierto
+      closed: Cerrado
       date: Fecha
       last_update: "Última Actualización"
       opened_tickets: "Tickets Creados"

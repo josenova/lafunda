@@ -21,33 +21,32 @@
         %p Debes iniciar sesión para crear un ticket de soporte.
         .disabled= t('views.open_ticket')
 
-
 %br
 %br
 
 - if @current_user
   %h2= t('views.opened_tickets')
-  %table{:id => "tickets"}
+  %table{:id => "tickets", :cellpadding => 0, :cellspacing => 0}
     %tr{:class => "tabletop"}
       %td= t('views.date')
       %td= t('views.subject')
       %td= t('views.status')
       %td= t('views.last_update')
-      %td ver
+      %td .
     - if @user_inquiries.exists?
       - @user_inquiries.order("created_at desc").each do |ticket|
         %tr{:class => cycle('odd', 'even')}
-          %td= ticket.created_at
-          %td= ticket.subject
-          %td= get_status(ticket.status)
-          %td= ticket.updated_at
-          %td= link_to 'ver', ticket
+          %td= ticket.created_at.strftime("%d/%m/%Y")
+          %td= link_to ticket.subject, ticket
+          %td.status= get_status(ticket.status)
+          %td= ticket.updated_at.strftime("%d/%m/%Y %H:%M:%S")
+          %td= link_to 'ver ticket', ticket, :class => "see_ticket"
     - else
-      %td No has creado ningun ticket de soporte.
+      %tr
+        %td#none No has creado ningun ticket de soporte.
 
 
-%br
-%br
+
 %h2= t('views.faq')
 .accordion
   %h4 ¿Cómo registro un nuevo usuario?

@@ -4,6 +4,7 @@ class User < ActiveRecord::Base
   devise :confirmable, :trackable, :lockable
 
   has_many :inquiries, dependent: :destroy
+  has_many :transactions, dependent: :destroy
 
   before_create :create_in_remote
 
