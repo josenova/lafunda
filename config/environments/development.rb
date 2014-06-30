@@ -44,5 +44,5 @@ Lafunda::Application.configure do
   config.assets.debug = true
 
   # Set to :debug to see everything in the log.
-  config.log_level = :info
+  config.log_level = :warn
 end

@@ -28,6 +28,7 @@ class InquiriesController < ApplicationController
 
   def show
     @inquiry = Inquiry.find(params[:id])
+    @entry = Entry.new
   end
 
 

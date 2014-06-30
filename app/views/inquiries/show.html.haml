@@ -15,4 +15,14 @@
 
 %p= @inquiry.message
 
-= link_to 'Responder', "#", :class => 'button'
+
+= form_for @entry do |f|
+
+  = f.label :message, t('views.message')
+  = f.text_area :message
+
+  = f.hidden_field :inquiry_id, :value => @inquiry.id
+
+  .buttons
+    = f.submit t('views.submit')
+
