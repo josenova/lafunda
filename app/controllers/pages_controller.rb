@@ -21,4 +21,10 @@ class PagesController < ApplicationController
   def confirm
   end
 
+  def deposit
+  end
+
+  def withdraw
+  end
+
 end

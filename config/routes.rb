@@ -15,6 +15,8 @@ Lafunda::Application.routes.draw do
   get "responsible" => 'pages#responsible'
   get "community" => 'pages#community'
   get "pending_confirmation" => 'pages#confirm'
+  get "deposit" => 'pages#deposit'
+  get "withdraw" => 'pages#withdraw'
 
   #Users and Sessions
   get "register" => 'users#new'
@@ -22,10 +24,6 @@ Lafunda::Application.routes.draw do
   get "account/edit" => 'users#edit', as: :edit_account
   get "sign_in" => 'sessions#new'
   get "sign_out" => 'sessions#destroy'
-
-  #Transactions
-  get "deposit" => 'transactions#deposit'
-  get "withdraw" => 'transactions#withdraw'
 
   #Support
   get "support" => 'inquiries#index'
