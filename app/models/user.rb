@@ -9,8 +9,8 @@ class User < ActiveRecord::Base
 
   before_validation do
     self.cellphone = cellphone.strip.gsub(/[^0-9]/, '') if cellphone.present?
-    self.name = name.strip.downcase.camelize if name.present?
-    self.surname = surname.strip.downcase.camelize if surname.present?
+    self.name = name.strip.downcase.split.map(&:capitalize).join(" ") if name.present?
+    self.surname = surname.strip.downcase.split.map(&:capitalize).join(" ") if surname.present?
     self.email = email.strip.downcase if email.present?
     self.city = city.strip.downcase.camelize if city.present?
     #self.identification = identification.strip.gsub(/[^0-9]/, '') if identification.present?
@@ -35,7 +35,7 @@ class User < ActiveRecord::Base
   validates :password, length: { minimum: 8, maximum: 120 },
             format: { with: /\A(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z\d@$#%_-]+\z/ }, on: :update, allow_blank: true
 
-  validates :email, presence: true, length: { maximum: 60 },
+  validates :email, presence: true, length: { maximum: 50 },
             format:     { with: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i },
             uniqueness: { case_sensitive: false }
 
