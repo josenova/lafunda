@@ -35,11 +35,9 @@ class User < ActiveRecord::Base
   validates :password, length: { minimum: 8, maximum: 120 },
             format: { with: /\A(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z\d@$#%_-]+\z/ }, on: :update, allow_blank: true
 
-
   validates :email, presence: true, length: { maximum: 60 },
             format:     { with: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i },
             uniqueness: { case_sensitive: false }
-
 
   validates :name, presence: true, length: { minimum: 2, maximum: 30 }, format: { with: /\A([a-z]+\s)*[a-z]+\Z/i }
   validates :surname, presence: true, length: { minimum: 2, maximum: 30 }, format: { with: /\A([a-z]+\s)*[a-z]+\Z/i }

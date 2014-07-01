@@ -94,6 +94,7 @@ es:
       female: Femenino
       click_here: "Clic aquí"
       form_errors: "El formulario contiene errores."
+      accept_terms: "Acepto los Términos y Condiciones."
     flash:
       cannot_log_in: "No puedes ingresar en estos momentos."
       confirm_account: "Debes de confirmar tu cuenta."

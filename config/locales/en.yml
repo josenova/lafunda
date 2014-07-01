@@ -72,6 +72,9 @@ en:
       female: Female
       click_here: "Click here"
       form_errors: "The form contains errors."
+      accept_terms: "I agree with the Terms and Conditions"
+      faq: FAQ
+      terms_and_conditions: "Terms and Conditions"
     flash:
       cannot_log_in: "Cannot log in at this time."
       confirm_account: "Please confirm your account."

@@ -26,16 +26,28 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="10" selection-start="1523" selection-end="1523" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1207">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="5" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.55473685" vertical-offset="510" max-vertical-offset="1870">
+            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1904">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="general.css.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/general.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.425" vertical-offset="0" max-vertical-offset="13039">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -44,7 +56,8 @@
       <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/deploy/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="69" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+            <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1156">
+              <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -60,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/locales/es.erb" />
         <option value="$PROJECT_DIR$/app/views/users/_error_messages.html.erb" />
         <option value="$PROJECT_DIR$/app/views/sessions/_sign_in_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/sessions/_sign_form.html.haml" />
@@ -111,6 +123,7 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/config/deploy/production.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/general.css.scss" />
       </list>
     </option>
   </component>
@@ -134,7 +147,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -146,6 +159,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -156,7 +170,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -225,7 +238,7 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <list size="4">
@@ -290,6 +303,9 @@
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
     </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -312,283 +328,366 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/initializers/wrap_parameters.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/mime_types.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/users.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sessions/_top_sign_in_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28" selection-start="295" selection-end="301" vertical-scroll-proportion="0.07359307" vertical-offset="0" max-vertical-offset="924" />
+        <state vertical-scroll-proportion="0.07359307" vertical-offset="0" max-vertical-offset="924">
+          <caret line="4" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/pages.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.053684212" vertical-offset="0" max-vertical-offset="950" />
+        <state vertical-scroll-proportion="0.053684212" vertical-offset="0" max-vertical-offset="950">
+          <caret line="3" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140422193329_add_details_to_users.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="40" selection-start="63" selection-end="145" vertical-scroll-proportion="0.05489774" vertical-offset="0" max-vertical-offset="929" />
+        <state vertical-scroll-proportion="0.05489774" vertical-offset="0" max-vertical-offset="929">
+          <caret line="3" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.55473685" vertical-offset="0" max-vertical-offset="950" />
+        <state vertical-scroll-proportion="0.55473685" vertical-offset="0" max-vertical-offset="950">
+          <caret line="31" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sessions/_sign_in_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="10" selection-start="257" selection-end="266" vertical-scroll-proportion="0.12878788" vertical-offset="0" max-vertical-offset="924" />
+        <state vertical-scroll-proportion="0.12878788" vertical-offset="0" max-vertical-offset="924">
+          <caret line="7" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.107368425" vertical-offset="0" max-vertical-offset="950" />
+        <state vertical-scroll-proportion="0.107368425" vertical-offset="0" max-vertical-offset="950">
+          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="698" selection-end="740" vertical-scroll-proportion="0.34" vertical-offset="0" max-vertical-offset="950" />
+        <state vertical-scroll-proportion="0.34" vertical-offset="0" max-vertical-offset="950">
+          <caret line="19" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/confirmations/new.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="32" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
+          <caret line="10" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pages.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="633" selection-end="633" vertical-scroll-proportion="0.49675325" vertical-offset="0" max-vertical-offset="924" />
+        <state vertical-scroll-proportion="0.49675325" vertical-offset="0" max-vertical-offset="924">
+          <caret line="27" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="73" selection-start="994" selection-end="1043" vertical-scroll-proportion="0.478355" vertical-offset="0" max-vertical-offset="924" />
+        <state vertical-scroll-proportion="0.478355" vertical-offset="0" max-vertical-offset="924">
+          <caret line="26" column="73" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.07359307" vertical-offset="0" max-vertical-offset="924" />
+        <state vertical-scroll-proportion="0.07359307" vertical-offset="0" max-vertical-offset="924">
+          <caret line="4" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="153" selection-end="153" vertical-scroll-proportion="0.11038961" vertical-offset="0" max-vertical-offset="924" />
+        <state vertical-scroll-proportion="0.11038961" vertical-offset="0" max-vertical-offset="924">
+          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/_register_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="3" selection-start="600" selection-end="600" vertical-scroll-proportion="0.36796537" vertical-offset="0" max-vertical-offset="1020" />
+        <state vertical-scroll-proportion="0.36796537" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="20" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/race_games/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="192" selection-start="379" selection-end="393" vertical-scroll-proportion="0.055194806" vertical-offset="0" max-vertical-offset="924" />
+        <state vertical-scroll-proportion="0.055194806" vertical-offset="0" max-vertical-offset="924">
+          <caret line="3" column="192" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="33" selection-start="1850" selection-end="1850" vertical-scroll-proportion="-0.10947368" vertical-offset="835" max-vertical-offset="1785" />
+        <state vertical-scroll-proportion="-0.10947368" vertical-offset="835" max-vertical-offset="1785">
+          <caret line="43" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="0" selection-start="3706" selection-end="3706" vertical-scroll-proportion="0.0" vertical-offset="767" max-vertical-offset="1717" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="767" max-vertical-offset="1717">
+          <caret line="93" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/faq.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="6" selection-start="61" selection-end="1291" vertical-scroll-proportion="0.5335498" vertical-offset="0" max-vertical-offset="2380" />
+        <state vertical-scroll-proportion="0.5335498" vertical-offset="0" max-vertical-offset="2380">
+          <caret line="29" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/_balance.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="59" selection-end="59" vertical-scroll-proportion="0.036796536" vertical-offset="0" max-vertical-offset="924" />
+        <state vertical-scroll-proportion="0.036796536" vertical-offset="0" max-vertical-offset="924">
+          <caret line="2" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/users.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="14" selection-start="954" selection-end="954" vertical-scroll-proportion="0.27597404" vertical-offset="663" max-vertical-offset="1836" />
+        <state vertical-scroll-proportion="0.27597404" vertical-offset="663" max-vertical-offset="1836">
+          <caret line="54" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="27" selection-start="340" selection-end="340" vertical-scroll-proportion="0.2391775" vertical-offset="0" max-vertical-offset="924" />
+        <state vertical-scroll-proportion="0.2391775" vertical-offset="0" max-vertical-offset="924">
+          <caret line="13" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="105" selection-end="128" vertical-scroll-proportion="0.14718615" vertical-offset="0" max-vertical-offset="924" />
+        <state vertical-scroll-proportion="0.14718615" vertical-offset="0" max-vertical-offset="924">
+          <caret line="8" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/inquiries.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.07157895" vertical-offset="0" max-vertical-offset="950" />
+        <state vertical-scroll-proportion="0.07157895" vertical-offset="0" max-vertical-offset="950">
+          <caret line="4" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/community.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="15" selection-start="53" selection-end="53" vertical-scroll-proportion="0.036796536" vertical-offset="0" max-vertical-offset="924" />
+        <state vertical-scroll-proportion="0.036796536" vertical-offset="0" max-vertical-offset="924">
+          <caret line="2" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/_homebox.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="44" selection-end="485" vertical-scroll-proportion="0.07359307" vertical-offset="0" max-vertical-offset="1105" />
+        <state vertical-scroll-proportion="0.07359307" vertical-offset="0" max-vertical-offset="1105">
+          <caret line="4" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="472" selection-end="472" vertical-scroll-proportion="0.2943723" vertical-offset="0" max-vertical-offset="2618" />
+        <state vertical-scroll-proportion="0.2943723" vertical-offset="0" max-vertical-offset="2618">
+          <caret line="16" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="2" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+          <caret line="22" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="7" selection-start="871" selection-end="871" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="918" />
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="918">
+          <caret line="14" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1960" selection-end="1960" vertical-scroll-proportion="-24.846153" vertical-offset="0" max-vertical-offset="748" />
+        <state vertical-scroll-proportion="-24.846153" vertical-offset="0" max-vertical-offset="748">
+          <caret line="38" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/_edit_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="15" selection-start="799" selection-end="799" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="765" />
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="765">
+          <caret line="16" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140609200015_add_cityto_user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="63" selection-end="96" vertical-scroll-proportion="0.035789475" vertical-offset="0" max-vertical-offset="950" />
+        <state vertical-scroll-proportion="0.035789475" vertical-offset="0" max-vertical-offset="950">
+          <caret line="2" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140528155142_add_devise_to_users.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="43" selection-start="468" selection-end="478" vertical-scroll-proportion="0.26842105" vertical-offset="0" max-vertical-offset="950" />
+        <state vertical-scroll-proportion="0.26842105" vertical-offset="0" max-vertical-offset="950">
+          <caret line="15" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140618141117_add_user_ref_to_inquiries.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="44" selection-start="205" selection-end="205" vertical-scroll-proportion="0.07157895" vertical-offset="0" max-vertical-offset="950" />
+        <state vertical-scroll-proportion="0.07157895" vertical-offset="0" max-vertical-offset="950">
+          <caret line="4" column="44" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/inquiry.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="24" selection-start="925" selection-end="925" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+          <caret line="18" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="164" selection-end="187" vertical-scroll-proportion="0.07157895" vertical-offset="0" max-vertical-offset="1224" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="33" selection-start="2113" selection-end="2145" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="2329">
-          <folding />
+        <state vertical-scroll-proportion="0.07157895" vertical-offset="0" max-vertical-offset="1224">
+          <caret line="4" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/inquiries/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="924" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="924">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/inquiries_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="52" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1751">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1751">
+          <caret line="28" column="52" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/inquiries/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1460" selection-end="1460" vertical-scroll-proportion="0.87705815" vertical-offset="0" max-vertical-offset="1258">
-          <folding />
+        <state vertical-scroll-proportion="0.87705815" vertical-offset="0" max-vertical-offset="1258">
+          <caret line="47" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/inquiries.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="10" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.85281384" vertical-offset="419" max-vertical-offset="1343">
-          <folding />
+        <state vertical-scroll-proportion="0.85281384" vertical-offset="419" max-vertical-offset="1343">
+          <caret line="71" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.7873684" vertical-offset="0" max-vertical-offset="1530">
-          <folding />
+        <state vertical-scroll-proportion="0.7873684" vertical-offset="0" max-vertical-offset="1530">
+          <caret line="44" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/inquiries_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="9" selection-start="767" selection-end="767" vertical-scroll-proportion="0.59052634" vertical-offset="0" max-vertical-offset="950">
-          <folding />
+        <state vertical-scroll-proportion="0.59052634" vertical-offset="0" max-vertical-offset="950">
+          <caret line="33" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/inquiries/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="565" selection-end="565" vertical-scroll-proportion="0.4047619" vertical-offset="0" max-vertical-offset="924">
-          <folding />
+        <state vertical-scroll-proportion="0.4047619" vertical-offset="0" max-vertical-offset="924">
+          <caret line="22" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="10" selection-start="1523" selection-end="1523" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1207">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy/staging.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="69" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1156">
+          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.035940804" vertical-offset="306" max-vertical-offset="2278">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="5" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.55473685" vertical-offset="510" max-vertical-offset="1870">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1904">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/general.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.425" vertical-offset="0" max-vertical-offset="13039">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding />
         </state>
       </provider>
