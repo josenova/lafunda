@@ -26,7 +26,7 @@
 
 - if @current_user
   %h2= t('views.opened_tickets')
-  %table{:id => "tickets", :cellpadding => 0, :cellspacing => 0}
+  %table#tickets{:cellpadding => 0, :cellspacing => 0}
     %tr{:class => "tabletop"}
       %td= t('views.date')
       %td= t('views.subject')
