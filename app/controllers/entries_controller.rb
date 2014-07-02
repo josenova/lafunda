@@ -1,11 +1,12 @@
 class EntriesController < ApplicationController
 
   def create
-    @entry = Entry.new(entry_params)
+    #@entry = Entry.new(entry_params)
     @inquiry = Inquiry.find(params[:entry][:inquiry_id])
+    @entry = @inquiry.entries.new(entry_params)
     @entry.author = @current_user.name + ' ' + @current_user.surname
-    @entry.employee = false
-    @entry.inquiry = @inquiry
+
+    #@entry.inquiry = @inquiry
     respond_to do |format|
       if @entry.save
         format.html { redirect_to @inquiry, notice: 'Entry was created succesfully' }
