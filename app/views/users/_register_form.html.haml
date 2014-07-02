@@ -29,9 +29,9 @@
     = f.label :gender, t('views.gender')
     #gender
       = f.radio_button :gender, false
-      = f.label :false, t('views.female')
+      = f.label :false, t('views.female'), :value => false
       = f.radio_button :gender, true
-      = f.label :true, t('views.male')
+      = f.label :true, t('views.male'), :value => true
 
     /= label :identification, t('views.identification')
     /= f.text_field :identification, :required => true, :placeholder => '001-2345678-9'

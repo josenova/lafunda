@@ -118,25 +118,36 @@ es:
               username:
                 too_long: "- tu usuario no debe tener más de 10 caracteres."
                 too_short: "- tu usuario debe tener mínimo 5 caracteres."
+                blank: "- debes ingresar tu usuario."
               email:
                 taken: "- ya está en uso."
+                blank: "- debes ingresar tu email."
               name: 
                 too_short: "- nombre inválido."
+                blank: "- debes ingresar tu nombre."
               surname:
                 too_short: "- apellido inválido."
+                blank: "- debes ingresar tu apellido."
               password:
                 invalid: "- tu contraseña debe contener una mayúscula, una minúscula y un número. Sin espacios."
                 too_short: "- tu contraseña debe tener mínimo 8 caracteres."
+                blank: "- debes ingresar tu contraseña."
               password_confirmation: 
                 confirmation: "- tus contraseñas no coinciden."
+                blank: "- debes confirmar tu conntraseña."
+              gender:
+                blank: "- debes elegir tu sexo."	
               birthdate:
                 must_be_over: "- debes ser mayor de 18 años."
+                blank: "- debes ingresar tu fecha de nacimiento."
               cellphone:
                 too_short: "- número de celular inválido."
                 too_long: "- número de celular inválido."
                 taken: "- el celular ya está en uso."
+                blank: "- debes ingresar tu número celular."	
               pin:
                 wrong_length: "- tu pin debe ser de 4 dígitos."
+                blank: "- debes ingresar tu pin."
               terms_of_service:
                 accepted: "- debes aceptar nuestros términos y condiciones para crear tu cuenta."
               confirmation_token:

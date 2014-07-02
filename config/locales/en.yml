@@ -98,27 +98,41 @@ en:
               username:
                 too_long: "must have at least 5 characters."
                 too_short: "cant have more than 10 characters."
+                blank: "can't be blank."				
               email:
                 taken: "is already in use."
+                blank: "can't be blank."				
               name: 
                 too_short: "is too short."
+                blank: "can't be blank."				
               surname:
                 too_short: "is too short."
+                blank: "can't be blank."				
               password:
                 invalid: "must have at least one lower case letter, one uppercase letter and a number. No spaces allowed."
                 too_short: "must have at least 8 characters."
+                blank: "can't be blank."				
               password_confirmation: 
                 confirmation: "does not match."
+                blank: "can't be blank."				
+              gender:
+                blank: "can't be blank."
               birthdate:
                 must_be_over: "must be over 18 years old."
+                blank: "can't be blank."				
               cellphone:
                 too_short: "number is too short."
                 too_long: "number is too long."
                 taken: "is already taken."
+                blank: "can't be blank."				
               pin:
                 wrong_length: "your pin must have 4 digits."
+                blank: "can't be blank."				
               terms_of_service:
                 accepted: "must be agreed upon."
+              confirmation_token:
+                blank: "can't be blank."
+                invalid: "invalid."				
 
 
       

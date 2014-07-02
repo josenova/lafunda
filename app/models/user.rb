@@ -41,7 +41,6 @@ class User < ActiveRecord::Base
 
   validates :name, presence: true, length: { minimum: 2, maximum: 30 }, format: { with: /\A([a-z]+\s)*[a-z]+\Z/i }
   validates :surname, presence: true, length: { minimum: 2, maximum: 30 }, format: { with: /\A([a-z]+\s)*[a-z]+\Z/i }
-  validates :gender, presence: true
   #validates :identification, presence: true, uniqueness: true, numericality: { only_integer: true }, length: { is: 11 }
   validates :birthday, presence: true
   validates :cellphone, presence: true, uniqueness: true, numericality: { only_integer: true }, length: { minimum: 10, maximum: 11}
