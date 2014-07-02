@@ -14,8 +14,7 @@
             <%= link_to account_path, id: "usertag" do %><%= image_tag(asset_path("icons/tag.png"), class: 'icon' ) %> <strong><%= @current_user.username %></strong><% end %>
             <ul id="tagmenu">
               <%= nav_link t('views.my_account'), account_path %>
-              <%= nav_link t('views.deposit'), deposit_path %>
-              <%= nav_link t('views.withdraw'), withdraw_path %>
+              <%= nav_link t('views.cashier'), cashier_path %>
               <%= nav_link t('views.help'), support_path %>
             </ul>
         </div>

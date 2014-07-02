@@ -28,6 +28,7 @@
 .terms {
   margin: 0 30% 12px 30%;
   font-size: 0.9375em;
+  overflow:hidden;
 }
 
 #user_terms_of_service {
@@ -35,10 +36,12 @@
   margin:0;
 }
 
-.terms label {
+.terms p {
+  float: left;
   width: 94%;
-  text-align: left;
-  padding-left: 2.1289%;
+  padding: 0 0 0 2.1289%;
+  margin:0;
+  line-height:30px;
 }
 
 /*
@@ -76,25 +79,25 @@
   margin-bottom: 5.573%;
 }
 
-.right #balance a {
-  float:left;
-  width:48%;
+.right #balance #cashier {
+  display:block;
+  margin:0 auto;
+  width:61.804%;
   padding:2.1289% 0;
   text-align:center;
   color:#222;
-text-decoration: none;
+  text-decoration: none;
   text-transform:uppercase;
   font-weight:bold;
   background: #dfab3e;
+  border-radius:2px;
 }
 
-.right #balance #deposit {
-margin-right:4%;
+.right #balance #cashier:active {
+  position:relative;
+  top:1px;
 }
 
-.right #balance #withdraw {
-
-}
 
 
 /********************************************** CONTROL PANEL *****************************************************************/

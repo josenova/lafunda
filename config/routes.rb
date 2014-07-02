@@ -15,8 +15,7 @@ Lafunda::Application.routes.draw do
   get "responsible" => 'pages#responsible'
   get "community" => 'pages#community'
   get "pending_confirmation" => 'pages#confirm'
-  get "deposit" => 'pages#deposit'
-  get "withdraw" => 'pages#withdraw'
+  get "cashier" => 'pages#cashier'
 
   #Users and Sessions
   get "register" => 'users#new'

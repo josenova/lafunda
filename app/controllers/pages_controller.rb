@@ -1,8 +1,8 @@
 class PagesController < ApplicationController
 
   before_action :already_logged_in, only: [:confirm]
-  before_action :confirm_logged_in, only: [:community, :deposit, :withdraw]
-  before_action :get_funds, only: [:deposit, :withdraw]
+  before_action :confirm_logged_in, only: [:community, :cashier]
+  before_action :get_funds, only: [:cashier]
 
   def faq
   end
@@ -22,10 +22,7 @@ class PagesController < ApplicationController
   def confirm
   end
 
-  def deposit
-  end
-
-  def withdraw
+  def cashier
   end
 
 end

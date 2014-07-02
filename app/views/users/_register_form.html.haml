@@ -55,7 +55,9 @@
 
   .terms
     = f.check_box(:terms_of_service)
-    = f.label(:terms_of_service, t('views.accept_terms'))
+    %p
+      = t('views.accept_terms')
+      = link_to t('views.terms_and_conditions'), terms_path, :target => '_blank'
 
 
   .buttons

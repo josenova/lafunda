@@ -69,6 +69,7 @@ es:
       cancel: Cancelar
       withdraw: Retiro
       deposit: Depósito
+      cashier: Cajero
       sign_in: "Iniciar Sesión"
       sign_out: "Cerrar Sesión" 
       log_in: Ingresar
@@ -94,7 +95,7 @@ es:
       female: Femenino
       click_here: "Clic aquí"
       form_errors: "El formulario contiene errores."
-      accept_terms: "Acepto los Términos y Condiciones."
+      accept_terms: "Acepto los "
     flash:
       cannot_log_in: "No puedes ingresar en estos momentos."
       confirm_account: "Debes de confirmar tu cuenta."
@@ -133,6 +134,7 @@ es:
               cellphone:
                 too_short: "- número de celular inválido."
                 too_long: "- número de celular inválido."
+                taken: "- el celular ya está en uso."
               pin:
                 wrong_length: "- tu pin debe ser de 4 dígitos."
               terms_of_service:

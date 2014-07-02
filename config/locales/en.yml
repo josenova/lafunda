@@ -47,6 +47,7 @@ en:
       edit_profile: "Edit Profile"
       deposit: Deposit
       withdraw: Withdraw
+      cashier: Cashier
       city: City
       account: Account
       new_user?: "New user?"
@@ -72,7 +73,7 @@ en:
       female: Female
       click_here: "Click here"
       form_errors: "The form contains errors."
-      accept_terms: "I agree with the Terms and Conditions"
+      accept_terms: "I agree with the "
       faq: FAQ
       terms_and_conditions: "Terms and Conditions"
     flash:
@@ -113,6 +114,7 @@ en:
               cellphone:
                 too_short: "number is too short."
                 too_long: "number is too long."
+                taken: "is already taken."
               pin:
                 wrong_length: "your pin must have 4 digits."
               terms_of_service:

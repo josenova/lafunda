@@ -99,7 +99,7 @@ class User < ActiveRecord::Base
             <tem:secondAddress></tem:secondAddress>
             <tem:city>#{self.city}</tem:city>
             <tem:state></tem:state>
-            <tem:country></tem:country>
+            <tem:country>Dominican Republic</tem:country>
             <tem:zipCode></tem:zipCode>
             <tem:referral></tem:referral>
             <tem:defaultLanguage>#{$default_language}</tem:defaultLanguage>
