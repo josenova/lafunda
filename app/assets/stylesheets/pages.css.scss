@@ -17,14 +17,14 @@
 }
 
 .ui-accordion-header[aria-selected="false"] {
-  background-image: url(asset-path('/assets/icons/plus.png'));
+  background-image: url(asset-path('assets/icons/plus.png'));
   background-repeat: no-repeat;
   background-position: right center;
   background-color: #f1f1f1;
 }
 
 .ui-accordion-header[aria-selected="true"] {
-  background-image: url(asset-path('/assets/icons/minus.png'));
+  background-image: url(asset-path('assets/icons/minus.png'));
   background-repeat: no-repeat;
   background-position: right center;
   background-color: #f1f1f1;

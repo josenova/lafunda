@@ -456,7 +456,7 @@ h1 {
 
 h2 {
   text-transform:uppercase;
-  margin:2.1289% 0;
+  margin:3.444% 0 1.315%;
   color:#111;
   font-size:1.25em;
 
@@ -471,7 +471,7 @@ h3 {
 
 h4 {
   font-size: 1em;
-  margin: 2.128% 0 1.315% 0;
+  margin: 3.444% 0 1.315% 0;
   color:#222;
 }
 
@@ -489,6 +489,13 @@ td {
   color:#333;
 }
 
+ul > li > ul > li {
+  list-style: initial;
+}
+
+.list li {
+  list-style: initial;
+}
 
 
 
