@@ -5,4 +5,6 @@ class Entry < ActiveRecord::Base
   validates :author, presence: true
   validates :message, presence: true
 
+
+
 end

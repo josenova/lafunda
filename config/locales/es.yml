@@ -106,7 +106,9 @@ es:
       update_succesful: "Tu usuario ha sido actualizado."
       update_failed: "Error al actualizar el usuario."
       user_created: "Tu usuario ha sido creado con éxito."
-      user_not_created: "No se ha podido crear el usuario."
+      user_not_created: "Error: No se ha podido crear el usuario."
+      entry_created: "Tu respuesta fue añadida con éxito."
+      entry_not_created: "Error: No se ha podido añadir tu respuesta."
     validate:
       at_least_8_characters: "debe tener al menos 8 caracteres."
     tooltips:

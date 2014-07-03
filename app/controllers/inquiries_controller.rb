@@ -2,14 +2,14 @@ class InquiriesController < ApplicationController
 
   before_action :confirm_logged_in, only: [:new, :create, :show]
   before_action :set_inquiries, only: [:index]
+  before_action :set_inquiry, only: [:show]
 
   def new
     @inquiry = Inquiry.new
   end
 
   def create
-    @inquiry = Inquiry.new(inquiry_params)
-    @inquiry.user = @current_user
+    @inquiry = @current_user.inquiries.new(inquiry_params)
     respond_to do |format|
       if @inquiry.save
         format.html { redirect_to support_url, notice: t('views.ticket_created') }
@@ -26,7 +26,6 @@ class InquiriesController < ApplicationController
   end
 
   def show
-    @inquiry = Inquiry.find(params[:id])
     @entry = Entry.new
   end
 
@@ -34,6 +33,11 @@ class InquiriesController < ApplicationController
 
   private
   # Use callbacks to share common setup or constraints between actions.
+
+  def set_inquiry
+    @inquiry = @current_user.inquiries.find(params[:id])
+  end
+
   def set_inquiries
     @user_inquiries = @current_user.inquiries if @current_user
   end
@@ -42,6 +46,8 @@ class InquiriesController < ApplicationController
   def inquiry_params
     params.require(:inquiry).permit(:subject, :message)
   end
+
+
 
 
 end

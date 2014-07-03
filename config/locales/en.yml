@@ -87,6 +87,8 @@ en:
       update_failed: "Could not update user."
       user_created: "Your user has been created."
       user_not_created: "Could not create user."
+      entry_created: "Your reply was created successfully."
+      entry_not_created: "Could not add reply."
     validate:
       at_least_8_characters: "must have at least 8 characters."
     tooltips:
