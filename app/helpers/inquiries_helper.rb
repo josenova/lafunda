@@ -9,4 +9,12 @@ module InquiriesHelper
     end
   end
 
+  def is_employee(entry)
+    if entry.employee
+      "employee"
+    else
+      "user"
+    end
+  end
+
 end

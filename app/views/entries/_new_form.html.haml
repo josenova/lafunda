@@ -8,7 +8,7 @@
           - @entry.errors.full_messages.each do |msg|
             %li= msg
 
-  = f.label :message, t('views.message')
+  = f.label :message, t('views.new_message')
   = f.text_area :message
 
   = f.hidden_field :inquiry_id, :value => @inquiry.id

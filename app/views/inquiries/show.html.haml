@@ -7,13 +7,25 @@
     %td= t('views.date')
     %td= t('views.status')
     %td= t('views.last_update')
-  %tr.even
+  %tr
     %td= @inquiry.created_at.strftime("%d/%m/%Y")
     %td.status= get_status(@inquiry.status)
     %td= @inquiry.updated_at.strftime("%d/%m/%Y %H:%M:%S")
 
 
-%p= @inquiry.message
+.entrywrap
+  .user
+    .author= @inquiry.user.name + " " + @inquiry.user.surname + ":"
+    = @inquiry.message
+    .date= t('views.sent_at') + @inquiry.created_at.strftime("%H:%M:%S %d/%m/%Y")
+
+- if @inquiry.entries.exists?
+  - @inquiry.entries.order("created_at asc").each do |entry|
+    .entrywrap
+      %div{:class => is_employee(entry)}
+        .author= entry.author + ":"
+        %div= entry.message
+        .date= t('views.sent_at') + entry.created_at.strftime("%H:%M:%S %d/%m/%Y")
 
 
 = render "entries/new_form"

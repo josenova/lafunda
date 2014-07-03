@@ -76,6 +76,8 @@ en:
       accept_terms: "I agree with the "
       faq: FAQ
       terms_and_conditions: "Terms and Conditions"
+      sent_at: "Sent at: "
+      new_message: "New message:"
     flash:
       cannot_log_in: "Cannot log in at this time."
       confirm_account: "Please confirm your account."

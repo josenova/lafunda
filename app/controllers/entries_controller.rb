@@ -9,7 +9,7 @@ class EntriesController < ApplicationController
     #@entry.inquiry = @inquiry
     respond_to do |format|
       if @entry.save
-        format.html { redirect_to @inquiry, notice: 'Entry was created succesfully' }
+        format.html { redirect_to @inquiry, notice: 'Entry was created succesfully.' }
         #format.json { render action: 'show', status: :created, location: @inquiry }
       else
         format.html { redirect_to @inquiry, error: 'Entry could not be created.' }
