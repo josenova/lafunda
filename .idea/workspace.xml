@@ -96,8 +96,8 @@
       <file leaf-file-name="general.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/general.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42825112" vertical-offset="12810" max-vertical-offset="13702">
-              <caret line="776" column="37" selection-start-line="776" selection-start-column="37" selection-end-line="776" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.42825112" vertical-offset="12810" max-vertical-offset="13736">
+              <caret line="776" column="40" selection-start-line="776" selection-start-column="40" selection-end-line="776" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -311,7 +311,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -729,8 +729,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/general.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42825112" vertical-offset="12810" max-vertical-offset="13702">
-          <caret line="776" column="37" selection-start-line="776" selection-start-column="37" selection-end-line="776" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.42825112" vertical-offset="12810" max-vertical-offset="13736">
+          <caret line="776" column="40" selection-start-line="776" selection-start-column="40" selection-end-line="776" selection-end-column="40" />
           <folding />
         </state>
       </provider>
