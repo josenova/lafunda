@@ -46,7 +46,6 @@ body {
   left: 0;
   background: rgba(0,0,0,0.9);
   z-index: 2;
-  height:47px;
   margin-top:-74px;
   transition: all 0.3s ease-in;
   -webkit-transition:  all 0.3s ease-in;
@@ -769,13 +768,13 @@ legend {
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
-  #miniheader {margin-top:0px !important; padding-top: 2.12%; position: relative; background: rgba(0, 0, 0, 0.5);}
+  #miniheader {margin-top:0px !important; position: relative; background: rgba(0, 0, 0, 0.5);}
   .wrapper {min-width:inherit;}
   #content .left {padding:3.444%}
   .left {width:100%;}
   .right {width:100%;}
   #logo {margin-bottom: 2.1289%; display: none;}
-  #minilogo {padding: 2.12% 0;}
+  #minilogo {padding: 3.444% 0 2.12%;}
   #topmenu {height:initial; overflow: hidden;}
   #topleft {float:none; width:100%; height: auto;}
   #topleft li {}
