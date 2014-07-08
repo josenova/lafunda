@@ -71,14 +71,14 @@ body {
 }
 
 #topmenu {
-  height:178px;
-  margin-bottom:1.315%;
+  margin-bottom: 1.315%;
+  height: 29px;
+  width: 100%;
 }
 
 #topleft {
   width: 35%;
   float: left;
-  margin-top: 150px;
   padding: 0;
   overflow: hidden;
   height: 29px;
@@ -113,19 +113,16 @@ body {
 }
 
 #logo {
-  background-image: url(asset-path('mainlogo.png'));
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:contain;
-  float:left;
-  height:175px;
-  width:30%;
+  text-align: center;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  margin-bottom: -2.1289%;
 }
 
 #topright {
   width: 35%;
-  float: left;
-  margin-top: 149px;
+  float: right;
   padding: 0;
   height: 29px;
 }
@@ -320,6 +317,7 @@ body {
 
 #content {
   overflow:hidden;
+  width:100%;
 }
 
 #content .left {
@@ -767,3 +765,37 @@ legend {
 /************************************************* MISC *****************************************************/
 
 .hidden { display: none; }
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+  #miniheader {margin-top:0px !important; padding-top: 2.12%; position: relative; background: rgba(0, 0, 0, 0.5);}
+  .wrapper {min-width:inherit;}
+  #content .left {padding:3.444%}
+  .left {width:100%;}
+  .right {width:100%;}
+  #logo {margin-bottom: 2.1289%; display: none;}
+  #topmenu {height:initial; overflow: hidden;}
+  #topleft {float:none; width:100%; height: auto;}
+  #topleft li {}
+  #topright {float:none; width:100%; height: auto; overflow:hidden;padding: 2.12% 0;}
+  #mainmenu {display:none;}
+  #footer {display:none;}
+  #copyright{display:none;}
+
+  #topright form {padding:0; margin: 2.1289% 0;}
+  #topright form input {width: 100%; margin: 0.8% 0; height: 32px;}
+  #topright form input[type="submit"] {width:100%;}
+
+  #chat {display:none !important;}
+  #phone {width:40% !important;}
+  #inquiry {width:60% !important;}
+
+  #tagarrow {display:none;}
+  #topright #usertag {float:left; border-radius:3px;}
+  #topleft #community {display:none;}
+
+
+
+
+}

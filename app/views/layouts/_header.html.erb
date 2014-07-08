@@ -1,11 +1,11 @@
 <div id="header">
   <!--<div id="langselect"><%= link_to_unless I18n.locale == :es, "Español", locale: :es %> | <%= link_to_unless I18n.locale == :en, "English", locale: :en %></div>-->
+  <%= link_to image_tag("mainlogo.png"), root_path, id: 'logo' %>
   <div id="topmenu">
     <ul id="topleft">
-      <li><%= link_to support_path do %><%= image_tag(asset_path("icons/support.png"), class: 'icon' ) %><%= t('views.support') %><% end %></li>
-      <li><%= link_to community_path do %><%= image_tag(asset_path("icons/community.png"), class: 'icon' ) %><%= t('views.community') %><% end %></li>
+      <li id="support"><%= link_to support_path do %><%= image_tag(asset_path("icons/support.png"), class: 'icon' ) %><%= t('views.support') %><% end %></li>
+      <li id="community"><%= link_to community_path do %><%= image_tag(asset_path("icons/community.png"), class: 'icon' ) %><%= t('views.community') %><% end %></li>
     </ul>
-    <%= link_to '', root_path, id: "logo" %>
     <div id="topright">
       <% if user_signed_in? %>
         <%= link_to sign_out_path, class: "logout" do %><span><%= t('views.sign_out') %></span><%= image_tag(asset_path("bg/logout.png"))%><% end %>
