@@ -21,7 +21,7 @@ class ApplicationController < ActionController::Base
 
   before_action :set_locale
   before_action :current_user
-  before_filter :authenticate if Rails.env.development?
+  before_filter :authenticate if Rails.env.production?
 
   extend Savon::Model
 
