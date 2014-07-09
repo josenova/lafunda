@@ -23,11 +23,16 @@
 
 $(document).ready(function() {
 	if($(window).width() < 480) {
-	  //var url = $('#race_frame').contents().get(0).location.href;
-	  var url = $("#race_frame").attr('src');
-	  var urlarray = url.split('stoken=');
-	  $('#race_frame').attr("src","http://wagering.lafunda.com.do/BOSSWagering/Racebook/MobileBetTaker?siteid=lafunda&stoken=" + urlarray[1]);
-	  
+	  if ($('#race_frame').length > 0) {
+		  var url = $("#race_frame").attr('src');
+		  var urlarray = url.split('stoken=');
+		  $('#race_frame').attr("src","http://wagering.lafunda.com.do/BOSSWagering/Racebook/MobileBetTaker?siteid=lafunda&stoken=" + urlarray[1]);
+	  }
+	  if ($('#sport_frame').length > 0) {
+		  var url = $("#sport_frame").attr('src');
+		  var urlarray = url.split('stoken=');
+		  $('#sport_frame').attr("src","http://wagering.lafunda.com.do/BOSSWagering/Sportsbook/MobileBetTaker?siteid=lafunda&stoken=" + urlarray[1]);
+	  }
 	}
 });
 /************************************ MINI HEADER *****************************************/
