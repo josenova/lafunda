@@ -154,12 +154,17 @@
 
   #tabs li a {
     margin:0 !important;
-    background:#fff;
     border-radius: 0px;
     border:none;
     border-bottom:1px solid #dbdbdb;
     color: #333;
     text-transform: none;
+    font-weight: normal;
+    font-size: 1em;
+    background-image: url(asset-path('icons/right_arrow.png'));
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: #fff;
   }
 
 }
