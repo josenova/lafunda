@@ -25,7 +25,8 @@
 /************************************************************************ TABS **************************************************************************************/
 
 #tabs {
-  padding-bottom: 4px;
+  overflow: hidden;
+
 }
 
 #tabs li img {
@@ -147,3 +148,18 @@
 }
 
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+  #tabs {border-radius: 3px;}
+
+  #tabs li a {
+    margin:0 !important;
+    background:#fff;
+    border-radius: 0px;
+    border:none;
+    border-bottom:1px solid #dbdbdb;
+    color: #333;
+    text-transform: none;
+  }
+
+}
