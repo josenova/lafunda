@@ -5,6 +5,7 @@
     <ul id="topleft">
       <li id="support"><%= link_to support_path do %><%= image_tag(asset_path("icons/support.png"), class: 'icon' ) %><%= t('views.support') %><% end %></li>
       <li id="community"><%= link_to community_path do %><%= image_tag(asset_path("icons/community.png"), class: 'icon' ) %><%= t('views.community') %><% end %></li>
+      <li id="mobilesignin"><%= link_to '#' do %><%= image_tag(asset_path("icons/key.png"), class: 'icon' ) %><%= t('views.sign_in') %><% end %></li>
     </ul>
     <div id="topright">
       <% if user_signed_in? %>

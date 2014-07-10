@@ -111,6 +111,10 @@ body {
   line-height: 29px;
 }
 
+#mobilelogin {
+  display:none;
+}
+
 #logo {
   text-align: center;
   width: 310px;
@@ -780,7 +784,11 @@ legend {
   #topmenu {height:initial; overflow: hidden;}
   #topleft {float:none; width:100%; height: auto;}
   #topleft li {}
+  #topleft li a {font-size:0.875em;}
   #topright {float:none; width:100%; height: auto; overflow:hidden;padding: 2.12% 0;}
+  #mobilesignin {float:right;}
+  #mobilesignin .icon {float:right;}
+  #mobilesignin a {padding: 0 9px !important;}
   #mainmenu {display:none;}
   #footer {display:none;}
   #copyright{display:none;}
