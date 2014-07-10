@@ -779,7 +779,8 @@ legend {
   #content {padding: 0 3.444%;}
   #content .left {padding:3.444%;}
   .left {width:100%;}
-  .right {width:100%; margin-top: 3.444%; padding: 0 3.444%;}
+  .right {width:100%; margin-top: 3.444%; }
+  #homebox .right {padding: 0 3.444%;}
   #logo {margin-bottom: 2.1289%; display: none;}
   #minilogo {padding: 5.573% 0 3.444%; margin: 0 auto; float: none;}
   #topmenu {height:initial; overflow: hidden;}
@@ -799,15 +800,13 @@ legend {
   #topright form input {width: 100%; margin: 0.8% 0; height: 32px;}
   #topright form input[type="submit"] {width:100%;}
 
-  #chat {display:none !important;}
-  #phone {width:40% !important;}
-  #inquiry {width:60% !important;}
 
   #tagarrow {display:none;}
   #topright #usertag {float:left; border-radius:3px;}
   #topleft #community {display:none;}
 
-  h1 {font-size: 26px;}
+  h1 {font-size: 1.25em;}
+  h2 {font-size: 1em;}
 
 
 
