@@ -43,7 +43,7 @@ $(document).ready(function(){
 		if ($(this).scrollTop() > 210) {
 			$("#miniheader").css( "margin-top", "0" );
 		} else {
-			$("#miniheader").css( "margin-top", "-74px" );
+			$("#miniheader").css( "margin-top", "-64px" );
 		}
 	   });
 });    
