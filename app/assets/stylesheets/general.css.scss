@@ -778,8 +778,8 @@ legend {
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
-  body {padding-top:44px;}
-  .wrapper {padding:0; min-width: 480px;}
+  #main {padding-top:44px;}
+  .wrapper {padding:0; min-width: 413px;}
   #miniheader {margin-top:0px !important; background: rgba(0, 0, 0, 0.9); padding: 0 3.444%; position: fixed; height: 44px;}
   #open_mobile_menu {float:left; padding: 0; width: 20%; line-height: 44px; }
   #minilogo {padding: 0; margin: 0 auto; float: left; width: 60%; text-align: center; line-height: 44px;}

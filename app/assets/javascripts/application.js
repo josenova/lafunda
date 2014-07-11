@@ -39,7 +39,6 @@ $(document).ready(function() {
 
 
 $(document).ready(function(){
-//	if($(window).width() > 480) {
 		$(window).scroll(function () {
 		if ($(this).scrollTop() > 210) {
 			$("#miniheader").css( "margin-top", "0" );
@@ -47,7 +46,6 @@ $(document).ready(function(){
 			$("#miniheader").css( "margin-top", "-74px" );
 		}
 	   });
-//	}
 });    
 
 
