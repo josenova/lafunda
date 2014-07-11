@@ -13,37 +13,37 @@
       </script>
 </head>
 <body>
-  <div id="main">
-    <%= render "layouts/miniheader" %>
-    <div class="wrapper">
+    <div id="all">
+      <%= render "layouts/miniheader" %>
+      <div id="main">
+        <div class="wrapper">
 
+            <%= render "layouts/header" %>
+            <%= render "welcome/homebox" if controller_name == 'welcome' %>
 
-        <%= render "layouts/header" %>
-        <%= render "welcome/homebox" if controller_name == 'welcome' %>
+            <% if controller_name != 'welcome' %>
+            <div id="content" class="<%= params[:controller] %>">
 
+              <div class="left">
+                <% if flash[:notice] %><div id="notice"><%= flash[:notice] %></div><% end %>
+                <% if flash[:alert] %><div id="alert"><%= flash[:alert] %></div><% end %>
+                <% if flash[:error] %><div id="error"><%= flash[:error] %></div><% end %>
+                <%= yield %>
+              </div>
 
-        <% if controller_name != 'welcome' %>
-        <div id="content" class="<%= params[:controller] %>">
+              <div class="right">
+                <%= yield :modules %>
+              </div>
 
-          <div class="left">
-            <% if flash[:notice] %><div id="notice"><%= flash[:notice] %></div><% end %>
-            <% if flash[:alert] %><div id="alert"><%= flash[:alert] %></div><% end %>
-            <% if flash[:error] %><div id="error"><%= flash[:error] %></div><% end %>
-            <%= yield %>
-          </div>
-
-          <div class="right">
-            <%= yield :modules %>
-          </div>
+            </div>
+            <% end %>
 
         </div>
-        <% end %>
 
+        <%= render "layouts/footer" %>
+        <%= render "layouts/copyright" %>
+      </div>
+      <%= render "layouts/mobile_menu" %>
     </div>
-
-    <%= render "layouts/footer" %>
-    <%= render "layouts/copyright" %>
-  </div>
-  <%= render "layouts/mobile_menu" %>
 </body>
 </html>

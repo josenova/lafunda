@@ -67,14 +67,13 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 
-	$('#mobilesignin').click(function () {
-	  $('#topright').show();
-    });
+	//var menuHeight = $('#main').height()
+	//$('#mobile_menu').css('height', menuHeight);
 	
-	var mainheight = $('#main').height()
-	$('#mobile_menu').css('height', mainheight);
 	$('#open_mobile_menu').click(function () {
-	  $('#main').toggleClass( "open" );
+	  $('#all').toggleClass('open');
+	  	var contentWidth = $('#main').width();
+	    $('#main').css('width', contentWidth);
     });
 	
 
