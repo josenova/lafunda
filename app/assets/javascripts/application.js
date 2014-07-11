@@ -39,14 +39,15 @@ $(document).ready(function() {
 
 
 $(document).ready(function(){
-
-	$(window).scroll(function () {
-	if ($(this).scrollTop() > 210) {
-		$("#miniheader").css( "margin-top", "0" );
-	} else {
-		$("#miniheader").css( "margin-top", "-74px" );
-	}
-   });
+//	if($(window).width() > 480) {
+		$(window).scroll(function () {
+		if ($(this).scrollTop() > 210) {
+			$("#miniheader").css( "margin-top", "0" );
+		} else {
+			$("#miniheader").css( "margin-top", "-74px" );
+		}
+	   });
+//	}
 });    
 
 
@@ -71,6 +72,13 @@ $(document).ready(function(){
 	$('#mobilesignin').click(function () {
 	  $('#topright').show();
     });
+	
+	var mainheight = $('#main').height()
+	$('#mobile_menu').css('height', mainheight);
+	$('#open_mobile_menu').click(function () {
+	  $('#main').toggleClass( "open" );
+    });
+	
 
 });    
 

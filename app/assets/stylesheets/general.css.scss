@@ -19,14 +19,20 @@ img {
 
 
 body {
+  width:100%;
+  font-family: calibri, arial;
+  color:#fff;
+  overflow-x:hidden;
+}
+
+#main {
+  z-index:1;
   background-image: url(asset-path('bg/pokertablebg.jpg'));
   background-repeat: repeat;
   background-position: top center;
   background-size:contain;
-  width:100%;
-  font-family:calibri, arial;
-  color:#fff;
-
+  background-color: #1e5127;
+  transition: all 0.2s linear; -webkit-transition:  all 0.2s linear;
 }
 
 .wrapper {
@@ -43,7 +49,6 @@ body {
   width: 100%;
   position: fixed;
   top: 0;
-  left: 0;
   background: rgba(0,0,0,0.9);
   z-index: 2;
   margin-top:-74px;
@@ -761,9 +766,10 @@ legend {
   display:block;
 }
 
-/**************************************************** TABLES **************************************************/
+/**************************************************** MOBILE **************************************************/
 
-
+#mobile_menu {position: fixed; top:0px; background: #333; width: 70%; padding: 3.444% 0;  z-index: -1}
+.open {margin-left:70%;  transition: all 0.2s linear; -webkit-transition:  all 0.2s linear;}
 
 /************************************************* MISC *****************************************************/
 
@@ -772,16 +778,17 @@ legend {
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
-  .wrapper {padding:0;}
-  #miniheader {margin-top:0px !important; background: rgba(0, 0, 0, 0.9); padding: 0 3.444%; position: fixed;}
-  #mobile_menu {float:left;padding: 5.573% 0 3.444%; width: 20%;}
-  #minilogo {padding: 5.573% 0 3.444%; margin: 0 auto; float: left; width: 60%; text-align: center;}
-  #header {padding:3.444% 3.444% 2.12%;}
-  .wrapper {min-width:inherit;}
-  #content {padding: 0 3.444%;}
+  body {padding-top:44px;}
+  .wrapper {padding:0; min-width: 480px;}
+  #miniheader {margin-top:0px !important; background: rgba(0, 0, 0, 0.9); padding: 0 3.444%; position: fixed; height: 44px;}
+  #open_mobile_menu {float:left; padding: 0; width: 20%; line-height: 44px; }
+  #minilogo {padding: 0; margin: 0 auto; float: left; width: 60%; text-align: center; line-height: 44px;}
+  #header {display:none;}
+  #content {padding: 3.444% 3.444% 0;}
   #content .left {padding:3.444%;}
   .left {width:100%;}
   .right {width:100%; margin-top: 3.444%; }
+  #homebox {padding-top:3.444%;}
   #homebox .right {padding: 0 3.444%;}
   #logo {margin-bottom: 2.1289%; display: none;}
   #topmenu {height:initial; overflow: hidden;}
@@ -790,9 +797,6 @@ legend {
   #topleft li a {font-size:0.875em;}
   #topright {float: none; width:100%; height: auto; overflow:hidden; padding: 2.1289% 0 0; font-size: 0.875em;}
   #topright form {display:none;}
-  #mobilesignin {float:right;}
-  #mobilesignin .icon {float:right;}
-  #mobilesignin a {padding: 0 9px !important;}
   #mainmenu {display:none;}
   #footer {display:none;}
   #copyright {display:none;}
