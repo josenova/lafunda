@@ -773,8 +773,10 @@ legend {
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
   .wrapper {padding:0;}
-  #miniheader {margin-top:0px !important; position: relative; background: rgba(0, 0, 0, 0.5); padding: 0 3.444%;}
-  #header {padding:3.444% 3.444% 2.12%}
+  #miniheader {margin-top:0px !important; background: rgba(0, 0, 0, 0.9); padding: 0 3.444%; position: fixed;}
+  #mobile_menu {float:left;padding: 5.573% 0 3.444%; width: 20%;}
+  #minilogo {padding: 5.573% 0 3.444%; margin: 0 auto; float: left; width: 60%; text-align: center;}
+  #header {padding:3.444% 3.444% 2.12%;}
   .wrapper {min-width:inherit;}
   #content {padding: 0 3.444%;}
   #content .left {padding:3.444%;}
@@ -782,7 +784,6 @@ legend {
   .right {width:100%; margin-top: 3.444%; }
   #homebox .right {padding: 0 3.444%;}
   #logo {margin-bottom: 2.1289%; display: none;}
-  #minilogo {padding: 5.573% 0 3.444%; margin: 0 auto; float: none;}
   #topmenu {height:initial; overflow: hidden;}
   #topleft {float:none; width:100%; height: auto;}
   #topleft li {}
