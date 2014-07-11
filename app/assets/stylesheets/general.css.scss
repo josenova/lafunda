@@ -789,6 +789,18 @@ legend {
 
 .open {margin-left:70%;  transition: all 0.2s linear; -webkit-transition:  all 0.2s linear;}
 
+#layer {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30%;
+  z-index: 5;
+}
+
+
 /************************************************* MISC *****************************************************/
 
 .hidden { display: none; }

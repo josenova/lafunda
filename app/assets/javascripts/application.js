@@ -72,10 +72,15 @@ $(document).ready(function(){
 	
 	$('#open_mobile_menu').click(function () {
 	  $('#all').toggleClass('open');
-	  	var contentWidth = $('#main').width();
-	    $('#main').css('width', contentWidth);
+	  $('#layer').toggleClass('hidden');
+	  var contentWidth = $('#main').width();
+	  $('#main').css('width', contentWidth);
     });
 	
+	$('#layer').click(function () {
+	  $('#all').toggleClass('open');
+	  $('#layer').toggleClass('hidden');
+	});
 
 });    
 
