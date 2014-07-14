@@ -781,7 +781,7 @@ legend {
   background: #3e3c3d;
   background: linear-gradient(to bottom, #3e3c3d 0%,#2d2c2d 100%);
   width: 70%;
-  padding: 3.444% 1.315%;
+  padding: 3.444% 0;
   z-index: 0;
   height:100%;
   overflow-x:hidden;
@@ -789,14 +789,30 @@ legend {
   box-shadow: -5px 0px 8px 0px rgba(0, 0, 0, 0.4) inset;
   }
 
+#mobile_menu h6 {
+  padding: 0 5.573% 5.573%;
+}
+
+#mobile_menu ul {
+  margin-top: 14.591%;
+}
+
 #mobile_menu ul li a {
   width: 100%;
   display: block;
-  padding: 3.444%;
-  border-bottom: 1px solid #333;
+  padding: 5.573%;
   border-top: 1px solid #444;
   text-decoration: none;
   text-shadow: 1px 1px rgba(0,0,0,0.4);
+  background:rgba(255,255,255,0.02);
+}
+
+#mobile_menu ul li.current a {
+  border-left: 2px solid #dfab3e;
+}
+
+#mobile_menu ul li:last-child a {
+  border-bottom: 1px solid #444;
 }
 
 #open_mobile_menu {
