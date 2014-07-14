@@ -62,6 +62,11 @@ body {
   -webkit-transition:  all 0.3s ease-in;
 }
 
+.corner {
+  width:30%;
+  float:left;
+}
+
 #minilogo {
   width: 152px;
   float: left;
@@ -826,7 +831,20 @@ legend {
   font-weight: bold;
   text-transform: uppercase;
   font-size:0.8125em;
+  width: 73px;
+  cursor:pointer;
   }
+
+#open_mobile_menu .hamburger {
+  padding: 3px 6px 1px 0px;
+  width: 19px;
+  float: left;
+}
+
+#open_mobile_menu .hamburger div {
+  border-bottom: 2px solid #222;
+  margin-bottom: 2px;
+}
 
 .open {margin-left:70%;  transition: all 0.2s linear; -webkit-transition:  all 0.2s linear;}
 
@@ -834,7 +852,7 @@ legend {
   height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 0;
   width: 30%;
@@ -852,7 +870,7 @@ legend {
   #main {padding-top:64px;}
   .wrapper {padding:0; min-width: initial;}
   #miniheader {margin-top:0px !important; background: #030303; padding: 0 3.444%;  height: 64px;}
-  #minilogo { margin: 0 auto; float: left; width: 50%; text-align: center; padding: 2.1289% 0 0;}
+  #minilogo { margin: 0 auto; float: left; width: 40%; text-align: center; padding: 2.1289% 0 0;}
   #header {display:none;}
   #content {padding: 3.444% 3.444% 0;}
   #content .left {padding:3.444%;}

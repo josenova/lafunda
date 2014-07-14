@@ -22,7 +22,10 @@
 
 
 $(document).ready(function() {
-	if($(window).width() < 480) {
+	
+/************************************ REPLACE URL FOR MOBILE *****************************************/
+	
+	if($(window).width() <= 480) {
 	  if ($('#race_frame').length > 0) {
 		  var url = $("#race_frame").attr('src');
 		  var urlarray = url.split('stoken=');
@@ -34,11 +37,10 @@ $(document).ready(function() {
 		  $('#sport_frame').attr("src","http://wagering.lafunda.com.do/BOSSWagering/Sportsbook/MobileBetTaker?siteid=lafunda&stoken=" + urlarray[1]);
 	  }
 	}
-});
+
 /************************************ MINI HEADER *****************************************/
 
 
-$(document).ready(function(){
 		$(window).scroll(function () {
 		if ($(this).scrollTop() > 210) {
 			$("#miniheader").css( "margin-top", "0" );
@@ -46,12 +48,10 @@ $(document).ready(function(){
 			$("#miniheader").css( "margin-top", "-64px" );
 		}
 	   });
-});    
-
+ 
 
 /********************************** TAG MENU *******************************************/
 
-$(document).ready(function(){
 
 	$('#tagarrow').click(function () {
 	  $('#tagmenu').show();
@@ -61,14 +61,11 @@ $(document).ready(function(){
 	  $("#tagmenu").hide();
    });
 
-});    
 
-/********************************** MOBILE SIGN IN *******************************************/
+/********************************** MOBILE HAMBURGER MENU *******************************************/
 
-$(document).ready(function(){
 
-	//var menuHeight = $('#main').height()
-	//$('#mobile_menu').css('height', menuHeight);
+	$('#layer').css('height', $(window).height());
 	
 	$('#open_mobile_menu').click(function () {
 	  $('#all').toggleClass('open');
@@ -85,11 +82,11 @@ $(document).ready(function(){
 	 
 	});
 
-});    
+    
 
 /*********************************** ACCORDION *********************************************/
 
-$(document).ready(function(){
+
 
 $(function() {
     $( ".accordion" ).accordion({

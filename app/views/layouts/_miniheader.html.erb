@@ -1,6 +1,16 @@
 <div id="miniheader">
   <div class="wrapper">
-    <%= link_to t('views.menu'), '#', id: "open_mobile_menu" %>
+    <div class="corner">
+        <div id="open_mobile_menu">
+          <div class="hamburger">
+            <div></div>
+            <div></div>
+            <div style="margin:0;"></div>
+          </div>
+          <%= t('views.menu') %>
+        </div>
+    </div>
     <%= link_to image_tag(asset_path("minilogo.png")), root_path, id: "minilogo" %>
+    <div class="corner"></div>
   </div>
 </div>
