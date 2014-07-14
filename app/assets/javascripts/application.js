@@ -75,11 +75,13 @@ $(document).ready(function(){
 	  $('#layer').toggleClass('hidden');
 	  var contentWidth = $('#main').width();
 	  $('#main').css('width', contentWidth);
+	  $('#all').bind('touchmove', function(e){e.preventDefault()});
     });
 	
 	$('#layer').click(function () {
 	  $('#all').toggleClass('open');
 	  $('#layer').toggleClass('hidden');
+	  $('#all').unbind('touchmove');
 	});
 
 });    
