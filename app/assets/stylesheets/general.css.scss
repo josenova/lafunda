@@ -522,6 +522,7 @@ ul > li > ul > li {
   background:rgba(0,0,0,0.6);
   overflow:hidden;
   border-radius:2px;
+  margin-bottom: 5.573%;
 }
 
 
@@ -900,7 +901,24 @@ legend {
   h1 {font-size: 1.25em;}
   h2 {font-size: 1em;}
 
+  legend {
+    margin: 5.52% 0 2.128%;
+    font-size: 1em;
+  }
 
+  .left label {
+    width:30%;
+    font-size:0.875em;
+    padding:0;
+    margin:0 2% 10px 0;
+  }
 
+  .left input {
+    font-size: 0.875em;
+    width: 58%;
+    margin-right:10%;
+  }
+
+  .buttons {margin: 3% 20%;}
 
 }
