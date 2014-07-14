@@ -98,6 +98,7 @@ es:
       accept_terms: "Acepto los "
       sent_at: "Enviado el: "
       new_message: "Nuevo mensaje:"
+      menu: Menú
     flash:
       cannot_log_in: "No puedes ingresar en estos momentos."
       confirm_account: "Debes de confirmar tu cuenta."

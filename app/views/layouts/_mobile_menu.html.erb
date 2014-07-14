@@ -1,14 +1,15 @@
 <div id="mobile_menu">
-  <ul>
-    <%= nav_link t('views.home'), root_path %>
-    <%= nav_link t('views.support'), support_path %>
-  </ul>
 
     <% if user_signed_in? %>
       <h6><%= @current_user.username %></h6>
       <ul>
+        <%= nav_link t('views.sportsbook'), sportsbook_path %>
+        <%= nav_link t('views.racebook'), racebook_path %>
+        <br>
         <%= nav_link t('views.my_account'), account_path %>
         <%= nav_link t('views.cashier'), cashier_path %>
+        <%= nav_link t('views.support'), support_path %>
+        <br>
         <%= nav_link t('views.sign_out'), sign_out_path %>
       </ul>
 
@@ -16,6 +17,13 @@
       <ul>
         <%= nav_link t('views.sign_in'), sign_in_path %>
         <%= nav_link t('views.register'), register_path %>
+        <br>
+        <%= nav_link t('views.support'), support_path %>
       </ul>
     <% end %>
+
+
+
+
+
 </div>

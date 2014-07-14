@@ -781,7 +781,7 @@ legend {
   background: #3e3c3d;
   background: linear-gradient(to bottom, #3e3c3d 0%,#2d2c2d 100%);
   width: 70%;
-  padding: 3.444% 0;
+  padding: 3.444% 1.315%;
   z-index: 0;
   height:100%;
   overflow-x:hidden;
@@ -796,18 +796,20 @@ legend {
   border-bottom: 1px solid #333;
   border-top: 1px solid #444;
   text-decoration: none;
+  text-shadow: 1px 1px rgba(0,0,0,0.4);
 }
 
 #open_mobile_menu {
   float: left;
   padding: 5px 10px;
   background: #dfab3e;
-  margin: 17px 0;
+  margin: 19px 0;
   border-radius: 3px;
   text-decoration: none;
   color: #1e5127;
   font-weight: bold;
   text-transform: uppercase;
+  font-size:0.875em;
   }
 
 .open {margin-left:70%;  transition: all 0.2s linear; -webkit-transition:  all 0.2s linear;}
