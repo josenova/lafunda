@@ -82,6 +82,7 @@ $(document).ready(function(){
 	  $('#all').toggleClass('open');
 	  $('#layer').toggleClass('hidden');
 	  $('#all').unbind('touchmove');
+	 
 	});
 
 });    
