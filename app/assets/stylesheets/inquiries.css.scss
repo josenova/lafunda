@@ -211,5 +211,29 @@ tr.even {
   #phone li {float:left; padding-bottom: 3.444%; padding-left:5.573%;}
   #chat {display:none !important;}
 
+  #tickets tr td:nth-child(1) {
+    width:22%;
+  }
+
+  #tickets tr td:nth-child(2) {
+    width:60%;
+  }
+
+  #tickets tr td:nth-child(3) {
+    width:18%;
+  }
+
+  #tickets tr td:nth-child(4) {
+    display:none;
+  }
+
+  #tickets tr td:nth-child(5){
+    display:none;
+  }
+
+  #new_entry{
+    width:100%;
+  }
+
 
 }

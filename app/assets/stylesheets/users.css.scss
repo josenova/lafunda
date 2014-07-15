@@ -77,6 +77,7 @@
   font-size: 2em;
   text-align: center;
   margin-bottom: 5.573%;
+  font-family:calibri;
 }
 
 .right #balance #cashier {
@@ -129,11 +130,14 @@
     width: 100%;
     text-align: left;
     border-radius:3px;
+    padding:2.12% 5.573%;
   }
 
   #controlpanel span {
     text-transform: none;
     padding: 0;
+    font-size:1em;
+    font-weight:normal;
   }
 
   #controlpanel img {

@@ -14,10 +14,12 @@
       <div id="main">
         <div class="wrapper">
 
-            <%= render "layouts/header" %>
-            <%= render "welcome/homebox" if controller_name == 'welcome' %>
+          <%= render "layouts/header" %>
 
-            <% if controller_name != 'welcome' %>
+          <% if controller_name == 'welcome' %>
+            <%= render "welcome/homebox" %>
+
+          <% else %>
             <div id="content" class="<%= params[:controller] %>">
 
               <div class="left">
@@ -32,15 +34,13 @@
               </div>
 
             </div>
-            <% end %>
-
+          <% end %>
         </div>
-
-        <%= render "layouts/footer" %>
-        <%= render "layouts/copyright" %>
+      <%= render "layouts/footer" %>
+      <%= render "layouts/copyright" %>
       </div>
-      <%= render "layouts/mobile_menu" %>
-      <div id="layer" class="hidden"></div>
+    <%= render "layouts/mobile_menu" %>
+    <div id="layer" class="hidden"></div>
     </div>
 </body>
 </html>
