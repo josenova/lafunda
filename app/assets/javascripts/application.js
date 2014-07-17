@@ -23,9 +23,15 @@
 
 $(document).ready(function() {
 	
-/************************************ REPLACE URL FOR MOBILE *****************************************/
+/******************************************  MOBILE  **************************************************/
 	
-	if($(window).width() <= 480) {
+if($(window).width() <= 480) {
+
+/*Height for divs*/		
+	  $('#layer').css('height', $(window).height());
+	  $('#main').css('min-height', $(window).height());
+
+/*Replace Colchian URL for Mobile*/	  
 	  if ($('#race_frame').length > 0) {
 		  var url = $("#race_frame").attr('src');
 		  var urlarray = url.split('stoken=');
@@ -39,10 +45,26 @@ $(document).ready(function() {
 		  $('#sport_frame').attr("src","http://www.colchian.eu/BOSS_DEMO/BOSSWagering/Sportsbook/MobileBetTaker/?SiteID=LaFunda&stoken=" + urlarray[1]);
 		  
 	  }
-	}
+
+/*Open hamburger menu function*/		
+	$('#open_mobile_menu').click(function () {
+	  $('#main').css('width', $('#main').width());
+	  $('#all').toggleClass('open');
+	  $('#layer').toggleClass('hidden');
+	  $('#all').bind('touchmove', function(e){e.preventDefault()});
+    });
+
+/*Close hamburger menu function*/		
+	$('#layer').click(function () {
+	  $('#all').toggleClass('open');
+	  $('#layer').toggleClass('hidden');
+	  $('#all').unbind('touchmove');
+	 
+	});
+
+}
 
 /************************************ MINI HEADER *****************************************/
-
 
 		$(window).scroll(function () {
 		if ($(this).scrollTop() > 210) {
@@ -52,9 +74,7 @@ $(document).ready(function() {
 		}
 	   });
  
-
 /********************************** TAG MENU *******************************************/
-
 
 	$('#tagarrow').click(function () {
 	  $('#tagmenu').show();
@@ -65,38 +85,14 @@ $(document).ready(function() {
    });
 
 
-/********************************** MOBILE HAMBURGER MENU *******************************************/
-
-
-	$('#layer').css('height', $(window).height());
-	
-	$('#open_mobile_menu').click(function () {
-	  $('#all').toggleClass('open');
-	  $('#layer').toggleClass('hidden');
-	  var contentWidth = $('#main').width();
-	  $('#main').css('width', contentWidth);
-	  $('#all').bind('touchmove', function(e){e.preventDefault()});
-    });
-	
-	$('#layer').click(function () {
-	  $('#all').toggleClass('open');
-	  $('#layer').toggleClass('hidden');
-	  $('#all').unbind('touchmove');
-	 
-	});
-
-    
-
 /*********************************** ACCORDION *********************************************/
 
-
-
-$(function() {
-    $( ".accordion" ).accordion({
-      heightStyle: "content",
-	  collapsible: true,
-	  active: false
-    });
-  });
-
-}); 
+	$(function() {
+		$( ".accordion" ).accordion({
+		  heightStyle: "content",
+		  collapsible: true,
+		  active: false
+		});
+	  });
+	
+	}); 
