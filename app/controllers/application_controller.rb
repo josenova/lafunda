@@ -27,7 +27,8 @@ class ApplicationController < ActionController::Base
   extend Savon::Model
 
   if Rails.env.production?
-    $client = Savon.client(wsdl: 'http://services.americasimulcast.es/IncomingIntegrationService/IncomingIntegrationService.svc?wsdl')
+    #$client = Savon.client(wsdl: 'http://services.americasimulcast.es/IncomingIntegrationService/IncomingIntegrationService.svc?wsdl')
+    $client = Savon.client(wsdl: 'http://services.colchian.eu/BOSS_DEMO/BOSSWebServices/IncomingIntegrationService/IncomingIntegrationService.svc?wsdl')
   else
     $client = Savon.client(wsdl: 'http://services.colchian.eu/BOSS_DEMO/BOSSWebServices/IncomingIntegrationService/IncomingIntegrationService.svc?wsdl')
   end

@@ -294,12 +294,13 @@ body {
 /********************************************************************* MAIN MENU ************************************************************/
 
 #mainmenu {
-  height:44px;
-  background:rgba(0,0,0,0.3);
-  border-radius:3px;
-  margin-bottom:1.315%;
-  padding:0 1.315%;
-  border:1px solid rgba(0,0,0,0.1);
+  height: 44px;
+  background: url(http://subtlepatterns.com/patterns/black_denim.png);
+  border-radius: 3px;
+  margin-bottom: 1.315%;
+  padding: 0 1.315%;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.3);
 }
 
 #mainmenu li {
@@ -338,6 +339,7 @@ body {
 #content {
   overflow:hidden;
   width:100%;
+  padding-right: 0.191%;
 }
 
 #content .left {
