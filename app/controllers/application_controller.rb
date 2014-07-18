@@ -45,9 +45,7 @@ class ApplicationController < ActionController::Base
   helper_method :mobile_device?
 
   def confirm_logged_in
-    unless @current_user
-      redirect_to sign_in_url
-    end
+      redirect_to sign_in_url unless @current_user
   end
 
   def already_logged_in
