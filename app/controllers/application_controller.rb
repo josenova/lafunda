@@ -46,7 +46,6 @@ class ApplicationController < ActionController::Base
 
   def confirm_logged_in
     unless @current_user
-      flash[:error] = t('flash.please_log_in')
       redirect_to sign_in_url
     end
   end
