@@ -35,15 +35,15 @@ if($(window).width() <= 480) {
 	  if ($('#race_frame').length > 0) {
 		  var url = $("#race_frame").attr('src');
 		  var urlarray = url.split('stoken=');
-		  $('#race_frame').attr("src","http://wagering.lafunda.com.do/BOSSWagering/Racebook/MobileBetTaker?siteid=lafunda&stoken=" + urlarray[1]);
-		  //$('#race_frame').attr("src","http://www.colchian.eu/BOSS_DEMO/BOSSWagering/Racebook/MobileBetTaker/?SiteID=LaFunda&stoken=" + urlarray[1]);
+		  //$('#race_frame').attr("src","http://wagering.lafunda.com.do/BOSSWagering/Racebook/MobileBetTaker?siteid=lafunda&stoken=" + urlarray[1]);
+		  $('#race_frame').attr("src","http://www.colchian.eu/BOSS_DEMO/BOSSWagering/Racebook/MobileBetTaker/?SiteID=LaFunda&stoken=" + urlarray[1]);
 		  $('#race_frame').height(568);
 	  }
 	  if ($('#sport_frame').length > 0) {
 		  var url = $("#sport_frame").attr('src');
 		  var urlarray = url.split('stoken=');
-		  $('#sport_frame').attr("src","http://wagering.lafunda.com.do/BOSSWagering/Sportsbook/MobileBetTaker?siteid=lafunda&stoken=" + urlarray[1]);
-		  //$('#sport_frame').attr("src","http://www.colchian.eu/BOSS_DEMO/BOSSWagering/Sportsbook/MobileBetTaker/?SiteID=LaFunda&stoken=" + urlarray[1]);
+		  //$('#sport_frame').attr("src","http://wagering.lafunda.com.do/BOSSWagering/Sportsbook/MobileBetTaker?siteid=lafunda&stoken=" + urlarray[1]);
+		  $('#sport_frame').attr("src","http://www.colchian.eu/BOSS_DEMO/BOSSWagering/Sportsbook/MobileBetTaker/?SiteID=LaFunda&stoken=" + urlarray[1]);
 		  $('#sport_frame').height(568);
 		  
 	  }
