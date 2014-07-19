@@ -57,9 +57,9 @@ if($(window).width() <= 568) {
     });
 
 /*Close hamburger menu function*/		
-	$('#layer').click(function () {
-	  $('#main').css('width', 'auto');
+	$('#layer').click(function () {	  
 	  $('#all').toggleClass('open');
+	  setTimeout( "$('#main').css('width', 'auto');",200 );
 	  $('#layer').toggleClass('hidden');
 	  $('#all').unbind('touchmove');
 	 
