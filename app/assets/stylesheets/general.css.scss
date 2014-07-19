@@ -70,10 +70,11 @@ body {
 }
 
 #minilogo {
-  width: 152px;
+  display: block;
   float: left;
   padding: 0.502% 0;
-  display:block;
+  text-align: center;
+  width: 40%;
 }
 
 /*********************************************************************** HEADER ********************************************************************************/
@@ -889,7 +890,7 @@ legend {
   #main {padding-top:64px;}
   .wrapper {padding:0; min-width: initial;}
   #miniheader {margin-top:0px !important; background: #030303; padding: 0 3.444%;  height: 64px;}
-  #minilogo { margin: 0 auto; float: left; width: 40%; text-align: center; padding: 2.1289% 0 0;}
+  #minilogo { margin: 0 auto; padding: 2.1289% 0 0;}
   #header {display:none;}
   #content {padding: 3.444% 3.444% 0;}
   #content .left {padding:3.444%;}

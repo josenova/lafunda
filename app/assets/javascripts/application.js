@@ -24,12 +24,11 @@
 $(document).ready(function() {
 	
 /******************************************  MOBILE  **************************************************/
-	
+
 if($(window).width() <= 568) {
 
-/*Height for divs*/		
+/*Height for cover layer*/		
 	  $('#layer').css('height', $(window).height());
-	  $('#main').css('min-height', $(window).height());
 
 /*Replace Colchian URL for Mobile*/	  
 	  if ($('#race_frame').length > 0) {
@@ -76,6 +75,8 @@ if($(window).width() <= 568) {
 			$("#miniheader").css( "margin-top", "-64px" );
 		}
 	   });
+	   	  
+	   $('#main').css('min-height', $(window).height());	
  
 /********************************** TAG MENU *******************************************/
 
