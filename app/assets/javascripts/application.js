@@ -25,7 +25,7 @@ $(document).ready(function() {
 	
 /******************************************  MOBILE  **************************************************/
 	
-if($(window).width() <= 480) {
+if($(window).width() <= 568) {
 
 /*Height for divs*/		
 	  $('#layer').css('height', $(window).height());
