@@ -22,7 +22,7 @@ class ApplicationController < ActionController::Base
   before_action :set_locale
   before_action :current_user
   before_action :mobile_device?
-  #before_filter :authenticate if Rails.env.production?
+  before_filter :authenticate if Rails.env.production?
 
   extend Savon::Model
 
