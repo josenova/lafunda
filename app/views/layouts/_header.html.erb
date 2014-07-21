@@ -1,5 +1,6 @@
 <div id="header">
   <!--<div id="langselect"><%= link_to_unless I18n.locale == :es, "Español", locale: :es %> | <%= link_to_unless I18n.locale == :en, "English", locale: :en %></div>-->
+  <div id="signup"><%= link_to image_tag("registrate.png"), register_path unless user_signed_in? %></div>
   <%= link_to image_tag("mainlogo.png"), root_path, id: 'logo' %>
   <div id="topmenu">
     <ul id="topleft">
