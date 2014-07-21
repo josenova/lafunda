@@ -22,7 +22,6 @@ class ApplicationController < ActionController::Base
   before_action :set_locale
   before_action :current_user
   before_action :mobile_device?
-  #before_filter :authenticate if Rails.env.production?
 
   extend Savon::Model
 
@@ -55,12 +54,6 @@ class ApplicationController < ActionController::Base
   def remote_ip
     request.remote_ip
     @user_ip = remote_ip
-  end
-
-  def authenticate
-    authenticate_or_request_with_http_basic('Administration') do |username, password|
-      username == 'admin' && password == 'moneymaker'
-    end
   end
 
 
