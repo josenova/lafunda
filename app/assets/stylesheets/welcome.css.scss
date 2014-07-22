@@ -54,6 +54,16 @@
   border-right-color: #dfab3e;
 }
 
+#tabs li span {
+  float: right;
+  color: #dfab3e;
+  font-style: italic;
+  font-size: 14px;
+  position: relative;
+  right: 40px;
+  font-weight: bold;
+}
+
 /*********************************************************************** LOTTERY  **************************************************************************************/
 
 #lottery-animation {
