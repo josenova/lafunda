@@ -167,6 +167,7 @@ body {
   float:right;
   margin-left: 30px;
   height:29px;
+  min-width:144px;
 }
 
 .logout img {
@@ -280,6 +281,8 @@ body {
   box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
   padding: 0 2.128%;
   color: #333;
+  float:left;
+  margin-right:5px;
 }
 
 #topright form input[type="submit"] {
@@ -293,6 +296,7 @@ body {
   cursor:pointer;
   text-align:center;
   letter-spacing: -0.01em;
+  margin:0;
 }
 
 #topright form input:focus {
