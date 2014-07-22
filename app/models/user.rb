@@ -86,7 +86,7 @@ class User < ActiveRecord::Base
             <tem:thirdSecurityQuestion>0</tem:thirdSecurityQuestion>
             <tem:thirdSecurityAnswer></tem:thirdSecurityAnswer>
             <tem:currencyId>#{$currency_id}</tem:currencyId>
-            <tem:phone></tem:phone>
+            <tem:phone>#{self.cellphone}</tem:phone>
             <tem:workPhone></tem:workPhone>
             <tem:cellPhone>#{self.cellphone}</tem:cellPhone>
             <tem:allowCalls>#{$allow_calls}</tem:allowCalls>
