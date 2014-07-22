@@ -39,7 +39,8 @@
 
 #tabs li a {
   width: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background-image: url(asset-path('blacks/black50.png'));
+  background-repeat: repeat;
   border: 1px solid rgba(0,0,0,0.2);
   padding: 2.12% 5.573%;
   color: #fff;
