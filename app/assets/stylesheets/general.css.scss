@@ -55,7 +55,8 @@ body {
   width: 100%;
   position: fixed;
   top: 0;
-  background: rgba(0,0,0,0.9);
+  background-image: url(asset-path('blacks/black90.png'));
+  background-repeat: repeat;
   z-index: 2;
   margin-top:-74px;
   transition: all 0.3s linear;
@@ -189,6 +190,7 @@ body {
 
 #topright #usertag {
   float: right;
+  background:#fff;
   background: rgba(255,255,255,0.9);
   color: #222;
   height: 29px;
@@ -210,7 +212,7 @@ body {
 
 #tagarrow {
   float: right;
-  background: rgba(255,255,255,1);
+  background: #fff;
   display: block;
   height: 29px;
   width: 29px;
@@ -271,7 +273,7 @@ body {
 #topright form input {
   display: inline-block;
   width: 37%;
-  background: rgba(255,255,255,0.99);
+  background: #fff;
   height: 29px;
   font-size: 11px;
   border-radius: 3px;
@@ -306,9 +308,9 @@ body {
   /*background-image: url(asset-path('bg/black_denim.png'));
   border: 1px solid rgba(0, 0, 0, 0.4);
   box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.3);*/
-  background: rgba(0,0,0,0.4);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-image: url(asset-path('blacks/black40.png'));
   background-repeat: repeat;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background-position: top center;
   border-radius: 3px;
   margin-bottom: 1.315%;
@@ -414,7 +416,8 @@ body {
 
 /*************************************************************************** FOOTER **********************************************************************************/
 #footer {
-  background:rgba(0,0,0,0.7);
+  background-image: url(asset-path('blacks/black70.png'));
+  background-repeat: repeat;
   padding:2.128% 0;
   overflow:hidden;
 }
@@ -464,7 +467,8 @@ body {
 /*************************************************************************** COPYRIGHT **********************************************************************************/
 
 #copyright {
-  background:rgba(0,0,0,0.8);
+  background-image: url(asset-path('blacks/black80.png'));
+  background-repeat: repeat;
   padding:0.502% 0;
   overflow:hidden;
 
@@ -560,7 +564,8 @@ ul > li > ul > li {
 /****************************************************************** MODULES **************************************************************************************/
 
 .right .module {
-  background:rgba(0,0,0,0.6);
+  background-image: url(asset-path('blacks/black60.png'));
+  background-repeat: repeat;
   overflow:hidden;
   border-radius:2px;
   margin-bottom: 5.573%;
@@ -575,7 +580,8 @@ ul > li > ul > li {
   font-weight: bold;
   padding:3.444% 5.573%;
   font-size:1em;
-  background: rgba(0,0,0,0.4);
+  background-image: url(asset-path('blacks/black40.png'));
+  background-repeat: repeat;
 }
 
 /****************************************************************** FORMS AND BUTTONS **************************************************************************************/
