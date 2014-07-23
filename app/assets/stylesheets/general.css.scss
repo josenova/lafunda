@@ -279,11 +279,11 @@ body {
   font-size: 11px;
   border-radius: 3px;
   box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.3);
-  padding: 0 2.128%;
+  padding: 6px 2.128%;
   color: #333;
   float:left;
   margin-right:5px;
-  line-height:29px;
+  line-height:16px;
 }
 
 #topright form input[type="submit"] {
@@ -297,6 +297,7 @@ body {
   cursor:pointer;
   text-align:center;
   margin:0;
+  padding:6px 0;
   -webkit-appearance:none;
   -moz-appearance:none;
   font-family:calibri;
@@ -625,14 +626,14 @@ legend {
 
 .left input {
   border: 1px solid #bbb;
-  padding: 3px 5px;
+  padding: 4px 5px;
   background: #eee;
   width: 40%;
   margin: 0 0 10px;
   font-family:calibri;
   display: block;
   height: 30px;
-  line-height:30px;
+  line-height:22px;
   float:left;
   margin-right:30%;
   font-size:0.875em;
