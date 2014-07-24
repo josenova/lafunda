@@ -30,4 +30,13 @@
   background-color: #f1f1f1;
 }
 
+#cashier_frame {
+  height: 500px;
+}
 
+@media screen and (max-width: 568px) {
+ #cashier_frame {
+   height: 400px;
+ }
+
+}

@@ -7,3 +7,14 @@
   width:100%;
   padding: 0 !important;
 }
+
+#race_frame {
+  height: 1200px;
+}
+
+@media screen and (max-width: 568px) {
+  #race_frame {
+    height: 568px;
+  }
+
+}

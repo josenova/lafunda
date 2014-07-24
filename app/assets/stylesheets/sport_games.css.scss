@@ -8,3 +8,14 @@
   width:100%;
   padding: 0 !important;
 }
+
+#sport_frame {
+  height: 1200px;
+}
+
+@media screen and (max-width: 568px) {
+  #sport_frame {
+    height: 568px;
+  }
+
+}
