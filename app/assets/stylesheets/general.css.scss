@@ -302,7 +302,7 @@ body {
   padding:6px 0;
   -webkit-appearance:none;
   -moz-appearance:none;
-  font-family:calibri;
+  font-family:Calibri, Arial;
 }
 
 #topright form input:focus {
@@ -506,6 +506,7 @@ body {
 #content .left p {
   color:#333;
   margin-bottom:1.315%;
+  font-family:Calibri, Arial;
 }
 
 p {
@@ -513,7 +514,7 @@ p {
   font-size: 0.9375em;
   color:#fff;
   margin:0;
-  font-family:calibri; /*corbelregular;*/
+  font-family:Calibri, Arial; /*corbelregular;*/
 }
 
 h1 {
@@ -685,7 +686,7 @@ legend {
   border:1px solid #444;
   -webkit-appearance:none;
   -moz-appearance:none;
-  font-family:calibri;
+  font-family:Calibri, Arial;
 }
 
 .left input[readonly="readonly"] {
