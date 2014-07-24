@@ -116,6 +116,8 @@ body {
 
 #topleft li {
   display:inline-block;
+  float: left;
+  min-width: 113px;
 }
 
 #topleft li a {
