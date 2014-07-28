@@ -16,6 +16,9 @@
 
 //= require_tree .
 //= require jquery.ui.accordion
+//= require heap
+//= require bxslider
+//= require placeholders.min
 
 // require turbolinks
 
