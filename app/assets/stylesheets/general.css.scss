@@ -909,6 +909,7 @@ legend {
   text-transform: uppercase;
   font-size:0.8125em;
   cursor:pointer;
+  display:none;
   }
 
 #open_mobile_menu .hamburger {
@@ -964,6 +965,7 @@ legend {
   #mainmenu {display:none;}
   #footer {display:none;}
   #copyright {display:none;}
+  #open_mobile_menu {display:inline;}
 
   #topright form {padding:0; margin: 2.1289% 0;}
   #topright form input {width: 100%; margin: 0.8% 0; height: 32px;}

@@ -1,2 +1,6 @@
-<h1>Lottery#index</h1>
-<p>Find me in app/views/lotteries/index.html.erb</p>
+
+<% if Rails.env.production? %>
+    <iframe id="race_frame" src="http://66.98.5.210/Lottery/Start?key=664cf843-8904-4212-9503-d4733651f519&token=<%= session[:user_token] %>&css=//lafunda.com.do/assets/lotteries.css" width="100%" seamless="seamless"></iframe>
+<% else %>
+    <iframe id="race_frame" src="http://66.98.5.210/Lottery/Start?key=664cf843-8904-4212-9503-d4733651f519&token=<%= session[:user_token] %>&css=//lafunda.com.do/assets/lotteries.css" width="100%" seamless="seamless"></iframe>
+<% end %>

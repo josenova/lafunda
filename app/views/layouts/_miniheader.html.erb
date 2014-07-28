@@ -1,7 +1,6 @@
 <div id="miniheader">
   <div class="wrapper">
     <div class="corner">
-      <% if mobile_device? %>
         <div id="open_mobile_menu">
           <div class="hamburger">
             <div></div>
@@ -10,7 +9,6 @@
           </div>
           <%= t('views.menu') %>
         </div>
-      <% end %>
     </div>
     <%= link_to image_tag(asset_path("minilogo.png")), root_path, id: "minilogo" %>
     <div class="corner"></div>
