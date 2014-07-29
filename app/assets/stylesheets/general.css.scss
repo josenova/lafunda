@@ -506,7 +506,7 @@ body {
 #content .left p {
   color:#333;
   margin-bottom:1.315%;
-  font-family:Calibri, Arial;
+  font-family:corbelregular;
 }
 
 p {
@@ -776,11 +776,11 @@ legend {
 
 @font-face {
   font-family: 'corbelregular';
-  src: url('corbel-webfont.eot');
-  src: url('corbel-webfont.eot?#iefix') format('embedded-opentype'),
-  url('corbel-webfont.woff') format('woff'),
-  url('corbel-webfont.ttf') format('truetype'),
-  url('corbel-webfont.svg#corbelregular') format('svg');
+  src: asset-url('corbel-webfont.eot');
+  src: asset-url('corbel-webfont.eot?#iefix') format('embedded-opentype'),
+  asset-url('corbel-webfont.woff') format('woff'),
+  asset-url('corbel-webfont.ttf') format('truetype'),
+  asset-url('corbel-webfont.svg#corbelregular') format('svg');
   font-weight: normal;
   font-style: normal;
 
