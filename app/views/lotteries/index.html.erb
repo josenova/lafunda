@@ -1,7 +1,13 @@
 
 <% if Rails.env.production? %>
-    <iframe id="race_frame" src="http://66.98.5.210/Lottery/Start?key=664cf843-8904-4212-9503-d4733651f519&token=<%= session[:user_token] %>&css=<%= asset_path 'lottery.css' %>" width="100%" seamless="seamless"></iframe>
+    <iframe id="lottery_frame" src="http://66.98.5.210/Lottery/Start?key=664cf843-8904-4212-9503-d4733651f519&token=<%= session[:user_token] %>&css=http://www.kinbar.com.do/css/lottery.css" width="100%" seamless="seamless"></iframe>
 <% else %>
-    <iframe id="race_frame" src="http://66.98.5.210/Lottery/Start?key=664cf843-8904-4212-9503-d4733651f519&token=<%= session[:user_token] %>&css=<%= asset_path 'lottery.css' %>" width="100%" seamless="seamless"></iframe>
+    <iframe id="lottery_frame" src="http://66.98.5.210/Lottery/Start?key=664cf843-8904-4212-9503-d4733651f519&token=<%= session[:user_token] %>&css=http://www.kinbar.com.do/css/lottery.css" width="100%" seamless="seamless"></iframe>
 <% end %>
-<%= stylesheet_link_tag "lottery.css" %>
+
+
+
+<% content_for :modules do %>
+    <h5>Results</h5>
+    <iframe id="lottery_results_frame" src="http://66.98.5.210/Lottery/WinningNumbers?key=664cf843-8904-4212-9503-d4733651f519&css=http://www.kinbar.com.do/css/lottery.css" width="100%" seamless="seamless"></iframe>
+<% end %>
