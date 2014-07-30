@@ -380,6 +380,30 @@ body {
   padding-left: 48px;
 }
 
+#social {
+  float: right;
+  width: 8%;
+  overflow: hidden;
+  padding: 0.502% 0;
+  text-align: right;
+}
+
+#social li {
+  display: inline-block;
+  margin: 0;
+  margin-right: 9.017%;
+}
+
+#social li a{
+  border: none !important;
+  width: 30px;
+  height: 30px;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+
 /*********************************************************************** CONTENT **************************************************************************************/
 
 #content {
@@ -452,7 +476,7 @@ body {
 }
 
 #paymentmethods li{
-  width: 14%;
+  width: 16%;
   padding-right: 1%;
   display:inline-block;
 }
@@ -461,15 +485,6 @@ body {
   border:none !important;
 }
 
-#social li {
-  width: 12%;
-  padding-right: 1%;
-  display:inline-block;
-}
-
-#social li a{
-  border:none !important;
-}
 
 
 

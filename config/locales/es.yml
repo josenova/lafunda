@@ -26,13 +26,13 @@ es:
       home: Inicio
       live_casino: "Casino en Vivo"
       sportsbook: Deportes
-      support: Soporte
+      support: "Servicio al Cliente"
       live_chat: "Chat en Vivo"
       chat_now: "Abrir Chat"
       faq: "Preguntas Frecuentes"
       terms_and_conditions: "Términos y Condiciones"
       responsible_gaming: "Juego Responsable"
-      privacy_policy: "Politicas de Privacidad"
+      privacy_policy: "Políticas de Privacidad"
       information: Información
       payment_methods: "Métodos de Pago"
       follow_us: Síguenos
@@ -80,7 +80,7 @@ es:
       have_an_account?: "¿Ya tienes una cuenta?"
       click_to_sign_in: "Clic aquí para iniciar sesión."
       help: Ayuda
-      open_ticket: "Abre un Ticket"
+      open_ticket: "Abrir Ticket"
       support_ticket: "Ticket de Soporte"
       ticket_created: "El ticket fue creado con éxito."
       ticket_failed: "El ticket no se pudo crear."

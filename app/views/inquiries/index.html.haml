@@ -15,7 +15,7 @@
     %td#inquiry
       %h4= t('views.open_ticket')
       - if @current_user
-        %p Envíanos tu requerimiento detallado y te responderemos en la mayor brevedad posible.
+        %p Escríbenos y te responderemos a la mayor brevedad posible.
         = link_to t('views.open_ticket'), new_inquiry_path, class: :button
       - else
         %p Debes iniciar sesión para crear un ticket de soporte.

@@ -1,0 +1,38 @@
+// Place all the styles related to the SportGames controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.bx-wrapper {
+  position:relative;
+}
+
+.bx-has-pager {
+  position: absolute;
+  bottom: -17px;
+  left: 47%;
+}
+
+.bx-pager-item {
+  float: left;
+  margin-left: 6px;
+}
+
+.bx-pager-link {
+  float: left;
+  font-size: 0;
+  border: 6px solid #fff;
+  border-radius: 6px;
+  box-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+
+.bx-pager-link.active {
+  border-color:#dfab3e;
+}
+
+@media screen and (max-width: 568px) {
+
+  .bx-pager-link {
+    display:none;
+  }
+}
