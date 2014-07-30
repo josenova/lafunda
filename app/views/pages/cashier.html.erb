@@ -1,6 +1,6 @@
 <h1><%= t('views.cashier')%></h1>
 
-<iframe id="cashier_frame" src="http://cashier.lafunda.com.do/Pages/frmLogin.aspx?CustPIN=<%= @current_user.username %>&Password=<%= session[:user_token] %>&Language=ES" width="100%"></iframe>
+<iframe id="cashier_frame" src="https://cashier.lafunda.com.do/Pages/frmLogin.aspx?CustPIN=<%= @current_user.username %>&Password=<%= session[:user_token] %>&Language=ES" width="100%"></iframe>
 
 
 <% content_for :modules do %>
