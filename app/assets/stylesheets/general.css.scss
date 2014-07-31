@@ -20,7 +20,7 @@ img {
 
 body {
   width:100%;
-  font-family: calibri, arial;
+  font-family: calibri, calibriregular, arial;
   color:#fff;
   overflow-x:hidden;
 }
@@ -125,7 +125,7 @@ body {
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
-  font-family: calibri, arial;
+  font-family: calibri, calibriregular, arial;
   font-size: 1em;
   text-decoration: none;
   text-shadow: 1px 1px rgba(0,0,0,0.3);
@@ -302,7 +302,7 @@ body {
   padding:6px 0;
   -webkit-appearance:none;
   -moz-appearance:none;
-  font-family:Calibri, Arial;
+  font-family:calibri, calibriregular, arial;
 }
 
 #topright form input:focus {
@@ -342,7 +342,7 @@ body {
   text-decoration: none;
   height: 42px;
   line-height: 44px;
-  font-family: Calibri;
+  font-family: calibri, calibriregular, arial;
   font-size: 1.0625em;
   font-weight: bold;
   text-shadow: 1px 1px #000;
@@ -537,7 +537,7 @@ h1 {
   font-size: 30px;
   margin-bottom: 2.128%;
   color:#222;
-  font-family: Calibri, Arial;
+  font-family: calibri, calibriregular, arial;
 
 }
 
@@ -546,7 +546,7 @@ h2 {
   margin:3.444% 0 1.315%;
   color:#111;
   font-size:1.25em;
-  font-family: Calibri, Arial;
+  font-family: calibri, calibriregular, arial;
 
 }
 
@@ -555,21 +555,21 @@ h3 {
   margin: 2.1289% 0;
   color:#333;
   font-weight:normal;
-  font-family:calibri;
+  font-family:calibri, calibriregular, arial;
 }
 
 h4 {
   font-size: 0.9375em;
   margin: 3.444% 0 1.315% 0;
   color:#222;
-  font-family:calibri;
+  font-family:calibri, calibriregular, arial;
 }
 
 h6 {
   text-transform:uppercase;
   font-size:1.1875em;
   padding-bottom:5.573%;
-  font-family: Calibri, Arial;
+  font-family: calibri, calibriregular, arial;
 }
 
 a {
@@ -651,7 +651,7 @@ legend {
   background: #eee;
   width: 40%;
   margin: 0 0 10px;
-  font-family:calibri;
+  font-family:calibri, calibriregular, arial;
   display: block;
   height: 30px;
   line-height:22px;
@@ -680,7 +680,7 @@ legend {
   background: #eee;
   width: 40%;
   margin: 0 0 10px;
-  font-family:calibri;
+  font-family:calibri, calibriregular, arial;
   display: block;
   height: 120px;
   float:left;
@@ -704,7 +704,7 @@ legend {
   border:1px solid #444;
   -webkit-appearance:none;
   -moz-appearance:none;
-  font-family:Calibri, Arial;
+  font-family:calibri, calibriregular, arial;
 }
 
 .left input[readonly="readonly"] {
@@ -725,7 +725,7 @@ legend {
   border: 1px solid #333333;
   padding: 6px 12px;
   margin: 0;
-  font-family: calibri;
+  font-family: calibri, calibriregular, arial;
   display: block;
   font-size:0.8125em;
   text-decoration:none;
@@ -750,7 +750,7 @@ legend {
   border: 1px solid #8c2d30;
   padding: 6px 5.573%;
   margin: 0;
-  font-family: calibri;
+  font-family: calibri, calibriregular, arial;
   display: block;
   font-size: 0.8125em;
   text-shadow: 1px 1px rgba(0,0,0,0.3);
@@ -766,7 +766,7 @@ legend {
   border: 1px solid #333;
   padding: 6px 5.573%;
   margin: 0;
-  font-family: calibri;
+  font-family: calibri, calibriregular, arial;
   display: block;
   font-size: 0.8125em;
 }
@@ -798,6 +798,32 @@ legend {
   asset-url('corbel-webfont.svg#corbelregular') format('svg');
   font-weight: normal;
   font-style: normal;
+
+
+@font-face {
+  font-family: 'calibriregular';
+  src: asset-url('calibri-webfont.eot');
+  src: asset-url('calibri-webfont.eot?#iefix') format('embedded-opentype'),
+  asset-url('calibri-webfont.woff') format('woff'),
+  asset-url('calibri-webfont.ttf') format('truetype'),
+  asset-url('calibri-webfont.svg#calibriregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'calibriregular';
+  src: asset-url('calibrib-webfont.eot');
+  src: asset-url('calibrib-webfont.eot?#iefix') format('embedded-opentype'),
+  asset-url('calibrib-webfont.woff') format('woff'),
+  asset-url('calibrib-webfont.ttf') format('truetype'),
+  asset-url('calibrib-webfont.svg#calibribold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+
+}
 
 }
 
