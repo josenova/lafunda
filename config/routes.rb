@@ -26,7 +26,7 @@ Lafunda::Application.routes.draw do
 
   #Support
   get "support" => 'inquiries#index'
-  get "ticket_center" => 'inquiries#admin_index'
+  get "ticket_center" => 'inquiries#center'
 
   resources "inquiries", only: [:new, :create, :show]
   resources "users", only: [:create, :update]

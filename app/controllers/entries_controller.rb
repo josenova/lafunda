@@ -7,6 +7,15 @@ class EntriesController < ApplicationController
     @entry = @inquiry.entries.new(entry_params)
     @entry.author = @current_user.name + ' ' + @current_user.surname
 
+    # Close and open tickets automatically
+    if @current_user.admin
+      @entry.employee = true
+      @inquiry.status = false
+    else
+      @inquiry.status = true
+    end
+    @inquiry.save
+
     respond_to do |format|
       if @entry.save
         format.html { redirect_to @inquiry, notice: t('flash.entry_created') }
@@ -29,7 +38,11 @@ private
   end
 
   def confirm_inquiry_owner
-    @inquiry = @current_user.inquiries.find(params[:entry][:inquiry_id])
+    if @current_user.admin
+      @inquiry = Inquiry.find(params[:entry][:inquiry_id])
+    else
+      @inquiry = @current_user.inquiries.find(params[:entry][:inquiry_id])
+    end
   end
 
 

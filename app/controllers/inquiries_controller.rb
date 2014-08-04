@@ -1,6 +1,6 @@
 class InquiriesController < ApplicationController
 
-  before_action :confirm_logged_in, only: [:new, :create, :show]
+  before_action :confirm_logged_in, only: [:new, :create, :show, :center]
   before_action :set_inquiries, only: [:index]
   before_action :set_inquiry, only: [:show]
 
@@ -29,7 +29,7 @@ class InquiriesController < ApplicationController
     @entry = Entry.new
   end
 
-  def admin_index
+  def center
     @inquiry = Inquiry.all
   end
 
@@ -39,7 +39,11 @@ class InquiriesController < ApplicationController
   # Use callbacks to share common setup or constraints between actions.
 
   def set_inquiry
-    @inquiry = @current_user.inquiries.find(params[:id])
+    if @current_user.admin
+      @inquiry = Inquiry.find(params[:id])
+    else
+      @inquiry = @current_user.inquiries.find(params[:id])
+    end
   end
 
   def set_inquiries
