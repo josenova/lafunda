@@ -29,6 +29,10 @@ class InquiriesController < ApplicationController
     @entry = Entry.new
   end
 
+  def admin_index
+    @inquiry = Inquiry.all
+  end
+
 
 
   private
