@@ -3,6 +3,7 @@ class InquiriesController < ApplicationController
   before_action :confirm_logged_in, only: [:new, :create, :show, :center]
   before_action :set_inquiries, only: [:index]
   before_action :set_inquiry, only: [:show]
+  before_action :confirm_admin, only: [:center]
 
   def new
     @inquiry = Inquiry.new
@@ -48,6 +49,10 @@ class InquiriesController < ApplicationController
 
   def set_inquiries
     @user_inquiries = @current_user.inquiries if @current_user
+  end
+
+  def confirm_admin
+    redirect_to root_url unless @current_user.admin
   end
 
   # Never trust parameters from the scary internet, only allow the white list through.

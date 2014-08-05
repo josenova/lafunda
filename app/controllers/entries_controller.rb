@@ -1,31 +1,33 @@
 class EntriesController < ApplicationController
 
+  before_action :confirm_logged_in, only: [:create]
   before_action :confirm_inquiry_owner, only: [:create]
 
   def create
 
     @entry = @inquiry.entries.new(entry_params)
     @entry.author = @current_user.name + ' ' + @current_user.surname
-
-    # Close and open tickets automatically
-    if @current_user.admin
-      @entry.employee = true
-      @inquiry.status = false
-    else
-      @inquiry.status = true
-    end
-    @inquiry.save
+    @entry.employee = true if @current_user.admin
 
     respond_to do |format|
       if @entry.save
         format.html { redirect_to @inquiry, notice: t('flash.entry_created') }
         #format.json { render action: 'show', status: :created, location: @inquiry }
+        UserMailer.new_entry(@inquiry_owner, @inquiry).deliver if @current_user.admin
       else
         format.html { redirect_to @inquiry, error: t('flash.entry_not_created') }
         #format.json { render json: @inquiry.errors, status: :unprocessable_entity }
         logger.warn "Entry could not be created: #{@entry.attributes.inspect}, is valid?: #{@entry.valid?}"
       end
     end
+
+    # Close and open tickets automatically
+    if @current_user.admin
+      @inquiry.status = false
+    else
+      @inquiry.status = true
+    end
+    @inquiry.save
   end
 
 
@@ -40,6 +42,7 @@ private
   def confirm_inquiry_owner
     if @current_user.admin
       @inquiry = Inquiry.find(params[:entry][:inquiry_id])
+      @inquiry_owner = User.find(@inquiry.user_id)
     else
       @inquiry = @current_user.inquiries.find(params[:entry][:inquiry_id])
     end

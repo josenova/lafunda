@@ -87,8 +87,8 @@ Lafunda::Application.configure do
       :port => 587,
       :domain => "lafunda.do",
       :authentication => :login,
-      :user_name => "admin@lafunda.do",
-      :password => "JN809cHp$",
+      :user_name => "servicioalcliente@lafunda.do",
+      :password => "LF$978pHgb",
       openssl_verify_mode: 'none',
       tls: false
   }

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+<p>Estimado <%= @user.name + " " + @user.surname %>,</p>
+
+<p>Ha recibido una respuesta de servicio al cliente con relación al caso #<%= @inquiry.id %></p>
+
+<p>Para ver el ticket o responder haga clic <%= link_to "aquí", @inquiry %>.</p>
+
+<p>
+--------------------------<br>
+Ticket ID: #<%= @inquiry.id %><br>
+Subject: <%= @inquiry.subject %><br>
+--------------------------<br>
+</p>
+
+<p>La Funda<br>
+<a href="http://www.lafunda.com.do">www.lafunda.com</a></p>
+</body>
+</html>
