@@ -6,4 +6,6 @@ class UserMailer < ActionMailer::Base
     @inquiry = inquiry
     mail(to: @user.email, subject: "[Ticket ##{@inquiry.id}] #{@inquiry.subject}")
   end
+  handle_asynchronously :new_entry
+
 end

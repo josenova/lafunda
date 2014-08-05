@@ -23,7 +23,7 @@
   - @inquiry.entries.order("created_at asc").each do |entry|
     .entrywrap
       %div{:class => is_employee(entry)}
-        .author= entry.author + (" (soporte)" if is_employee(entry)) + ":"
+        .author= entry.author + ":"
         %div= entry.message
         .date= t('views.sent_at') + entry.created_at.strftime("%H:%M:%S %d/%m/%Y")
 
