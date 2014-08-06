@@ -410,7 +410,7 @@ background-color:#dbdbdb !important;
 }
 
 #houseLI_ENJ label, #houseLI_LNJ label {
-background:url(logos/newjersey.png) center left no-repeat #05663a !important;	
+background:url(logos/newjersey.png) center left no-repeat #057442 !important;	
 }
 
 #houseLI_ENJ.closed label, #houseLI_LNJ.closed label {
@@ -445,7 +445,7 @@ background:url(logos/puertorico.png) center left no-repeat #823782 !important;
 background:url(logos/haiti2.png) center left no-repeat #b48906 !important;	
 }
 
-#houseLI_LNYBOR.closed label, #houseLI_ENYBOR.closed label {
+#houseLI_LNYMAR.closed label, #houseLI_ENYMAR.closed label {
 	background-color:#dbdbdb !important;	
 }
 /**********************************************/
