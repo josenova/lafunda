@@ -68,15 +68,17 @@ if($(window).width() <= 568) {
 
 /************************************ MINI HEADER *****************************************/
 
-		$(window).scroll(function () {
-		if ($(this).scrollTop() > 210) {
-			$("#miniheader").css( "margin-top", "0" );
-		} else {
-			$("#miniheader").css( "margin-top", "-59px" );
-		}
-	   });
-	   	  
-	   $('#main').css('min-height', $(window).height());	
+	$(window).scroll(function () {
+	if ($(this).scrollTop() > 210) {
+		$("#miniheader").css( "margin-top", "0" );
+	} else {
+		$("#miniheader").css( "margin-top", "-59px" );
+	}
+   });
+
+/********************************* MAIN DIV HEIGHT **************************************/
+	  
+   $('#main').css('min-height', $(window).height());	
  
 /********************************** TAG MENU *******************************************/
 
@@ -87,7 +89,6 @@ if($(window).width() <= 568) {
 	$(document).mouseup(function() {
 	  $("#tagmenu").hide();
    });
-
 
 /*********************************** ACCORDION *********************************************/
 
