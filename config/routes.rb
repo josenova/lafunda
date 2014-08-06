@@ -9,7 +9,6 @@ Lafunda::Application.routes.draw do
   get "lottery" => 'lotteries#index'
 
   #Static Pages
-  get "faq" => 'pages#faq'
   get "privacy" => 'pages#privacy'
   get "terms" => 'pages#terms'
   get "responsible" => 'pages#responsible'

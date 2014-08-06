@@ -456,18 +456,23 @@ body {
   overflow:hidden;
 }
 
+#footer h6 {
+  text-transform: uppercase;
+  font-size: 1.1875em;
+  padding-bottom: 9.017%;
+  font-family: calibri, calibriregular, arial;
+}
+
 #footer ul {
   float:left;
   width:24%;
   padding-right: 3.444%;
-  height:129px;
 }
 
 
 #footer ul li a {
   color:#eee;
-  text-transform:uppercase;
-  font-size:0.8125em;
+  font-size:0.9375em;
   border-bottom:1px solid #193321;
   padding-bottom:1.315%;
   margin-bottom:1.315%;
@@ -559,18 +564,13 @@ h3 {
 }
 
 h4 {
-  font-size: 0.9375em;
+  font-size: 1em;
   margin: 3.444% 0 1.315% 0;
   color:#222;
   font-family:calibri, calibriregular, arial;
 }
 
-h6 {
-  text-transform:uppercase;
-  font-size:1.1875em;
-  padding-bottom:5.573%;
-  font-family: calibri, calibriregular, arial;
-}
+
 
 a {
   color: #fff;

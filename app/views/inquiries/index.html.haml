@@ -13,7 +13,7 @@
       %p Chatea con uno de nuestros representantes.
       %a.button{:href => "http://kinbar.com.do/livezilla/chat.php?a=e4a9d", :target => "_blank"}= t('views.chat_now')
     %td#inquiry
-      %h4= t('views.open_ticket')
+      %h4= t('views.support_ticket')
       - if @current_user
         %p Escríbenos y te responderemos a la mayor brevedad posible.
         = link_to t('views.open_ticket'), new_inquiry_path, class: :button
@@ -48,6 +48,7 @@
 
 #faq
   %h2= t('views.faq')
+  %h4 Instrucciones
   .accordion
     %h4 ¿Cómo registro un nuevo usuario?
     %div
@@ -64,4 +65,6 @@
     %h4 ¿Cómo cancelo mi cuenta?
     %div
       %p Debes comunicarte con nosotros para inactivar o cancelar tu cuenta.
+
+
 

@@ -2,33 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.ui-accordion-header {
-  border-radius: 3px;
-  padding: 4px 9px;
-  margin: 0 0 2px;
-  font-weight: normal;
-  font-size: 0.9375em;
-  border: 1px solid #dbdbdb;
-  color: #222;
-}
 
-.accordion p {
-  padding: 9px;
-}
-
-.ui-accordion-header[aria-selected="false"] {
-  background-image: url(asset-path('icons/plus.png'));
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-color: #f1f1f1;
-}
-
-.ui-accordion-header[aria-selected="true"] {
-  background-image: url(asset-path('icons/minus.png'));
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-color: #f1f1f1;
-}
 
 #cashier_frame {
   height: 500px;
