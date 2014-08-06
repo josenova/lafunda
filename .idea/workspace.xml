@@ -46,8 +46,8 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/lotteries/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20307167" vertical-offset="0" max-vertical-offset="586">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.029010238" vertical-offset="0" max-vertical-offset="586">
+              <caret line="1" column="217" selection-start-line="1" selection-start-column="175" selection-end-line="1" selection-end-column="217" />
               <folding />
             </state>
           </provider>
@@ -716,8 +716,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/lotteries/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20307167" vertical-offset="0" max-vertical-offset="586">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.029010238" vertical-offset="0" max-vertical-offset="586">
+          <caret line="1" column="217" selection-start-line="1" selection-start-column="175" selection-end-line="1" selection-end-column="217" />
           <folding />
         </state>
       </provider>
