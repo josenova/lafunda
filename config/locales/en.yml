@@ -102,16 +102,18 @@ en:
             attributes:
               username:
                 too_long: "must have at least 5 characters."
-                too_short: "cant have more than 10 characters."
+                too_short: "cant have more than 14 characters."
                 blank: "can't be blank."				
               email:
                 taken: "is already in use."
                 blank: "can't be blank."				
               name: 
                 too_short: "is too short."
+                too_long: "is too long."
                 blank: "can't be blank."				
               surname:
                 too_short: "is too short."
+                too_long: "is too long."
                 blank: "can't be blank."				
               password:
                 invalid: "must have at least one lower case letter, one uppercase letter and a number. No spaces allowed."

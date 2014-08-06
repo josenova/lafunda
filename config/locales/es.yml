@@ -121,7 +121,7 @@ es:
           user:
             attributes:
               username:
-                too_long: "- tu usuario no debe tener más de 10 caracteres."
+                too_long: "- tu usuario no puede tener más de 14 caracteres."
                 too_short: "- tu usuario debe tener mínimo 5 caracteres."
                 blank: "- debes ingresar tu usuario."
               email:
@@ -129,9 +129,11 @@ es:
                 blank: "- debes ingresar tu email."
               name: 
                 too_short: "- nombre inválido."
+                too_long: "- tu nombre no puede tener más de 30 caracteres."
                 blank: "- debes ingresar tu nombre."
               surname:
                 too_short: "- apellido inválido."
+                too_long: "- tu apellido no puede tener más de 30 caracteres."
                 blank: "- debes ingresar tu apellido."
               password:
                 invalid: "- tu contraseña debe contener una mayúscula, una minúscula y un número. Sin espacios."
