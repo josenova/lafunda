@@ -72,6 +72,17 @@ font-family: calibri, arial;
 border: 1px solid #333;
 }
 
+a[href="/Lottery"] {
+	background: #c0c0c0;
+padding: 6px 12px;
+text-decoration: none;
+color: #333;
+font-weight: bold;
+font-size: 13px;
+font-family: calibri, arial;
+border: 1px solid #333;
+}
+
 body#transactions, body#orderDetails {
 padding: 3.444%;
 margin: 0;
@@ -170,19 +181,24 @@ color: #222;
 }
 
 #entry #number input#numbers {
-font-size:1.5em;	
+font-size:1.25em;
+width:100%;	
 }
 
 #entry #straight input#straightAmount {
-font-size: 1.5em;
+font-size: 1.25em;
+width:100%;
+text-align:center;
 }
 
 #entry #number {
-position: absolute;
+position: relative;
+float: left;
+width: 23%;
+text-align: center;
+margin-right: 2%;
 top: 0;
 left: 0;
-width: 200px;
-text-align: center;
 }
 
 #entry #quickPick {
@@ -190,7 +206,7 @@ position: absolute;
 left: 0;
 top: 58px;
 font-size: 13px;
-width: 203px;
+width: 23%;
 text-align:center;
 }
 
@@ -201,19 +217,23 @@ margin-left: 10px;
 
 #entry #quickPick ol li a {
 text-decoration: none;
-padding: 1px 5px;
-background-color: #ad0b0b;
-color: #fff;
+padding: 1px 4px;
+background-color: #dfab3e;
+color: #222;
+border: 1px solid #444;
 }
 
 
 
 
 #entry #straight {
-position: absolute;
-top: 0;
-left: 220px;
+position: relative;
+float: left;
 text-align: center;
+width: 23%;
+left: 0;
+margin-right: 2%;
+top: 0;
 }
 
 #entry #straight span {
@@ -224,17 +244,16 @@ font-weight: bold;
 color: #222;
 }
 
-#entry #straight input#straightAmount {
-font-size: 1.5em;
-width: 200px;
-text-align: center;
-}
+
 
 #entry #boxed {
-position: absolute;
-top: 0;
-left: 441px;
+position: relative;
 text-align: center;
+float: left;
+width: 26%;
+left: 0;
+top: 0;
+margin-right: 2%;
 }
 
 #entry #boxed span {
@@ -246,25 +265,34 @@ color: #222;
 }
 
 #entry #boxed input#boxedAmount {
-font-size: 1.5em;
-width: 200px;
+font-size: 1.25em;
+width: 100%;
 text-align: center;
 }
 
 #entry #addBet {
-position: absolute;
+position: relative;
 right: 0;
-top: 19px;
+top: 18px;
+float: left;
+width: 21%;
+left: 0;
+margin-left: 1%;
+text-align:center;
 }
 
+
+
 #entry #addBet input {
-background-color: #ad0b0b;
-border: solid 1px #eee;
-color: #fff;
-font-size: 16px;
-padding: 5px 15px;
+background-color: #dfab3e;
+color: #222;
+font-size: 13px;
+padding: 8px 12px;
 margin: 0;
 text-transform: uppercase;
+font-family: calibri, arial;
+font-weight: bold;
+border: 1px solid #222;
 }
 
 table.table tbody tr:nth-child(1n+1) {
@@ -277,7 +305,7 @@ color: #fff;
 text-transform: uppercase;
 font-size: 11px;
 font-weight: normal;
-text-align: center;
+text-align: center !important;
 border: 0;
 height: 23px;
 padding: 0;
@@ -285,7 +313,7 @@ line-height: 23px;
 }
 
 table.table td {
-text-align: center;
+text-align: center !important;
 font-size: 12px;
 color: #222;
 }
@@ -448,6 +476,22 @@ background:url(logos/haiti2.png) center left no-repeat #b48906 !important;
 #houseLI_LNYMAR.closed label, #houseLI_ENYMAR.closed label {
 	background:url(logos/haiti2_off.png) center left no-repeat #dbdbdb !important;		
 }
+
+/**********************************************/
+@media screen and (max-width: 760px) {
+	#houses li label {
+padding-left: 56px;
+font-size:13px;
+}
+
+#houses li label::after, #houses li .selected::after {
+	top: 19px;
+	width: 17px;
+height: 17px;
+font-size: 12px;
+}
+}
+
 /**********************************************/
 
 body#winningNumbersView {
