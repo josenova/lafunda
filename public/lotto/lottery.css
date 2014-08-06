@@ -127,13 +127,13 @@ float:left;
 
 #details {
 top: 0px;
-width: 70%;
+width: 90%;
 height: 30px;
 line-height: 30px;
 text-align: center;
 font-size: 10px;
 text-transform: uppercase;
-margin: 2.12% 0 0 17.444%;
+margin: 2.12% 0 2.12% 10%;
 }
 
 #details label {
@@ -287,7 +287,7 @@ text-align:center;
 background-color: #dfab3e;
 color: #222;
 font-size: 13px;
-padding: 8px 12px;
+padding: 6px 12px;
 margin: 0;
 text-transform: uppercase;
 font-family: calibri, arial;
@@ -323,20 +323,19 @@ color: #222;
 right: 0;
 bottom: 0;
 float:left;
-width:350px;
 }
 
 #details .action .placeOrder form input {
 display: inline;
-background-color: #dfab3e;
-color: #222;
+background-color: rgb(30, 81, 39);
+color: #fff;
 font-weight: bold;
 font-size: 13px;
 padding: 6px 12px;
 text-transform: uppercase;
 font-family: calibri, arial;
 margin: 0 0 0 25px;
-border: 1px solid #333;
+border: 1px solid rgb(00, 51, 09);
 }
 
 table.table tbody tr:nth-child(even) {
@@ -385,12 +384,19 @@ table.table tfoot th {
 border-top: solid 1px #999;
 color: #333;
 font-size: 14px;
-text-align: center;
+text-align: center !important;
 }
 
 #houses li label.selected {
 background:inherit;
 color:#fff;	
+}
+
+#btnFavToOrder, #btnDelFav, #btnSaveFav, #btnAddToOrder, #btnVoidOrder {
+background: transparent;
+color: #222;
+border: 0;
+text-decoration: underline;
 }
 
 #houses li label::after {
