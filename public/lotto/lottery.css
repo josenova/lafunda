@@ -59,6 +59,9 @@ font-size:15px;
 
 #houses li label:hover, #entry #addBet input:hover {
 cursor:pointer;
+-webkit-appearance:none;
+-moz-appearance:none;
+
 }
 
 a[href="/Account/Transactions"] {
@@ -336,6 +339,8 @@ text-transform: uppercase;
 font-family: calibri, arial;
 margin: 0 0 0 25px;
 border: 1px solid rgb(00, 51, 09);
+-webkit-appearance:none;
+-moz-appearance:none;
 }
 
 table.table tbody tr:nth-child(even) {
@@ -363,6 +368,8 @@ font-family: calibri, arial;
 font-weight: bold;
 text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
 height:29px;
+-webkit-appearance:none;
+-moz-appearance:none;
 }
 
 #details .action .cancelOrder {
@@ -529,12 +536,12 @@ font-size:11px;
 
 #entry #boxed {
 	margin-top: -14px;
-	width: 34%;
+	width: 33%;
 	margin-right: 0;
 }
 
 #entry #straight {
-	width: 31%;
+	width: 32%;
 	margin-right: 2%;
 }
 
@@ -551,7 +558,7 @@ display:none;
 width:100%;	
 }
 
-table tr td:nth-of-type(5), table tr th:nth-of-type(5) {
+table tr td:nth-of-type(5), table tr th:nth-of-type(5), table tr td:nth-of-type(3), table tr th:nth-of-type(3) {
 display: none;
 }
 
