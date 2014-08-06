@@ -398,15 +398,15 @@ background:url(logos/nyc.png) center left no-repeat #004f8a !important;
 }
 
 #houseLI_ENY.closed label, #houseLI_ENY.closed label {
-background-color:#dbdbdb !important;
+background:url(logos/nyc_off.png) center left no-repeat #dbdbdb !important;
 }
 
 #houseLI_EIL label, #houseLI_LIL label {
 background:url(logos/illinois.png) center left no-repeat #d24f00 !important;	
 }
 
-#houseLI_ECH.closed label, #houseLI_LCH.closed label  {
-background-color:#dbdbdb !important;	
+#houseLI_EIL.closed label, #houseLI_LIL.closed label  {
+background:url(logos/illinois_off.png) center left no-repeat #dbdbdb !important;	
 }
 
 #houseLI_ENJ label, #houseLI_LNJ label {
@@ -414,15 +414,15 @@ background:url(logos/newjersey.png) center left no-repeat #057442 !important;
 }
 
 #houseLI_ENJ.closed label, #houseLI_LNJ.closed label {
-background-color:#dbdbdb !important;	
+background:url(logos/newjersey_off.png) center left no-repeat #dbdbdb !important;	
 }
 
 #houseLI_LFL label, #houseLI_EFL label {
 background:url(logos/miami.png) center left no-repeat #cd1c62 !important;	
 }
 
-#houseLI_EMI.closed label, #houseLI_LMI.closed label {
-	background-color:#dbdbdb !important;	
+#houseLI_LFL.closed label, #houseLI_EFL.closed label {
+background:url(logos/miami_off.png) center left no-repeat #dbdbdb !important;	
 }
 
 #houseLI_LNYBOR label, #houseLI_ENYBOR label {
@@ -430,7 +430,7 @@ background:url(logos/haiti.png) center left no-repeat #a60000 !important;
 }
 
 #houseLI_LNYBOR.closed label, #houseLI_ENYBOR.closed label {
-	background-color:#dbdbdb !important;	
+background:url(logos/haiti_off.png) center left no-repeat #dbdbdb !important;	
 }
 
 #houseLI_NPR label, #houseLI_DPR label {
@@ -438,7 +438,7 @@ background:url(logos/puertorico.png) center left no-repeat #823782 !important;
 }
 
 #houseLI_NPR.closed label, #houseLI_DPR.closed label {
-	background-color:#dbdbdb !important;	
+background:url(logos/puertorico_off.png) center left no-repeat #dbdbdb !important;		
 }
 
 #houseLI_LNYMAR label, #houseLI_ENYMAR label {
@@ -446,7 +446,7 @@ background:url(logos/haiti2.png) center left no-repeat #b48906 !important;
 }
 
 #houseLI_LNYMAR.closed label, #houseLI_ENYMAR.closed label {
-	background-color:#dbdbdb !important;	
+	background:url(logos/haiti2_off.png) center left no-repeat #dbdbdb !important;		
 }
 /**********************************************/
 
