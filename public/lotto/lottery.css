@@ -71,7 +71,7 @@ font-size: 13px;
 font-family: calibri, arial;
 border: 1px solid #333;
 }
-
+/*
 a[href="/Lottery"] {
 	background: #c0c0c0;
 padding: 6px 12px;
@@ -81,7 +81,7 @@ font-weight: bold;
 font-size: 13px;
 font-family: calibri, arial;
 border: 1px solid #333;
-}
+}*/
 
 body#transactions, body#orderDetails {
 padding: 3.444%;
@@ -392,6 +392,10 @@ background:inherit;
 color:#fff;	
 }
 
+#custFavs span {
+display:none;	
+}
+
 #btnFavToOrder, #btnDelFav, #btnSaveFav, #btnAddToOrder, #btnVoidOrder {
 background: transparent;
 color: #222;
@@ -423,6 +427,10 @@ top: 17px;
 right: 10px;
 line-height: 20px;
 color: #333;
+}
+
+#custFavs {
+text-align:center;	
 }
 
 /***********************************************/
@@ -495,6 +503,70 @@ font-size:13px;
 	width: 17px;
 height: 17px;
 font-size: 12px;
+}
+}
+
+@media screen and (max-width: 568px) {
+#houses li:nth-of-type(3n+0) {
+	margin-right: 0%;
+}
+
+#houses li {
+width: 100%;
+}
+
+#houses li label {
+	font-size: 15px;
+}
+
+#serverTime {
+dispay:none;	
+}
+
+#entry #number span, #entry #straight span,#entry #boxed span {
+font-size:11px;	
+}
+
+#entry #boxed {
+	margin-top: -14px;
+	width: 34%;
+	margin-right: 0;
+}
+
+#entry #straight {
+	width: 31%;
+	margin-right: 2%;
+}
+
+#entry #number {
+	width: 31%;
+	margin-right: 2%;
+}
+
+#entry #quickPick {
+display:none;	
+}
+
+#entry #addBet {
+width:100%;	
+}
+
+table tr td:nth-of-type(5), table tr th:nth-of-type(5) {
+display: none;
+}
+
+form[action="/Lottery/SaveFavorite"] {
+display:none;	
+}
+
+#details {
+width:100;
+margin-left:0;	
+}
+
+#details #customerInfo, #details .action {
+  float:none;
+  padding:5px 0;
 }
 }
 
