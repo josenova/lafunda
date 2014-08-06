@@ -1,8 +1,8 @@
 
-    <iframe id="lottery_frame" src="https://lottery.lafunda.com.do/Lottery/Start?key=664cf843-8904-4212-9503-d4733651f519&token=<%= session[:user_token] %>&language=es-DO&css=<%= stylesheet_url "lottery" %>" width="100%" seamless="seamless"></iframe>
+    <iframe id="lottery_frame" src="https://lottery.lafunda.com.do/Lottery/Start?key=664cf843-8904-4212-9503-d4733651f519&token=<%= session[:user_token] %>&language=es-DO&css=//lafunda.com.do/lotto/lottery.css" width="100%" seamless="seamless"></iframe>
 
 
 <% content_for :modules do %>
     <h5>Results</h5>
-    <iframe id="lottery_results_frame" src="https://lottery.lafunda.com.do/Lottery/WinningNumbers?key=664cf843-8904-4212-9503-d4733651f519&css=<%= asset_url "assets/stylesheet/lottery" %>" width="100%" seamless="seamless"></iframe>
+    <iframe id="lottery_results_frame" src="https://lottery.lafunda.com.do/Lottery/WinningNumbers?key=664cf843-8904-4212-9503-d4733651f519&css=//lafunda.com.do/lotto/lottery.css" width="100%" seamless="seamless"></iframe>
 <% end %>
