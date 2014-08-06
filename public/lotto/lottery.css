@@ -401,7 +401,7 @@ background:url(logos/nyc.png) center left no-repeat #004f8a !important;
 background-color:#dbdbdb !important;
 }
 
-#houseLI_ECH label, #houseLI_LCH label {
+#houseLI_EIL label, #houseLI_LIL label {
 background:url(logos/illinois.png) center left no-repeat #b2920b !important;	
 }
 
@@ -417,7 +417,7 @@ background:url(logos/newjersey.png) center left no-repeat #05663a !important;
 background-color:#dbdbdb !important;	
 }
 
-#houseLI_EMI label, #houseLI_LMI label {
+#houseLI_LFL label, #houseLI_EFL label {
 background:url(logos/miami.png) center left no-repeat #c75900 !important;	
 }
 
