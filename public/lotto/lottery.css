@@ -402,8 +402,9 @@ background:inherit;
 color:#fff;	
 }
 
-#custFavs span {
-display:none !important;	
+#custFavs span:first-child {
+font-size: 13px;
+padding-right: 10px;
 }
 
 #btnFavToOrder, #btnDelFav, #btnSaveFav, #btnAddToOrder, #btnVoidOrder {
@@ -411,6 +412,10 @@ background: transparent;
 color: #222;
 border: 0;
 text-decoration: underline;
+}
+
+input[name="favName"] {
+text-align: center;
 }
 
 #houses li label::after {
@@ -530,7 +535,7 @@ width: 100%;
 }
 
 #serverTime {
-dispay:none;	
+dispay:none !important;	
 }
 
 #entry #number span, #entry #straight span,#entry #boxed span {
