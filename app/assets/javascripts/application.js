@@ -19,6 +19,7 @@
 //= require heap
 //= require bxslider
 //= require placeholders.min
+//= require iframeresizer.min
 
 // require turbolinks
 
@@ -100,4 +101,12 @@ if($(window).width() <= 568) {
 		});
 	  });
 	
-	}); 
+/******************************** IFRAME RESIZER *************************************************/
+
+  $('#lottery_frame').iFrameResize({
+	  enablePublicMethods: true                  // Enable methods within iframe hosted page
+  });
+  
+  
+ /******************************** IFRAME RESIZER *************************************************/ 
+}); 
