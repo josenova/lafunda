@@ -131,12 +131,14 @@ float:left;
 #details {
 top: 0px;
 width: 90%;
-height: 30px;
+overflow: hidden;
+height: initial;
 line-height: 30px;
 text-align: center;
 font-size: 10px;
 text-transform: uppercase;
-margin: 2.12% 0 2.12% 10%;
+margin: 2.12% 0 0 10%;
+padding-bottom:2.12%;
 }
 
 #details label {
@@ -341,6 +343,7 @@ margin: 0 0 0 25px;
 border: 1px solid rgb(00, 51, 09);
 -webkit-appearance:none;
 -moz-appearance:none;
+text-shadow:1px 1px rgba(0,0,0,0.3);
 }
 
 table.table tbody tr:nth-child(even) {
@@ -400,7 +403,7 @@ color:#fff;
 }
 
 #custFavs span {
-display:none;	
+display:none !important;	
 }
 
 #btnFavToOrder, #btnDelFav, #btnSaveFav, #btnAddToOrder, #btnVoidOrder {
@@ -567,7 +570,7 @@ display:none;
 }
 
 #details {
-width:100;
+width:100%;
 margin-left:0;	
 }
 
