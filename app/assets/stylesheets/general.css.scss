@@ -193,25 +193,19 @@ body {
 
 #topright #usertag {
   float: right;
-  background:#fff;
-  background: rgba(255,255,255,0.9);
+  background-image: url(asset-path('icons/tag.png'));
+  background-repeat: no-repeat;
+  background-position: 6px center;
+  background-color:#e6f0e8;
   color: #222;
   height: 29px;
   line-height: 29px;
-  padding: 0 2.1289%;
+  padding: 0 2.1289% 0 32px;
   text-decoration:none;
   border-radius:3px 0 0 3px;
   font-size:1em;
   box-shadow: 1px 1px rgba(0,0,0,0.3);
-}
 
-#usertag > .icon {
-  padding: 0px 3px 0 0;
-  line-height: 0;
-  position: relative;
-  top: 4px;
-  right: 2px;
-  float: left;
 }
 
 #usertag span {

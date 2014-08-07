@@ -12,7 +12,7 @@
         <%= link_to sign_out_path, class: "logout" do %><span><%= t('views.sign_out') %></span><%= image_tag(asset_path("bg/logout.png"))%><% end %>
         <div style="position: relative;">
             <div id="tagarrow"><%= image_tag(asset_path("icons/arrow.png")) %></div>
-            <%= link_to account_path, id: "usertag" do %><%= image_tag(asset_path("icons/tag.png"), class: 'icon' ) %> <span><%= @current_user.username %></span><% end %>
+            <%= link_to account_path, id: "usertag" do %><span><%= @current_user.username %></span><% end %>
             <ul id="tagmenu">
               <%= nav_link t('views.my_account'), account_path %>
               <%= nav_link t('views.cashier'), cashier_path %>
