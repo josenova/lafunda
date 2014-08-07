@@ -28,23 +28,24 @@ module SessionsHelper
           session[:user_token] = nil
           sign_out(@current_user) if @current_user
           @current_user = nil
-          flash.now[:error] = 'Your session has expired. Please log in.'
           redirect_to sign_in_url
-          return false
+          flash.now[:alert] = 'Your session has expired. Please log in.'
         else
           @current_user ||= User.ci_find('username', @response[:validate_session_response][:validate_session_result][:result])
+          @admin_status = true if @current_user.admin
         end
       else
-        logger.warn @response if @response
+        logger.warn 'No response.'
         session[:user_token] = nil
         sign_out(@current_user) if @current_user
         @current_user = nil
         flash.now[:error] = 'Cannot sign in. Please try again later.'
         redirect_to sign_in_url
-        return false
       end
     end
   end
+
+
 
 
   def get_funds

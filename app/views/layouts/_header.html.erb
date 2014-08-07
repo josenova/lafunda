@@ -1,6 +1,9 @@
 <div id="header">
+  <% if @admin_status %>
+      <div id="admin_panel"><%= link_to 'Ticket Center', ticket_center_path, id: 'ticket_path' %></div>
+  <% end %>
   <!--<div id="langselect"><%= link_to_unless I18n.locale == :es, "Español", locale: :es %> | <%= link_to_unless I18n.locale == :en, "English", locale: :en %></div>-->
-  <div id="signup"><%= link_to image_tag("registrate.png"), register_path unless user_signed_in? %></div>
+  <div id="signup"><%= link_to image_tag("registrate.png"), register_path unless @current_user %></div>
   <%= link_to image_tag("mainlogo.png"), root_path, id: 'logo' %>
   <div id="topmenu">
     <ul id="topleft">
@@ -8,7 +11,7 @@
       <li id="community"><%= link_to community_path do %><%= image_tag(asset_path("icons/community.png"), class: 'icon' ) %><%= t('views.community') %><% end %></li>
     </ul>
     <div id="topright">
-      <% if user_signed_in? %>
+      <% if @current_user %>
         <%= link_to sign_out_path, class: "logout" do %><span><%= t('views.sign_out') %></span><%= image_tag(asset_path("bg/logout.png"))%><% end %>
         <div style="position: relative;">
             <div id="tagarrow"><%= image_tag(asset_path("icons/arrow.png")) %></div>
@@ -28,6 +31,7 @@
       <%= nav_link t('views.home'), root_path, 'home' %>
       <%= nav_link t('views.sportsbook'), sportsbook_path, 'sportsbook' %>
       <%= nav_link t('views.racebook'), racebook_path, 'racebook' %>
+      <%= nav_link t('views.lottery'), lottery_path, 'lottery' %>
     <ul id="social">
       <li><%= link_to image_tag("social/facebook.png"), "https://www.facebook.com/LaFundaRD", target: '_blank' %></li>
       <li><%= link_to image_tag("social/twitter.png"), "https://twitter.com/lafundard", target: '_blank' %></li>

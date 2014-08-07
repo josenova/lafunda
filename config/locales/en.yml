@@ -80,7 +80,7 @@ en:
       new_message: "New message:"
       menu: Menu 
     flash:
-      cannot_log_in: "Cannot log in at this time."
+      cannot_log_in: "Cannot log in at this time. Please contact support."
       confirm_account: "Please confirm your account."
       invalid_combination: "Invalid username/password combination."
       please_log_in: "Please log in."
@@ -90,6 +90,7 @@ en:
       user_not_created: "Could not create user."
       entry_created: "Your reply was created successfully."
       entry_not_created: "Could not add reply."
+      locked_account: "Your account is locked. Please contact support."
     validate:
       at_least_8_characters: "must have at least 8 characters."
     tooltips:

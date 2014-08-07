@@ -12,6 +12,7 @@ class SessionsController < ApplicationController
     if user && user.respond_to?('each') == false
       if user.valid_for_authentication?
         if user.authenticate(params[:password]) #should be fixed, when FIND fails it returns ALL users.
+
           if user.confirmed?
             remote_login(user)
           else
@@ -21,18 +22,15 @@ class SessionsController < ApplicationController
 
         else
           rebound
-          if user
-            user.failed_attempts += 1
-            if user.failed_attempts == 5
-              user.lock_access!
-              user.failed_attempts == 0
-            end
-            user.save
+          user.failed_attempts += 1
+          if user.failed_attempts == 5
+            user.lock_access!
           end
+          user.save
         end
 
       else
-        flash.now[:error] = 'Your account is locked. Please contact support.'
+        flash.now[:error] = t('flash.locked_account')
         render 'new'
       end
 
@@ -78,7 +76,7 @@ class SessionsController < ApplicationController
         render 'new'
       else
         session[:user_token] = @response[:player_login_response][:player_login_result][:token]
-        sign_in(:user, user)
+        sign_in(user)
         redirect_to account_url
       end
     else

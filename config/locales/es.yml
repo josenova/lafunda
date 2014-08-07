@@ -100,8 +100,8 @@ es:
       new_message: "Nuevo mensaje:"
       menu: Menú
     flash:
-      cannot_log_in: "No puedes ingresar en estos momentos."
-      confirm_account: "Debes de confirmar tu cuenta."
+      cannot_log_in: "No puedes ingresar en estos momentos. Favor contacta servicio al cliente."
+      confirm_account: "Debes confirmar tu cuenta."
       invalid_combination: "El usuario y/o contraseña son incorrectos."
       please_log_in: "Debes iniciar tu sesión."  
       update_succesful: "Tu usuario ha sido actualizado."
@@ -110,6 +110,7 @@ es:
       user_not_created: "Error: No se ha podido crear el usuario."
       entry_created: "Tu respuesta fue añadida con éxito."
       entry_not_created: "Error: No se ha podido añadir tu respuesta."
+      locked_account: "Tu cuenta está bloqueada. Favor contacta servicio al cliente."
     validate:
       at_least_8_characters: "debe tener al menos 8 caracteres."
     tooltips:

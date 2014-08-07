@@ -88,6 +88,30 @@ body {
   right:0px;
 }
 
+#admin_panel {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(http://subtlepatterns.com/patterns/dark_leather.png);
+  border-radius: 0 0 4px 4px;
+  padding: 6px 15px;
+  box-shadow: 1px 1px rgba(0,0,0,0.2);
+  font-size: 15px;
+  font-family: calibri, calibriregular, arial;
+}
+
+#admin_panel #ticket_path {
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 1px 1px #000;
+  font-size: 15px;
+  padding-left:24px;
+  background-image: url(asset-path('icons/ticket_center.png'));
+  background-repeat: no-repeat;
+  background-position: left center;
+
+}
+
 #topmenu {
   margin-bottom: 1.315%;
   height: 29px;
@@ -195,12 +219,12 @@ body {
   float: right;
   background-image: url(asset-path('icons/tag.png'));
   background-repeat: no-repeat;
-  background-position: 6px center;
+  background-position: 7px center;
   background-color:#e6f0e8;
   color: #222;
   height: 29px;
   line-height: 29px;
-  padding: 0 2.1289% 0 32px;
+  padding: 0 2.1289% 0 33px;
   text-decoration:none;
   border-radius:3px 0 0 3px;
   font-size:1em;

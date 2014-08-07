@@ -21,7 +21,7 @@ class ApplicationController < ActionController::Base
 
   before_action :set_locale
   before_action :current_user
-  before_action :mobile_device?
+
 
   extend Savon::Model
 
@@ -37,11 +37,6 @@ class ApplicationController < ActionController::Base
     I18n.locale = params[:locale] || I18n.default_locale
     Rails.application.routes.default_url_options[:locale]= I18n.locale
   end
-
-  def mobile_device?
-    request.user_agent =~ /Mobile|webOS/
-  end
-  helper_method :mobile_device?
 
   def confirm_logged_in
       redirect_to sign_in_url unless @current_user

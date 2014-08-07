@@ -64,5 +64,3 @@ gem 'rake', '10.3.2'
 gem 'savon'
 
 gem 'devise'
-
-gem 'delayed_job_active_record'

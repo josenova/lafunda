@@ -40,7 +40,7 @@ class InquiriesController < ApplicationController
   # Use callbacks to share common setup or constraints between actions.
 
   def set_inquiry
-    if @current_user.admin
+    if @admin_status
       @inquiry = Inquiry.find(params[:id])
     else
       @inquiry = @current_user.inquiries.find(params[:id])
@@ -52,7 +52,7 @@ class InquiriesController < ApplicationController
   end
 
   def confirm_admin
-    redirect_to root_url unless @current_user.admin
+    redirect_to root_url unless @admin_status
   end
 
   # Never trust parameters from the scary internet, only allow the white list through.

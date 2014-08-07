@@ -7,7 +7,7 @@ class EntriesController < ApplicationController
 
     @entry = @inquiry.entries.new(entry_params)
     @entry.author = @current_user.name + ' ' + @current_user.surname
-    @entry.employee = true if @current_user.admin
+    @entry.employee = true if @admin_status
 
     respond_to do |format|
       if @entry.save
@@ -22,7 +22,7 @@ class EntriesController < ApplicationController
     end
 
     # Close and open tickets automatically
-    if @current_user.admin
+    if @admin_status
       @inquiry.status = false
     else
       @inquiry.status = true
@@ -40,7 +40,7 @@ private
   end
 
   def confirm_inquiry_owner
-    if @current_user.admin
+    if @admin_status
       @inquiry = Inquiry.find(params[:entry][:inquiry_id])
       @inquiry_owner = User.find(@inquiry.user_id)
     else
