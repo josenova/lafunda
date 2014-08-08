@@ -499,7 +499,7 @@ background:url(logos/puertorico_off.png) center left no-repeat #dbdbdb !importan
 }
 
 #houseLI_LNYMAR label, #houseLI_ENYMAR label {
-background:url(logos/haiti2.png) center left no-repeat #b48906 !important;	
+background:url(logos/haiti2.png) center left no-repeat #0a799b !important;	
 }
 
 #houseLI_LNYMAR.closed label, #houseLI_ENYMAR.closed label {
@@ -595,7 +595,7 @@ h2 {
 display:none;	
 }
 
-#winningNumbersTable tr {
+#winningNumbersTable tr:nth-of-type(1) {
 	position: fixed;
 width: 100%;
 top: 0;
