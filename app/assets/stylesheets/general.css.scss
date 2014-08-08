@@ -92,7 +92,8 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  background: url(http://subtlepatterns.com/patterns/dark_leather.png);
+  background-image: url(asset-path('bg/dark_leather.png'));
+  background-repeat: no-repeat;
   border-radius: 0 0 4px 4px;
   padding: 6px 15px;
   box-shadow: 1px 1px rgba(0,0,0,0.2);
@@ -403,6 +404,10 @@ body {
 #mainmenu #racebook {
   background-image: url(asset-path('icons/racebook_top.png'));
   padding-left: 48px;
+}
+
+#mainmenu #lottery {
+  background-image: url(asset-path('icons/lottery_top.png'));
 }
 
 #social {

@@ -15,19 +15,21 @@
 
 .bx-pager-item {
   float: left;
-  margin-left: 6px;
+  margin-left: 3px;
 }
 
 .bx-pager-link {
   float: left;
   font-size: 0;
-  border: 6px solid #fff;
-  border-radius: 6px;
-  box-shadow: 1px 1px rgba(0,0,0,0.3);
+  width:16px;
+  height: 16px;
+  background-image:  url(asset-path('icons/slider_inactive.png'));
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .bx-pager-link.active {
-  border-color:#dfab3e;
+  background-image:  url(asset-path('icons/slider_active.png'));
 }
 
 @media screen and (max-width: 568px) {
