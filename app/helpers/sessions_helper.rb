@@ -28,8 +28,8 @@ module SessionsHelper
           session[:user_token] = nil
           sign_out(@current_user) if @current_user
           @current_user = nil
-          redirect_to sign_in_url
           flash.now[:alert] = 'Your session has expired. Please log in.'
+          redirect_to sign_in_url
         else
           @current_user ||= User.ci_find('username', @response[:validate_session_response][:validate_session_result][:result])
         end
@@ -46,14 +46,8 @@ module SessionsHelper
 
 
   def admin_status
-    if @current_user
-      if @current_user.admin
-        @admin_status = true
-        @pending_inquiries = Inquiry.where(status: true).count
-      end
-    end
+    @admin_status = true if @current_user && @current_user.admin
   end
-
 
 
   def get_funds

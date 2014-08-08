@@ -79,7 +79,7 @@ if($(window).width() <= 568) {
 
 /********************************* MAIN DIV HEIGHT **************************************/
 	  
-   $('#main').css('min-height', $(window).height());	
+   divResize();	
  
 /********************************** TAG MENU *******************************************/
 
@@ -108,5 +108,15 @@ if($(window).width() <= 568) {
   });
   
   
- /******************************** IFRAME RESIZER *************************************************/ 
+ /******************************** MAIN DIV RESIZER *************************************************/ 
 }); 
+
+	function divResize() {
+	  $('#main').css('min-height', $(window).height());
+	}
+	
+	$(window).bind('resize', function () { 
+    	setTimeout(function(){
+      		divResize();
+		},150);	
+	});
