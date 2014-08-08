@@ -32,7 +32,6 @@ module SessionsHelper
           flash.now[:alert] = 'Your session has expired. Please log in.'
         else
           @current_user ||= User.ci_find('username', @response[:validate_session_response][:validate_session_result][:result])
-          @admin_status = true if @current_user.admin
         end
       else
         logger.warn 'No response.'
@@ -45,6 +44,15 @@ module SessionsHelper
     end
   end
 
+
+  def admin_status
+    if @current_user
+      if @current_user.admin
+        @admin_status = true
+        @pending_inquiries = Inquiry.where(status: true).count
+      end
+    end
+  end
 
 
 

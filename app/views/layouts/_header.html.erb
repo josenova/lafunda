@@ -1,6 +1,6 @@
 <div id="header">
-  <% if @admin_status %>
-      <div id="admin_panel"><%= link_to 'Ticket Center', ticket_center_path, id: 'ticket_path' %></div>
+  <% if admin_status %>
+      <div id="admin_panel"><%= link_to ticket_center_path, id: 'ticket_path' do %>Ticket Center<span><%= @pending_inquiries %></span><% end %></div>
   <% end %>
   <!--<div id="langselect"><%= link_to_unless I18n.locale == :es, "Español", locale: :es %> | <%= link_to_unless I18n.locale == :en, "English", locale: :en %></div>-->
   <div id="signup"><%= link_to image_tag("registrate.png"), register_path unless @current_user %></div>
