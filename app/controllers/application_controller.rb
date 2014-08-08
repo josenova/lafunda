@@ -39,7 +39,7 @@ class ApplicationController < ActionController::Base
   end
 
   def confirm_logged_in
-      redirect_to sign_in_url unless @current_user
+    redirect_to sign_in_url unless @current_user
   end
 
   def already_logged_in
