@@ -646,10 +646,12 @@ ul > li > ul > li {
   width: 100%;
   display: block;
   font-weight: bold;
-  padding:3.444% 5.573%;
-  font-size:1em;
-  background-image: url(asset-path('blacks/black40.png'));
+  padding: 3.444% 5.573%;
+  font-size: 1em;
+  background-image: url(asset-path('bg/dark_leather.png'));
   background-repeat: repeat;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+  border-radius: 3px 3px 0 0;
 }
 
 /****************************************************************** FORMS AND BUTTONS **************************************************************************************/
