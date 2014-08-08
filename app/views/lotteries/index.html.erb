@@ -3,6 +3,8 @@
 
 
 <% content_for :modules do %>
-    <h5>Resultados</h5>
-    <iframe id="lottery_results_frame" src="https://lottery.lafunda.com.do/Lottery/WinningNumbers?key=664cf843-8904-4212-9503-d4733651f519&css=//lafunda.com.do/lotto/lottery.css" width="100%" seamless="seamless"></iframe>
+    <div class="module">
+        <h5><%= t('views.results')%></h5>
+        <iframe id="lottery_results_frame" src="https://lottery.lafunda.com.do/Lottery/WinningNumbers?key=664cf843-8904-4212-9503-d4733651f519&css=//lafunda.com.do/lotto/lottery.css" width="100%" seamless="seamless"></iframe>
+    </div>
 <% end %>

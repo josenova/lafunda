@@ -79,6 +79,7 @@ en:
       sent_at: "Sent at: "
       new_message: "New message:"
       menu: Menu 
+      results: Results
     flash:
       cannot_log_in: "Cannot log in at this time. Please contact support."
       confirm_account: "Please confirm your account."

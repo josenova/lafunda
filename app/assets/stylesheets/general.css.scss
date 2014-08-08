@@ -632,8 +632,7 @@ ul > li > ul > li {
 /****************************************************************** MODULES **************************************************************************************/
 
 .right .module {
-  background-image: url(asset-path('blacks/black60.png'));
-  background-repeat: repeat;
+  box-shadow:1px 1px 1px rgba(0,0,0,0.3);
   overflow:hidden;
   border-radius:2px;
   margin-bottom: 5.573%;
@@ -650,7 +649,6 @@ ul > li > ul > li {
   font-size: 1em;
   background-image: url(asset-path('bg/dark_leather.png'));
   background-repeat: repeat;
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
   border-radius: 3px 3px 0 0;
 }
 
