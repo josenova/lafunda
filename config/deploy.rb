@@ -52,7 +52,7 @@ namespace :deploy do
     on roles(:app), in: :sequence, wait: 5 do
       # run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
       execute :touch, release_path.join('tmp/restart.txt')
-      execute :ruby, "/var/www/app/current/bin/delayed_job restart"
+      #execute :ruby, "#{deploy_to}/current/bin/delayed_job restart"
     end
   end
 
