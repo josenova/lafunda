@@ -6,5 +6,4 @@ class Entry < ActiveRecord::Base
   validates :message, presence: true, length: { maximum: 4000 }
 
 
-
 end

@@ -1,0 +1,2227 @@
+﻿html { min-height: 100%; margin-bottom: 1px; } /*esto es para que el scroll aparezca siempre */
+
+#SportsbookDiv table {
+width:100% !important;	
+}
+
+
+.body 
+{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.back_msg_error 
+{
+	font-family: arial;
+font-size: 13px;
+}
+
+.back_body {
+	background-color: #fff;
+	margin:0;
+	padding:0;
+}
+
+.back_init {
+	background-color: #FFFFFF;
+	background-image: url(images/back_init.jpg);
+	background-repeat: repeat-x;
+}
+
+.back_logo {
+	background-color: #282828;
+}
+
+
+.back_parlay {
+	background-color: #c9c9c8;
+	background-image: url(images/back_bets.jpg);
+	background-repeat: repeat-x;
+}
+.back_create {
+	background-image: url(images/create1.jpg);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+.TextAmountInfo
+{
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #222;
+}	
+
+.AmountInfo
+{
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #222;
+}	
+
+.back_AmountInfo 
+{
+	background-color: #AFAFAF;
+}
+
+#Header_-1 {
+margin:0 15px;	
+}
+
+
+
+.summaryBgr, .summary {
+float:left;
+width:100%;
+}
+
+.summaryBgr {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url(images/../glow/sh_box_bottom.png) repeat-x scroll 0 0;
+}
+.summary {
+padding:5px 5px 5px 20px;
+width:324px;
+}
+.summary dl, .summary dt, .summary dd {
+display:block;
+float:left;
+}
+.summary dt {
+width:110px;
+}
+
+.summary dd {
+font-weight:bold;
+text-align:right;
+width:108px;
+}
+
+.join_msg 
+{
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:bold;
+	text-decoration:none;
+	color: #FFFFFF;
+}	
+
+.join_title
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight:bolder;
+	text-decoration:none;
+	color: #FFFFFF;
+}	
+
+.join_separator {
+	background-color: #444444;
+	height:2px;
+}
+
+.join_link 
+{
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:bold;
+	color: #F8E92C;
+	text-decoration: none;
+}	
+
+.join_link:hover
+{
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #F8E92C;
+	text-decoration: underline;
+}
+
+.back_joinToday 
+{
+	border-width:10px;
+	background-color:#777777;
+}
+
+.back_shopping_cart {
+	background-color: #d6d4d5;
+	background-image: url(images/back_sch.jpg);
+}
+
+.back_button {
+
+	border-bottom: 1px solid #2f2f2f;
+
+}
+
+.back_button:hover {
+	background:#2d2d2d;
+
+}
+
+.back_button_upcoming {
+
+	border-bottom: 1px solid #2f2f2f;
+
+
+}
+
+.back_button_upcoming:hover {
+	background:#2d2d2d;
+
+}
+
+.links_menu_upcoming {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #f1ca68;
+text-decoration: none;
+font-weight: normal;
+display: block;
+padding: 9px 22px;
+
+}
+
+.links_menu_upcoming:hover {
+
+}
+
+
+.txt_accept 
+{
+	vertical-align:middle;
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#FFFFFF;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+
+.back_accept {
+	font-style: normal;
+	min-width:60px;	
+	text-decoration: none;
+	background-image: url(images/back_accept.jpg);
+	background-repeat: repeat-x;
+	padding:0;
+}
+
+.back_accept:hover {
+	font-style: normal;
+	min-width:60px;
+	text-decoration: none;
+	background-image: url(images/back_accept2.jpg);
+	background-repeat: repeat-x;
+}
+
+/*
+.back_welcome {
+	background-image: url(images/back_welcome.jpg);
+	background-repeat: repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.back_welcome_left {
+	background-image: url(images/back_welcome_left.jpg);
+	background-repeat: repeat-x;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.back_welcome_right {
+	background-image: url(images/back_welcome_right.jpg);
+	background-repeat: repeat-x;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+}
+*/
+
+.tdStraightRib1 
+{
+	width:256px;
+}
+
+
+.tdStraightRib2
+{
+	width:50px;
+	text-align: right;
+}
+
+.authentication {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.back_button .links_menu {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #fff;
+text-decoration: none;
+font-weight: normal;
+display: block;
+padding: 9px 22px;
+}
+
+.links_menu2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+	padding-left: 2px;
+}
+
+.nowraptd { white-space:normal; }
+
+.general_title{
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+.general_dropdownlist{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #222;
+text-decoration: none;
+}
+
+.general_button{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.myaccountbox 
+{
+	background-color:#B3B3B3;
+}
+
+
+.back_myaccountbox 
+{
+	white-space:normal;
+	background-image: url(images/back_results.jpg);
+	background-repeat:no-repeat;
+	background-color:#B3B3B3;
+	vertical-align:top;
+}
+
+
+.header_myaccount
+{
+	background-image: url(images/back_games.jpg);
+	background-repeat: repeat-x;
+	color: #FFF;
+	font-size:10px;
+	font-family: arial, sans-serif;
+		
+}
+
+.header_myaccount_left
+{
+	background-image: url(images/header_myaccount_left.jpg);
+	background-repeat: no-repeat;
+	color: #FFF;
+	font-size:10px;
+	font-family: arial, sans-serif;
+		
+}
+
+.header_myaccount_right
+{
+	background-image: url(images/header_myaccount_right.jpg);
+	background-repeat:no-repeat;
+	color: #FFF;
+	font-size:10px;
+	font-family: arial, sans-serif;
+		
+}
+
+
+.back_games {
+	background:#bbb;
+}
+
+.back_games_text {
+	font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+color: #222;
+font-weight: bold;
+vertical-align: middle;
+text-transform: uppercase;
+padding-right:10px;
+}
+
+.back_player_messageOLD  
+{
+	height:auto;
+	min-height: 20px;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	color: #FF0000;
+	padding:5px 5px 5px 10px;
+	border:1px solid #cc0101;
+	background-color:#fff2f2;
+}
+
+.back_player_message
+{
+	height:auto;
+	min-height: 20px;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	color: #000000;
+	padding:5px 5px 5px 10px;
+	border:1px solid #cc0101;
+	background-color:#fff2f2;
+	display:none;
+}
+
+#CasinoArea {
+display:none;
+}
+
+.back_games2 {
+	font-family:arial, sans-serif;
+	font-size:12px;
+	color: #404040;
+	background-image: url(images/back_games2.jpg);
+	background-repeat: repeat-x;
+}
+
+
+.back_header_RIB_left {
+	background:#2b2f2f;
+}
+.back_header_RIB_right {
+	background:#2b2f2f;
+}
+.back_header_RIB {
+	background:#2b2f2f;
+}
+
+
+.back_games_left {
+		background:#bbb;
+}
+
+.back_games_right {
+		background:#bbb;
+}
+
+.back_app_link {
+	background-image: url(images/back_app_links.gif);
+	background-repeat: repeat-x;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+}
+
+.back_app_sel_link {
+	background-image: url(images/back_app_sel_links.gif);
+	background-repeat: repeat-x;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+}
+
+.btnBetType 
+{
+	background-image: url(images/BetType.jpg);
+	text-align: center;
+	min-width:41px;
+}
+
+.btnBetTypeLeft 
+{
+	background-image: url(images/BetTypeLeft.jpg);
+	background-repeat:no-repeat;
+	text-align: center;
+	width:7px;
+}
+
+.btnBetTypeRight 
+{
+	background-image: url(images/BetTypeRight.jpg);
+	background-repeat:no-repeat;
+	text-align: center;
+	width:7px;
+}
+
+.lnkBetType 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	vertical-align:middle;
+}
+
+.back_app_link_left {
+	background-image: url(images/back_app_links_left.jpg);
+	background-repeat: repeat-x;
+}
+
+.back_app_sel_link_left {
+	background-image: url(images/back_app_sel_links_left.jpg);
+	background-repeat: repeat-x;
+}
+
+.back_app_link_right {
+	background-image: url(images/back_app_links_right.jpg);
+	background-repeat: repeat-x;
+}
+
+.back_app_sel_link_right {
+	background-image: url(images/back_app_sel_links_right.jpg);
+	background-repeat: repeat-x;
+}
+
+.back_report {
+	background-color: #F5F5F5;
+}
+
+.body_report {
+	background-color: #F5F5F5;
+}
+
+.back_header {
+background: #1e5127;
+font-family:  Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #FFFFFF;
+}
+
+.back_header_go {
+	background-image: url(images/back_header.jpg);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	width: 20px;
+}
+
+.back_header_refresh {
+	background-image: url(images/back_header.jpg);
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	width: 25px;
+}
+
+.back_header_print {
+	background-image: url(images/back_header.jpg);
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	width: 20px;
+}
+
+.back_header_left {
+font-family: arial;
+font-size: 14px;
+color: #FFFFFF;
+width: 10px;
+height: 26px;
+background: #1e5127;
+}
+
+.back_header_right {
+background:#1e5127;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	width:10px;
+}
+
+
+.back_header_upcoming {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+color: #333;
+text-transform: uppercase;
+}
+
+.back_header_upcoming_refresh {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4F4F4F;
+	width:25px;
+}
+
+.back_header_upcoming_print {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4F4F4F;
+	width:20px;
+}
+
+.back_header_upcoming_left {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	width:10px;
+}
+.back_header_upcoming_right {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	width:10px;
+}
+
+/*
+.back_conttable {
+	background-color: #bfbfbf;
+}
+*/
+
+.back_center {
+
+}
+
+.back_betslip
+{
+width: 17.164%;
+}
+
+.rpt_datosDet {
+	color: #222222;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.back_betslip_straight
+{
+
+}
+
+.border_betslip
+{
+	
+}
+
+.back_header_sel {
+
+}
+
+.back_separator {
+
+	height:30px;
+	background:#dbdbdb;
+}
+
+.back_MainTitle {
+	background-color: #282828;
+}
+
+
+.back_action {
+	background-color: #c1bfbf;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.black_links {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+color: #222;
+text-decoration: none;
+background: #dfab3e;
+padding: 0px 5px;
+border-radius: 3px;
+display: block;
+width: 70px;
+text-align: center;
+
+}
+
+
+.black_links_change {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #DD42DD;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.back_pitcher_name {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	font-style:italic;
+}
+
+.back_pitcher_action {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 8.5px;
+	color: #000000;
+}
+
+
+.link_buy_points {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+
+.link_buy_points:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #777777;
+	text-decoration: underline;
+}
+
+.pitcher_play {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 8.5px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.link_pitcher_play {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 8.5px;
+	color: #000000;
+	text-decoration: underline;
+}
+
+.link_pitcher_play:hover {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 8.5px;
+	color: #777777;
+	text-decoration: underline;
+}
+
+a.link_bet_type {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #404040;
+	text-decoration: none;
+}
+
+a.link_bet_type:hover {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #777777;
+	text-decoration: none;
+}
+
+
+.all{
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.back_menu {
+	width:20.164%;
+	background:#222;
+	
+	
+}
+
+.back_menu_inner {
+}
+
+.back_cart {
+	background-image: url(images/cart_back2.jpg);
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+
+
+.back_sch_participant_info {
+	background-color: #eee;
+	padding:10px 0;
+}
+
+.back_betslip_bet {
+
+}
+
+.border_schedule {
+	background-color: #A2A2A2;
+}
+
+.border_schedule_3way {
+	background-color: #A2A2A2;
+	border-spacing: 1px 0px;
+}
+
+
+.back_pitcher_play_menu {
+	background-color:Green;
+	border-color:Yellow;
+	border-width:2px;
+}
+
+
+.back_sch_event_info {
+
+	font-size: 11px;
+color: #222;
+font-weight: bold;
+vertical-align: middle;
+text-transform: uppercase;
+background: #dadada;
+}
+
+.RoundRobin 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+.RoundRobin:hover
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+}
+
+.back_HeaderBetDetail
+{
+	font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #FFFFFF;
+text-decoration: none;
+background-color: #555;
+padding: 2px;
+}
+
+#Readback {
+font-family:arial;	
+}
+
+.back_NameBetDetail
+{
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	background-color:#999999;
+	
+}
+
+
+.back_SportHeader {
+
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+	background-image:url(images/liMenu2.gif);
+	background-color: #c1bfc0;
+}
+
+.back_SportHeader:hover 
+{
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #666666;
+}
+
+
+.back_cart:hover {
+	background-image: url(images/cart_back1.jpg);
+}
+.back_title {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #FFFFFF;
+padding-left: 10px;
+background: #2b2f2f;
+text-transform: uppercase;
+padding: 6px 14px 6px 30px;
+height: 28px;
+}
+.back_title_rib {
+	background-image: url(images/back_rib.jpg);
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	padding-left: 10px;
+}
+
+.back_select_straigth {
+	background-image: url(images/back_select_straigth.jpg);
+	background-repeat: no-repeat;
+}
+.back_error_american_cart {
+	background-image: url(images/back_error_american_cart.jpg);
+	background-repeat: no-repeat;
+}
+
+.back_pitcher_play {
+	background-image: url(images/back_pitcher_play.jpg);
+	background-repeat: no-repeat;
+}
+
+.back_results {
+	border-top: 1px solid #dbdbdb;
+}
+.back_delete {
+	background-image: url(images/back_delete2.jpg);
+	background-repeat: no-repeat;
+}
+
+.back_edit {
+	background-image: url(images/back_edit2.jpg);
+}
+
+.back_buttons {
+	border-top: 1px solid #dbdbdb;
+}
+
+.black_textB {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+color: #222;
+text-decoration: none;
+font-weight: bold;
+}
+
+.black_text {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #222;
+text-decoration:none;
+}
+
+
+.black_text_date {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+color: #222;
+padding: 4px 0;
+text-decoration: none;
+}
+
+.related_events
+{
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration:underline;
+}
+
+.lnkRelated_events
+{
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #1e5127;
+	text-decoration:underline;
+}
+
+
+.white_text {
+
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.white_textB {
+
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-shadow: 1px 1px rgba(0,0,0,0.2);
+}
+
+.rib_title_text {
+
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #404040;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+.back_action_rib {
+
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding-left:10px;
+	padding-top:5px;
+	background-color: #FEB49E;
+	color: #404040;
+	font-weight:bold;
+	width: 120px;
+	height: 20px;
+	text-decoration: underline;
+}
+.link_action_rib {
+
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #404040;
+	font-weight:bold;
+	text-decoration: underline;
+}
+
+.rib_header_text {
+
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #fff;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+.button_off {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999999;
+}
+
+.back_warning_text
+{
+	background-color: #FF00FF;
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FF0000;
+	text-decoration: none;
+	padding: 0px 10px 0px 10px;
+}
+
+.warning_text {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FF0000;
+	text-decoration: none;
+}
+
+.boxWarningBgr
+{
+	width:100%;
+	float:left;
+	padding-bottom:5px;
+	min-height:30px;
+	background:transparent url(images/warning2.gif) no-repeat center bottom;
+}
+
+.boxWarning
+{
+min-height: 80px;
+height: 30px;
+padding: 5px 5px 5px 35px;
+border: 1px solid #c44451;
+background: #fff2f2 url(images/warning.gif) no-repeat 5px 5px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #c44451;
+text-decoration: none;
+}
+
+.title_report
+{
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight:bold;
+	color: #535353;
+}
+
+.header_report
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+text-decoration: none;
+font-weight: bold;
+color: #444;
+line-height: 30px;
+}
+
+.header_report:hover
+{
+
+	color: #333;
+}
+
+.header_statement_text
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+text-decoration: none;
+font-weight: bold;
+color: #444;
+line-height: 30px;
+text-transform:uppercase;
+}
+
+.header_statement_text:hover
+{
+
+	color: #333;
+}
+
+.back_header_statement
+{
+	/*
+	background-color: #800000;
+	border:solid 1px #000000;
+	width:120px;
+	height:18px;
+	*/
+}
+
+.back_header_statement:hover
+{
+	/*
+	background-color: #A50000;
+	border:solid 1px #000000;
+	width:120px;
+	height:18px;
+	*/
+}
+
+
+
+.boxWarning2 {
+min-height: 32px;
+padding: 5px 10px;
+border: 1px solid #ae4f50;
+background: #eededf;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #ae4f50;
+text-decoration: none;
+border-top-width: 2px;
+
+}
+
+.boxWarning2 img { 
+display:none;
+}
+
+.button_text {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align:right;
+}
+
+.text_RiskWin {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #222;
+	text-align:right;
+	width:60px;
+}
+
+.back_buttons tbody tr td[align="right"], .back_buttons tbody tr td[align="left"] {
+	
+	
+font-family: arial;
+font-size: 12px;
+padding: 10px;
+color: #333;	
+}
+
+.text_RiskWinColor {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #222;
+background-color: #def1d9;
+text-align: right;
+width: 60px;
+border: 1px solid #598350;
+}
+
+.authentication_text {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align:left;
+}
+
+
+.back_confirmation {
+	background-color: #EEEEEE;
+}
+
+.app_link {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #CCCCCC;
+}
+
+.app_sel_link {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+.back_button .links_menu:hover {
+
+}
+.black_links:hover {
+
+	background-color: #efbc4f;
+}
+.back_cart2 {
+
+	background-image: url(images/cart_back1.jpg);
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+.back_cart2:hover {
+
+
+	background-image: url(images/cart_back2.jpg);
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+.back_days {
+	background-image: url(images/back_games.jpg);
+	background-repeat: repeat-x;
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.lost {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #CC0000;
+}
+.won {
+
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #009900;
+}
+
+.PlayerInfoTitle 
+{
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:bold;
+	color: #000000;
+}	
+
+.PlayerInfoData 
+{
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}	
+
+.cncld {
+
+
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #FF9900;
+}
+	
+.back_create:hover {
+
+	background-image: url(images/create2.jpg);
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+.back_create2 {
+
+	background-image: url(images/create2.jpg);
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+.back_create2:hover {
+
+	background-image: url(images/create1.jpg);
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+.moduleScrollBars {
+	
+	overflow: auto; 
+	width:99%;
+	height:500px; 
+	position: static; 
+	background-color: #FFFFFF;
+	background-image: url(images/back_sch.jpg);
+}
+.menuScrollBars {
+	
+	width: 136px;
+	max-width: 136px;
+	overflow: auto; 
+	height:535px; 
+	position: absolute; 
+}
+.menuPopup {
+	
+	background-image: url(images/back_menu.gif);
+	width: 375px;
+	overflow: auto; 
+	height:510px;
+	z-index: 10;
+	position: absolute;
+	top: 189px;
+}
+
+#menuSports
+{
+	padding:0px;
+	margin: 0px;
+	width:100%;
+}
+
+#menuSports ul
+{
+	padding:1px;
+	margin: 0px;
+}
+
+.h3SportsHeader
+{
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#FFFFFF;
+	height:20px;
+	padding-top:10px;
+}
+
+.liSportsHeader
+{
+	list-style-type:  none;
+	background-image:url(images/sports_menu.jpg);
+	background-color:Red;
+	height: 28px;
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#FFFFFF;
+	text-indent:6px;
+	vertical-align:middle;
+}
+
+.liSportsFooter
+{
+	list-style-type:  none;
+	background-image:url(images/back_button.jpg);
+	text-indent:6px;
+	height:29px;
+}
+
+.liSports
+{
+	list-style-type:  none;
+	background-image:url(images/back_button.jpg);
+	text-indent:6px;
+	height:29px;
+}
+
+.aSubheader
+{
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 0.75em;
+	color: #222;
+	cursor:default;
+	height:16px;
+	padding-top:4px;
+	text-decoration:none;
+	text-align:left;
+}
+
+
+.imgReplace
+{
+	background-image: url(images/h3Sports.gif);
+}
+
+.linksfake {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999999;
+}
+
+.linksexternos2texto {
+
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.banker_link {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+.back_sports {
+	font-family: arial;
+font-size: 12px;
+color: #FFFFFF;
+padding: 6px 14px 6px 30px;
+background: #2b2f2f;
+text-transform: uppercase;
+font-weight: bold;
+border-bottom:1px solid #222;
+}
+
+.statement_text 
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #333;
+}
+
+.hist_text1 {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+	background-color:#fff;
+	padding:2px;
+}
+
+.hist_text2 {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+
+.back_History
+{
+	background-color: #dbdbdb;
+}
+
+.back_HistoryTotal
+{
+	background-color:#eee;
+}
+
+.hist_textAmount {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: Red;
+}
+
+.back_account_statement 
+{
+	background-color:#fff;
+}
+.lnkBetGroupDetail
+{
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration:underline;
+}
+
+.clsChange 
+{
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	background-color:Orange;
+}
+
+#PitcherPlayDiv td
+{	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background: #648046;
+	color: #FFF;
+	text-align: left;
+	text-decoration: none
+}
+
+
+#PitcherPlayDiv a
+{	display: block;
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding: 4px 10px;
+	background: #648046;
+	color: #FFF;
+	text-align: left;
+	text-decoration: none
+}
+
+#PitcherPlayDiv a:hover
+{	color: #FFFF00;
+ 	text-decoration:underline
+}
+
+#SelBetTypeDiv td
+{	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background: #799541;
+	/*background: #648046;*/
+	color: #FFF;
+	text-align: left;
+	text-decoration: none
+}
+
+
+#SelBetTypeDiv a
+{	display: block;
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding: 4px 10px;
+	background: #799541;
+	/*background: #648046;*/
+	color: #FFF;
+	text-align: left;
+	text-decoration: none
+}
+
+#SelBetTypeDiv a:hover
+{	color: #FFFF00;
+	background: #799541;
+	/*background: #648046;*/
+ 	text-decoration:underline
+}
+
+#SelBetTypeDiv a table:hover
+{	color: #FFFF00;
+	background: #799541;
+	/*background: #648046;*/
+ 	text-decoration:underline
+}
+
+.subtitleDatePicker
+{
+font-family: Arial, Helvetica, sans-serif;
+color: #333;
+font-size: 12px;
+font-weight: bold;
+background-repeat: repeat-x;
+background-color: #bbb;
+padding-left: 10px;
+border: 1px solid #888;
+}
+
+.subtitleDatePicker2
+{
+    font-family:   Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #000000;
+	padding-left: 10px;
+}
+
+.subTableBackGroundDatePicker
+{
+	
+   background-color: #e1e1e1;
+font-family: arial;
+border: 1px solid #bbb;
+}
+
+.subTableFooterDatePicker
+{
+    background: url(images/back_bajo.jpg);
+    height: 27px;
+}
+
+.radioButtonDatePicker
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+color: #333;
+font-weight: bold;
+}
+
+.labelDatePicker
+{
+	font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+color: #333;
+font-style: normal;
+font-weight: bold;
+text-align: center;
+}
+
+.textBoxDisabledDatePicker
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #333;
+font-style: normal;
+font-weight: bold;
+text-align: center;
+}
+
+.links_menu[type="button"] {
+padding: 4px 20px;
+background: #dfab3e;
+color: #333;
+text-transform: uppercase;
+font-weight: bold;
+border-radius: 3px;
+border: 1px solid #ac7800;	
+width:initial;
+}
+
+.links_menu[type="button"]:hover {
+cursor:pointer;	
+}
+
+.textBoxNumberDatePicker
+{
+	font-family:   Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    background-color: #EAEAEA;
+    border: 1px solid #FFFFFF;
+    text-align: right;
+}
+
+/* PARA REPORTES con XSLT */
+.rpt_title {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
+}
+.rpt_player_title {
+	 color: #222222;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+.rpt_player {
+	  color: #006400;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.rpt_titles {
+color: #222222;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.rpt_date {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #228b22;
+	font-weight: bold;
+}
+.rpt_datos1 {
+   color: #222222;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+}
+.rpt_datos2 {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #0000FF;
+}
+.rpt_Won {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #228b22;
+}
+.rpt_Lost {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FF0000;
+}
+.rpt_Status {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+.rpt_BetRiskWin {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #006400;
+}
+.rpt_WonLost {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #0000FF;
+}
+.rpt_points {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FF0000;
+}
+.rpt_odds {
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #0000FF;
+}
+
+
+/* para cambios solicitados por WW */
+#divStraightCart 
+{
+    border-width:0;
+}
+
+#SectionExoticBet
+{
+    background-color:#d6d4d5;
+}
+
+#divRoundRobinCart 
+{
+    background-color:Gray;
+}
+
+#divEventSch
+{
+    background-color:Gray;
+}
+
+#divPool2ColSch
+{
+    background-color:Gray;
+}
+
+#divPoolSch
+{
+    background-color:Gray;
+}
+
+.back_sch_pool_participant_info {
+	background-color: #d6d4d5;
+}
+
+#ReportSection
+{
+display:block;
+height:30px;
+background:#dbdbdb;
+}
+
+/* fin de cambios solicitados por WW */
+
+/*copiados de BetOnLine */
+.semantic{display:none;}
+a.semantic{display:block;position:absolute;left:-9000px;width:50px;overflow:hidden;}
+#ft{margin-top:2em;padding:0 0 0 0;}
+#ft .footerMenuCtn{padding:0 0;width:100%;overflow:hidden;}
+#ft p.copyright{text-align:center;margin-top:2em;}
+.footerMenu{float:left;width:19%;padding-left:1em;margin:0 0 1em .5em;}
+.footerMenu h3{font-family:  arial,helvetica,clean, Sans-Serif;font-weight: bold;text-align:left;padding:0;font-size:80%;}
+.footerMenu li{display:block;font-family:  arial,helvetica,clean, Sans-Serif;font-size:60%;text-align:left;width:90%;float:left;margin:0 0 .5em 0;padding:0 0 0 0;list-style:none;}
+.footerMenu ul{margin:0 0 1em .5em;padding:0;display:block;text-align:left;font-family:  arial,helvetica,clean, Sans-Serif; color:#333;}
+#ft a:link{color:#333;}
+#ft a:visited{color:#666;}
+#ft a:hover{color:black;}
+#ft a:active{color:#666;}
+#ft .links li,#ft .text{text-align:center;}
+#ft .links .main a{font-weight:bold;text-transform:uppercase;}
+#ft p{text-align:left;}
+#twoColumn{width:38%;}#twoColumn li{width:42%;}
+
+
+/* los cambios del 2011-08-24 
+
+nuevos estilos:
+
+back_header_go 
+back_header_refresh 
+back_header_print 
+back_header_upcoming_refresh 
+back_header_upcoming_print 
+
+agregar atributo width:
+
+back_header_left
+back_header_right
+back_header_upcoming_left
+back_header_upcoming_right
+
+
+*/
+
+/* mejorando el carrito cart1.js  */
+    /* imagenes nueva: gray_arrow.png, white_arrow.png, dropdown_arrow2.png 
+	border-radius: 4px;
+*/
+    
+.title_bet_slip_part    
+{
+	display: block;
+	float: left;
+	color: #c0c0be;
+	background-color: gray;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: initial;
+	padding: 1px 1px 1px 1px;
+	font-size: 13px;
+	line-height: 14px;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	height: 26px;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.explain_bet_slip_part {
+    width: 306px;
+	display: block;
+	float: left;
+	color: #000000;
+	background-color: #d8d4d5;
+	padding: 5px 10px 5px 10px;
+	font-size: 10px;
+	line-height: 10px;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+/*
+	-moz-border-top-left-radius: 4px;
+	-moz-border-top-right-radius: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+
+	float: left;
+*/
+
+.bet_info_detail {
+	display: inline;
+	height: 14px;
+	width: 14px;
+}
+
+.accum_info_detail {
+	display: inline;
+	height: 14px;
+	width: 14px;
+}
+
+.orange-dropdown, a.orange-dropdown:link, a.orange-dropdown:visited, a.orange-dropdown:active {
+    min-width: 180px;
+	display: block;
+	color: #222;
+	background-color: #dfab3e;
+	padding: 5px 26px 6px 10px;
+	font-size: 13px;
+	line-height: 14px;
+	font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	background-image: url(images/gray_arrow.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	height: 24px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+a.orange-dropdown:hover {
+    min-width: 180px;
+	color: #222;
+	background-image: url(images/white_arrow.png);
+	background-color: #dfab3e;
+}
+
+.back_header span {
+top:0px !important;	
+}
+
+.drop-menu-bg {
+	background-position: left top;
+	background-repeat: repeat-x;
+	-webkit-border-bottom-left-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomright: 6px;
+	
+	background-color: white;
+	-webkit-box-shadow: 0px 0 4px rgba(50, 50, 50, 0.25);
+	-moz-box-shadow: 0px 0 4px rgba(50, 50, 50, 0.25);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	border: 1px solid rgba(50, 50, 50, 0.09);
+	border-right: 0;
+	-moz-background-clip: border;
+	-webkit-background-clip: border;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding;
+	border-top: none;
+	padding: 5px 0;
+}
+
+.menu_single_bets, a.menu_single_bets, a.menu_single_bets:link, a.menu_single_bets:visited, a.menu_single_bets:active 
+{
+    width: 100%;/* 323px */
+	display: block;
+	-webkit-box-sizing: border-box;
+	color: #615F5D;
+	font-size: 14px;
+	line-height: 25px;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	padding: 0px 10px 0px 10px;
+	text-decoration: none;
+}
+a.menu_single_bets:hover {
+    width: 100%; /*323px;*/
+	display: block;
+	-webkit-box-sizing: border-box;
+	color: white;
+	font-size: 14px;
+	line-height: 25px;
+	background-color: #1e5127;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	padding: 0px 10px 0px 10px;
+	text-decoration: none;
+}
+
+
+.menu_points_dropdown, a.menu_points_dropdown:link, a.menu_points_dropdown:visited, a.menu_points_dropdown:active 
+{
+	color: #000000;
+	background-color: #c4c4c4;
+	padding: 2px 25px 2px 5px;
+	font-size: 11px;
+	font-family:   Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+	background-image: url(images/gray_arrow.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.menu_points_dropdown:hover, a.menu_points_dropdown:hover 
+{
+    cursor:pointer;
+ 	color: white;
+	background-color: #1e5127;
+	background-image: url(images/white_arrow.png);
+}
+
+.menu_teaser_dropdown
+{
+	color: #000000;
+	background-color: #c4c4c4;
+	font-size: 10px;
+	font-family:   Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+	background-image: url(images/gray_arrow.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.menu_teaser_dropdown_hover, menu_teaser_dropdown:hover
+{
+    cursor:pointer;
+	color: white;
+	background-color: #1e5127 !important;
+	font-size: 10px;
+	font-family:   Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+	background-image: url(images/white_arrow.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+
+
+.colPointsTeaserOption
+{
+    width:45px;
+    display:inline;
+}
+
+.colOddsTeaserOption
+{
+    width:50px;
+    display:inline;
+}
+
+.menu_options, a.menu_options, a.menu_options:link, a.menu_options:visited, a.menu_options:active 
+{
+	display: block;
+	-webkit-box-sizing: border-box;
+	color: #615F5D;
+	font-size: 10px;
+	line-height: 20px;
+	font-family:   Arial, Helvetica, sans-serif;
+	padding: 0px 10px 0px 10px;
+	text-decoration: none;
+	width:100%;
+}
+a.menu_options:hover {
+	display: block;
+	-webkit-box-sizing: border-box;
+	color: white;
+	background-color: #1e5127;
+	padding: 0px 10px 0px 10px;
+	text-decoration: none;
+	width:100%;
+}
+
+.option_teaser 
+{
+	color: #615F5D;
+	font-size: 10px;
+	line-height: 20px;
+	font-family:   Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+.menu_teaser, a.menu_teaser, a.menu_teaser:link, a.menu_teaser:visited, a.menu_teaser:active 
+{
+	display: block;
+	-webkit-box-sizing: border-box;
+	color: #615F5D;
+	font-size: 10px;
+	line-height: 20px;
+	font-family:   Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	padding: 0px 2px 0px 2px;
+}
+a.menu_teaser:hover {
+	display: block;
+	-webkit-box-sizing: border-box;
+	color: white;
+	background-color: #1e5127;
+	text-decoration: none;
+}
+
+.arrow-block {
+	height: 14px;
+}
+
+.tooltip_odds
+{
+}
+
+.tooltip_selected 
+{
+	background-color: Gray;
+	color: Red;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+
+.drop-arrow {
+	background-position: center -25px;
+	background-repeat: no-repeat;
+	height: 15px;
+	background-image: url(images/arrow_info.png);
+	position: absolute;
+	width: 30px;
+	left:3px;
+}
+
+.drop-arrow-adding {
+	background-position: center -25px;
+	background-repeat: no-repeat;
+	height: 15px;
+	background-image: url(images/arrow_info.png);
+	position: absolute;
+	width: 30px;
+	left:30px;
+	z-index:5000;
+}
+
+.tblBoxInformationImage
+{
+    background-image: url(images/boxInformation.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    vertical-align: top;
+    height: 22px;
+    width: 20px;
+}
+
+.tblBoxInformation 
+{
+    max-width:326px;
+	color: #000000;
+	background-color: #FFFFFF;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 5px 5px 5px 5px;
+	font-size: 10px;
+	font-family:   Arial, Helvetica, sans-serif;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+    /*border-color:#848484; */
+    border-color:#000000;
+    border-width:1px;
+    border-style:solid;
+}
+
+.lblDescriptionBox
+{
+    font-size: 8pt;
+    color: #000000;
+    text-align: left;
+}
+
+.menu_pitcher
+{
+    display:inline;    
+}
+
+.menu_pitcher_popup
+{
+    position: absolute; 
+    top: 0; 
+    left:0; 
+    display: none;
+}
+
+.accum_info_popup
+{
+    position: absolute; 
+    top: 0; 
+    left:0; 
+    display: none;
+}
+
+.back_bet_slip_empty  
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+text-decoration: none;
+color: #fff;
+padding: 10px;
+background-color: #222;
+}
+
+.srDvTransaction > div
+{
+    display:inline-block;
+}
+.srDvSpace
+{
+    height: 8px;
+}
+
+.imgButtonEnableDailyFigures:hover
+{
+
+}
+
+.imgButtonEnableDailyFigures
+{
+   float: right;
+width: 200px;
+padding: 2.1289% 9.017%;
+background: #dfab3e;
+border-radius: 3px;
+border: 1px solid #666;
+color: #333;
+text-transform: uppercase;
+font-weight: bold;
+display: block;
+font-size: 12px;
+}
+
+.imbButtonDisableDailyFigures:hover
+{
+ 
+
+}
+
+.imbButtonDisableDailyFigures
+{
+ float: left;
+width: 200px;
+padding: 2.1289% 9.017%;
+background: #dfab3e;
+border-radius: 3px;
+border: 1px solid #666;
+color: #333;
+text-transform: uppercase;
+font-weight: bold;
+display: block;
+font-size: 12px;
+}
+
+.hideUnderScoreLetter
+{
+    text-decoration: none;
+    cursor:default;
+}
+
+
+

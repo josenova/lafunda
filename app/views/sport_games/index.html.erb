@@ -1,6 +1,6 @@
 
 <% if Rails.env.production? %>
-  <iframe id="sport_frame" src="https://wagering.lafunda.com.do/BOSSWagering/Sportsbook/InternetBetTaker?siteid=lafunda&stoken=<%= session[:user_token] %>" width="100%" seamless="seamless"></iframe>
+  <iframe id="sport_frame" src="https://wagering.lafunda.com.do/BOSSWagering/Sportsbook/InternetBetTaker?siteid=lafunda<%= '&stoken=' + session[:user_token] if @current_user %>" width="100%" seamless="seamless"></iframe>
 <% else %>
   <iframe id="sport_frame" src="http://www.colchian.eu/BOSS_DEMO/BOSSWagering/Sportsbook/InternetBetTaker?siteid=lafunda&stoken=<%= session[:user_token] %>" width="100%" seamless="seamless"></iframe>
 <% end %>

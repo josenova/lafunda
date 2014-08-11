@@ -1,0 +1,3049 @@
+
+
+/*
+Palette Color:
+c8c8c8
+d9d9d9
+#A8A8A8
+77816C
+#B1B8AB border transparency
+
+
+Degradiente
+#485A32
+#749753
+
+*/
+/********************************************************/
+/*				PRINCIPAL STYLES				        */
+/********************************************************/
+* {
+padding:0;
+margin:0;
+border-spacing:0;	
+}
+
+
+#dvMainConteiner
+{
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background-color: #fff;
+    font-family: Arial !important;
+}
+
+.dvExternal
+{
+    margin-top: 1px;
+    width: 525px;
+    max-width: 525px;
+}
+.dvExternal *
+{
+    width: 100% !important;
+}
+
+.dvExternalBetSlip
+{
+    margin-top: 1px;
+    width: 233px;
+    max-width: 233px;
+}
+.dvExternalBetSlip *
+{
+    width: 100% !important;
+}
+
+#tdSpaceLeft
+{
+	display:none;
+    
+}
+.tblPrincipalMainAlign
+{
+	width:100% !important;
+    /*Center*/
+    margin-left: auto;
+    margin-right: auto; /*Left margin-left:0px;  margin-right:auto; */ /*Right margin-left:auto;  margin-right:0px; */
+}
+.bodyPrincipal
+{
+    background-color: #fff;
+    color: #000000;
+    margin-top: 0px;
+    font-family:  Arial;
+}
+.bodySecundary, .bodyMenuHeader
+{
+    font-family: Arial;
+}
+.bodySecundaryCentralZone
+{
+	width:59.672%;
+    font-family:  Arial;
+}
+
+.BackgroundBetZone
+{
+    font-family:  Arial;
+	margin-top:10px;
+	width:100% !important;
+	padding: 0 2.12%;
+box-sizing: border-box;
+moz-box-sizing:border-box;
+}
+
+.ErrorText
+{
+  color: #333;
+font-size: 12px;
+font-family: Arial;
+}
+
+.LabelSingle
+{
+    font-size: 11px; /*color: #535353;*/
+    color: #333;
+    font-family:  Arial;
+    cursor: default;
+}
+.LabelSingleAlternate
+{
+font-size: 11px;
+color: #fff;
+font-family: Arial;
+}
+.LabelSingleLink
+{
+    font-size: 10px;
+    color: #07153D;
+    font-family:Arial;
+    text-decoration: underline;
+    cursor: default;
+}
+.LabelSingleLink:hover
+{
+    font-size: 10px;
+    color: red;
+    font-family:  Arial;
+    text-decoration: underline;
+    cursor: default;
+}
+
+
+.AlertMessage
+{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    font-family:  Arial;
+}
+
+.AlertMessageTitle
+{
+    color: #F6C954;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    font-family:  Arial;
+}
+/* Fonts */
+FONT
+{
+    color: Black;
+    font-size: 8pt;
+    font-family:  Arial;
+}
+
+FONT.bolded
+{
+    color: Black;
+    font-size: 8pt;
+    font-family:  Arial;
+    font-weight: bold;
+}
+
+/********************************************************/
+/*				END PRINCIPAL STYLES				    */
+/********************************************************/
+
+/********************************************************/
+/*				    BET ZONE       				        */
+/********************************************************/
+
+OL
+{
+    color: #017AFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.HeaderTitle
+{
+   font-weight: bold;
+font-size: 15px;
+color: #222;
+}
+.HeaderTitleTZ
+{
+    /*font-weight: bold;*/
+    font-size: 10px;
+    color: #575757;
+}
+
+.RaceInformationTitle
+{
+   font-weight: bold;
+font-size: 12px;
+color: #222;
+width: 80px;
+display: block;
+}
+
+#rblPools {
+margin-top:10px;	
+}
+
+.SingleTable
+{
+  background-color: #e1e1e1;
+font-size: 13px;
+color: #333;
+}
+
+#ucBetSlip_dvDetailBet .SingleTable {
+	  background-color: #e1e1e1;
+font-size: 12px;
+color: #333;
+}
+
+.AlternatingTable
+{
+   background-color: #eee;
+font-size: 13px;
+color: #333;
+
+}
+
+.BetAmount
+{
+ font-size: 11px;
+color: #222;
+}
+
+/* FieldSet Styles */
+fieldset
+{
+    border: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.Head
+{
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    font-weight: bold;
+    font-size: 10pt;
+    color: #333333;
+	padding:2.12%;
+}
+.SubHead
+{
+   font-weight: bold;
+font-size: 15px;
+color: #222;
+}
+.SubSubHead
+{
+    /*background:#00205A;*/
+    font-weight: 600;
+    font-size: 10pt;
+    color: #535353;
+}
+.HeadRaceOrder
+{
+    /*border-style: solid;     border-color: #000000;     border-width: 1px;*/
+    font-weight: bold;
+    color: #333333;
+	margin:10px 0 0;
+}
+.SubHeadRaceOrder
+{
+    font-weight: bold;
+    font-size: 8pt;
+    color: #333333; /*padding-top: 4px;*/
+}
+.SubSubHeadRaceOrder
+{
+font-weight: 600;
+color: #535353;
+height: 21px;
+width: 481px;
+background-image: url(images/Controls/back_race_Tab.png);
+background-repeat: no-repeat;
+}
+
+
+/* Odds Styles */
+.currentOdds
+{
+    font-weight: bold;
+    font-size: 11px;
+    border: solid 1px #FCFF00;
+    text-align: right;
+    height: 14px;
+}
+
+
+/*Pools*/
+
+.RadioButtonList, .RadioButtonList:link, .RadioButtonList:visited, .RadioButtonList:active
+{
+    font-size: 10px;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+}
+.RadioButtonList:hover
+{
+    font-size: 10px;
+    color: #898F8F;
+    font-weight: bold;
+}
+
+.lblDescriptionPool, .lblDescriptionResult
+{
+font-size: 12px;
+color: #333;
+margin-top: 10px;
+display: block;
+}
+.lblDescriptionBoxPool
+{
+    font-size: 8pt;
+    color: #000000;
+    width: 150px;
+    text-align: justify;
+}
+.tblBoxInformationImage
+{
+    background-image: url(images/Controls/back_bet_zone_boxInformation.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    vertical-align: top;
+    height: 22px;
+    width: 30px;
+}
+
+.TimeNumbers
+{
+
+    font-size: 12px;
+    color: #333;
+	padding-left:4px;
+}
+.MTPBackground
+{
+   background-color: #deefe2;
+border: 1px solid #559d66;
+    padding: 0px 0px;
+    height: 30px;
+    width: 147px;
+}
+.MTP
+{
+    font-weight: bold;
+font-size: 12px;
+color: #222;
+position: relative;
+top: 20%;
+}
+.lblMTP
+{
+  font-weight: bold;
+font-size: 12px;
+color: #175115;
+text-align: inherit;
+position: relative;
+top: 20%;
+}
+.MTPBackgroundBlinking
+{
+    background-color: #deefe2;
+    padding: 0px 0px;
+    border: 1px solid #559d66;
+    width: 147px;
+    height: 30px;
+}
+.LabelMTPBlinking
+{
+    font-weight: bold;
+    font-size: 12px;
+    color: #2f2f2f;
+    position: relative;
+    top: 20%;
+}
+.WaitMessage
+{
+    /*background-color: #00205A;*/
+    background-image: url(images/Controls/back_please_wait.png);
+    background-repeat: no-repeat;
+    visibility: hidden;
+    position: absolute;
+    z-index: 101;
+    bottom: auto;
+    width: 193px;
+    height: 80px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.WaitMessageProccesBar
+{
+    background-image: url(images/Controls/loading_bar.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 9px;
+}
+
+.LineSeparator
+{
+	display:none;
+}
+
+/*Buttons*/
+.buttons
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 00px 0px;
+    white-space: nowrap; /*border: 0px solid #B0B9CA;*/
+    cursor: default;
+}
+.buttons a
+{
+    float: left;
+    height: 100%;
+    width: 100%;
+    padding: 0px 0px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 1px solid #4A4A4A;
+    cursor: default;
+}
+.buttons a:hover
+{
+    color: #FFCC00;
+    border: 1px dashed #FFFFFF;
+    text-decoration: underline;
+    background: #737373;
+    cursor: default;
+}
+
+.btnMinimize
+{
+    width: 20px;
+    background-image: url(images/Controls/Win_Min.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btnMaximize
+{
+    width: 20px;
+    background-image: url(images/Controls/Win_Max.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btnMaximizeResult
+{
+    width: 20px;
+    background-image: url(images/Controls/Win_Max.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btnMaximizeResultHover
+{
+    width: 20px;
+    background-image: url(images/Controls/Win_Max_Over.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+.LabelRunner
+{
+    font-size: 12px;
+color: #222;
+}
+
+.LabelRunnerAlternating
+{
+    font-size: 12px;
+    color: #222;
+}
+
+.LabelRunnerScratched
+{
+font-size: 12px;
+text-decoration: line-through;
+background-image: URL() !important;
+}
+
+.LabelRunnerProgramLetter
+{
+  font-size: 12px;
+color: #222;
+}
+
+.tblTracksFrameWidth table {
+width:100%;	
+}
+.ProgramLetterTable
+{
+  background-color: #ccc;
+font-size: 13px;
+color: #333;
+}
+.HorseScratched
+{
+ background-color: #ae4f50;
+font-size: 12px;
+color: #000000 !important;
+text-decoration: line-through;
+background-image: URL() !important;
+}
+.ProgramNumberScratched
+{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    color: #000000;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: right;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 1px 0 0 0;
+    border: solid 1px black;
+}
+.ProgramNumber
+{
+
+}
+.ProgramNumberAlternating
+{
+    color: #FFCC00;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: right;
+    vertical-align: middle;
+}
+.HorseProgramLetter
+{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    color: #000000;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: right;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 1px 0 0 0;
+    border: solid 1px black;
+}
+.RaceOrder
+{
+font-weight: bold;
+font-size: 14px;
+color: #333;
+padding: 0 0 0 12px;
+line-height: 22px;
+}
+
+#divMTPInfo {
+  text-align:center !important;	
+}
+
+.ButtonAddBetSlip
+{
+font-weight: bold;
+padding: 7px 15px;
+font-size: 12px;
+text-align: center;
+background: #dfab3e;
+border: 1px solid #333333;
+color: #222;
+text-transform: uppercase;
+border-radius: 2px;
+display:inline-block;
+float:right;
+margin:10px 0;
+}
+.ButtonAddBetSlip:hover
+{
+
+    cursor: pointer;
+	background: #efbc4f;
+}
+
+
+
+
+/************************************************/
+/*				PARLAY							*/
+/************************************************/
+
+/* The Module's custom scrollbar styles */
+.moduleScrollBars
+{
+    overflow: auto;
+    width: 320px;
+    height: 300px; /*scrollbar-face-color:#660000; 	scrollbar-3dlight-color:#999999; 	scrollbar-arrow-color:#eeeeee; 	scrollbar-base-color:#eeeeee;*/ /* 	scrollbar-track-color:buttonface; 	scrollbar-shadow-color:#eeeeee; 	scrollbar-highlight-color:#eeeeee; 	scrollbar-darkshadow-color:#999999;*/
+}
+
+.ParlayWinTitle
+{
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+}
+TABLE.Parlay
+{
+    background: #E8EDE4;
+    border-bottom: #003663 1px solid;
+    border-left: #003663 1px solid;
+    border-right: #003663 1px solid;
+    border-top: #003663 1px solid;
+}
+TABLE.Parlay TH
+{
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #000000;
+    border-bottom: #d1d1cd 1px outset;
+    border-left: #d1d1cd 1px outset;
+    border-right: #d1d1cd 1px outset;
+    border-top: #d1d1cd 1px outset;
+    color: white;
+    list-style: disc inside;
+}
+
+TABLE.Parlay a
+{
+    font-size: 10px;
+    font-weight: bold;
+    float: left;
+    height: 18px;
+    width: 90%;
+    border-right: 1px dashed #FFFFFF;
+    padding: 0px 0px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 1px dashed #FFFFFF;
+    background: #441311;
+}
+TABLE.Parlay a:hover
+{
+    color: #000000;
+    border: 1px dashed #000000;
+    text-decoration: underline;
+    background: #E5C02A;
+}
+.ParlayListSelected
+{
+    background: #E5C02A;
+    font-size: 10px;
+    color: #000000;
+    font-weight: bold;
+    padding: 0px 0px;
+    border: 1px dashed #6D7A88;
+}
+TABLE.ParlayRunners
+{
+    font-size: 10px;
+}
+TABLE.ParlayRunners TD
+{
+    font-size: 10px;
+    border-bottom: #d1d1cd 1px outset;
+    border-left: #d1d1cd 1px outset;
+    border-right: #d1d1cd 1px outset;
+    border-top: #d1d1cd 1px outset;
+    color: #FFFFFF;
+    list-style: disc inside;
+}
+
+/************************************************/
+/*				END PARLAY						*/
+/************************************************/
+
+
+.PlayerName
+{
+    font-weight: bold;
+    font-size: 10px;
+    color: #E5C02A;
+}
+.PlayerLogin
+{
+    background-color: #E5C02A;
+    font-weight: bold;
+    font-size: 10px;
+    color: #000000;
+}
+.PlayerFound
+{
+    font-weight: bold;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+.PlayerNotFound
+{
+    background-color: #AD102C;
+    font-weight: bold;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+.PlayerTemporarilyInactive
+{
+    background-color: #000000;
+    font-weight: bold;
+    font-size: 10px;
+    color: #FF0000;
+}
+
+.LabelHeaderPoolLimits
+{
+
+    font-size: 11px;
+    color: #222;
+}
+
+#lblPoolLimit, #lblMinLimit, #lblMaxLimit {
+	font-weight:bold; 
+}
+
+.TableBorderPoolLimits
+{
+padding: 6px 20px 6px 0 !important;
+background-color: #fff !important;
+width:50% !important;
+}
+.LabelWhite
+{
+  font-weight: bold;
+font-size: 12px;
+color: #222;
+}
+
+.TextboxNumeric
+{
+    font-weight: bold;
+font-size: 13px;
+color: #222;
+}
+
+.TextBoxAmount
+{
+    background-color: #333333;
+    font-size: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.TextBoxAmountError
+{
+    background-color: #C23232;
+    font-size: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.ProgramNumberGeneric
+{
+    height: 16px;
+    width: 16px;
+    background-color: #A2CBEE;
+    font-size: 11px;
+    text-align: center;
+    margin: 0px;
+    padding: 0;
+    color: white;
+    border: solid 1px black;
+}
+
+.ProgramNumberT1, .ProgramNumberT2, .ProgramNumberT3, .ProgramNumberT4, .ProgramNumberT5, .ProgramNumberT6, .ProgramNumberT7, .ProgramNumberT8, .ProgramNumberT9, .ProgramNumberT10, .ProgramNumberT11, .ProgramNumberT12, .ProgramNumberT13, .ProgramNumberT14, .ProgramNumberT15, .ProgramNumberT16, .ProgramNumberT17, .ProgramNumberT18, .ProgramNumberT19, .ProgramNumberT20, .ProgramNumberH1, .ProgramNumberH2, .ProgramNumberH3, .ProgramNumberH4, .ProgramNumberH5, .ProgramNumberH6, .ProgramNumberH7, .ProgramNumberH8, .ProgramNumberH9, .ProgramNumberH10, .ProgramNumberH11, .ProgramNumberH12
+{
+    width: 16px;
+    height: 16px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    padding: 1px 0 0 0;
+    border: solid 1px black;
+}
+
+.ProgramNumberT1
+{
+    background-color: #D20001;
+    color: white;
+}
+.ProgramNumberT2
+{
+    background-color: #F0F0F0;
+    color: black;
+}
+.ProgramNumberT3
+{
+    background-color: #2D2EFA;
+    color: white;
+}
+.ProgramNumberT4
+{
+    background-color: #E8EA31;
+    color: black;
+}
+.ProgramNumberT5
+{
+    background-color: #008001;
+    color: white;
+}
+.ProgramNumberT6
+{
+    background-color: #242424;
+    color: yellow;
+}
+.ProgramNumberT7
+{
+    background-color: #FB581F;
+    color: black;
+}
+.ProgramNumberT8
+{
+    background-color: #FBAABD;
+    color: black;
+}
+.ProgramNumberT9
+{
+    background-color: #22C5C4;
+    color: black;
+}
+.ProgramNumberT10
+{
+    background-color: #8700CF;
+    color: white;
+}
+.ProgramNumberT11
+{
+    background-color: #8A8A8A;
+    color: white;
+}
+.ProgramNumberT12
+{
+    background-color: #A2DBAE;
+    color: black;
+}
+.ProgramNumberT13
+{
+    background-color: #6C4735;
+    color: white;
+}
+.ProgramNumberT14
+{
+    background-color: #5D1231;
+    color: white;
+}
+.ProgramNumberT15
+{
+    background-color: #C9C2BA;
+    color: black;
+}
+.ProgramNumberT16
+{
+    background-color: #888ABA;
+    color: white;
+}
+.ProgramNumberT17
+{
+    background-color: #2D3573;
+    color: white;
+}
+.ProgramNumberT18
+{
+    background-color: #A98CFF;
+    color: black;
+}
+.ProgramNumberT19
+{
+    background-color: #FFAD5B;
+    color: black;
+}
+.ProgramNumberT20
+{
+    background-color: #004F4F;
+    color: white;
+}
+.ProgramNumberH1
+{
+    background-color: #D20001;
+    color: white;
+}
+.ProgramNumberH2
+{
+    background-color: #2D2EFA;
+    color: white;
+}
+.ProgramNumberH3
+{
+    background-color: #F0F0F0;
+    color: black;
+}
+.ProgramNumberH4
+{
+    background-color: #008001;
+    color: white;
+}
+.ProgramNumberH5
+{
+    background-color: #242424;
+    color: white;
+}
+.ProgramNumberH6
+{
+    background-color: #E8EA31;
+    color: black;
+}
+.ProgramNumberH7
+{
+    background-color: #FBAABD;
+    color: white;
+}
+.ProgramNumberH8
+{
+    background-color: #8C8C8C;
+    color: black;
+}
+.ProgramNumberH9
+{
+    background-color: #8500CD;
+    color: white;
+}
+.ProgramNumberH10
+{
+    background-color: #D20001;
+    color: white;
+}
+.ProgramNumberH11
+{
+    background-color: #93ACFC;
+    color: white;
+}
+.ProgramNumberH12
+{
+    background-color: #CF0200;
+    color: black;
+}
+.CellOver
+{
+
+    background-color: #fafafa;
+    cursor: pointer;
+	
+	
+	font-size: 12px;
+font-weight: bold;
+border-radius: 5px 5px 0px 0px;
+
+border: 1px solid #555;
+border-bottom: 0;
+border-left: 0;
+}
+
+.CellOverResult
+{
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #fafafa;
+	color:#222;
+    background-image: url(images/Controls/TabMenuResult.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+	border-radius:5px 5px 0 0;
+	
+	border: 1px solid #555;
+border-bottom: 0;
+border-left: 0;
+}
+
+.bettingMode table tr td table tr td .ButtonAddBetSlip {
+display:none !important;	
+}
+
+.CellClicked
+{
+   font-size: 12px;
+font-weight: bold;
+color: #222;
+background: #fff;
+cursor: default;
+border-radius: 5px 5px 0 0;
+
+border: 1px solid #555;
+border-bottom: 0;
+border-left: 0;
+}
+.CellUnSelected
+{
+  font-size: 12px;
+font-weight: bold;
+color: #2d2d2d;
+background-color: #c0c0c0;
+border-radius: 5px 5px 0 0;
+
+border: 1px solid #555;
+border-left: 0;
+
+
+}
+.CellAlign
+{
+    /*float: right;*/
+}
+.tblBetZoneTop
+{
+
+}
+
+.tblBetZoneCornerTopLeft
+{
+    background-repeat: no-repeat;
+
+}
+
+.tblBetZoneCornerTopRight
+{
+    background-repeat: no-repeat;
+
+}
+.tblBetZoneSideRight
+{
+display:none;
+}
+.tblBetZoneSideLeft
+{
+
+}
+.tblBetZoneBottomLeft
+{
+
+    width: 7px;
+    height: 16px;
+}
+.tblBetZoneBottom
+{
+ ;
+    height: 16px;
+}
+.tblBetZoneBottomRight
+{
+ 
+    width: 15px;
+    height: 16px;
+}
+
+.tblImageBoxInformation
+{
+    background-image: url(images/Controls/back_bet_zone_information.png);
+    background-position: left;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 13px;
+}
+
+.tblBoxInformationTop
+{
+    background-image: url(images/Controls/back_bet_zone_boxInformationTop.png);
+    background-repeat: no-repeat;
+    width: 192px;
+    height: 10px;
+}
+
+.tblBoxInformationBottom
+{
+    background-image: url(images/Controls/back_bet_zone_boxInformationBottom.png);
+    background-repeat: no-repeat;
+    width: 190px;
+    height: 14px;
+}
+.tblBoxInformationMiddle
+{
+    background-image: url(images/Controls/back_bet_zone_boxInformationMiddle.png);
+    background-repeat: repeat-y; /*background-color:#A8A8A8;*/
+    text-align: center;
+    width: 193px;
+    height: 20px;
+}
+
+.IncludeError
+{
+    color: #017AFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+.IncludeErrorSubTitle
+{
+    color: #017AFF;
+    font-size: 12px;
+    font-weight: bold;
+}
+.IncludeText
+{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+/********************************************************/
+/*	            END BET ZONE       				        */
+/********************************************************/
+/********************************************************/
+/*				    MENUS       				        */
+/********************************************************/
+.BackgroundMenu
+{
+
+}
+
+/* Windows Styles */
+.Win1Body
+{
+
+}
+.Win2Body
+{
+
+}
+.Win3Body
+{
+	width:100% !important;
+
+}
+
+.Win3Body > table > tbody > tr > td > table  {
+	
+
+}
+
+
+.MenuAccountFrameWidth
+{
+    width: 100%;
+
+}
+.MenuAccountTextTitle
+{
+    font-weight: bold;
+    font-size: 9px;
+    color: #000000;
+}
+.MenuAccountText
+{
+    font-size: 9px;
+    color: #000000;
+}
+.MenuTitle
+{
+    font-weight: bold;
+    font-size: 9px;
+    color: #FFFFFF;
+}
+.MenuTrackListHeader
+{
+background: #2b2f2f;
+padding: 6px 14px 6px 6px;
+border-bottom:1px solid #222;
+}
+
+#tdPrincipalHeader {
+	background: #dbdbdb;
+}
+
+.MenuTrackListHeaderRacebookOption
+{
+background: #dbdbdb;
+padding: 0 3.444%;
+margin: 0px 0 0;
+display: block;
+height: 30px;
+line-height: 30px;
+	}
+
+.MenuTrackListHeaderLeftHorseThoroughbred
+{
+    background-image: url(images/Controls/horseThoroughbred.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 25px;
+}
+
+
+.MenuTrackListHeaderLeftHorseHarness
+{
+    background-image: url(images/Controls/horseHarness.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 25px;
+}
+
+.MenuTrackListHeaderLeftGreyhound
+{
+    background-image: url(images/Controls/greyhound.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 25px;
+}
+
+.MenuTrackListHeaderLeftHorseFavorite
+{
+    margin: auto;
+    background-image: url(images/Controls/Favorite.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 25px;
+}
+
+.MenuNumbers
+{
+    font-weight: bold;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+.SingleTableRacebookOption
+{
+   background-color: #dddbdb;
+font-size: 13px;
+color: #333;
+height:40px;
+}
+.AlternatingTableRacebookOption
+{
+    background-color: #c8c8c8;
+    font-size: 10px;
+    color: #000000;
+}
+
+.ButtonRacebookOption
+{
+  
+ 
+ 
+	
+	font-weight: bold;
+padding: 7px 15px;
+font-size: 12px;
+text-align: center;
+background: #dfab3e;
+border: 1px solid #333333;
+color: #222;
+text-transform: uppercase;
+border-radius: 2px;
+display: inline-block;
+}
+.ButtonRacebookOption:hover
+{
+background:#efbc4f;
+cursor:pointer;
+}
+
+.ColumnMenuHeader
+{
+    vertical-align: middle;
+padding: 2px 0 0;
+    width: 160px;
+    text-align: center;
+}
+.LabelMenuTitle {
+	color: #fff;
+text-transform: uppercase;
+font-size: 12px;
+font-weight: bold;
+}
+
+., .LabelMenuTitleTop, .LabelMenuTitle:link, .LabelMenuTitle:visited, .LabelMenuTitle:active
+{
+    font-weight: bold;
+    font-size: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.LabelMenuTitleTop
+{
+    font-weight: bold;
+    font-size: 10px;
+    color: #444;
+	text-transform:uppercase;
+}
+.LabelMenuTitleDefault
+{
+    font-weight: bold;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.LabelMenuTitleOver
+{
+cursor:pointer;
+text-transform:uppercase;
+color:#333;
+}
+.LabelMenuTitleSelected
+{
+
+font-weight:bold !important;
+}
+
+
+
+#lblMainUpcoming {
+text-transform: uppercase;
+color: #175115;
+font-size:12px;
+font-weight:normal;
+display:block;
+width:200px;
+}
+
+#dvBetZone {
+
+padding: 0;	
+}
+
+.bodySecundaryCentralZone table {
+width:100%;	
+}
+
+.bettingMode {
+
+}
+
+.LabelMenuTitleRacebookOptionOver
+{
+
+    background-color: #bbb;
+	cursor:pointer;
+
+}
+.LabelMenuTitleRacebookOptionSelected
+{
+    font-weight: bold;
+    font-size: 10px;
+    background-color: #A8A8A8;
+    color: #000000;
+}
+
+#tdParlayHeader{
+
+}
+
+
+#ucBetSlip_dtlWagerParlay {
+
+z-index: 2;
+}
+
+#tdParlayHeaderImage {
+position: relative;
+z-index: 1;
+background: #eededf;
+padding: 2px 5px 4px;
+border: 1px solid #ae4f50;
+}
+
+#tdParlayHeaderImage .ReadBackRaceLabel {
+	font-weight: bold;
+font-size: 11px !important;
+text-align: left;
+color: #333 !important;
+text-spacing: -0.03em;
+}
+
+#ucBetSlip_trSendBet {
+
+}
+
+/*DropDownList*/
+.dropdownlist
+{
+    font-size: 8pt;
+}
+.dropdownlistTitle
+{
+    font-weight: bold;
+    font-size: 11px;
+    color: #000000;
+}
+
+.tlbTracksUpcomingFeatured .TrackLineSeparator {
+display:none;	
+}
+
+.TrackLineSeparator
+{
+
+	background: #2d2d2d;
+height: 1px;
+}
+.RaceFeatured, .RaceFeaturedOver
+{
+    background-color: Red;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 25px; /*background-image: url(images/Controls/back_menu_sectionsHuge.png) !important;     background-repeat: no-repeat;*/
+	display:none;
+}
+
+
+.TrackRollOver
+{
+background:#2d2d2d;
+}
+
+.TrackRollOverResult
+{
+
+}
+
+TABLE.tlbTracks
+{
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-style: none;
+    border-width: 0px;
+    cursor: default;
+}
+TABLE.tlbTracks TH
+{
+    background-color: #000000;
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-style: none;
+    border-width: 0px;
+}
+TABLE.tlbTracks TR
+{
+font-size: 12px;
+font-weight: normal;
+color: #dfdfdf;
+font-family: arial;
+    border-style: none;
+    border-width: 0px; /*display: inline-table;*/ /*Para que funcion en Chrome el background del image en todo el TR o no segmentado en los TD*/
+}
+TABLE.tlbTracks TR:hover
+{
+cursor:pointer;
+}
+TABLE.tlbTracks TD:hover
+{
+
+}
+.tblTracksListWidth
+{
+    width: 100%;
+}
+.tblTracksFrameWidth
+{
+    width: 20.164%;
+	background-color:#222;
+	padding-top: 0px;
+}
+.tblTrackRowSizeNormal
+{
+    height: 25px;
+    vertical-align: middle;
+}
+
+.tblTrackRowSizeResult
+{
+    height: 25px;
+    vertical-align: middle;
+}
+
+.tblTrackRowHeader
+{
+    height: 20px;
+    vertical-align: middle;
+}
+
+.tblTracksColumnTrackName
+{
+padding:6px 8px;
+color:#eee;
+}
+.tblTracksFeaturedIconEmpty
+{
+display:none;
+}
+.tblTracksFeaturedIcon
+{
+    width: 27px;
+    background-image: url(images/Controls/back_menu_featuredIcon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tblTracksColumnTrackRace
+{
+padding:0 8px 0 0;
+    text-align: center;
+}
+.tblTracksColumnTrackMTP
+{
+
+    text-align: right;
+	padding:0 8px 0 0;
+}
+.tblTracksColumnTrackRaceAlternate
+{
+padding:0 8px 0 0;
+    text-align: center;
+
+}
+.tblTracksColumnTrackMTPAlternate
+{
+padding:0 8px 0 0;
+    text-align: right;
+
+}
+
+.TrackRowClick
+{
+    background-color: #2a2a2a;
+
+
+}
+
+.TrackRowClick .tblTracksColumnTrackName {
+border-left:1px solid #dfab3e;	
+}
+
+#dvPrincipalZone {
+
+
+width: initial !important;
+padding: 2.12%;
+margin: 0;
+}
+
+.TrackImageHorseThoroughbred
+{
+    height: 25px;
+    width: 40px;
+    background-image: url(images/Controls/horseThoroughbred.png);
+    background-repeat: no-repeat;
+}
+.TrackImageHorseThoroughbredResult
+{
+    width: 24px;
+    height: 17px;
+    background-image: url(images/Controls/horseThoroughbredResult.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-left: 2px;
+}
+.TrackImageHorseHarness
+{
+    height: 25px;
+    width: 40px;
+    background-image: url(images/Controls/horseHarness.png);
+    background-repeat: no-repeat;
+}
+.TrackImageHorseHarnessResult
+{
+    width: 32px;
+    height: 17px;
+    background-image: url(images/Controls/horseHarnessResult.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-left: 2px;
+}
+.TrackImageHorseGreyhound
+{
+    background-image: url(images/Controls/greyhound.png);
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 40px;
+}
+.TrackImageHorseGreyhoundResult
+{
+    background-image: url(images/Controls/greyhoundResult.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 17px;
+    background-position: center center;
+    padding-left: 2px;
+}
+.TrackInformationRace
+{
+height: 20px;
+width: 80px;
+background-repeat: no-repeat;
+border-bottom: 1px solid #555;
+}
+.TableRaceInformation
+{
+margin-bottom: 10px;
+display: block;
+}
+
+#dtlRaces_0 {
+	border-left: 1px solid #555 !important;
+}
+
+.TrackInformationRaceLabel
+{
+  font-size: 12px;
+font-weight: bold;
+color: #333;
+text-decoration: none;
+padding:0 20px;
+}
+
+.TabSelected
+{
+    /*background-color: #4A4A4A;*/
+    background-image: url(images/Controls/TabOptionsSelected.gif);
+    background-repeat: repeat-x;
+    height: 20px;
+    width: 93px;
+    background-color: #a8a8a8;
+    font-size: 10px;
+    font-weight: bold;
+    color: #575757;
+}
+.TabUnSelected
+{
+    /*   background-color: #4A4A4A;*/
+    background-image: url(images/Controls/TabOptions.gif);
+    width: 93px;
+    height: 20px;
+    background-color: #ffffff;
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.TabOver
+{
+    background-image: url(images/Controls/TabOptionsSelected.gif);
+    background-repeat: repeat-x;
+    width: 93px;
+    height: 20px;
+    background-color: #4A4A4A;
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFCC00;
+    font-weight: bold;
+}
+
+/********************************************************/
+/*				    END MENUS      				        */
+/********************************************************/
+/********************************************************/
+/*				    UPCOMING & FEATURES                 */
+/********************************************************/
+
+.TrackRollOverUpcomingFeatures
+{
+background:#aecdb5;
+cursor:pointer;
+font-weight:normal;
+font-size:11px;
+color:#333;
+}
+
+.TableHeaderUpcomingFeatures
+{
+
+   font-size: 11px;
+font-weight: bold;
+color: #175115;
+}
+
+.TableHeader
+{
+    background-color: #a8a8a8;
+font-size: 11px;
+font-weight: bold;
+color: #222;
+text-transform: uppercase;
+}
+
+/* Styles for Track menu */
+.TrackMenuList /*, .TrackMenuList:link, .TrackMenuList:visited, .TrackMenuList:active */
+{
+    font-size: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+/*
+.TrackMenuList:hover
+{
+	font-size:10px; 
+	color:#FFCC00;
+
+	font-weight:bold;
+}
+*/
+.TrackMenuListSelected, .TrackMenuListSelected:link, .TrackMenuListSelected:visited, .TrackMenuListSelected:active
+{
+    background: #737373;
+    font-size: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 0px 0px;
+    border: 1px dashed #FFFFFF;
+}
+.TrackMenuListSelected:hover
+{
+
+}
+
+.TrackListRefresh
+{
+
+}
+
+.ErrorTextMenu
+{
+    color: #7d0000;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.SingleTableUpcomingFeatures
+{
+ background-color: #ceded2;
+
+}
+.AlternatingTableUpcomingFeatures
+{
+   
+    font-size: 10px;
+    color: #000000;
+}
+
+
+.title /*shows "your favorite tracks are not available at this moment"*/
+{
+    /*, .Title:link, .Title:visited, .Title:active*/
+    font-weight: bold;
+    font-size: 12px;
+    color: #222;
+	height:initial !important;
+	text-transform:uppercase;
+}
+
+.lblMessageMenu
+{
+ font-weight: normal;
+font-size: 12px;
+color: #dfdfdf;
+}
+
+.dvMessageMenu
+{
+    padding: 0 10px;
+}
+
+TABLE.tlbTracksUpcomingFeatured, TABLE.tlbTracksResult
+{
+   font-weight:normal;
+font-size:11px;
+color:#333;
+}
+TABLE.tlbTracksUpcomingFeatured TH
+{
+    font-weight:normal;
+font-size:11px;
+color:#333;
+}
+TABLE.tlbTracksUpcomingFeatured TR
+{
+font-weight:normal;
+font-size:11px;
+color:#333;
+}
+TABLE.tlbTracksUpcomingFeatured TR:hover
+{
+    font-weight:normal;
+font-size:11px;
+color:#333;
+}
+TABLE.tlbTracksUpcomingFeatured TD:hover
+{
+  font-weight:normal;
+font-size:11px;
+color:#333;
+}
+
+#dvTrackListToBet {
+
+}
+
+#dvUpcomingRaceToBet {
+background: #deefe2;
+padding: 6px 10px;
+border: 1px solid #559d66;	
+}
+
+#dvFeaturedRaceToBet {
+	background: #deefe2;
+padding: 6px 10px;
+border: 1px solid #559d66;	
+}
+
+.MenuUpcomingSelected
+{
+height: 30px;
+cursor: pointer;
+width: 82px;
+padding: 0;
+border-radius: 3px 15px 0 0;
+
+}
+
+.tblUpcomingFeaturesContent {
+
+}
+
+#lblMainFeatured {
+color: #175115;
+font-weight: normal;
+font-size: 12px;
+text-transform:uppercase;
+display:block;
+width:200px;
+}
+
+.MenuFeaturedSelected
+{
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    vertical-align: middle;
+    background-image: url(images/Controls/back_menu_upcomingFeaturedSelected.png);
+    background-color: #c8c8c8;
+}
+.MenuUpcomingUnSelected
+{
+width: 82px;
+height: 30px;
+cursor: pointer;
+vertical-align: middle;
+padding: 0 0px;
+
+}
+.MenuFeaturedUnSelected
+{
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    vertical-align: middle;
+    background-image: url(images/Controls/back_menu_upcomingFeaturedUnSelected.png);
+    background-color: #c8c8c8;
+}
+
+.MenuUpcomingRaceImage
+{
+    width: 40px;
+    height: 30px;
+	display:none;
+
+}
+.MenuFeaturedRaceImage
+{
+    width: 40px;
+    height: 30px;
+display:none;
+}
+.tblUpcomingFeaturesTop
+{
+    height: 5px;
+    background-repeat: no-repeat;
+}
+.tblUpcomingFeaturesBottom
+{
+    height: 5px;
+    background-repeat: no-repeat;
+}
+.tblUpcomingFeaturesSide
+{
+    width: 1px;
+}
+.tblUpcomingFeaturesContent
+{
+
+}
+
+/********************************************************/
+/*				   END UPCOMING & FEATURES              */
+/********************************************************/
+/********************************************************/
+/*				    BETSLIP                             */
+/********************************************************/
+
+.SingleTableBetSlip
+{
+   font-size: 11px;
+color: #fff;
+display: block;
+width: 93.112%;
+float: left;
+line-height: 16px;
+padding:0 3.444%;
+position: relative;
+}
+.AlternatingTableBetSlip
+{
+  background-color: #2a2a2a;
+font-size: 11px;
+color: #fff;
+width: 93.112%;
+float: left;
+position: relative;
+line-height: 18px;
+padding:0 3.444%;
+}
+.SingleTableBetSlipParlay
+{
+background-color: #222;
+font-size: 11px;
+color: #fff;
+}
+.AlternatingTableBetSlipParlay
+{
+    background-color: #2a2a2a;
+font-size: 11px;
+color: #fff;
+}
+
+#ucBetSlip_dtlWagerParlay tr.tlbBetSlipLineSeparator {
+height: 3px;
+background: #2a2a2a;
+}
+
+.SingleTableBetSlipStraight, .AlternatingTableBetSlipStraight
+{
+
+
+}
+.SingleTableBetSlipStraightError
+{
+    background-color: #FFFFFF;
+    font-size: 10px;
+}
+.ButtonBetSlip
+{
+font-weight: bold;
+color: #FFFFFF;
+width: 50%;
+height: 30px;
+text-align: center;
+background: #1e5127;
+text-transform: uppercase;
+display: block;
+float: left;
+line-height: 30px;
+}
+
+.ButtonBetSlip:hover
+{
+background:#2f6238;
+cursor:pointer;
+}
+
+.ButtonBetSlipDeleteAll
+{
+font-weight: bold;
+color: #FFFFFF;
+width: 50%;
+height: 30px;
+text-align: center;
+background: #ae4f50;
+text-transform: uppercase;
+float: left;
+display: block;
+line-height: 30px;
+}
+.ButtonBetSlipSpace
+{
+   display:none;
+}
+
+.ButtonBetSlipDeleteAll:hover
+{
+background: #bf5f61;
+cursor:pointer;
+}
+
+
+.ContentsZoneTable
+{
+    background-color: #FFFFFF;
+}
+
+.ReadBackHeader
+{
+    background-color: #000000;
+}
+
+.ReadBackSingleTable
+{
+    background-color: #C7C7C7;
+    font-size: 12px;
+    color: #000000;
+}
+.ReadBackAlternatingTable
+{
+    background-color: #FFFFFF;
+    font-size: 12px;
+    color: #000000;
+}
+.ReadBackLabel
+{
+    font-size: 11px;
+    color: #FFFFFF;
+}
+.ReadBackTitle
+{
+    font-size: 11px;
+    color: #fff;
+}
+.ReadBackInformation
+{
+   font-size: 12px;
+color: #fff;
+padding-left: 15px;
+}
+.ReadBackErrorInformation
+{
+font-size: 11px;
+color: #222;
+
+}
+.ReadBackRaceLabel
+{
+   font-weight: bold;
+font-size: 12px;
+text-align: left;
+color: #efbc4d;
+}
+.ReadBackRaceLabelConfirmation
+{
+ font-weight: bold;
+font-size: 12px;
+text-align: left;
+color: #fff;
+text-transform: uppercase;
+margin-top:10px;
+display:block;
+}
+.ReadBackPoolLabel
+{
+    font-weight: bold;
+    font-size: 12px;
+    color: #535353;
+}
+.ReadBackHorseLabel
+{
+    font-weight: bold;
+    font-size: 11px;
+    color: #99CCFF;
+}
+.ReadBackAmountPlaced
+{
+    font-weight: normal;
+    font-size: 11px;
+    color: #AD1212;
+}
+.ReadBackAmountTotal
+{
+    font-weight: bold;
+    font-size: 12px;
+    color: #AD1212;
+}
+.ReadBackTicket
+{
+    font-weight: bold;
+    font-size: 12px;
+    color: #efbc4d;
+}
+.ReadBackDateEvent
+{
+    font-size: 11px;
+    color: #000000;
+}
+.ReadBackConfirmationNumber
+{
+    font-size: 11px;
+    color: #000000;
+}
+.ReadBackLinkMenu, .ReadBackLinkMenu:link, .ReadBackLinkMenu:visited, .ReadBackLinkMenu:active
+{
+    font-size: 10px;
+    color: #2359C6;
+    font-weight: bold;
+}
+.ReadBackLinkMenu:hover
+{
+    font-size: 10px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.ErrorBet
+{
+   border: 1px solid #ae4f50 !important;
+font-size: 10px;
+text-decoration: none !important;
+padding: 3px;
+background:#eededf;
+}
+
+.tlbBetSlipTextInfo
+{
+    text-align: left;
+    width: 181px;
+}
+.tlbBetSlipTextParlayInfo
+{
+    text-align: left;
+    width: 181px;
+}
+.tlbBetSlipTop
+{
+height: 30px;
+width: 100%;
+text-align: left;
+background: #2b2f2f;
+padding: 6px 14px 6px 30px !important;
+}
+.tlbBetSlipTopParlay
+{
+    background-image: url(images/Controls/back_bet_slip_tableTopParlay.png);
+    background-repeat: no-repeat;
+    height: 21px;
+    width: 233px;
+    text-align: left;
+    background-color: #c8c8c8;
+}
+.tlbBetSlipMiddle
+{
+width: 100%;
+background: #222;
+position:relative;
+display:block;}
+
+#ucAccountInformation_tblMenuAccountInformation {
+display:none;	
+}
+
+.tlbBetSlipBottom
+{
+    background-image: url(images/Controls/back_bet_slip_tableBottom.png);
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 233px;
+	display:none;
+}
+
+
+.tlbBetSlipTopCountBet {
+text-align: center;
+background: #dfab3e;
+position: relative;
+color: #222;
+font-size: 14px;
+padding: 1.315% 0;
+font-weight: bold;
+}
+.LabelBetSlip
+{
+   font-weight: bold;
+font-size: 12px;
+color: #FFFFFF;
+text-transform: uppercase;
+}
+
+#ucBetSlip_dtlWager {
+width: 100%;
+overflow-y: auto;
+display: block;
+background: #222;
+padding: 2.12% 0;
+}
+
+#MenuTrackListToBet1_tlbMenuTracksListHeader {
+
+}
+
+#ucBetSlip_dvDetailBet {
+position: relative !important;
+left: 0 !important;
+top: 7px !important;
+
+}
+
+.LabelBetSlipCountBets
+{
+   font-weight: bold;
+font-size: 12px;
+color: #222;
+display: block;
+width: 26px;
+height: 20px;
+line-height: 20px;
+}
+.LabelBetSlipTitleMessageImportant
+{
+    font-weight: bold;
+    font-size: 10px;
+    color: #FFFFFF;
+    text-align: left;
+    width: 100%;
+	display:none;
+}
+.LabelBetSlipMessageImportant
+{
+    font-weight: bold;
+    font-size: 10px;
+    color: #000000;
+}
+.LabelBetSlipEmptyMessage
+{
+font-weight: normal;
+font-size: 12px;
+color: #fff;
+text-align: center;
+
+}
+
+#ucBetSlip_lblMessageEmpty {
+
+width: 100%;
+}
+
+#ucBetSlip_lblPlayerMessage {
+display:none;	
+}
+
+.tlbBetSlipTopHeader
+{
+    width: 100%;
+}
+.tblBetSlipDeleteBet
+{
+ background-image: url(images/Controls/back_bet_slip_deleteBet.png);
+background-repeat: no-repeat;
+background-position: right;
+position: absolute;
+display: block;
+width: 18px;
+height: 18px;
+margin-top: -37px;
+right: 10px;
+top:14px;
+}
+.tblBetSlipHeaderDetail
+{
+    color: #FFFFFF;
+    background-color: #749753;
+    font-size: 10px;
+    text-align: left;
+    vertical-align: top;
+    width: 220px;
+	display:none;
+}
+
+.tlbBetSlipLineSeparator
+{
+    background-color: #333;
+    height: 1px;
+}
+
+
+.SingleTableBetSlipConfirmationTicket
+{
+
+    font-size: 10px;
+    color: #fff;
+}
+.AlternatingTableBetSlipConfirmationTicket
+{
+    background-color: #c8c8c8;
+    font-size: 10px;
+    color: #07153D;
+}
+
+
+.imgBetsSlipConfirmationBet
+{
+    background-image: url(images/Controls/confirmation_sendBet.png) !important;
+    background-repeat: no-repeat !important;
+    width: 30px;
+    height: 20px;
+	display:none;
+
+}
+
+.imgBetsSlipConfirmationErrorBet
+{
+    background-image: url(images/Controls/confirmationError_sendBet.png) !important;
+    background-repeat: no-repeat !important;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+	display:none;
+}
+.tlbBetSlipConfirmationTop
+{
+    /* background-image: url(images/Controls/back_bet_slip_confirmation_tableTop.png);     background-repeat: no-repeat;     width: 190px;     height: 6px;*/
+}
+
+.tlbBetSlipConfirmationBottom
+{
+    /* background-image: url(images/Controls/back_bet_slip_confirmation_tableBottom.png);     background-repeat: no-repeat;     width: 190px;     height: 5px;*/
+}
+
+.tlbBetSlipConfirmationMiddle
+{
+    /*background-image: url(images/Controls/back_bet_slip_confirmation_tableMiddle.png);     background-repeat: repeat-y;*/
+
+    width: 100%;
+    text-align: left;
+}
+.tblBetSlipImageConfirmation
+{
+    padding-left:3.444%;
+    vertical-align: middle;
+    text-align: center;
+}
+.tblBetSlipConfirmation
+{
+    width: 100%;
+	padding:0 0 3.444% 5.573%;
+}
+
+#tblBetSlip > tbody > tr > td > table {
+
+	width:100%;
+}
+
+/********************************************************/
+/*				   END BETSLIP                          */
+/********************************************************/
+/********************************************************/
+/*				    REPORTS                             */
+/********************************************************/
+
+.textbox
+{
+    font-size: 12px;
+}
+
+
+/*Calendar*/
+.calendarLabel
+{
+    font-weight: bold;
+    font-size: 8pt;
+    color: #FFFFFF;
+}
+
+.calendarLabelBold
+{
+    font-weight: bold;
+    font-size: 8pt;
+    color: #FFFFFF;
+}
+
+.calendarRadioButton
+{
+    color: #333;
+font-size: 12px;
+font-weight: normal;
+}
+
+.calendarDayStyle
+{
+    color: #000000;
+    font-size: 8pt;
+}
+
+.calendarTitleStyle
+{
+    background-color: #4D70B5;
+    font-size: 8pt;
+    border-color: #000000;
+    color: #FFFFFF;
+}
+
+.calendarNextPrevStyle
+{
+    background-color: #4D70B5;
+    font-size: 8pt;
+    border-color: #000000;
+    color: #FFFFFF;
+}
+
+.calendarLinkMenu, .calendarLinkMenu:link, .calendarLinkMenu:visited, .calendarLinkMenu:active
+{
+    font-size: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.calendarLinkMenu:hover
+{
+    font-size: 10px;
+    color: #E5C02A;
+    font-weight: bold;
+}
+
+
+.ReportTable
+{
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+.ReportTitle
+{
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.RequestDate
+{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 8pt;
+}
+.SectionHeaderLevel1
+{
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    color: #1e5127;
+}
+.SectionHeaderLevel2
+{
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    color: Red;
+}
+
+tr#MenuBettingTools1_trChangePassword {
+display:none;	
+}
+
+.SectionHeaderLevel3
+{
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    color: Gray;
+}
+.DetailHeader
+{
+    font-family: Arial;
+    font-size: 8pt;
+}
+.DetailData
+{
+    font-family: Arial;
+    font-size: 8pt;
+}
+.SectionTicketTotal
+{
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+}
+.SectionTicketTotalNumber
+{
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    color: Green;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: Black;
+}
+.SectionPlayerTotal
+{
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    color: Navy;
+}
+.SectionPlayerTotalNumber
+{
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    color: Blue;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: Black;
+}
+.TotalReportLine
+{
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: Black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: Black;
+}
+.EndReport
+{
+    font-family: Arial;
+    font-size: 8pt;
+}
+.ColumnHeaderStyle
+{
+    font-family: Arial;
+    font-size: 8pt;
+    border-top-style: groove;
+    border-top-width: 1px;
+}
+
+.WonStatus
+{
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    color: Green;
+}
+
+.LostStatus
+{
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    color: Red;
+}
+
+.ScratchStatus
+{
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    color: Blue;
+}
+
+.DisqualifiedStatus
+{
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    color: Blue;
+}
+
+.PastPostStatus
+{
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    color: Blue;
+}
+
+.CancelledStatus
+{
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    color: Blue;
+}
+
+.LateBetStatus
+{
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    color: Black;
+}
+.Print
+{
+    background: white url(images/Controls/print.png) no-repeat top;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+/********************************************************/
+/*				    END REPORTS                         */
+/********************************************************/
+
+/********************************************************/
+/*				    OTHERS                              */
+/********************************************************/
+/*
+.MenuHeaderTitle, .MenuHeaderTitle:link, .MenuHeaderTitle:visited, .MenuHeaderTitle:active
+{
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 10px;
+    color: #E3E3E3;
+    
+}
+
+
+.MenuHeaderTitle:hover
+{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 10px;
+    color: #FFCC00;
+    
+}*/
+
+.button
+{
+    font-size: 8pt;
+}
+
+.Label
+{
+    font-weight: normal;
+    font-size: 10px;
+    color: #000000;
+}
+.ConfirmationNumber
+{
+    font-weight: bold;
+    font-size: 11px;
+    color: #E5C02A;
+}
+
+.Title
+{
+    font-weight: 600;
+    font-size: 10px;
+    color: #535353;
+}
+/*.Title:hover
+{
+	font-weight : bold ;
+	FONT-SIZE:9px; 
+	COLOR:#FFFFFF; 
+	FONT-FAMILY:Verdana, Helvetica, Arial
+}*/
+
+
+.lblBetpSlipNamePoolTypeHeader
+{
+
+font-weight: bold;
+color: #fff;
+text-align: left;
+text-transform:uppercase;
+padding-top:4px;
+}
+
+/*****************************************************/
+/* Login                                             */
+/*****************************************************/
+.loginBoxWarning
+{
+    min-height: 30px;
+    padding: 5px 5px 5px 35px;
+    border: 1px solid #cc0101;
+    background: #fff2f2 url(images/warning.gif) no-repeat 5px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #FF0000;
+    text-decoration: none;
+    width: 230px;
+}
+
+/*****************************************************/
+/* Result Reports                                    */
+/*****************************************************/
+
+.CellClickedResult
+{
+   font-size: 12px;
+font-weight: bold;
+background-color: #fff;
+color: #222;
+background-image: url(images/Controls/TabMenuResult.png);
+background-repeat: no-repeat;
+background-position: center;
+border-radius:5px 5px 0 0;
+
+border: 1px solid #555;
+border-bottom: 0;
+border-left: 0;
+}
+.CellUnSelectedResult
+{
+ font-size: 12px;
+font-weight: bold;
+color: #222;
+background-image: url(images/Controls/TabMenuResult.png);
+background-repeat: no-repeat;
+background-position: center;
+background-color: #c0c0c0;
+border-radius: 5px 5px 0 0;
+
+border: 1px solid #555;
+border-bottom: 0;
+border-left: 0;
+
+
+}
+
+/***Report ***/
+
+.srDvTransaction > div
+{
+    display: inline-block;
+    width: 220px;
+}
+.srDvSpace
+{
+    height: 8px;
+}
+.reportRow
+{
+    border-bottom-color: Black;
+    border-bottom-style: dashed;
+    border-bottom-width: thin;
+}
+
+
+.printFont
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    background-repeat: repeat-x;
+}
+.printFontReport
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+}
+.printFontReportBold
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.printLayoutInformationTerminal
+{
+    display: inline-table;
+    vertical-align: top;
+}
+
+.tdDefaultTitleRaceResult
+{
+    background-color: #c0c0c0;
+    border: solid 1px #999;
+    border-top-width: 0;
+    display: table;
+    height: 25px;
+    width: 100%;
+}
+
+#dvResultTrackEvent table tbody .TrackRollOver {
+background:#dbdbdb !important;	
+cursor:pointer;
+}
+
+.tdDefaultTitleRaceResult > div, .dvDefaultRaceResultInformationBackground > div
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tdDefaultTitleRaceResult * span
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.dvDefaultRaceResultInformationBackground
+{
+    border: solid 1px #bbb;
+    border-top-width: 0;
+    background-color: #eee; /*White;*/ /*font-size: 13px;*/
+    display: table;
+    height: 24px;
+    width: 100%;
+}
+
+.dvDefaultRaceResultInformationBackground *, .tdDefaultTitleRaceResult *
+{
+    vertical-align: middle;
+}
+.dvDefaultRaceResultInformationBackground * span
+{
+    font-size: 12px;
+}
+.dvDefaultRaceResultInformationBackground > div > table
+{
+    height: 100%;
+}
+.dvDefaultRaceResultInformationBackground > div > table *
+{
+    font-size: 12px;
+}
+
+.dvEmptyRaceResulInformation
+{
+    /*border: black;
+    border-width: 1px;
+    border-style: solid;
+    background-color: White;*/
+}
+.dvEmptyRaceResulInformation > div
+{
+    margin-left: 5px;
+    font-size: 10pt;
+    color: #000000;
+}
+
+.dvVerticalPosition > div
+{
+    /*display: inline-block;*/
+    display: table-cell;
+    vertical-align: top;
+}
+
+.dvVerticalPositionMiddle > div
+{
+    /*display: inline-block;*/
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.dvAlignCenter > div
+{
+    text-align: center;
+}
+
+.dvAlignLeft > div > span
+{
+    margin-left: 5px;
+}
+
+.dvAlignRight > div
+{
+    text-align: right;
+}
+
+.dvAlignRight > div > span
+{
+    margin-right: 5px;
+}
+.dvSpaceSection
+{
+    height: 10px;
+}
+.dvWinnerRunner
+{
+    /*display: inline-block; vertical-align: middle; */
+    background-color: Red;
+    color: White;
+    width: 20px;
+    text-align: center;
+}
+.dvSecondRunner
+{
+    background-color: Black;
+    color: White;
+    width: 20px;
+    text-align: center;
+}
+.dvThridRunner
+{
+    background-color: Yellow;
+    color: Black;
+    width: 20px;
+    text-align: center;
+}
+.dvFourthRunner
+{
+    background-color: White;
+    color: Black;
+    width: 20px;
+    text-align: center;
+}
+
+.dvFifthRunner
+{
+    background-color: #FF931E;
+    color: White;
+    width: 20px;
+    text-align: center;
+}
+.dvSixthRunner
+{
+    background-color: #66FF66;
+    color: Black;
+    width: 20px;
+    text-align: center;
+}
+.dvScratchRunner
+{
+    background-color: #0071BC;
+    color: White;
+    width: 16px;
+    text-align: center;
+}
+.dvWinnerRunner > div, .dvSecondRunner > div, .dvThridRunner > div, .dvFourthRunner > div, .dvFifthRunner > div, .dvSixthRunner > div, .dvScratchRunner > div
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.ProgammNumber
+{
+    width: 16px;
+    text-align: center;
+    border: solid 1px black;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/***End Report***/
+
+.RowResultTrack
+{
+    border-bottom: solid 1px black;
+}
+
+.dvTitleDefault
+{
+    padding: 0.813%;
+color: #222;
+border-bottom: 1px solid #c0c0c0;
+margin-top: 20px;
+display: block
+
+}
+
+#MenuBettingTools1_dvMenuBettingTools {
+position:absolute;
+width:20.164%;	
+z-index:1;
+margin-top:-1px;
+}
+
+#MenuBettingTools1_lblFavoritieTrack {
+	padding: 0 3.444%;
+font-size: 12px;
+line-height: 21px;
+color:#222;
+}
+
+#MenuBettingTools1_lblConfiguration {
+	padding: 0 3.444%;
+font-size: 12px;
+color: #333;
+line-height: 21px
+}
+
+#MenuBettingTools1_lblChangePassword {
+		padding: 0 3.444%;
+font-size: 12px;
+line-height: 21px;
+color:#222;
+}
+/*****************************************************/
+/* End Result Reports                                    */
+/*****************************************************/
+
+.tblPrincipalMainAlign > tbody > tr > .MenuAccountFrameWidth {
+width: 20.164%;
+border-top: 30px solid #dbdbdb;
+
+}
+
+/*#ucBetSlip_dtlWager .SingleTableBetSlip:nth-of-type(1), #ucBetSlip_dtlWager .SingleTableBetSlip:nth-of-type(8), #ucBetSlip_dtlWager .AlternatingTableBetSlip:nth-of-type(1), #ucBetSlip_dtlWager .AlternatingTableBetSlip:nth-of-type(8)  {
+	display:none;
+}*/
+
+#ucBetSlip_dtlWager .SingleTableBetSlip:nth-of-type(1), #ucBetSlip_dtlWager .AlternatingTableBetSlip:nth-of-type(1) {
+color:#dfab3e;	
+}
+
+
+.bodySecundary.MenuAccountFrameWidth table {
+width:100%;	
+}
+
+#ucBetSlip_dtlWager .SingleTableBetSlip:nth-of-type(3) td:nth-of-type(1), #ucBetSlip_dtlWager .AlternatingTableBetSlip:nth-of-type(3) td:nth-of-type(1) {
+display:none;	
+}
+
+#ucBetSlip_dtlWager .SingleTableBetSlip:nth-of-type(7), #ucBetSlip_dtlWager .AlternatingTableBetSlip:nth-of-type(7) {
+	color:#efbc4f;
+}
+
+#detail0, #detail1, #detail2, #detail3, #detail4, #detail5 {
+color:#fff !important;	
+text-decoration:underline;
+}
+
+#error0, #error1, #error2, #error3, #error4 {padding-bottom:4px; color:red;}
+
+.SingleTableBetSlip td[width="10px"], .AlternatingTableBetSlip td[width="10px"] {
+display:none;	
+}
+
+#tdParlayHeader span {
+color: #fff;
+font-size: 10px;
+text-transform: uppercase;
+padding-left: 10px;
+}

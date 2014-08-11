@@ -13,7 +13,7 @@ class EntriesController < ApplicationController
       if @entry.save
         format.html { redirect_to @inquiry, notice: t('flash.entry_created') }
         #format.json { render action: 'show', status: :created, location: @inquiry }
-        UserMailer.new_entry(@inquiry_owner, @inquiry).deliver if @current_user.admin
+        UserMailer.entry_mail(@inquiry_owner, @inquiry).deliver if @current_user.admin
       else
         format.html { redirect_to @inquiry, error: t('flash.entry_not_created') }
         #format.json { render json: @inquiry.errors, status: :unprocessable_entity }

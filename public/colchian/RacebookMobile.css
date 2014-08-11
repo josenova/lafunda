@@ -1,0 +1,1603 @@
+﻿/* Background */
+body
+{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333333;
+	-webkit-appearance: none;
+-moz-appearance:none;
+}
+.bodyReport
+{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000;
+}
+
+table.ReportBetInformationTitle {
+padding-left: 10px;
+}
+
+.backgroundInterno
+{
+    background-color: #000000;
+}
+
+/******MENU******/
+
+.btnGoSportsbook
+{
+    background-image: url(images/sportsbook_up.png);
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    width: 41px;
+    height: 41px;
+}
+.btnGoRacebook
+{
+    background-image: url(images/racebook_up.png);
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    width: 41px;
+    height: 41px;
+}
+.btnGoCasino
+{
+    background-image: url(images/casino_up.png);
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    width: 41px;
+    height: 41px;
+}
+.btnSignIn
+{
+    background-image: url(images/sign_in_up.png);
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    width: 41px;
+    height: 41px;
+}
+.btnAccount
+{
+    background-image: url(images/account_up.png);
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    width: 41px;
+    height: 41px;
+}
+
+.btnGoSportsbookSelected
+{
+    background-image: url(images/sportsbook_down.png);
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    width: 41px;
+    height: 41px;
+}
+.btnGoRacebookSelected
+{
+    background-image: url(images/racebook_down.png);
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    width: 41px;
+    height: 41px;
+}
+.btnGoCasinoSelected
+{
+    background-image: url(images/casino_down.png);
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    width: 41px;
+    height: 41px;
+}
+.btnSignInSelected
+{
+    background-image: url(images/sign_in_down.png);
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    width: 41px;
+    height: 41px;
+}
+.btnAccountSelected
+{
+    background-image: url(images/account_down.png);
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    width: 41px;
+    height: 41px;
+}
+/******END MENU******/
+
+.backgroundPoolTypeDescription
+{
+    background: -webkit-linear-gradient(left,color-stop(0.00, #000000), color-stop(1.00, #CCCCCC));
+    background: -moz-linear-gradient(right,  #000000,  #CCCCCC);
+    background: -o-linear-gradient(right,  #000000,  #CCCCCC);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#000000', endColorstr='#CCCCCC');
+    background: linear-gradient(to right,  #000000,  #CCCCCC);
+    padding: 5px 5px 5px 5px;
+}
+
+/* Header pages */
+.backgroundHeader
+{
+    background-color: #000000;
+    height: 44px;
+}
+
+/* CheckBoxes */
+input[type="checkbox"]
+{
+    background-color: Transparent;
+    vertical-align: top;
+    padding: 0;
+    margin-top: 0;
+    float: left;
+    display: none;
+}
+
+.checkBoxChecked, .checkBoxCheckedWin
+{
+    width: 50px;
+    height: 30px;
+    vertical-align: middle;
+    background-image: url(images/check.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.checkBoxUnChecked, .checkBoxUnCheckedWin
+{
+    width: 40px;
+    height: 30px;
+    vertical-align: middle;
+    background-image: url(images/unCheck.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#tdChkBoxWith, #tdChkBox {
+font-size: 0.75em;
+}
+
+
+.checkBoxHide
+{
+    display: none;
+}
+
+
+.labelHeader {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 0.9375em;
+font-weight: bold;
+color: #FFFFFF;
+padding-left: 10px;
+display:inline-block;
+}
+
+/* Title sections */
+.backgroundTitle
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 0.9375em;
+font-weight: bold;
+color: #fff;
+padding-left: 10px;
+background-color: #2b2f2f;
+text-align: left;
+height: 44px;
+vertical-align: middle;
+text-shadow: 1px 1px #222;
+text-transform: uppercase;
+line-height: 32px;
+}
+.backgroundLoginTextBoxes
+{
+    background: -webkit-linear-gradient(left, color-stop(0.00, #000000), color-stop(1.00, #CCCCCC));
+    background: -moz-linear-gradient(right,  #000000,  #CCCCCC);
+    background: -o-linear-gradient(right,  #000000,  #CCCCCC);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#000000', endColorstr='#CCCCCC');
+    background: linear-gradient(to right,  #000000,  #CCCCCC);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    color: #FFF;
+}
+.backgroundButtons
+{
+    background: #000;
+}
+.rowSeparator
+{
+    height: 1px;
+    background-color: #2d2d2d;
+}
+
+/* Empty and Route line */
+.backgroundEmptyAndRoute
+{
+    background: #000;
+}
+
+#lnkWhereAmI {
+	padding-left:10px;
+}
+
+.routeLink {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 0.6875em;
+color: #c0c0c0;
+text-decoration: none;
+padding: 10px 0;
+display: inline-block;
+}
+
+/* Header Menu */
+.headerButtonLabel
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    color: #FFF;
+    text-align: center;
+    vertical-align: middle;
+}
+.rowPlayerInformation
+{
+    display: table-row; /*display: table-cell;*/
+}
+.backgroundMenu
+{
+    background-color: #000000;
+	display:none;
+}
+.menuOptions
+{
+    width: 225px;
+    height: 60px;
+}
+/* Tracks Menu */
+.MenuTrackListHeaderFeatured
+{
+    margin: auto;
+    background-image: url(images/Controls/Featured.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: Transparent;
+    border: 0;
+    width: 35px;
+    height: 35px;
+}
+.MenuTrackListHeaderUpcoming
+{
+    margin: auto;
+    background-image: url(images/Controls/Upcoming.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 0;
+    width: 38px;
+    height: 35px;
+}
+.MenuTrackListHeaderFavorite
+{
+    margin: auto;
+    background-image: url(images/Controls/Favorite.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: Transparent;
+    border: 0;
+    width: 38px;
+    height: 35px;
+}
+.MenuTrackListHeaderThoroughbred
+{
+    margin: auto;
+    background-image: url(images/Controls/Thoroughbred.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: Transparent;
+    border: 0;
+    width: 40px;
+    height: 35px;
+}
+.MenuTrackListHeaderHarness
+{
+    margin: auto;
+    background-image: url(images/Controls/Harness.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: Transparent;
+    border: 0;
+    width: 44px;
+    height: 35px;
+}
+.MenuTrackListHeaderGreyhound
+{
+    margin: auto;
+    background-image: url(images/Controls/Greyhound.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: Transparent;
+    border: 0;
+    width: 40px;
+    height: 35px;
+}
+
+/* Labels */
+.lblTitle
+{
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    color: #FFF;
+    height: 30px;
+}
+.lblTitleBold
+{
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #FFF;
+    height: 30px;
+}
+.lblPlayerInformation
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #FFFFFF;
+}
+.lblReportMessage
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #FFFFFF;
+}
+.lblPoolTypeName
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: #000000;
+}
+.lblPostTime
+{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 0.75em;
+color: #fff;
+margin: 6px 10px 6px 5px;
+display: block;
+}
+.lblHeaderPoolLimits
+{
+    font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 13px;
+color: #dfab3e;
+margin-left:10px;
+}
+.lblPoolLimitAmount
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.lblPoolTypeDescription
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    color: #FFFFFF;
+}
+
+/* Textboxes */
+.loginTextBox
+{
+    width: 150px;
+    height: 30px;
+}
+.straightAmountTextBox
+{
+  background-color: #E6E6E6;
+width: 26px;
+height: 20px;
+margin-right: 3px;
+border: 1px solid #111;
+}
+.exoticAmountTextBox
+{
+    width: 100px;
+    height: 20px;
+	margin: 0 0 10px 10px;
+}
+
+/* DropDownList */
+.dropDownList
+{
+   font-size: 12px;
+height: 25px !important;
+margin: 5px 10px 0 0;
+border-radius: 5px;
+width:100px !important;
+}
+
+/* Buttons */
+.button
+{
+    font-family: Arial, Verdana, Helvetica;
+    font-size: 10pt;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    background-image: url(images/button.png);
+    background-repeat: no-repeat;
+    background-color: Transparent;
+    vertical-align: middle;
+    outline: #8794AA;
+    padding: 0;
+    border: 0;
+    width: 90px;
+    height: 38px;
+}
+
+.ReportBetInformationTitle .btnMaximize {
+	padding-left:10px;
+}
+
+.buttonSmall
+{
+    font-family: Arial, Verdana, Helvetica;
+font-size: 0.75em;
+color: #000000;
+text-decoration: none;
+text-align: center;
+vertical-align: middle;
+padding: 8px 1px;
+border: 0;
+width: auto !important;
+height: auto !important;
+background: #aaa;
+border-radius: 3px;
+margin-left: 10px;
+min-width: 58px;
+	-webkit-appearance: none;
+-moz-appearance:none;
+}
+.buttonSelectedSmall
+{
+  font-family: Arial, Verdana, Helvetica;
+font-size: 0.75em;
+color: #111;
+text-decoration: none;
+text-align: center;
+vertical-align: middle;
+border: 0;
+width: auto !important;
+min-width: 40px;
+height: auto !important;
+padding: 8px 1px;
+background: #dfab3e;
+margin-left: 10px;
+border-radius: 3px;
+	-webkit-appearance: none;
+-moz-appearance:none;
+}
+.buttonDisabledSmall
+{
+    font-family: Arial, Verdana, Helvetica;
+font-size: 0.75em;
+color: #000;
+border-radius: 3px;
+text-decoration: none;
+text-align: center;
+vertical-align: middle;
+border: 0;
+height: auto !Important;
+background: #aaa;
+margin-left: 10px;
+width: auto !important;
+min-width: 51px;
+    padding: 8px 0px;
+text-decoration: line-through;
+	-webkit-appearance: none;
+-moz-appearance:none;
+}
+.buttonAccountOption
+{
+    background-image: url(images/account_option_up.png);
+    background-repeat: no-repeat;
+    background-color: Transparent;
+    font-family: Arial, Verdana, Helvetica;
+    font-size: 12pt;
+    text-align: center;
+    vertical-align: middle;
+    color: #000000;
+    width: 90px;
+    height: 40px;
+    border: 0;
+}
+.buttonAddToBetCard {
+font-family: Arial, Verdana, Helvetica;
+font-size: 0.75em;
+font-weight: bold;
+color: #000;
+width: auto;
+height: auto;
+border: 0;
+padding: 10px 14px;
+background: #dfab3e;
+margin: 0 10px 0;
+text-transform: uppercase;
+border-radius: 3px;
+-webkit-appearance: none;
+-moz-appearance:none;
+}
+
+#tdLabelBetAmount {
+font-size: 12px;
+padding: 0 0 10px 10px;
+}
+
+.buttonBetHistory
+{
+    background-image: url(images/buttonBetHistory.png);
+    background-repeat: no-repeat;
+    background-color: Transparent;
+    background-position: center;
+    font-family: Arial, Verdana, Helvetica;
+    font-size: 0.75em;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    color: #000000;
+    width: 145px;
+    height: 25px;
+    border: 0;
+	margin-right:10px;
+}
+
+.lblTitle td strong {
+padding-left: 10px;
+font-size: 17px;
+}
+
+.buttonRaceList
+{
+    background-image: url(images/buttonRaceList.png);
+    background-repeat: no-repeat;
+    background-color: Transparent;
+    font-family: Arial, Verdana, Helvetica;
+    font-size: 0.75em;
+    font-weight: bold;
+    color: #000000;
+    width: 150px;
+    height: 25px;
+    border: 0;
+	margin-left: 10px;
+}
+.buttonBackToBetting
+{
+  font-family: Arial, Verdana, Helvetica;
+font-size: 12px;
+text-transform: uppercase;
+border-radius: 3px;
+font-weight: bold;
+background: #dfab3e;
+text-align: center;
+color: #111;
+border: 0;
+padding: 8px 12px;
+	-webkit-appearance: none;
+-moz-appearance:none;
+}
+.btnMinimize
+{
+    background-image: url(images/Controls/buttonMinimizeWindow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: Transparent;
+    border: 0;
+    width: 50px !important;
+}
+
+.btnMaximize
+{
+    background-image: url(images/Controls/buttonMaximizeWindow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: Transparent;
+    border: 0;
+    width: 40px !important;
+}
+
+/* Links */
+.linkLogout
+{
+    font-size: 12pt;
+    color: #0066CC;
+}
+.linkButton
+{
+    font-family: Arial, Verdana, Helvetica;
+text-decoration: none;
+text-align: center;
+border: 0;
+width: auto !important;
+height: auto !important;
+background: #aaa;
+border-radius: 3px;
+margin: 0px 0 10px 10px;
+padding: 8px 4px;
+min-width: 75px;
+}
+
+
+
+.linkButtonSelected
+{
+
+font-family: Arial, Verdana, Helvetica;
+background: #dfab3e;
+color: #000;
+text-decoration: none;
+text-align: center;
+border: 0;
+padding: 8px 4px;
+border-radius: 3px;
+width: auto !important;
+margin: 0px 0 10px 10px;
+height: auto !important;
+min-width:75px;
+
+}
+.linkPoolTypeVerticalCenter
+{
+   font-family: Arial, Verdana, Helvetica;
+font-size: 0.75em;
+text-decoration: none;
+text-align: center;
+color: #000000;
+}
+.linkPoolTypeVerticalCenterSelected
+{
+    font-family: Arial, Verdana, Helvetica;
+font-size: 0.75em;
+text-decoration: none;
+text-align: center;
+color: #000;
+}
+.linkPoolTypesHelp
+{
+    font-family: Arial, Verdana, Helvetica;
+    font-size: 10pt;
+    line-height: 35px;
+    text-align: center;
+    display:none;
+}
+
+#lblPostTimeTitle {
+line-height: 1.2;
+margin: 0px;
+}
+
+
+/*Tracks, races, runners, pool types ...*/
+.trackBackground
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    background: #222;
+    display: block; /* div */
+    height: 32px;
+}
+
+.trackBackgroundHover
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    background: #0a0a0a;
+    display: block; /* div */
+    height: 32px;
+}
+
+
+.trackName
+{
+    display: table-cell; /* div */
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 5px;
+	line-height:1;
+}
+.trackMTP
+{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #fff;
+text-decoration: none;
+width: 85px;
+display: table-cell;
+text-align: right;
+vertical-align: middle;
+}
+.trackCode
+{
+   font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #fff;
+text-decoration: none;
+width: 30px;
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+}
+.trackBackgroundFeatured
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    color: #FFFFFF;
+    background: -webkit-linear-gradient(left, color-stop(0.00, #333333),color-stop(1.00, #787878));
+    background: -moz-linear-gradient(right,  #333333,  #787878);
+    background: -o-linear-gradient(right,  #333333,  #787878);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#333333', endColorstr='#787878');
+    background: linear-gradient(to right,  #333333,  #787878);
+    display: block; /* div */
+    height: 44px;
+}
+.trackNameFeatured
+{
+    display: table-cell; /* div */
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.trackMTPFeatured
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #000000;
+    text-decoration: none;
+    width: 100px;
+    display: table-cell; /* div */
+    text-align: center;
+    vertical-align: middle;
+}
+.trackCodeFeatured
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #000000;
+    text-decoration: none;
+    width: 25px;
+    display: table-cell; /* div */
+    text-align: right;
+    vertical-align: middle;
+}
+.trackHeight
+{
+    height: 44px;
+}
+
+.trackMargin {
+padding: 0 0 0 5px;
+line-height: 32px;
+font-size: 13px;
+}
+
+/* Runners */
+.runnerGeneralBackground
+{
+    background: #000;
+    padding-left: 5px;
+}
+.runnerHeader
+{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 1em;
+font-weight: bold;
+color: #fff;
+padding-left: 5px;
+text-shadow: 1px 1px #222;
+text-transform:uppercase;
+}
+.runnerSeparator
+{
+    height: 0px;
+}
+
+/* Normal runner */
+.runnerBackground
+{
+    background: #222;
+-moz-border-radius: 5px;
+border-radius: initial;
+height: 32px;
+padding: 10px;
+border-bottom: 1px #2d2d2d solid;
+}
+.runnerProgramNumber
+{
+    width: 20px;
+    height: 20px;
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 1px 0 0 0;
+    border: solid 1px black;
+}
+.runnerName
+{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 0.8125em;
+font-weight: bold;
+color: #FFFFFF;
+float: left;
+text-decoration: none;
+word-break:break-all;
+}
+.runnerJockey
+{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 0.8125em;
+color: #FFFFFF;
+text-decoration: none;
+}
+.runnerOdds
+{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 0.8125em;
+font-weight: bold;
+color: #dfab3e;
+text-decoration: none;
+}
+
+/* Scratched runner */
+.runnerScratchedBackground
+{
+    background:#ae4f50;
+height: 32px;
+padding: 5px 10px;
+}
+.ProgramNumberScratched
+{
+    text-decoration: line-through;
+}
+.runnerNameScratched
+{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 0.8125em;
+font-weight: bold;
+color: #ccc;
+text-decoration: line-through;
+}
+.runnerJockeyScratched
+{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 0.8125em;
+color: #aaa;
+text-decoration: line-through;
+}
+.runnerOddsScratched
+{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 0.8125em;
+color: #aaa;
+text-decoration: line-through;
+}
+
+/* Letter runner */
+.runnerLetterBackground
+{
+    background: #222;
+    height: 32px;
+	padding: 10px;
+	border-bottom: 1px #2d2d2d solid;
+}
+
+#rptRunner_ctl00_trStraightHeaderLine {
+background: #2b2f2f;
+padding: 10px;
+display: block;
+}
+
+#rptRunner_ctl00_tdHeaderStraightPlace {
+padding: 0 10px;
+}
+
+#btnAddToBetCardTop {
+display: none;
+}
+
+/* Program numbers */
+.ProgramNumberT1, .ProgramNumberT2, .ProgramNumberT3, .ProgramNumberT4, .ProgramNumberT5, .ProgramNumberT6, .ProgramNumberT7, .ProgramNumberT8, .ProgramNumberT9, .ProgramNumberT10, .ProgramNumberT11, .ProgramNumberT12, .ProgramNumberT13, .ProgramNumberT14, .ProgramNumberT15, .ProgramNumberT16, .ProgramNumberT17, .ProgramNumberT18, .ProgramNumberT19, .ProgramNumberT20
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0px 10px;
+    padding: 1px 0 0 0;
+    border: solid 1px black;
+    border-radius: 5px;
+    float: left;
+    width: 18px;
+    height: 16px;
+}
+
+.ProgramNumberT1
+{
+    background-color: #D20001;
+    color: white;
+}
+.ProgramNumberT2
+{
+    background-color: #F0F0F0;
+    color: black;
+}
+.ProgramNumberT3
+{
+    background-color: #2D2EFA;
+    color: white;
+}
+.ProgramNumberT4
+{
+    background-color: #E8EA31;
+    color: black;
+}
+.ProgramNumberT5
+{
+    background-color: #008001;
+    color: white;
+}
+.ProgramNumberT6
+{
+    background-color: #242424;
+    color: yellow;
+}
+.ProgramNumberT7
+{
+    background-color: #FB581F;
+    color: black;
+}
+.ProgramNumberT8
+{
+    background-color: #FBAABD;
+    color: black;
+}
+.ProgramNumberT9
+{
+    background-color: #22C5C4;
+    color: black;
+}
+.ProgramNumberT10
+{
+    background-color: #8700CF;
+    color: white;
+}
+.ProgramNumberT11
+{
+    background-color: #8A8A8A;
+    color: red;
+}
+.ProgramNumberT12
+{
+    background-color: #87D600;
+    color: black;
+}
+.ProgramNumberT13
+{
+    background-color: silver;
+    color: #333;
+}
+.ProgramNumberT14
+{
+    background-color: #330099;
+    color: white;
+}
+.ProgramNumberT15
+{
+    background-color: #993300;
+    color: black;
+}
+.ProgramNumberT16
+{
+    background-color: #336666;
+    color: white;
+}
+.ProgramNumberT17
+{
+    background-color: #4A2637;
+    color: white;
+}
+.ProgramNumberT18
+{
+    background-color: #A98CFF;
+    color: black;
+}
+.ProgramNumberT19
+{
+    background-color: #FFAD5B;
+    color: black;
+}
+.ProgramNumberT20
+{
+    background-color: #004F4F;
+    color: white;
+}
+.ProgramNumber
+{
+    text-decoration: none;
+}
+.ProgramNumberLetter
+{
+  font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #FFFFFF;
+text-align: center;
+vertical-align: middle;
+margin: 0 10px;
+display:block;
+padding: 0;
+border: solid 1px #FFFFFF;
+border-radius: 5px;
+width: 20px;
+height: 15px;
+}
+
+/* Betting */
+.lblHeader
+{
+    font-size: 12pt;
+    color: #000000;
+}
+.lblExoticsHeader
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: #FFFFFF;
+}
+.raceName
+{
+    font-size: 12pt;
+    color: #000000;
+}
+.selectedPoolType
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+/* Reports */
+.backgroundReport:nth-child(even)
+{
+    background-color: #222;
+}
+.backgroundReport:nth-child(odd)
+{
+    background-color: #333333;
+}
+
+.backgroundReport {
+	display: inline-block;
+    padding: 5px 0;
+}
+
+.backgroundBetInformation
+{
+    background-color: #000;
+padding: 0 0 0 10px;
+}
+.backgroundEndReport
+{
+    background: #000;
+}
+.ReportHeaderTicketInformation
+{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+color: #FFFFFF;
+text-align: left;
+padding-left:10px;
+}
+.ReportTicketNumber
+{
+   font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: bold;
+color: #dfab3e;
+text-align: left;
+}
+.ReportTicketInformation
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #ddd;
+text-align: left;
+}
+.ReportBetInformation
+{
+ font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #7ba573;
+text-align: right;
+padding: 10px 0;
+font-weight: bold;
+}
+.ReportTitleSummary
+{
+    font-size: 10pt;
+    font-weight: bold;
+    color: #F4B822;
+}
+
+.ReportBetCombination
+{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #dfab3e;
+text-align: left;
+padding-left: 20px;
+}
+
+#trMessageEmpty {
+background: #222;
+}
+
+.ReportBetInformationTitle
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.ReportLine
+{
+    border: none;
+    background-color: #2d2d2d;
+    height: 1px;
+}
+.ReportWon
+{
+    color: Green;
+}
+.ReportLost
+{
+    color: #ae4f50;
+text-transform: uppercase;
+font-size: 12px;
+padding: 0 0 0 20px;
+font-weight: bold;
+}
+.ReportDisqualified
+{
+    color: Blue;
+}
+.ReportPastPost
+{
+    color: Blue;
+}
+.ReportCanceled
+{
+    color: Blue;
+}
+.ReportScratch
+{
+    color: Blue;
+}
+.ReportRefund
+{
+    color: Blue;
+}
+
+
+.ReportTotalAmount
+{
+    color: Black;
+    font-weight: bold;
+}
+
+/* Bet Slip */
+
+.SingleTableBetSlipConfirmationTicket, .AlternatingTableBetSlipConfirmationTicket
+{
+    background-image: url(images/back_bet_slip_tableMiddle.png);
+    background-repeat: no-repeat;
+}
+
+.ReadBackTitle
+{
+   font-size: 13px;
+color: #7ba574;
+margin-top: 10px;
+display: inline-block;
+}
+.ReadBackInformation
+{
+   font-size: 13px;
+color: #ccc;
+padding-left: 0;
+}
+
+
+    .tblBetSlipMainConfirmation {
+width: 100%;
+background-color: #222;
+}
+
+.tblBetSlipDetailConfirmation
+{
+    width:100%;
+}
+
+
+#dtlWager table {
+width: 100%;
+padding:0 10px;
+}
+
+.tblBetSlipImageConfirmation
+{
+    width: 295px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tbPoolLimits
+{
+padding-bottom:10px;
+}
+.imgBetsSlipConfirmationBet
+{
+    background-image: url(images/confirmation_sendBet.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center;
+    width: 40px;
+    height: 50px;
+    margin-left: 5px;
+}
+.imgBetsSlipConfirmationErrorBet
+{
+    background-image: url(images/confirmationError_sendBet.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+.ReadBackRaceLabel
+{
+font-weight: bold;
+font-size: 14px;
+text-align: left;
+color: #fff;
+text-transform: uppercase;
+}
+.ReadBackRaceLabelConfirmation
+{
+    font-weight: bold;
+font-size: 15px;
+text-align: left;
+color: #fff;
+padding-top:10px;
+}
+.ReadBackTicket
+{
+  font-weight: bold;
+font-size: 15px;
+color: #dfab3e;
+}
+.tlbBetSlipTextInfo
+{
+    text-align: left;
+    width: 181px;
+}
+.tblBetSlipDeleteBet
+{
+    background-image: url(images/back_bet_slip_deleteBet.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 40px;
+}
+.tlbBetSlipConfirmationBottom
+{
+    background-image: url(images/back_bet_slip_confirmation_tableBottom.png);
+    background-repeat: no-repeat;
+    width: 220px;
+    height: 5px;
+}
+
+.ReadBackErrorInformation
+{
+    font-size: 12pt;
+    font-weight: bold;
+    padding-left: 15px;
+    color: White;
+    border-width: 0px;
+}
+
+.tblBetSlipConfirmation
+{
+    width: 220px;
+}
+.tlbBetSlipConfirmationTop
+{
+    background-image: url(images/back_bet_slip_confirmation_tableTop.png);
+    background-repeat: no-repeat;
+    width: 220px;
+    height: 6px;
+}
+.tlbBetSlipConfirmationTicket
+{
+    width: 220px;
+    height: 40px;
+    background-color: #E6E6E6;
+    color: #000000;
+    padding: 5px;
+    text-align: left;
+}
+
+.tlbBetSlipConfirmationMiddle
+{
+
+    text-align: left;
+}
+
+.ErrorBet
+{
+    /*border: 1px solid #cc0101 !important; background-image: url(images/Controls/back_bet_slip_tableMiddleError.png)!important;     background-repeat:repeat-y;*/
+    width: 227px !important;
+    background-color: White !important;
+    font-size: 10px !important;
+    color: White !important;
+    text-decoration: none !important;
+    width: 231px;
+}
+
+.tlbBetSlipLineSeparator
+{
+    background-color: #333;
+    height: 4px;
+}
+
+
+.lblBetpSlipNamePoolTypeHeader
+{
+    background-image: url(images/back_bet_slip_pool_type_label.png);
+    background-repeat: repeat-y; /*background-color: #c8c8c8;*/
+    font-size: 10px;
+    font-weight: bold; /*color: #000000;*/
+    text-align: left;
+    padding-left: 5px;
+}
+
+.betSlipBackGroundButtonConfirmation
+{
+    font-family: Arial, Verdana, Helvetica;
+font-size: 12px;
+color: #fff;
+text-decoration: none;
+text-align: center;
+background: #1e5127;
+border-radius: 3px;
+text-transform: uppercase;
+font-weight: bold;
+padding: 12px 22px;
+border: 1px solid #dfab3e;
+}
+
+.tblBetSlipDeleteBet
+{
+    background-image: url(images/back_bet_slip_deleteBet.png);
+background-repeat: no-repeat;
+background-position: right;
+background-color: transparent;
+width: 40px;
+height: 20px;
+margin-bottom: 10px;
+display: inline-block;
+}
+.betSlipBackGround
+{
+color: #fff;
+padding: 0 10px;
+text-align: left;
+font-size: 0.8125em;
+margin: 10px 0;
+background: #222;
+/*#2b2f2f*/
+}
+.betSlipBackGroundDetail
+{
+  background-color: #222;
+color: #fff;
+text-align: left;
+}
+.betSlipBackGroundButtonDetail
+{
+    background: #333;
+}
+.betBackground
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    background-image: url(images/back_results.png);
+    background-repeat: repeat-y;
+}
+.betHeader
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+}
+.betDetail
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    text-decoration: none;
+    color: #FFF;
+}
+.betConfirmationNumber
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    text-decoration: none;
+    color: Navy;
+}
+
+.betSlipTitleTop
+{
+    font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 13px;
+text-transform: uppercase;
+padding: 10px 0 5px;
+}
+.betSlipTitleDetail
+{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 0.8125em;
+color: #dbdbdb;
+padding:0 0 5px;
+}
+.betSlipTitleDetailHeader
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    color: #333333;
+    padding-left: 10px;
+}
+
+/* Icons */
+.iconHelp
+{
+    background-image: url(images/Controls/iconHelp.png);
+    background-repeat: no-repeat;
+    background-color: Transparent;
+    display:none;
+    width: 15px;
+    height: 15px;
+}
+
+.iconNext
+{
+   background-image: url(images/Controls/buttonNext.png);
+background-repeat: no-repeat;
+background-color: transparent;
+background-position: center;
+border: 0;
+width: 40px;
+height: 20px;
+display: table-cell;
+}
+
+.btnCart
+{
+    background-image: url(images/Controls/cart2.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-color: Transparent;
+    width: 27px;
+    height: 32px;
+    border: 0;
+    margin-right: 20px;
+}
+.lblNumberBetText
+{
+    font-size: 0.75em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.iconRefresh
+{
+    background-image: url(images/Controls/iconRefresh.png);
+    background-repeat: no-repeat;
+    background-color: Transparent;
+    vertical-align: middle;
+    border: 0;
+    width: 15px;
+    height: 15px;
+}
+
+/******FOOTER******/
+
+.btnGoFullSite
+{
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    color: White;
+    border: 0;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    text-decoration:underline;
+}
+
+/*Account Summary and Daily Figures Styles*/
+
+/*Para ponerle el link despues es necesario ponerle el text-decoration*/
+
+.DailyFiguresWeekReport
+{
+  text-decoration:none;   
+   /* text-decoration: underline !important;*/
+}
+
+.lblDetailSummaryAccount {
+    font-size: 10pt;
+    color: #F4B822;
+}
+.lblGeneralAmountPlayerInformation {
+    font-size: 10pt;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.lblBtnAdjust
+{
+    white-space:pre-wrap;
+    padding-bottom:5px;
+    padding-top:5px;
+    padding-right:21px;
+    padding-left:21px;
+}
+
+.btnCashier
+{
+    background-image: url(images/cashier.png);
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    width: 41px;
+    height: 41px;
+}
