@@ -43,8 +43,8 @@ if($(window).width() <= 568) {
 	  }
 	  if ($('#sport_frame').length > 0) {
 		  var url = $("#sport_frame").attr('src');
-		  var urlarray = url.split('stoken=');
-		  $('#sport_frame').attr("src","https://wagering.lafunda.com.do/BOSSWagering/Sportsbook/MobileBetTaker?siteid=lafunda&stoken=" + urlarray[1]);
+		  var urlarray = url.split('=lafunda');
+		  $('#sport_frame').attr("src","https://wagering.lafunda.com.do/BOSSWagering/Sportsbook/MobileBetTaker?siteid=lafunda" + urlarray[1]);
 		  //$('#sport_frame').attr("src","http://www.colchian.eu/BOSS_DEMO/BOSSWagering/Sportsbook/MobileBetTaker/?SiteID=LaFunda&stoken=" + urlarray[1]);
 	  }
 
