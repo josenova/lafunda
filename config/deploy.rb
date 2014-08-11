@@ -1,6 +1,5 @@
 # config valid only for Capistrano 3.1
 lock '3.2.1'
-require 'delayed/recipes'
 
 set :application, 'lafunda'
 set :repo_url, 'git@bitbucket.org:kinbar/lafunda.git'
@@ -53,6 +52,7 @@ namespace :deploy do
     on roles(:app), in: :sequence, wait: 5 do
       # run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
       execute :touch, release_path.join('tmp/restart.txt')
+      execute :ruby, "/var/www/app/current/bin/delayed_job restart"
     end
   end
 
@@ -104,9 +104,4 @@ end
 
 
 after "deploy", "deploy:restart"
-
-set :delayed_job_command, "bin/delayed_job"
-after "deploy:start", "delayed_job:start"
-after "deploy:stop", "delayed_job:stop"
-after "deploy:restart", "delayed_job:stop","delayed_job:start"
 
