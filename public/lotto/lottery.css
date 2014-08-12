@@ -454,7 +454,7 @@ text-align:center;
 background:url(logos/nyc.png) center left no-repeat #004f8a !important;
 }
 
-#houseLI_ENY.closed label, #houseLI_ENY.closed label {
+#houseLNY.closed label, #houseLI_ENY.closed label {
 background:url(logos/nyc_off.png) center left no-repeat #dbdbdb !important;
 }
 
