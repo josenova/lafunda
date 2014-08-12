@@ -66,5 +66,5 @@ gem 'savon'
 gem 'devise'
 gem 'devise-async'
 
-gem 'delayed_job_active_record'
+gem 'delayed_job_active_record', '4.0.0'
 gem 'daemons'
