@@ -50,9 +50,8 @@ namespace :deploy do
   desc 'Restart application'
   task :restart do
     on roles(:app), in: :sequence, wait: 5 do
-      # run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
       execute :touch, release_path.join('tmp/restart.txt')
-      #execute :ruby, "#{deploy_to}/current/bin/delayed_job restart"
+      run "cd #{current_path}; #{sudo} RACK_ENV=production bundle exec #{current_path}/bin/delayed_job restart"
     end
   end
 
