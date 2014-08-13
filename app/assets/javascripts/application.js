@@ -68,7 +68,7 @@ if($(window).width() <= 568) {
 }
 
 /************************************ MINI HEADER *****************************************/
-
+/*
 	$(window).scroll(function () {
 	if ($(this).scrollTop() > 210) {
 		$("#miniheader").css( "margin-top", "0" );
@@ -76,7 +76,7 @@ if($(window).width() <= 568) {
 		$("#miniheader").css( "margin-top", "-59px" );
 	}
    });
-
+*/
 /********************************* MAIN DIV HEIGHT **************************************/
 	  
    divResize();	

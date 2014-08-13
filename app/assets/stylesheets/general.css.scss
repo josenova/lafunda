@@ -713,6 +713,19 @@ legend {
   margin-right:0;
 }
 
+.tip_wrapper select {
+  height: 30px;
+  margin: 0 1% 10px;
+  background: #eee;
+  border: 1px solid #bbb;
+  float: left;
+  font-size: 0.875em;
+  font-family:calibri, calibriregular, arial;
+  padding: 4px 6px;
+}
+
+
+
 .left textarea {
   border: 1px solid #bbb;
   padding: 3px 5px;

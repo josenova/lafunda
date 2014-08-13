@@ -13,7 +13,7 @@ class User < ActiveRecord::Base
     self.surname = surname.strip.downcase.split.map(&:capitalize).join(" ") if surname.present?
     self.email = email.strip.downcase if email.present?
     self.city = city.strip.downcase.camelize if city.present?
-    #self.identification = identification.strip.gsub(/[^0-9]/, '') if identification.present?
+    self.identification = identification.strip.gsub(/[^0-9]/, '') if identification.present?
   end
 
 #////////////////////////////////////////////////////////////////////////////////////////
@@ -41,7 +41,7 @@ class User < ActiveRecord::Base
 
   validates :name, presence: true, length: { minimum: 2, maximum: 30 }, format: { with: /\A([a-z]+\s)*[a-z]+\Z/i }
   validates :surname, presence: true, length: { minimum: 2, maximum: 30 }, format: { with: /\A([a-z]+\s)*[a-z]+\Z/i }
-  #validates :identification, presence: true, uniqueness: true, numericality: { only_integer: true }, length: { is: 11 }
+  validates :identification, presence: true, uniqueness: true, numericality: { only_integer: true }, length: { is: 11 }
 
   validates :birthday, presence: true
 
@@ -50,14 +50,13 @@ class User < ActiveRecord::Base
 
   validates :pin, presence: true, length: { is: 4 }, numericality: { only_integer: true, greater_than: -1 }
 
-
   validates :terms_of_service, acceptance: true, :allow_nil => false, :on => :create
 
   validate :at_least_18
 
   def at_least_18
     if self.birthday
-      errors.add(:birthday, I18n.t('activerecord.errors.models.user.attributes.birthdate.must_be_over')) if self.birthday > 18.years.ago.to_date
+      errors.add(:birthday, I18n.t('activerecord.errors.models.user.attributes.birthday.must_be_over')) if self.birthday > 18.years.ago.to_date
     end
   end
 
@@ -81,11 +80,11 @@ class User < ActiveRecord::Base
             <tem:middleName></tem:middleName>
             <tem:password>#{self.password_digest}</tem:password>
             <tem:nickname>#{self.username}</tem:nickname>
-            <tem:firstSecurityQuestion>0</tem:firstSecurityQuestion>
+            <tem:firstSecurityQuestion>1</tem:firstSecurityQuestion>
             <tem:firstSecurityAnswer>#{self.pin}</tem:firstSecurityAnswer>
-            <tem:secondSecurityQuestion>0</tem:secondSecurityQuestion>
-            <tem:secondSecurityAnswer></tem:secondSecurityAnswer>
-            <tem:thirdSecurityQuestion>0</tem:thirdSecurityQuestion>
+            <tem:secondSecurityQuestion>2</tem:secondSecurityQuestion>
+            <tem:secondSecurityAnswer>#{self.identification}</tem:secondSecurityAnswer>
+            <tem:thirdSecurityQuestion>3</tem:thirdSecurityQuestion>
             <tem:thirdSecurityAnswer></tem:thirdSecurityAnswer>
             <tem:currencyId>#{$currency_id}</tem:currencyId>
             <tem:phone>#{self.cellphone}</tem:phone>

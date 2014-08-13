@@ -146,7 +146,7 @@ es:
                 blank: "- debes confirmar tu conntraseña."
               gender:
                 blank: "- debes elegir tu sexo."	
-              birthdate:
+              birthday:
                 must_be_over: "- debes ser mayor de 18 años."
                 blank: "- debes ingresar tu fecha de nacimiento."
               cellphone:
@@ -162,6 +162,7 @@ es:
               confirmation_token:
                 blank: "inválido."
                 invalid: "inválido."
-
+    date:
+      month_names: [~, Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre]
       
 

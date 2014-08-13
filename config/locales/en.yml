@@ -126,7 +126,7 @@ en:
                 blank: "can't be blank."				
               gender:
                 blank: "can't be blank."
-              birthdate:
+              birthday:
                 must_be_over: "must be over 18 years old."
                 blank: "can't be blank."				
               cellphone:
@@ -142,7 +142,8 @@ en:
               confirmation_token:
                 blank: "can't be blank."
                 invalid: "invalid."				
-
+    date:
+      month_names: [~, January, February, March, April, May, June, July, August, September, October, November, December]
 
       
 

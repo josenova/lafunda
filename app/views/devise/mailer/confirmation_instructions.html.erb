@@ -1,5 +1,16 @@
 <p>Bienvenido <%= @email %>!</p>
 
-<p>Puedes confirmar tu cuenta haciendo clic en el siguiente vínculo:</p>
+<p>Puedes confirmar tu cuenta haciendo clic en el siguiente enlace:</p>
 
 <p><%= link_to t('devise.confirmations.confirm_my_account'), confirmation_url(@resource, confirmation_token: @token), :target => "blank" %></p>
+
+<p>Síguenos en las redes sociales para que te enteres de las promociones, concursos y sorpresas que tenemos para ti:</p>
+
+<a href="http://www.facebook.com/lafundard" target="_blank">/LaFundaRD</a><br>
+<a href="http://www.twitter.com/lafundard" target="_blank">@LaFundaRD</a>
+
+<p>Si en algún momento necesitas ayuda comunícate con nosotros a través de nuestro <a href="https://www.lafunda.com/support" target="_blank">Servicio al Cliente</a></p>
+
+<p>Gracias,<br>
+  El equipo de La Funda</p>
+
