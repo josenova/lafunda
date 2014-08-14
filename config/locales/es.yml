@@ -128,17 +128,21 @@ es:
                 too_long: "- tu usuario no puede tener más de 14 caracteres."
                 too_short: "- tu usuario debe tener mínimo 5 caracteres."
                 blank: "- debes ingresar tu usuario."
+                invalid: "- el usuario no es válido."
               email:
                 taken: "- ya está en uso."
                 blank: "- debes ingresar tu email."
+                invalid: "- no es válido"
               name: 
                 too_short: "- nombre inválido."
                 too_long: "- tu nombre no puede tener más de 30 caracteres."
                 blank: "- debes ingresar tu nombre."
+                name: "- nombre inválido."
               surname:
                 too_short: "- apellido inválido."
                 too_long: "- tu apellido no puede tener más de 30 caracteres."
                 blank: "- debes ingresar tu apellido."
+                invalid: "- apellido inválido."
               password:
                 invalid: "- tu contraseña debe contener una mayúscula, una minúscula y un número. Sin espacios."
                 too_short: "- tu contraseña debe tener mínimo 8 caracteres."
@@ -146,6 +150,11 @@ es:
               password_confirmation: 
                 confirmation: "- tus contraseñas no coinciden."
                 blank: "- debes confirmar tu conntraseña."
+              identification:
+                blank: "- debes ingresar tu cédula."
+                taken: "- la cédula digitada ya está en uso."
+                not_a_number: "- la cédula es incorrecta."
+                wrong_length: "- lá cédula es incorrecta."	
               gender:
                 blank: "- debes elegir tu sexo."	
               birthday:
@@ -155,10 +164,20 @@ es:
                 too_short: "- número de celular inválido."
                 too_long: "- número de celular inválido."
                 taken: "- el celular ya está en uso."
-                blank: "- debes ingresar tu número celular."	
+                blank: "- debes ingresar tu número celular."
+                not_a_number: "- número de celular inválido."				
+              country:
+                blank: "- debes elegir tu país. "
+              state:
+                blank: "- debes elegir tu estado/provincia."
+              city:
+                blank: "- debes ingresar tu ciudad."
+              address:
+                blank: "- debes ingresar tu dirección."			  
               pin:
-                wrong_length: "- tu pin debe ser de 4 dígitos."
+                wrong_length: "- tu pin debe ser 4 dígitos de tu elección."
                 blank: "- debes ingresar tu pin."
+                not_a_number: "- debe ser un número de 4 digitos de tu elección."
               terms_of_service:
                 accepted: "- debes aceptar nuestros términos y condiciones para crear tu cuenta."
               confirmation_token:

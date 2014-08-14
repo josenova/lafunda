@@ -142,7 +142,8 @@ en:
                 too_short: "number is too short."
                 too_long: "number is too long."
                 taken: "is already taken."
-                blank: "can't be blank."		
+                blank: "can't be blank."
+                not_a_number: "must be a number."				
               country:
                 blank: "can't be blank."
               state:
