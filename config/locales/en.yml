@@ -81,6 +81,7 @@ en:
       new_message: "New message:"
       menu: Menu 
       results: Results
+      address: Address
     flash:
       cannot_log_in: "Cannot log in at this time. Please contact support."
       confirm_account: "Please confirm your account."
@@ -106,10 +107,12 @@ en:
               username:
                 too_long: "must have at least 5 characters."
                 too_short: "cant have more than 14 characters."
-                blank: "can't be blank."				
+                blank: "can't be blank."
+                invalid: "is not valid."				
               email:
                 taken: "is already in use."
-                blank: "can't be blank."				
+                blank: "can't be blank."
+                invalid: "is not valid."				
               name: 
                 too_short: "is too short."
                 too_long: "is too long."
@@ -124,7 +127,12 @@ en:
                 blank: "can't be blank."				
               password_confirmation: 
                 confirmation: "does not match."
-                blank: "can't be blank."				
+                blank: "can't be blank."
+              identification:
+                blank: "can't be blank."
+                taken: "is already in use by other user."
+                not_a_number: "must be a number."
+                wrong_length: "must be 11 characters long."				
               gender:
                 blank: "can't be blank."
               birthday:
@@ -134,10 +142,19 @@ en:
                 too_short: "number is too short."
                 too_long: "number is too long."
                 taken: "is already taken."
-                blank: "can't be blank."				
+                blank: "can't be blank."		
+              country:
+                blank: "can't be blank."
+              state:
+                blank: "can't be blank."
+              city:
+                blank: "can't be blank."
+              address:
+                blank: "can't be blank."			  
               pin:
                 wrong_length: "your pin must have 4 digits."
-                blank: "can't be blank."				
+                blank: "can't be blank."	
+                not_a_number: "must be a number."				
               terms_of_service:
                 accepted: "must be agreed upon."
               confirmation_token:

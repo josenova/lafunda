@@ -39,15 +39,18 @@ class User < ActiveRecord::Base
             format:     { with: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i },
             uniqueness: { case_sensitive: false }
 
-  validates :name, presence: true, length: { minimum: 2, maximum: 30 }, format: { with: /\A([a-z]+\s)*[a-z]+\Z/i }
-  validates :surname, presence: true, length: { minimum: 2, maximum: 30 }, format: { with: /\A([a-z]+\s)*[a-z]+\Z/i }
+  validates :name, presence: true, length: { minimum: 2, maximum: 35 }, format: { with: /\A([a-z]+\s)*[a-z]+\Z/i }
+  validates :surname, presence: true, length: { minimum: 2, maximum: 35 }, format: { with: /\A([a-z]+\s)*[a-z]+\Z/i }
   validates :identification, presence: true, uniqueness: true, numericality: { only_integer: true }, length: { is: 11 }
 
   validates :birthday, presence: true
 
   validates :cellphone, presence: true, uniqueness: true, numericality: { only_integer: true }, length: { minimum: 10, maximum: 11}
+
+  validates :country, presence: true
   validates :state, presence: true, length: { maximum: 40}
   validates :city, presence: true, length: { maximum: 40}
+  validates :address, presence: true, length: { maximum: 120}
 
   validates :pin, presence: true, length: { is: 4 }, numericality: { only_integer: true, greater_than: -1 }
 
@@ -98,8 +101,8 @@ class User < ActiveRecord::Base
             <tem:address></tem:address>
             <tem:secondAddress></tem:secondAddress>
             <tem:city>#{self.city}</tem:city>
-            <tem:state></tem:state>
-            <tem:country>Dominican Republic</tem:country>
+            <tem:state>#{self.state}</tem:state>
+            <tem:country>#{self.country}</tem:country>
             <tem:zipCode></tem:zipCode>
             <tem:referral></tem:referral>
             <tem:defaultLanguage>#{$default_language}</tem:defaultLanguage>
