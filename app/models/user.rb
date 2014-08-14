@@ -46,7 +46,8 @@ class User < ActiveRecord::Base
   validates :birthday, presence: true
 
   validates :cellphone, presence: true, uniqueness: true, numericality: { only_integer: true }, length: { minimum: 10, maximum: 11}
-  validates :city, presence: true, length: { maximum: 30}
+  validates :state, presence: true, length: { maximum: 40}
+  validates :city, presence: true, length: { maximum: 40}
 
   validates :pin, presence: true, length: { is: 4 }, numericality: { only_integer: true, greater_than: -1 }
 
@@ -59,7 +60,6 @@ class User < ActiveRecord::Base
       errors.add(:birthday, I18n.t('activerecord.errors.models.user.attributes.birthday.must_be_over')) if self.birthday > 18.years.ago.to_date
     end
   end
-
 
 
 #////////////////////////////////////////////////////////////////////////////////////////////

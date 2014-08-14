@@ -713,9 +713,9 @@ legend {
   margin-right:0;
 }
 
-.tip_wrapper select {
+select {
   height: 30px;
-  margin: 0 1% 10px;
+  margin: 0 2% 10px 0;
   background: #eee;
   border: 1px solid #bbb;
   float: left;
@@ -724,7 +724,9 @@ legend {
   padding: 4px 6px;
 }
 
-
+.tip_wrapper select {
+  width:32%;
+}
 
 .left textarea {
   border: 1px solid #bbb;

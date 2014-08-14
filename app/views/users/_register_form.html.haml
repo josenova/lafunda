@@ -36,8 +36,6 @@
       = f.radio_button :gender, true
       = f.label :true, t('views.male'), :value => true
 
-    /= f.date_field :birthday, :required => true, :placeholder => 'dd/mm/aaaa'
-
     = f.label :birthday, t('views.date_of_birth')
     .tip_wrapper{data_tip: t('tooltips.must_be_over')}
       = f.date_select :birthday, order: [:day, :month, :year], start_year: 2014, end_year: 1920
@@ -47,6 +45,10 @@
 
     = f.label :city, t('views.city')
     = f.text_field :city, :required => true
+
+    = f.label :state, t('views.state')
+    = f.select(:state, options_for_select([['Azua'], ['Bahoruco'],['Barahona'], ['Dajabón'], ['Distrito Nacional'], ['Duarte'],['Elías Piña'], ['El Seibo'], ['Espaillat'], ['Hato Mayor'],['Hermanas Mirabal'], ['Independencia'], ['La Altagracia'], ['La Romana'],['La Vega'], ['María Trinidad Sánchez'], ['Monseñor Nouel'], ['Monte Cristi'],['Monte Plata'], ['Pedernales'], ['Peravia'], ['Puerto Plata'],['Samaná'], ['Sánchez Ramírez'], ['San Cristóbal'], ['San José de Ocoa'],['San Juan'], ['San Pedro de Macorís'], ['Santiago'], ['Santiago Rodríguez'],['Santo Domingo'], ['Valverde']]))
+
 
 
   %br

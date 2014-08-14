@@ -49,6 +49,7 @@ en:
       withdraw: Withdraw
       cashier: Cashier
       city: City
+      state: State
       account: Account
       new_user?: "New user?"
       register!: Register now!
