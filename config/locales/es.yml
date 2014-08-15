@@ -27,7 +27,7 @@ es:
       live_casino: "Casino en Vivo"
       sportsbook: Deportes
       support: "Servicio al Cliente"
-      live_chat: "Chat en Vivo"
+      live_chat: "Chat en vivo"
       chat_now: "Abrir Chat"
       faq: "Preguntas Frecuentes"
       terms_and_conditions: "Términos y Condiciones"
@@ -82,7 +82,7 @@ es:
       click_to_sign_in: "Clic aquí para iniciar sesión."
       help: Ayuda
       open_ticket: "Abrir Ticket"
-      support_ticket: "Ticket de Soporte"
+      support_ticket: "Ticket de soporte"
       ticket_created: "El ticket fue creado con éxito."
       ticket_failed: "El ticket no se pudo crear."
       subject: Asunto
@@ -112,7 +112,7 @@ es:
       user_not_created: "Error: No se ha podido crear el usuario."
       entry_created: "Tu respuesta fue añadida con éxito."
       entry_not_created: "Error: No se ha podido añadir tu respuesta."
-      locked_account: "Tu cuenta está bloqueada. Favor contacta servicio al cliente."
+      locked_account: "Por tu seguridad esta cuenta está bloqueada. Por favor espera 24 horas o contacta a Servicio al Cliente."
     validate:
       at_least_8_characters: "debe tener al menos 8 caracteres."
     tooltips:

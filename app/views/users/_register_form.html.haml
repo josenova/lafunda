@@ -12,8 +12,16 @@
   = f.email_field :email_confirmation, :required => true
 
   = f.label :password, t('views.password')
-  .tip_wrapper{data_tip: 'Debe contener letras y números.'}
+  .tip_wrapper
     = f.password_field :password, :required => true
+    #pswd_info
+      %h4 Tu contraseña debe tener por lo menos:
+      %ul
+        %li#letter.invalid Una letra
+        %li#capital.invalid Una mayúscula
+        %li#number.invalid Un número
+        %li#length.invalid 8 caracteres
+
 
   = f.label :password_confirmation, t('views.confirm_password')
   = f.password_field :password_confirmation, :required => true

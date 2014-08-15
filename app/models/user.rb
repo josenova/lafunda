@@ -90,7 +90,7 @@ class User < ActiveRecord::Base
             <tem:secondSecurityQuestion>2</tem:secondSecurityQuestion>
             <tem:secondSecurityAnswer>#{self.identification}</tem:secondSecurityAnswer>
             <tem:thirdSecurityQuestion>3</tem:thirdSecurityQuestion>
-            <tem:thirdSecurityAnswer></tem:thirdSecurityAnswer>
+            <tem:thirdSecurityAnswer>#{self.birthday}</tem:thirdSecurityAnswer>
             <tem:currencyId>#{$currency_id}</tem:currencyId>
             <tem:phone>#{self.cellphone}</tem:phone>
             <tem:workPhone></tem:workPhone>
@@ -100,7 +100,7 @@ class User < ActiveRecord::Base
             <tem:email>#{self.email}</tem:email>
             <tem:secondEmail></tem:secondEmail>
             <tem:allowEmail>#{$allow_emails}</tem:allowEmail>
-            <tem:address></tem:address>
+            <tem:address>#{self.address}</tem:address>
             <tem:secondAddress></tem:secondAddress>
             <tem:city>#{self.city}</tem:city>
             <tem:state>#{self.state}</tem:state>

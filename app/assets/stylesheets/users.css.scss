@@ -64,6 +64,29 @@ input#user_pin {
   width: 80px;
 }
 
+#pswd_info {
+  position: absolute;
+  top: -80px;
+  right: 0px;
+  width: 205px;
+  font-size: .875em;
+  display: none;
+}
+
+.invalid {
+  background:url(../images/invalid.png) no-repeat 0 50%;
+  padding-left:22px;
+  line-height:24px;
+  color:#ae4f50 !important;
+}
+.valid {
+  background:url(../images/valid.png) no-repeat 0 50%;
+  padding-left:22px;
+  line-height:24px;
+  color:#376130 !important;
+}
+
+
 /*
 #gender input[type="radio"] + label {
   font-family:Arial, sans-serif;
