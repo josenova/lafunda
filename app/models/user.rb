@@ -22,6 +22,8 @@ class User < ActiveRecord::Base
 
 #/////////////////////////////////////////////////////////////////////////////////////////
 
+  validates_confirmation_of :email
+
   attr_readonly :username, :email
 
   validates :username, presence: true,

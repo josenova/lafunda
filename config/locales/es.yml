@@ -51,14 +51,13 @@ es:
       lottery: Lotería
       confirm_password: "Confirmar Contraseña"
       confirm_email: "Confirmar Email"
-      identification: Cédula
+      identification: "Cédula o Pasaporte"
       date_of_birth: "Fecha de Nacimiento"
       cellphone: Celular
       coin: Moneda
       country: País
       address: Dirección
       Dominican_Republic: "República Dominicana"
-      register: Regístrate
       pin: Pin
       welcome: Bienvenido
       racebook: Hipismo
@@ -77,8 +76,8 @@ es:
       city: Ciudad
       state: Provincia
       account: Cuenta
-      new_user?: "¿No tienes usuario?"
-      register!: Regístrate!
+      new_user: "¿No tienes usuario?"
+      register: Regístrate
       have_an_account?: "¿Ya tienes una cuenta?"
       click_to_sign_in: "Clic aquí para iniciar sesión."
       help: Ayuda
@@ -133,6 +132,8 @@ es:
                 taken: "- ya está en uso."
                 blank: "- debes ingresar tu email."
                 invalid: "- no es válido"
+              email_confirmation:
+                confirmation: "- tus emails no coinciden." 
               name: 
                 too_short: "- nombre inválido."
                 too_long: "- tu nombre no puede tener más de 30 caracteres."

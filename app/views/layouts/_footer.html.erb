@@ -23,15 +23,15 @@
 
       <ul id="paymentmethods">
         <h6><%= t('views.payment_methods') %></h6>
-        <li><%= link_to image_tag("payment-methods/visa.png"), "#" %></li>
-        <li><%= link_to image_tag("payment-methods/mastercard.png"), "#" %></li>
-        <li><%= link_to image_tag("payment-methods/amex.png"), "#" %></li>
-        <li><%= link_to image_tag("payment-methods/skrill.png"), "#"  %></li>
+        <li><%= link_to image_tag("payment-methods/visa.png"), cashier_path %></li>
+        <li><%= link_to image_tag("payment-methods/mastercard.png"), cashier_path %></li>
+        <li><%= link_to image_tag("payment-methods/amex.png"), cashier_path %></li>
+        <li><%= link_to image_tag("payment-methods/skrill.png"), cashier_path  %></li>
       </ul>
 
       <ul id="securessl">
-        <h6><%= t('views.security') %></h6>
         <%= link_to image_tag("bg/alphassl.png"), "#" %>
+        <%= link_to image_tag("bg/trust.png"), "#" %>
       </ul>
 
 

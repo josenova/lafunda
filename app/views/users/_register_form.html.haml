@@ -8,8 +8,8 @@
   = f.label :email, t('views.email')
   = f.email_field :email, :required => true
 
-  /= label :email_confirmation, t('views.confirm_email')
-  /= f.email_field :email_confirmation, :required => true
+  = f.label :email_confirmation, t('views.confirm_email')
+  = f.email_field :email_confirmation, :required => true
 
   = f.label :password, t('views.password')
   .tip_wrapper{data_tip: 'Debe contener letras y números.'}
@@ -52,7 +52,7 @@
 
     = f.label :state, t('views.state')
     .tip_wrapper
-      = f.select(:state, options_for_select([['Azua'], ['Bahoruco'],['Barahona'], ['Dajabón'], ['Distrito Nacional'], ['Duarte'],['Elías Piña'], ['El Seibo'], ['Espaillat'], ['Hato Mayor'],['Hermanas Mirabal'], ['Independencia'], ['La Altagracia'], ['La Romana'],['La Vega'], ['María Trinidad Sánchez'], ['Monseñor Nouel'], ['Monte Cristi'],['Monte Plata'], ['Pedernales'], ['Peravia'], ['Puerto Plata'],['Samaná'], ['Sánchez Ramírez'], ['San Cristóbal'], ['San José de Ocoa'],['San Juan'], ['San Pedro de Macorís'], ['Santiago'], ['Santiago Rodríguez'],['Santo Domingo'], ['Valverde']]))
+      = f.select(:state, options_for_select(provincias))
 
     = f.label :city, t('views.city')
     = f.text_field :city, :required => true

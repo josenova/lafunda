@@ -39,7 +39,7 @@ en:
       gender: Gender
       racebook: Racebook
       surname: Surname
-      identification: Identification
+      identification: "Passport or ID"
       date_of_birth: Date of Birth
       cellphone: Cellphone
       pin: Pin
@@ -51,8 +51,8 @@ en:
       city: City
       state: State
       account: Account
-      new_user?: "New user?"
-      register!: Register now!
+      new_user: "New user?"
+      register: Register now.
       have_an_account?: "Already have an account?"
       click_to_sign_in: "Click here to sign in."
       sign_in: "Sign In"
@@ -112,7 +112,9 @@ en:
               email:
                 taken: "is already in use."
                 blank: "can't be blank."
-                invalid: "is not valid."				
+                invalid: "is not valid."
+              email_confirmation:
+                confirmation: "does not match." 				
               name: 
                 too_short: "is too short."
                 too_long: "is too long."
