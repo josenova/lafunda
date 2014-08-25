@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #providers {
-  padding: 5.573%;
+  padding: 2.12% 5.573%;
   overflow: hidden;
   background-image: url(asset-path('blacks/black60.png'));
   background-repeat: repeat;
@@ -14,6 +14,10 @@
   border-bottom: 1px solid #193321;
   padding: 3.444% 0;
   overflow:hidden;
+}
+
+#providers li:last-child {
+  border-bottom:0;
 }
 
 #providers li>img {
@@ -28,7 +32,7 @@
 }
 
 #cashier_frame {
-  height: 500px;
+  height: 650px;
 }
 
 @media screen and (max-width: 568px) {
