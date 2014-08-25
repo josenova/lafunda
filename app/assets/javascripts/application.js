@@ -111,7 +111,7 @@ if($(window).width() <= 568) {
  
  /******************************** PASSWORD INPUT VALIDATE *************************************************/
  
-		$('input[type=password]').keyup(function() {
+		$('#new_user #user_password').keyup(function() {
 	      var pswd = $(this).val();
 		    //validate length
 			  if ( pswd.length < 8 ) {

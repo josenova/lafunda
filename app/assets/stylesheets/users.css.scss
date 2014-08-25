@@ -66,21 +66,25 @@ input#user_pin {
 
 #pswd_info {
   position: absolute;
-  top: -80px;
+  top: -70px;
   right: 0px;
-  width: 205px;
+  width: 180px;
   font-size: .875em;
   display: none;
 }
 
 .invalid {
-  background:url(../images/invalid.png) no-repeat 0 50%;
+  background-image: url(asset-path('icons/mini_cross.png'));
+  background-repeat: no-repeat;
+  background-position: center left;
   padding-left:22px;
   line-height:24px;
   color:#ae4f50 !important;
 }
 .valid {
-  background:url(../images/valid.png) no-repeat 0 50%;
+  background-image: url(asset-path('icons/mini_check.png'));
+  background-repeat: no-repeat;
+  background-position: center left;
   padding-left:22px;
   line-height:24px;
   color:#376130 !important;

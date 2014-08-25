@@ -17,10 +17,11 @@
     #pswd_info
       %h4 Tu contraseña debe tener por lo menos:
       %ul
+        %li#length.invalid 8 caracteres
         %li#letter.invalid Una letra
         %li#capital.invalid Una mayúscula
         %li#number.invalid Un número
-        %li#length.invalid 8 caracteres
+
 
 
   = f.label :password_confirmation, t('views.confirm_password')

@@ -11,7 +11,7 @@
     %td#chat
       %h4= t('views.live_chat')
       %p Chatea con uno de nuestros representantes.
-      %a.button{:href => "http://kinbar.com.do/livezilla/chat.php?a=e4a9d", :target => "_blank"}= t('views.chat_now')
+      %a.button{:href => "http://chat.lafunda.do/chat.php?a=496bc", :target => "_blank"}= t('views.chat_now')
     %td#inquiry
       %h4= t('views.support_ticket')
       - if @current_user
@@ -48,23 +48,55 @@
 
 #faq
   %h2= t('views.faq')
-  %h4 Instrucciones
   .accordion
-    %h4 ¿Cómo registro un nuevo usuario?
+    %h4 ¿Qué hago si se me olvida mi usuario y/o contraseña?
     %div
-      %p Debes hacer clic en Regístrate en el panel superior.
-
-    %h4 ¿He olvidado mi usuario y/o contraseña, como puedo recuperar la información?
-    %div
-      %p Para recuperar tu nombre de usuario y/o contraseña, debes hacer click en <em>Olvidé mi Contraseña</em> y escribir en el campo correspondiente el correo electrónico que se introdujo durante el proceso de registro. El nombre de usuario y las instrucciones de como reiniciar la contraseña te serán enviadas a este correo electrónico. Si al transcurrir cinco (5) minutos no has recibido la información, por favor verifica tu buzón de “correo no deseado”. Para mayor asistencia, favor contacta a servicioalcliente@lafunda.com.do
+      %p Por favor comunícate con nuestro departamento de Servicio al Cliente para ayudarte.
 
     %h4 ¿Cómo cambio mi contraseña?
     %div
-      %p Al momento de ingresar en LAFUNDA.COM.DO, ingresa a tu cuenta y haz clic en "Mi Cuenta", luego en “Editar Cuenta” y elige una contraseña con igual o mayor de 6 caracteres.
+      %p Por favor comunícate con nuestro departamento de Servicio al Cliente para ayudarte.
 
     %h4 ¿Cómo cancelo mi cuenta?
     %div
-      %p Debes comunicarte con nosotros para inactivar o cancelar tu cuenta.
+      %p Por favor comunícate con nuestro departamento de Servicio al Cliente para ayudarte.
 
+    %h4 ¿Qué puedo hacer si yo, o alguien cercano a mi, es adicto al juego?
+    %div
+      %p Admitir que se tiene una adicción es una decisión muy difícil de hacer, por eso estamos en la total disposición de facilitar a quien lo necesite las herramientas para comenzar a tratar este problema. Por favor haz #{ link_to 'clic aquí', responsible_path }.
 
+    %h4 ¿Los menores de edad pueden usar la página?
+    %div
+      %p No. La ley prohibe a menores de 18 años tener una cuenta en esta página. Esto es algo que tomamos muy en serio, por lo que cancelaremos cualquier cuenta, y tomaremos medidas a discreción nuestra, si descubrimos que es usada por un menor de edad.
 
+    %h4 ¿Me pueden ayudar con un juego en particular?
+    %div
+      %p Cada categoría de juego tiene una sección de ayuda donde se explican las reglas, pero también puedes comunicarte con nuestro departamento de Servicio al Cliente, donde te pueden orientar paso por paso.
+
+    %h4 ¿Cómo puedo hacer un depósito y/o retiro?
+    %div
+      %p Para tu comodidad ofrecemos varias formas para realizar depósitos y retiros. Estas incluyen: tarjetas de crédito, algunas tarjetas de débito, transferencias bancarias y eWallets, entre otras. En el área del cajero se detalla cada forma de pago.
+
+    %h4 ¿Cuáles son los límites de retiro?
+    %div
+      %p Los retiros podrán hacerse por vía electrónica por un monto de hasta RD$10,000.00 por día. El valor máximo de retiro por semana es de RD$70,000.00.
+
+    %h4 ¿Qué tiempo duran para procesar un depósito y/o retiro?
+    %div
+      %p Es nuestra prioridad hacer todo lo posible para minimizar tu tiempo de espera, pero hay varios factores que influyen en la rapidez con la que se procesan las transacciones. Estas incluyen la hora, día y procesador de pago utilizado, ya que cada operación tiene que ser aprobada por nosotros y las entidades financieras envueltas. Por consiguiente cualquier transacción puede ser aprobada de forma casi inmediata o tomar hasta 48 horas laborables.
+
+    %h4 ¿Existen cargos por hacer depósitos y/o retiros?
+    %div
+      %p Nosotros no generamos cargos por depósitos y/o retiros, pero los bancos y algunos procesadores de pago puede que si lo hagan.
+
+    %h4 ¿Qué tan seguro están mis datos y dinero?
+    %div
+      %p Una de nuestras prioridades es la seguridad de tus datos y dinero. Algunas de las medidas que tomamos son: Encriptación de toda actividad entre tu navegador y nuestra página. Encriptación de nuestras bases de datos. Backups frecuentes de todo el sistema. Está estrictamente controlado y límitado el personal que maneja informaciones delicadas. Cada determinado tiempo auditamos la seguridad de nuestra página y departamento Financiero. Solo utilizamos procesadores de pago confiables y de reconocida trayectoria en la industria. Cumplimos con los estándares de la industria y los requisitos impuestos por el Ministerio de Hacienda de la República Dominicana.
+
+    %h4 ¿Qué pasa si pierdo la conexión durante el juego?
+    %div
+      %p La pérdida de conexión no va a afectar el resultado del juego. Si pierdes la conexión durante un juego que requiere una acción adicional este se reanudará cuando te vuelvas a conectar. En caso de que estés en medio de una mano el proceso concluirá normalmente y verás el resultado cuando te vuelvas a conectar.
+
+    %h4 ¿Por qué no me están llegando los emails de La Funda?
+    %div
+      %p Por favor revisa tu folder de spam y agrega sevicioalcliente@lafunda.do a tu lista de contactos.
