@@ -10,12 +10,12 @@
         %li 829.947.5510
     %td#chat
       %h4= t('views.live_chat')
-      %p Chatea con uno de nuestros representantes.
-      %a.button{:href => "http://chat.lafunda.do/chat.php?a=496bc", :target => "_blank"}= t('views.chat_now')
+      %p Lunes a viernes <br> 8:00 a.m. - 5:00 p.m.
+      %script#lz_textlink{:src => "http://chat.lafunda.do/image.php?a=5cef5&tl=1&srv=aHR0cDovL2NoYXQubGFmdW5kYS5kby9jaGF0LnBocD9hPTYxYjMy&tlont=QWJyaXIgQ2hhdA__&tloft=QWJyaXIgQ2hhdA__&tlonc=YnV0dG9u&tlofc=ZGlzYWJsZWQ_", :type => "text/javascript"}
     %td#inquiry
       %h4= t('views.support_ticket')
       - if @current_user
-        %p Escríbenos y te responderemos a la mayor brevedad posible.
+        %p Escríbenos y te responderemos en la mayor brevedad posible.
         = link_to t('views.open_ticket'), new_inquiry_path, class: :button
       - else
         %p Para abrir un ticket debes de iniciar tu sesión.
@@ -100,3 +100,4 @@
     %h4 ¿Por qué no me están llegando los emails de La Funda?
     %div
       %p Por favor revisa tu folder de spam y agrega sevicioalcliente@lafunda.do a tu lista de contactos.
+

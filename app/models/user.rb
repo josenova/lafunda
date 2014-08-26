@@ -86,19 +86,19 @@ class User < ActiveRecord::Base
             <tem:password>#{self.password_digest}</tem:password>
             <tem:nickname>#{self.username}</tem:nickname>
             <tem:firstSecurityQuestion>1</tem:firstSecurityQuestion>
-            <tem:firstSecurityAnswer>#{self.pin}</tem:firstSecurityAnswer>
+            <tem:firstSecurityAnswer></tem:firstSecurityAnswer>
             <tem:secondSecurityQuestion>2</tem:secondSecurityQuestion>
-            <tem:secondSecurityAnswer>#{self.identification}</tem:secondSecurityAnswer>
+            <tem:secondSecurityAnswer></tem:secondSecurityAnswer>
             <tem:thirdSecurityQuestion>3</tem:thirdSecurityQuestion>
-            <tem:thirdSecurityAnswer>#{self.birthday}</tem:thirdSecurityAnswer>
+            <tem:thirdSecurityAnswer></tem:thirdSecurityAnswer>
             <tem:currencyId>#{$currency_id}</tem:currencyId>
-            <tem:phone>#{self.cellphone}</tem:phone>
-            <tem:workPhone></tem:workPhone>
+            <tem:phone></tem:phone>
+            <tem:workPhone>#{self.pin}</tem:workPhone>
             <tem:cellPhone>#{self.cellphone}</tem:cellPhone>
             <tem:allowCalls>#{$allow_calls}</tem:allowCalls>
-            <tem:fax></tem:fax>
+            <tem:fax>#{self.birthday}</tem:fax>
             <tem:email>#{self.email}</tem:email>
-            <tem:secondEmail></tem:secondEmail>
+            <tem:secondEmail>#{self.identification}</tem:secondEmail>
             <tem:allowEmail>#{$allow_emails}</tem:allowEmail>
             <tem:address>#{self.address}</tem:address>
             <tem:secondAddress></tem:secondAddress>
