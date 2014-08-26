@@ -4,10 +4,10 @@ es:
   devise:
     confirmations:
       confirmed: "Tu cuenta ha sido confirmada."
-      send_instructions: "En los próximos minutos recibirás un email con las instrucciones para confirmar tu cuenta."
+      send_instructions: "Por favor confirma tu cuenta haciendo clic en el vínculo enviado a tu email."
       send_paranoid_instructions: "Si tu email existe en nuestra base de datos recibirás un email con las instrucciones para confirmar tu cuenta."
       pending_confirmation: "Confirmación pendiente"
-      please_confirm: "Por favor confirma tu cuenta haciendo clic en el vínculo enviado a tu email."
+      please_confirm: "En breve recibirás un email nuestro con instrucciones para confirmar tu cuenta. Si el email tarda en llegar, por favor revisa tu folder de spam."
       wish_to_resend: "si deseas reenviar el email de confirmación."
       confirm_my_account: "Confirmar mi cuenta"
     failure:
