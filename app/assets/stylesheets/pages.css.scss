@@ -10,10 +10,17 @@
 }
 
 #providers li {
-  font-size:0.875em;
   border-bottom: 1px solid #193321;
   padding: 3.444% 0;
   overflow:hidden;
+}
+
+#providers li span {
+  font-size:0.875em;
+}
+
+#providers li>a {
+  margin:8px 0;
 }
 
 #providers li:last-child {
@@ -32,7 +39,7 @@
 }
 
 #cashier_frame {
-  height: 650px;
+  height: 615px;
 }
 
 @media screen and (max-width: 568px) {

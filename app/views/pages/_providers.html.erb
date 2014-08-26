@@ -3,32 +3,35 @@
   <div id="providers">
 
     <li>
-      <span><%= image_tag("payment-methods/visa.png")  %>Depósitos.</span>
+      <span><%= image_tag("payment-methods/visa.png")  %><p>Depósitos.</p></span>
     </li>
 
     <li>
-      <span><%= image_tag("payment-methods/mastercard.png")  %>Depósitos.</span>
+      <span><%= image_tag("payment-methods/mastercard.png")  %><p>Depósitos.</p></span>
     </li>
 
     <li>
-      <span><%= image_tag("payment-methods/skrill.png")  %>Con Skrill puedes depositar y retirar usando tarjetas de crédito.</span><br>
+      <span><%= image_tag("payment-methods/skrill.png")  %><p>Con Skrill puedes depositar y retirar usando tarjetas de crédito.</p></span>
       <%= image_tag("payment-methods/visa.png") %>
       <%= image_tag("payment-methods/mastercard.png") %>
       <%= image_tag("payment-methods/maestro.png") %>
       <%= image_tag("payment-methods/amex.png") %>
       <%= image_tag("payment-methods/diners.png") %>
+      <a href="https://www.skrill.com/es/" id="skrill" class="button" target="_blank">Abrir cuenta en Skrill</a>
     </li>
 
     <li>
-      <span><%= image_tag("payment-methods/inpay.png") %>Depósitos y retiros vía transferencia bancaria. No necesitas tener una cuenta con Inpay.</span>
+      <span><%= image_tag("payment-methods/inpay.png") %><p>Depósitos y retiros vía transferencia bancaria. No necesitas tener una cuenta con Inpay.</p></span>
     </li>
 
     <li>
-      <span><%= image_tag("payment-methods/bank_transfer.png") %>Depósitos vía transferencia bancaria.</span>
+      <span><%= image_tag("payment-methods/bank_transfer.png") %><p>Depósitos vía transferencia bancaria.</p></span>
+      <a id="bank_transfer" class="button">Depositar</a>
     </li>
 
     <li>
-      <span><%= image_tag("payment-methods/paypal.png") %>Depósitos y retiros.</span>
+      <span><%= image_tag("payment-methods/paypal.png") %><p>Depósitos y retiros.</p></span>
+      <a href="#" id="paypal" class="button">Depositar/Retirar</a>
     </li>
   </div>
 </div>

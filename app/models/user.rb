@@ -104,7 +104,7 @@ class User < ActiveRecord::Base
             <tem:secondAddress></tem:secondAddress>
             <tem:city>#{self.city}</tem:city>
             <tem:state>#{self.state}</tem:state>
-            <tem:country>#{self.country}</tem:country>
+            <tem:country>DO</tem:country>
             <tem:zipCode></tem:zipCode>
             <tem:referral></tem:referral>
             <tem:defaultLanguage>#{$default_language}</tem:defaultLanguage>
