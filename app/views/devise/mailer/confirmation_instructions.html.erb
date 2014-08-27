@@ -1,15 +1,17 @@
-<p>Bienvenido <%= @email %>!</p>
+<p>¡Bienvenido <%= @email %>!</p>
 
-<p>Puedes confirmar tu cuenta haciendo clic en el siguiente enlace:</p>
+<p>Estas a un paso de disfrutar de todo el contenido que tenemos para tí. Solo tienes que confirmar tu cuenta haciendo clic en el siguiente enlace:</p>
 
 <p><%= link_to t('devise.confirmations.confirm_my_account'), confirmation_url(@resource, confirmation_token: @token), :target => "blank" %></p>
 
-<p>Síguenos en las redes sociales para que te enteres de las promociones, concursos y sorpresas que tenemos para ti:</p>
+<p>Síguenos en las redes sociales para que te enteres de nuestras promociones, concursos y sorpresas:</p>
 
 <a href="http://www.facebook.com/lafundard" target="_blank">/LaFundaRD</a><br>
-<a href="http://www.twitter.com/lafundard" target="_blank">@LaFundaRD</a>
+<a href="http://www.twitter.com/lafundard" target="_blank">@LaFundaRD</a><br>
 
-<p>Si en algún momento necesitas ayuda comunícate con nosotros a través de nuestro <a href="https://www.lafunda.com/support" target="_blank">Servicio al Cliente</a></p>
+<p>Nuestra página está diseñada para ser fácil de usar, pero si en algún momento necesitas ayuda te esperamos en nuestra área de <a href="https://www.lafunda.com/support" target="_blank">Servicio al Cliente</a>.</p>
+
+<p>Ah, y lo mejor de todo es que dondequiera que estés la podrás seguir pasando bien con nosotros, ya sea desde tu computadora, smartphone o tableta.</p>
 
 <p>Gracias,<br>
   El equipo de La Funda</p>

@@ -155,7 +155,7 @@ if($(window).width() <= 568) {
 		});
 		
 		$( "#providers #paypal" ).click(function() {
-		  alert( "Cuenta: hfernandez@kinbar.com.do\nNombre: Kinbar International\n\nDepósitos\nColoca en la nota de depósito tu nombre (e email registrado con nosotros, en caso de no usarlo para realizar el depósito).\n\nRetiros\nSolícita tu retiro a hfernandez@kinbar.com.do. Solo se aceptarán solicitudes y se enviarán pagos a cuentas de email que estén registradas con nosotros. " );
+		  alert( "Paypal\nCuenta: hfernandez@kinbar.com.do\nNombre: Kinbar International\n\nDepósitos\nColoca en la nota de depósito tu nombre (e email registrado con nosotros, en caso de no usarlo para realizar el depósito).\n\nRetiros\nSolícita tu retiro a hfernandez@kinbar.com.do. Solo se aceptarán solicitudes y se enviarán pagos a cuentas de email que estén registradas con nosotros. " );
 		});
 
  
