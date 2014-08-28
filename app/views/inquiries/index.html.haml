@@ -11,7 +11,7 @@
     %td#chat
       %h4= t('views.live_chat')
       %p Lunes a viernes <br> 8:00 a.m. - 5:00 p.m.
-      %script#lz_textlink{:src => "http://chat.lafunda.do/image.php?a=5cef5&tl=1&srv=aHR0cDovL2NoYXQubGFmdW5kYS5kby9jaGF0LnBocD9hPTYxYjMy&tlont=QWJyaXIgQ2hhdA__&tloft=QWJyaXIgQ2hhdA__&tlonc=YnV0dG9u&tlofc=ZGlzYWJsZWQ_", :type => "text/javascript"}
+      = link_to t('views.chat_now'), "javascript:void(window.open('http://chat.lafunda.do/chat.php?a=61b32','','width=590,height=760,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))", :target => '_blank', :class => 'button'
     %td#inquiry
       %h4= t('views.support_ticket')
       - if @current_user

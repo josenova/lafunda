@@ -37,6 +37,7 @@ en:
       confirm_password: "Confirm Password"
       confirm_email: "Confirm Email"
       gender: Gender
+      sportsbook: Sportsbook
       racebook: Racebook
       surname: Surname
       identification: "Passport or ID"
@@ -81,6 +82,7 @@ en:
       new_message: "New message:"
       menu: Menu 
       results: Results
+      country: Country
       address: Address
       promotions: Promotions
     flash:
