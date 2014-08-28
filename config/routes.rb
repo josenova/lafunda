@@ -15,6 +15,7 @@ Lafunda::Application.routes.draw do
   get "community" => 'pages#community'
   get "pending_confirmation" => 'pages#confirm'
   get "cashier" => 'pages#cashier'
+  get "promotions" => 'pages#promotions'
 
   #Users and Sessions
   get "register" => 'users#new'

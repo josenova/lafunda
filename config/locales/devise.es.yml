@@ -21,7 +21,7 @@ es:
       unauthenticated: "You need to sign in or sign up before continuing."
       unconfirmed: "You have to confirm your account before continuing."
     mailer:
-      resend_confirmation_instructions: "Reenviar token para confirmar cuenta"
+      resend_confirmation_instructions: "Reenviar email de confirmación"
       confirmation_instructions:
         subject: "Confirma tu cuenta en La Funda"
       reset_password_instructions:

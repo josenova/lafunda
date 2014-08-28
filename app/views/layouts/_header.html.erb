@@ -28,15 +28,18 @@
   </div>
 
   <ul id="mainmenu">
-      <%= nav_link t('views.home'), root_path, 'home' %>
-      <%= nav_link t('views.sportsbook'), sportsbook_path, 'sportsbook' %>
-      <%= nav_link t('views.racebook'), racebook_path, 'racebook' %>
-      <%= nav_link t('views.lottery'), lottery_path, 'lottery' %>
-    <ul></ul>
     <ul id="social">
       <li><%= link_to image_tag("social/facebook.png"), "https://www.facebook.com/LaFundaRD", target: '_blank' %></li>
       <li><%= link_to image_tag("social/twitter.png"), "https://twitter.com/lafundard", target: '_blank' %></li>
     </ul>
+
+    <%= nav_link t('views.home'), root_path, 'home' %>
+    <%= nav_link t('views.sportsbook'), sportsbook_path, 'sportsbook' %>
+    <%= nav_link t('views.racebook'), racebook_path, 'racebook' %>
+    <%= nav_link t('views.lottery'), lottery_path, 'lottery' %>
+    <%= nav_link t('views.promotions'), promotions_path, 'promotions' %>
+
+
 
   </ul>
 

@@ -25,4 +25,7 @@ class PagesController < ApplicationController
   def cashier
   end
 
+  def promotions
+  end
+
 end

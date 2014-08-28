@@ -101,6 +101,7 @@ es:
       new_message: "Nuevo mensaje:"
       menu: Menú
       results: Resultados
+      promotions: Promociones
     flash:
       cannot_log_in: "No puedes ingresar en estos momentos. Favor contacta servicio al cliente."
       confirm_account: "Debes confirmar tu cuenta."

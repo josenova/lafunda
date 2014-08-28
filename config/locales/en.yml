@@ -82,6 +82,7 @@ en:
       menu: Menu 
       results: Results
       address: Address
+      promotions: Promotions
     flash:
       cannot_log_in: "Cannot log in at this time. Please contact support."
       confirm_account: "Please confirm your account."
