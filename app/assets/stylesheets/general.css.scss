@@ -837,6 +837,11 @@ select {
   font-style: italic;
 }
 
+.field_with_errors select {
+  border-width: 1px;
+  border-color: #ae6f6f;
+}
+
 /****************************************************************** FONT FACE **************************************************************************************/
 
 @font-face {
