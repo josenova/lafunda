@@ -1,6 +1,6 @@
 
 <% if @current_user %>
-    <iframe id="lottery_frame" src="https://lottery.lafunda.com.do/Lottery/Start?key=664cf843-8904-4212-9503-d4733651f519&token=<%= session[:user_token] %>&language=es-DO&css=//lafunda.com.do/lotto/lottery.css&defstramt=1&defboxamt=1&hndt=nameonly" width="100%" scrolling="no"></iframe>
+    <iframe id="lottery_frame" src="https://lottery.lafunda.com.do/Lottery/Start?key=664cf843-8904-4212-9503-d4733651f519&token=<%= session[:user_token] %>&language=es-DO&css=//lafunda.com.do/lotto/lottery.css&defstramt=0&defboxamt=0&hndt=nameonly" width="100%" scrolling="no"></iframe>
 <% else %>
     <%= render 'blocked' %>
 <% end %>

@@ -68,3 +68,5 @@ gem 'devise-async'
 
 gem 'delayed_job_active_record'
 gem 'daemons'
+
+gem 'meta_request', group: :development
