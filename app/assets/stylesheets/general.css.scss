@@ -439,6 +439,18 @@ body {
   background-image: url(asset-path('icons/promotions_top_active.png')) !important;
 }
 
+#mainmenu #instructions {
+  float:right;
+}
+
+#mainmenu #instructions a {
+  background-image: url(asset-path('icons/instructions_top.png'));
+}
+#mainmenu .current#instructions a {
+  background-image: url(asset-path('icons/instructions_top_active.png')) !important;
+}
+
+
 #social {
   float: right;
   width: 8%;
