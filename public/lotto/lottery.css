@@ -1,3 +1,10 @@
+html.no-opacity #houses li label input {
+display: inline-block;
+top: 20px;
+position: absolute;
+right: 10px;
+z-index: 9;
+}
 
 * {
 box-sizing: border-box;
