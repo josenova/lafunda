@@ -159,6 +159,16 @@ if($(window).width() <= 568) {
 		});
 
  
+ 
+ /******************************* DISABLE PASTE IN INPUTS ******************************************/
+ 
+
+ 
+ $('#user_email_confirmation').bind("cut copy paste",function(e) {
+   e.preventDefault();
+ });
+
+
 }); // END DOCUMENT READY
  /******************************** MAIN DIV RESIZER *************************************************/ 
 
