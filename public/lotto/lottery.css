@@ -1,7 +1,7 @@
 
 html.no-opacity #houses li label input {
 display: inline-block;
-top: 20px;
+top: 18px;
 position: absolute;
 right: 10px;
 z-index: 9;
@@ -633,6 +633,10 @@ display: none;
 display: inline-block;
 float: left;
 width: 33.33%;
+}
+
+html.no-opacity #winningNumbersTable thead tr th {
+	padding: 0 16px 0;
 }
 
 }
