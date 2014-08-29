@@ -22,6 +22,7 @@ class SessionsController < ApplicationController
 
         else
           rebound
+          logger.warn user.failed_attempts
           user.failed_attempts += 1
           if user.failed_attempts == 5
             user.lock_access!

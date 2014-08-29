@@ -63,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/inquiries/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24366042" vertical-offset="0" max-vertical-offset="2975">
+            <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="2975">
               <caret line="13" column="233" selection-start-line="13" selection-start-column="233" selection-end-line="13" selection-end-column="233" />
               <folding>
                 <element signature="e#423#442#0#ruby" expanded="true" />
@@ -75,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="promotions.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/pages/promotions.html.erb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/lotteries/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.153847" vertical-offset="0" max-vertical-offset="986">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.13120176" vertical-offset="0" max-vertical-offset="907">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -88,8 +88,8 @@
       <file leaf-file-name="sessions_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-64.35714" vertical-offset="0" max-vertical-offset="2125">
-              <caret line="106" column="27" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
+            <state vertical-scroll-proportion="-14.571428" vertical-offset="153" max-vertical-offset="2142">
+              <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -147,7 +147,6 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_mobile_menu.html.erb" />
         <option value="$PROJECT_DIR$/app/views/lotteries/not_available.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/lotteries_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/lotteries/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/lotteries.css.scss" />
         <option value="$PROJECT_DIR$/db/migrate/20140814143508_add_province_to_user.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140814185924_add_country_to_user.rb" />
@@ -164,7 +163,6 @@
         <option value="$PROJECT_DIR$/app/views/users/_balance.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/pages.css.scss" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
         <option value="$PROJECT_DIR$/app/helpers/users_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/_providers.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/mailer/confirmation_instructions.html.erb" />
@@ -176,6 +174,8 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/general.css.scss" />
         <option value="$PROJECT_DIR$/app/views/pages/promotions.html.erb" />
         <option value="$PROJECT_DIR$/app/views/inquiries/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/lotteries/index.html.erb" />
       </list>
     </option>
   </component>
@@ -738,22 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-64.35714" vertical-offset="0" max-vertical-offset="2125">
-          <caret line="106" column="27" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/promotions.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.153847" vertical-offset="0" max-vertical-offset="986">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/general.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.3148148" vertical-offset="6545" max-vertical-offset="19329">
@@ -762,11 +746,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/lotteries/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/pages/promotions.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22173913" vertical-offset="0" max-vertical-offset="920">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.7497244" vertical-offset="0" max-vertical-offset="986">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/inquiries/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="2975">
+          <caret line="13" column="233" selection-start-line="13" selection-start-column="233" selection-end-line="13" selection-end-column="233" />
+          <folding>
+            <element signature="e#423#442#0#ruby" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -778,13 +772,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/inquiries/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24366042" vertical-offset="0" max-vertical-offset="2975">
-          <caret line="13" column="233" selection-start-line="13" selection-start-column="233" selection-end-line="13" selection-end-column="233" />
-          <folding>
-            <element signature="e#423#442#0#ruby" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-14.571428" vertical-offset="153" max-vertical-offset="2142">
+          <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/lotteries/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13120176" vertical-offset="0" max-vertical-offset="907">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
