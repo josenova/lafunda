@@ -1,6 +1,9 @@
 
+<%= link_to image_tag("bg/how_to_play.jpg"), support_path, :style => "margin-bottom:20px; float:right; width:200px;"  %>
+
 <% if Rails.env.production? %>
         <iframe id="race_frame" src="https://wagering.lafunda.com.do/BOSSWagering/Racebook/InternetBetTaker?siteid=lafunda<%= '&stoken=' + session[:user_token] if @current_user %>" width="100%" seamless="seamless"></iframe>
 <% else %>
   <iframe id="race_frame" src="http://www.colchian.eu/BOSS_DEMO/BOSSWagering/Racebook/InternetBetTaker/?SiteID=LaFunda&stoken=<%= session[:user_token] %>" width="100%" seamless="seamless"></iframe>
 <% end %>
+
