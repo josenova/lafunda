@@ -49,6 +49,9 @@ module SessionsHelper
     @admin_status = true if @current_user && @current_user.admin
   end
 
+  def current_url
+    @current_url = request.original_url
+  end
 
   def get_funds
     if @current_user

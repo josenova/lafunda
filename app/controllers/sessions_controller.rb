@@ -78,7 +78,11 @@ class SessionsController < ApplicationController
       else
         session[:user_token] = @response[:player_login_response][:player_login_result][:token]
         sign_in(user)
-        redirect_to account_url
+        if params[:redirect_url]
+          redirect_to params[:redirect_url]
+        else
+          redirect_to account_url
+        end
       end
     else
       logger.warn 'Response failed for login'
