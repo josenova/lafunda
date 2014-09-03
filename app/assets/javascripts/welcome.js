@@ -13,8 +13,10 @@ $(document).ready(function() {
 	  accept: 'application/json',  
 	  dataType: 'json',
 	  success: function(data) {
-			//alert(data[1].HouseName);
-			//alert(data[1].PostedNumbers);
+			
+			for (var i = 0; i < data.length; i++) { 
+    			$('.lotto_info').prepend('<li class="lotto_house"><span class="lotto_name">' + data[i].HouseName + '</span><span class="lotto_numbers">' + data[i].PostedNumbers + '</span></li>');
+			}
 		}
 	});
 

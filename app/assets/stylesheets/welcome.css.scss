@@ -67,58 +67,75 @@
 
 /*********************************************************************** LOTTERY  **************************************************************************************/
 
-#lottery-animation {
+#lotto_box {
 
   background:rgba(0,0,0,0.3);
   display:block;
   border:1px solid rgba(0,0,0,0.5);
   width:100%;
-  padding:0.813% 1.315% 0.502%;
   overflow:hidden;
-  height: 80px;
+  height: 38px;
   position: relative;
+  background-image: url(asset-path('blacks/black60.png'));
+  background-repeat: repeat;
+  margin-top:3%;
 }
 
-.lottery-info {
-  width:100%;
-  display:inline-block;
-  -webkit-animation:slideDown 5s infinite;
-  position:relative;
+.lotto_info {
+  height:36px;
+  width:6000px;
+  left: 839px;
+  position: absolute;
+  -webkit-animation:slideLeft 60s linear 2s infinite;
+  animation: slideLeft 60s linear 2s infinite;
 }
 
-.lottery-info>li {
+.lotto_info:hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+.lotto_house {
   margin-right: 2.1289%;
   display: inline-block;
   float:left;
-  height: 63px;
-  line-height: 63px;
+  height: 36px;
+  line-height: 36px;
   overflow:hidden;
 }
 
-@-webkit-keyframes slideDown {
-  0%   { top: 0; left:0; }
-  40%  { top: 0; left:0; }
-
-  48%  { top: 75px; left:0px; }
-  49%  { left:-600px; top:75px }
-  51%  { top: -75px; left:-600px;}
-  52%  { left: 0px; top: -75px; }
-
-  60%  { top: 0; left:0; }
-  100% { top: 0; left:0; }
+#lotto-all {
+  color:#fff;
+  float:right;
+  text-decoration:underline;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  display:none;
 }
 
+@-webkit-keyframes slideLeft {
+  0%   { margin-left:0; }
+  50%  { margin-left:-3420px; }
+  100% { margin-left:-6840px; }
+}
 
+@keyframes slideLeft {
+  0%   { margin-left:0; }
+  50%  { margin-left:-3420px; }
+  100% { margin-left:-6840px; }
+}
 
 .lottery-logo {
   width:7.7019%;
 }
 
-.lottery-name {
+.lotto_name {
   color:#fff;
   text-transform:uppercase;
   font-weight:bold;
   font-size:1em;
+  margin-right: 24px;
 }
 
 .lottery-subname {
@@ -126,18 +143,10 @@
   text-transform:uppercase;
 }
 
-#lottery-all {
-  color:#fff;
-  float:right;
-  text-decoration:underline;
-  position: absolute;
-  top: 28px;
-  right: 15px;
-}
 
-.numbers {
-  width:38.198%;
-  padding: 2.1289% 0;
+
+.lotto_numbers {
+  color:#dfab3e;
 }
 
 .numbers ul {
