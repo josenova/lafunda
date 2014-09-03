@@ -24,7 +24,7 @@ module Lafunda
     config.assets.paths << "#{Rails.root}/app/assets/fonts"
 
     # Precompile additional assets
-    config.assets.precompile += %w( .svg .eot .woff .ttf )
+    config.assets.precompile += %w( .svg .eot .woff .ttf *.js *.css )
 
     config.encoding = "utf-8"
   end
