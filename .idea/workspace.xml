@@ -53,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/inquiries/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.0" vertical-offset="2646" max-vertical-offset="3553">
-              <caret line="174" column="190" selection-start-line="174" selection-start-column="190" selection-end-line="174" selection-end-column="190" />
+            <state vertical-scroll-proportion="0.86879826" vertical-offset="2935" max-vertical-offset="3842">
+              <caret line="219" column="0" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
               <folding>
                 <element signature="n#t('views.support')#0;n#!!top" expanded="true" />
                 <element signature="n#t('views.live_chat')#0;n#!!top" expanded="true" />
@@ -87,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.css.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="welcome.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2771739" vertical-offset="1258" max-vertical-offset="3332">
+            <state vertical-scroll-proportion="-9.807693" vertical-offset="1258" max-vertical-offset="3332">
               <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
               <folding />
             </state>
@@ -176,8 +176,8 @@
         <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/welcome/_homebox.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_mobile_menu.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/inquiries/index.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/welcome.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/inquiries/index.html.haml" />
       </list>
     </option>
   </component>
@@ -730,18 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/inquiries/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.0" vertical-offset="2646" max-vertical-offset="3553">
-          <caret line="174" column="190" selection-start-line="174" selection-start-column="190" selection-end-line="174" selection-end-column="190" />
-          <folding>
-            <element signature="n#t('views.support')#0;n#!!top" expanded="true" />
-            <element signature="n#t('views.live_chat')#0;n#!!top" expanded="true" />
-            <element signature="e#423#442#0#ruby" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/general.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.5" vertical-offset="1139" max-vertical-offset="19533">
@@ -760,9 +748,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2771739" vertical-offset="1258" max-vertical-offset="3332">
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="1258" max-vertical-offset="3332">
           <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/inquiries/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.86879826" vertical-offset="2935" max-vertical-offset="3842">
+          <caret line="219" column="0" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
+          <folding>
+            <element signature="n#t('views.support')#0;n#!!top" expanded="true" />
+            <element signature="n#t('views.live_chat')#0;n#!!top" expanded="true" />
+            <element signature="e#423#442#0#ruby" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

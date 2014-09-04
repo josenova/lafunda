@@ -169,35 +169,52 @@
 
 
   %h4= t('views.lottery')
-    .accordion
-      %h4 ¿Cómo se juega?
-      %div
-        %p Selecciona la loto o casa con las que quieres jugar. Puedes escoger más de una. Si el cuadro de la loto o casa que quieres se ve gris significa que ya ese sorteo finalizó por hoy.
+  .accordion
+    %h4 ¿Cómo se juega?
+    %div
+      %p Selecciona la loto o casa con las que quieres jugar. Puedes escoger más de una. Si el cuadro de la loto o casa que quieres se ve gris significa que ya ese sorteo finalizó por hoy.
 
-      %h4 ¿Cuáles son los límites de apuestas?
-      %div
-        %p El límite máximo para las apuestas directas es de RD$10,000. El límite máximo para las apuestas exóticas es de RD$2,000.
+      %p <strong>Números:</strong> Aquí colocas los números con los que quieres jugar. Puedes escoger combinaciones de 2, 3 o 4 números del 0-9  (Ejemplo: 3-5 / 3-5-8 / 3-5-8-9). Para la loto Borlette solo puedes escoger 2 números y para la loto Marriage solo puedes escoger 4 números.
 
-      %h4 ¿Cómo hago una apuesta directa (Straight Wager), Win, Place y Show?
-      %div
-        %p Luego de haber seleccionado el hipódromo deseado, haz clic a la carrera en la que deseas apostar. En seguida aparecerá, en la parte de abajo, un menú con los diferentes tipos de apuesta disponibles para cada una de las carrera,  los cuales pueden incluir  Straight, Exacta, Trifecta, Superfecta, Daily Double y Pick (3, 4 y 5), y más abajo, un cuadro con los caballos o perros que competirán en dicha carrera. Haz clic en la opción “Straight” para elegir el tipo de apuesta directa que deseas apostar. Selecciona la casilla del caballo/perro deseado, y su posición en el resultado de la carrera y llena el monto de tu apuesta deseado para añadirlo a su boleto de apuestas. Una vez que hayas ingresado tu apuesta deseada, haz clic en la casilla “Agregar cupón” situada en la parte inferior de la hoja de apuestas, para confirmar que ha revisado todas sus apuestas, y luego en el botón "Guardar Apuesta" para completar tu transacción.
+      %p <strong>Selección aleatoria:</strong> Con está opción el sistema escogerá por ti los números a jugar.
 
-      %h4 ¿Cómo hago una Exacta?
-      %div
-        %p Para hacer una apuesta "Exacta" o elegir los dos primeros finalistas de una carrera, haz clic en la casilla “Exacta” desde el menú de apuestas disponibles de cada carrera. Ingresa el monto a apostar en la casilla del mismo nombre. En caso de apostar además al orden inverso de llegada de ambas selecciones haz clic en la casilla marcada con el botón "Box?". En el cuadro de la parte inferior donde aparecen los integrantes de la carrera, haz clic en las casillas de sus selecciones para la apuesta. Una vez que hayas ingresado tu apuesta deseada, haz clic en la casilla “Agregar cupón” situada en la parte inferior de la hoja de apuestas, para confirmar que haz revisado todas tus apuestas, y luego en el botón "Guardar apuesta" para completar tu transacción.
+      %p <strong>Cantidad recta:</strong> Es la cantidad de dinero apostada a que los números escogidos saldrán en ese orden exacto. Puedes complementarla con la opción "Cantidad encasillada”.
 
-      %h4 ¿Cómo apuesto a una Trifecta?
-      %div
-        %p Para apostar a una Trifecta elige a los tres primeros finalistas en el orden exacto de una carrera. Haz clic en la casilla “Trifecta” desde el menú de apuestas disponibles de cada carrera. Ingresa el monto a apostar correspondiente en la casilla del mismo nombre. En el cuadro de la parte inferior aparecerán las casillas correspondientes a los tres primeros lugares de la carrera. Marca en estas casillas a los integrantes seleccionados de la carrera en el orden deseado para la apuesta. Si deseas apostar además al orden inverso de llegada de cada una de las  selecciones, haz clic en la casilla marcada con el botón "Box?", que esta justo al lado de la casilla del Monto a apostar. Una vez que hayas ingresado tu apuesta deseada, haz clic en la casilla “Agregar cupón” situada en la parte inferior de la hoja de apuestas, para confirmar que haz revisado todas tus apuestas, y luego en el botón "Guardar apuesta" para completar tu transacción.
+      %p <strong>Cantidad encasillada:</strong> Aquí apuestas a que los números escogidos saldrán sin importar el orden. Puedes complementarla con la opción "Cantidad recta”. Las lotos Borlette y Marriage no permiten encasillar.
 
-      %h4 ¿Cómo apuesto a una Superfecta?
-      %div
-        %p En una Superfecta se elige a los cuatro primeros finalistas de una carrera en el orden exacto. Para apostarla haz clic en la casilla “Superfecta” desde el menú de apuestas disponibles de cada carrera. Ingresa el monto de la apuesta correspondiente en la casilla del monto a apostar. En el cuadro de la parte inferior aparecerán las casillas correspondientes a los cuatro primeros lugares de la carrera. Selecciona en estas casillas a los integrantes de la carrera en el orden deseado para la apuesta. Si al igual que en una Trifecta, deseas apostar además al orden inverso de llegada de cada una de las  selecciones en el orden posible, haz clic en la casilla marcada con el botón "Box?". Una vez que hayas ingresado tu apuesta deseada, haz clic en la casilla “Agregar cupón” situada en la parte inferior de la hoja de apuestas, para confirmar que haz revisado todas tus apuestas, y luego en el botón "Guardar apuesta" para completar su transacción.
+      %p Ejemplo: Si juegas el 3-5-8-9, pero sale el 9-3-8-5 perdiste la apuesta recta (no salieron tus números en el orden exacto), pero ganas si también elegiste la opción de encasillar (salieron tus cuatro números sin importar el orden).
 
-      %h4 ¿Cómo apuesto a un Daily Double?
-      %div
-        %p En esta apuesta se elige a los ganadores de dos (2) carreras consecutivas. Para apostar haz clic en la casilla “Daily Double” desde el menú de apuestas disponibles de cada carrera. Ingresa el monto a apostar en la casilla del mismo nombre. En la parte inferior aparecerán dos (2) cuadros correspondientes a dos (2) carreras consecutivas con los integrantes de cada carrera, haz clic en la casilla de la selección de cada uno de los cuadros para completar la apuesta. Una vez que hayas ingresado tu apuesta deseada, haz clic en la casilla “Agregar cupón” situada en la parte inferior de la hoja de apuestas, para confirmar que ha revisado todas sus apuestas, y luego en el botón "Guardar Apuesta" para completar su transacción.
+      %p <strong>Añadir apuesta:</strong> Aquí pre-seleccionas tu apuesta.
 
-      %h4 ¿Cómo apuesto a un Pick 3, 4 y 5?
-      %div
-        %p En esta apuesta se elige a los ganadores de tres, cuatro o cinco carreras consecutivas. Para apostar haz clic en la casilla “Pick 5” desde el menú de apuestas disponibles de cada carrera. Ingresa la cantidad en la casilla Monto a apostar. En la parte inferior aparecerán cinco (5) cuadros correspondientes a cinco (5) carreras consecutivas, con los integrantes de cada carrera. Haz tu apuesta utilizando la cantidad de carreras en proporción al tipo de Pick que deseas apostar. Haz clic en las casillas de los integrantes seleccionados de cada uno de las carreras para completar la apuesta. Puedes elegir tantos integrantes de cada carrera como así desees para obtener una mayor cantidad de posibilidades de ganar. Una vez que hayas ingresado tu apuesta deseada, haz clic en la casilla “Agregar cupón” situada en la parte inferior de la hoja de apuestas para confirmar que ha revisado todas sus apuestas, y luego en el botón "Guardar apuesta" para completar tu transacción.
+      %p <strong>Preparar apuesta:</strong> Aquí podrás revisar tu(s) apuesta(s) antes de hacerla(s) oficial.
+
+      %p <strong>Hacer apuesta:</strong> Una vez presionado ya estás jugando con las combinaciones escogidas.
+
+    %h4 ¿Cómo se escogen los números ganadores de USA y cuánto pagan?
+    %div
+      %p Lotos de USA
+
+      %p Juega 2 <br> Ganas cuando los 2 últimos números del sorteo salen en el orden exacto que seleccionaste (Ejemplo: Si escoges la combinación 3-5 ganas si el resultado del sorteo es 1-3-5).
+
+      %p Directo: Ganas US$75 por cada US$1 jugado. <br> Encasillado: Ganas US$38 por cada US$1 jugado.
+
+      %p Juega 3 <br> Ganas cuando salen tus 3 números escogidos en el orden exacto.
+
+      %p Directo: Ganas US$600 por cada US$1 jugado. <br> Encasillado: Ganas US$100 por cada US$1 jugado.
+
+
+      %p Juega 4 <br> Ganas cuando salen tus 4 números escogidos en el orden exacto.
+
+      %p Directo: Ganas US$5,000 por cada US$1 jugado. <br> Encasillado: Ganas US$208 por cada US$1 jugado.
+
+      %p Las loterías que usamos son: <br>Florida <br>Ca$h3 <br>Play4
+
+      %p Illinois <br>Pick3 <br>Pick4
+
+      %p Nueva York <br>Numbers <br>Win4
+
+      %p Nueva Jersey<br>Pick3 <br>Pick4
+
+      %p Puerto Rico <br>Pega3 <br>Pega4
+
+
