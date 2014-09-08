@@ -10,6 +10,10 @@
   width: 100%;
 }
 
+#homebox .right {
+  margin-bottom: 1.315%;
+}
+
 #homebox .right a {
   display:block;
   margin-bottom: 0.813%;
@@ -61,7 +65,7 @@
   font-style: italic;
   font-size: 14px;
   position: relative;
-  right: 30px;
+  right: 15px;
   font-weight: bold;
 }
 
@@ -76,18 +80,17 @@
   overflow:hidden;
   height: 38px;
   position: relative;
-  background-image: url(asset-path('blacks/black60.png'));
+  background-image: url(asset-path('blacks/black40.png'));
   background-repeat: repeat;
-  margin-top:3%;
 }
 
 .lotto_info {
   height:36px;
-  width:6000px;
-  left: 839px;
+  width:3400px;
+  left: 1200px;
   position: absolute;
-  -webkit-animation:slideLeft 60s linear 2s infinite;
-  animation: slideLeft 60s linear 2s infinite;
+  -webkit-animation:slideLeft 40s linear 2s infinite;
+  animation: slideLeft 40s linear 2s infinite;
 }
 
 .lotto_info:hover {
@@ -105,25 +108,32 @@
 }
 
 #lotto-all {
-  color:#fff;
-  float:right;
-  text-decoration:underline;
+  float: right;
   position: absolute;
-  top: 10px;
-  right: 15px;
+  right: 0;
+  height: 36px;
+  line-height: 36px;
+  margin: 0px 0;
+  background: #dfab3e;
+  padding: 0 1.3%;
+  text-transform: uppercase;
+  color: #1e5127;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.8125em;
+  font-family: calibri, arial;
+  border-radius: 3px;
   display:none;
 }
 
 @-webkit-keyframes slideLeft {
   0%   { margin-left:0; }
-  50%  { margin-left:-3420px; }
-  100% { margin-left:-6840px; }
+  100% { margin-left:-4600px; }
 }
 
 @keyframes slideLeft {
   0%   { margin-left:0; }
-  50%  { margin-left:-3420px; }
-  100% { margin-left:-6840px; }
+  100% { margin-left:-4600px; }
 }
 
 .lottery-logo {

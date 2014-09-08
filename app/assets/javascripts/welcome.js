@@ -38,25 +38,19 @@ $(document).ready(function() {
 	
 	$.ajax({
 	  type:'GET',
-	  url: 'https://lottery.lafunda.com.do/Lottery/WinningNumbers?key=664cf843-8904-4212-9503-d4733651f519',
+	  url: 'https://lottery.lafunda.com.do/Lottery/WinningNumbers?key=664cf843-8904-4212-9503-d4733651f519&gobackdays=1&grouped=true',
 	  accept: 'application/json',  
 	  dataType: 'json',
 	  success: function(data) {
 		  
 		//console.log(data);
-			
-		var today = new Date();
-		var yesterday = new Date(today);
-		yesterday.setDate(today.getDate() - 1);
 		  
-		var sorted = sortBy(data, "HouseAbbreviation", "BallCount");
-			
+		var sorted = sortBy(data, "ClosesOn");
+				
 		for (var i = 0; i < data.length; i++) { 
-			if (data[i].ClosesOn.slice(0, -9) == yesterday.toISOString().slice(0, -14)) {
-    			$('.lotto_info').prepend('<li class="lotto_house"><span class="lotto_name">' + data[i].HouseName + '</span><span class="lotto_numbers">' + data[i].PostedNumbers + '</span></li>');
-			}
+    		$('.lotto_info').prepend('<li class="lotto_house"><span class="lotto_name">' + data[i].HouseName + '</span><span class="lotto_numbers">' + data[i].Drawings[0].PostedNumbers.replace(/\D/g,'') + ' / ' + data[i].Drawings[1].PostedNumbers.replace(/\D/g,'') + ' / ' + data[i].Drawings[2].PostedNumbers.replace(/\D/g,'') + '</span></li>');
 		}
-	  }
+	 }
 	});
 
 });// END DOCUMENT READY
