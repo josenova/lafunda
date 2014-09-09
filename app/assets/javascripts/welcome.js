@@ -6,35 +6,7 @@ $(document).ready(function() {
               $('.bxslider').bxSlider();
 	
  /******************************** GET LOTTO WINNING NUMBERS *************************************************/
- 
- 
- 	var sortBy = function(arr) {
-		function _sortByAttr(attr) {
-			var sortOrder = 1;
-			if (attr[0] == "-") {
-				sortOrder = -1;
-				attr = attr.substr(1);
-			}
-			return function(a, b) {
-				var result = (a[attr] < b[attr]) ? -1 : (a[attr] > b[attr]) ? 1 : 0;
-				return result * sortOrder;
-			}
-		}
-		function _getSortFunc() {
-			if (arguments.length == 0) {
-				throw "Zero length arguments not allowed for Array.sortBy()";
-			}
-			var args = arguments;
-			return function(a, b) {
-				for (var result = 0, i = 0; result == 0 && i < args.length; i++) {
-					result = _sortByAttr(args[i])(a, b);
-				}
-				return result;
-			}
-		}
-		return arr.sort(_getSortFunc.apply(null, arguments));
-	}
-	
+
 	
 	$.ajax({
 	  type:'GET',
@@ -43,14 +15,21 @@ $(document).ready(function() {
 	  dataType: 'json',
 	  success: function(data) {
 		  
-		//console.log(data);
-		  
-		var sorted = sortBy(data, "ClosesOn");
-				
+		console.log(data);
+		
+		var recent_date = new Date(data[0].ClosesOn);
+		var slim_recent_date = recent_date.toString().slice(4,-50);
+
+		
+		$('.lotto_info #today').append(slim_recent_date);		
 		for (var i = 0; i < data.length; i++) { 
-    		$('.lotto_info').prepend('<li class="lotto_house"><span class="lotto_name">' + data[i].HouseName + '</span><span class="lotto_numbers">' + data[i].Drawings[0].PostedNumbers.replace(/\D/g,'') + ' / ' + data[i].Drawings[1].PostedNumbers.replace(/\D/g,'') + ' / ' + data[i].Drawings[2].PostedNumbers.replace(/\D/g,'') + '</span></li>');
+		
+			var close_date = new Date(data[i].ClosesOn);
+			if (close_date.setHours(0, 0, 0, 0) == recent_date.setHours(0, 0, 0, 0)) {
+    			$('.lotto_info').append('<li class="lotto_house"><span class="lotto_name">' + data[i].HouseName + '</span><span class="lotto_numbers">' + data[i].Drawings[0].PostedNumbers.replace(/\D/g,'') + ' / ' + data[i].Drawings[1].PostedNumbers.replace(/\D/g,'') + ' / ' + data[i].Drawings[2].PostedNumbers.replace(/\D/g,'') + '</span></li>');			
+			}
 		}
-	 }
+	  }
 	});
 
 });// END DOCUMENT READY

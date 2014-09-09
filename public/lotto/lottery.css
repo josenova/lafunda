@@ -62,7 +62,7 @@ padding-right: 20px;
 font-weight: bold;
 font-family: arial;
 position:relative;
-font-size:15px;
+font-size:14px;
 }
 
 #houses li label:hover, #entry #addBet input:hover {
@@ -520,7 +520,7 @@ background:url(logos/haiti2.png) center left no-repeat #0a799b !important;
 @media screen and (max-width: 760px) {
 	#houses li label {
 padding-left: 56px;
-font-size:13px;
+font-size:12px;
 }
 
 #houses li label::after, #houses li .selected::after {
