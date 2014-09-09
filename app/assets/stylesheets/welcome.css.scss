@@ -10,15 +10,14 @@
   width: 100%;
 }
 
-#homebox .right {
-  margin-bottom: 1.315%;
-}
-
 #homebox .right a {
   display:block;
-  margin-bottom: 0.813%;
 }
 
+#homebottom {
+  position: relative;
+  margin:1.315% 0;
+}
 
 
 
@@ -30,7 +29,7 @@
 
 #tabs {
   overflow: hidden;
-  margin-bottom: 3.444%;
+  margin-bottom: 1.315%;
 }
 
 #tabs li img {
@@ -57,6 +56,7 @@
   border-right-width: 5px;
   border-radius: 0 3px 3px 0;
   border-right-color: #dfab3e;
+  margin-bottom: 2px;
 }
 
 #tabs li span {
@@ -86,12 +86,15 @@
 
 #lotto_box h5 {
   float: left;
-  padding: 0 2.12%;
+  padding: 0 1.315%;
   line-height: 36px;
   height: 36px;
-  background-image: url(asset-path('bg/dark_leather.png'));
+  background: #001605;
   position: relative;
   z-index: 1;
+  color: #fff;
+  border-radius: 0px;
+  font-size:0.875em;
 }
 
 .lotto_info {
