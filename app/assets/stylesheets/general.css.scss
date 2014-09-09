@@ -501,21 +501,90 @@ body {
   width:28.366%;
 }
 
-#content a {
+
+
+
+/**************************************************************************** FONT STYLES *****************************************************************************/
+
+#content .left p {
+  color:#333;
+  margin-bottom:1.315%;
+}
+
+#content .left a {
   color: #111;
 }
 
-#content .left ul {
+#content .left ul, #content .left ol {
   margin-bottom:1.315%;
 }
 
 
-
 #content .left li {
   color:#333;
-  margin: 0 0 0.813% 2.128%;
+  margin: 0 0 0.813% 3.444%;
+  list-style:initial;
+  font-size:15px;
 }
 
+#content .left ol li {
+  list-style-type: decimal;
+}
+
+p {
+
+  font-size: 0.9375em;
+  color:#fff;
+  margin:0;
+  font-family:corbelregular;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 2.128%;
+  color:#222;
+  font-family: Calibri, calibriregular, Helvetica, arial;
+
+}
+
+h2 {
+  text-transform:uppercase;
+  margin:3.444% 0 1.315%;
+  color:#111;
+  font-size:1.25em;
+  font-family: Calibri, calibriregular, Helvetica, arial;
+
+}
+
+h3 {
+  font-size: 1.125em;
+  margin: 2.1289% 0;
+  color:#333;
+  font-weight:normal;
+  font-family:Calibri, calibriregular, Helvetica, arial;
+}
+
+h4 {
+  font-size: 1em;
+  margin: 3.444% 0 1.315% 0;
+  color:#222;
+  font-family:Calibri, calibriregular, Helvetica, arial;
+}
+
+
+
+a {
+  color: #fff;
+}
+
+td {
+  color:#333;
+}
+
+ul > li > ul > li {
+  list-style: initial;
+}
 
 
 
@@ -591,72 +660,6 @@ body {
   height:36px;
   width:36px;
   margin:0.191% 0.813% 0 0;
-}
-/**************************************************************************** FONT STYLES *****************************************************************************/
-
-#content .left p {
-  color:#333;
-  margin-bottom:1.315%;
-  font-family:corbelregular;
-}
-
-p {
-
-  font-size: 0.9375em;
-  color:#fff;
-  margin:0;
-  font-family:corbelregular;
-}
-
-h1 {
-  text-transform: uppercase;
-  font-size: 30px;
-  margin-bottom: 2.128%;
-  color:#222;
-  font-family: Calibri, calibriregular, Helvetica, arial;
-
-}
-
-h2 {
-  text-transform:uppercase;
-  margin:3.444% 0 1.315%;
-  color:#111;
-  font-size:1.25em;
-  font-family: Calibri, calibriregular, Helvetica, arial;
-
-}
-
-h3 {
-  font-size: 1.125em;
-  margin: 2.1289% 0;
-  color:#333;
-  font-weight:normal;
-  font-family:Calibri, calibriregular, Helvetica, arial;
-}
-
-h4 {
-  font-size: 1em;
-  margin: 3.444% 0 1.315% 0;
-  color:#222;
-  font-family:Calibri, calibriregular, Helvetica, arial;
-}
-
-
-
-a {
-  color: #fff;
-}
-
-td {
-  color:#333;
-}
-
-ul > li > ul > li {
-  list-style: initial;
-}
-
-.list li {
-  list-style: initial;
 }
 
 
