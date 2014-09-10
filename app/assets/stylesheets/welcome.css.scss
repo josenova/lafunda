@@ -97,13 +97,15 @@
   font-size:0.875em;
 }
 
+#lotto_box .button {
+  float:right;
+}
+
 .lotto_info {
   height:36px;
-  width:5000px;
+  width:5050px;
   left: 1200px;
   position: absolute;
-  -webkit-animation:slideLeft 60s linear 1s infinite;
-  animation: slideLeft 60s linear 1s infinite;
 }
 
 .lotto_info:hover {
@@ -114,10 +116,10 @@
 .lotto_info .date {
   text-transform: uppercase;
   margin: 0 1.315%;
-  font-style: italic;
   float:left;
   height:36px;
   line-height: 36px;
+  font-weight: bold;
 }
 
 .lotto_house {
@@ -127,6 +129,18 @@
   height: 36px;
   line-height: 36px;
   overflow:hidden;
+}
+
+.lotto_name {
+  color:#fff;
+  text-transform:uppercase;
+  font-size:1em;
+  margin-right: 16px;
+}
+
+
+.lotto_numbers {
+  color:#dfab3e;
 }
 
 #lotto-all {
@@ -148,38 +162,8 @@
   display:none;
 }
 
-@-webkit-keyframes slideLeft {
-  0%   { margin-left:0; }
-  100% { margin-left:-6200px; }
-}
-
-@keyframes slideLeft {
-  0%   { margin-left:0; }
-  100% { margin-left:-6200px; }
-}
-
-.lottery-logo {
-  width:7.7019%;
-}
-
-.lotto_name {
-  color:#fff;
-  text-transform:uppercase;
-  font-weight:bold;
-  font-size:1em;
-  margin-right: 24px;
-}
-
-.lottery-subname {
-  color:#fff;
-  text-transform:uppercase;
-}
 
 
-
-.lotto_numbers {
-  color:#dfab3e;
-}
 
 .numbers ul {
 

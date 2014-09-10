@@ -5,10 +5,10 @@
       <!-- start Basic Jquery Slider -->
       <ul class="bxslider">
         <li><%= link_to image_tag("slider/4.jpg"), promotions_path %></li>
-        <li><%= link_to image_tag("slider/3.jpg"), racebook_path %></li>
-        <li><%= link_to image_tag("slider/2.jpg"), sportsbook_path %></li>
         <li><%= link_to image_tag("slider/5.jpg"), lottery_path %></li>
-        <li><%= link_to image_tag("slider/1.jpg"), "#" %></li>
+        <li><%= link_to image_tag("slider/2.jpg"), sportsbook_path %></li>
+        <li><%= link_to image_tag("slider/6.jpg"), sportsbook_path %></li>
+        <li><%= link_to image_tag("slider/3.jpg"), racebook_path %></li>
       </ul>
       <!-- end Basic jQuery Slider -->
 
@@ -32,12 +32,12 @@
 
 <div id="homebottom">
 
-    <div id="lotto_box">
-      <h5>Números Ganadores</h5>
+    <%= link_to lottery_path, id: "lotto_box" do %>
+      <h5>Resultados Lotería</h5>
       <ul class="lotto_info">
 
       </ul>
       <span id="lotto-all">ver todos los resultados</span>
-    </div>
+    <% end %>
 </div>
 
