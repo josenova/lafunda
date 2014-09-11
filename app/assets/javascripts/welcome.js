@@ -6,7 +6,7 @@ $(document).ready(function() {
               $('.bxslider').bxSlider();
 	
  /******************************** GET LOTTO WINNING NUMBERS *************************************************/
-
+    jQuery.support.cors
 	
 	$.ajax({
 	  type:'GET',
