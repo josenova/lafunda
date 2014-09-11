@@ -102,6 +102,7 @@ es:
       menu: Menú
       results: Resultados
       promotions: Promociones
+      how_to_play: "Cómo jugar"
     flash:
       cannot_log_in: "No puedes ingresar en estos momentos. Favor contacta servicio al cliente."
       confirm_account: "Debes confirmar tu cuenta."

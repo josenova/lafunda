@@ -85,6 +85,7 @@ en:
       country: Country
       address: Address
       promotions: Promotions
+      how_to_play: "How to play"
     flash:
       cannot_log_in: "Cannot log in at this time. Please contact support."
       confirm_account: "Please confirm your account."

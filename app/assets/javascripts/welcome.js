@@ -11,9 +11,12 @@ $(document).ready(function() {
 	$.ajax({
 	  type:'GET',
 	  url: 'https://lottery.lafunda.com.do/Lottery/WinningNumbers?key=664cf843-8904-4212-9503-d4733651f519&gobackdays=2&grouped=true',
-	  accept: 'application/json',  
+	  accept: 'application/json', 
+	  cache: false,  
 	  dataType: 'json',
 	  success: function(data) {
+		 
+		 
 		
 		var recent_date = new Date(data[0].ClosesOn);
 		var date_before = new Date();
@@ -34,7 +37,7 @@ $(document).ready(function() {
 					$lotto_numbers.append(data[i].Drawings[j].PostedNumbers.replace(/\D/g,''));	
 					if (j != data[i].Drawings.length - 1) {$lotto_numbers.append(' / ')}		
 				} 
-			}
+			} 
 		}
 			
 		$lotto_info.append('<li class="date">' + slim_date_before + '</li>');

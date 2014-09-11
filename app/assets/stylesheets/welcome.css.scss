@@ -82,6 +82,7 @@
   position: relative;
   background-image: url(asset-path('blacks/black40.png'));
   background-repeat: repeat;
+  border-radius: 3px;
 }
 
 #lotto_box h5 {
@@ -94,7 +95,7 @@
   z-index: 1;
   color: #fff;
   border-radius: 0px;
-  font-size:0.875em;
+  font-size:0.9375em;
 }
 
 #lotto_box .button {
