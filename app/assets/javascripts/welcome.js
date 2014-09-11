@@ -6,8 +6,8 @@ $(document).ready(function() {
               $('.bxslider').bxSlider();
 	
  /******************************** GET LOTTO WINNING NUMBERS *************************************************/
-    jQuery.support.cors
-	
+    jQuery.support.cors = true;
+/*	
 	$.ajax({
 	  type:'GET',
 	  url: 'https://lottery.lafunda.com.do/Lottery/WinningNumbers?key=664cf843-8904-4212-9503-d4733651f519&gobackdays=2&grouped=true',
@@ -15,6 +15,10 @@ $(document).ready(function() {
 	  cache: false,  
 	  accept: 'application/json', 
 	  success: function(data) {
+*/		  
+	  $.getJSON('https://lottery.lafunda.com.do/Lottery/WinningNumbers?key=664cf843-8904-4212-9503-d4733651f519&gobackdays=2&grouped=true').done(function(data) {
+  	
+	
 		 
 		var recent_date = new Date(data[0].ClosesOn);
 		var date_before = new Date();
@@ -64,12 +68,12 @@ $(document).ready(function() {
 			 slideLeft();  
         }
 
-
+/*
 	
 	  }, // End Success function
 		  error: function(xhr, status, error) {
 		  alert(xhr.status);
-      }
+      }*/
 	}); //End Ajax
 
 });// END DOCUMENT READY
