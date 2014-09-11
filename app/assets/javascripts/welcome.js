@@ -74,7 +74,7 @@ $(document).ready(function() {
 		  error: function(xhr, status, error) {
 		  alert(xhr.status);
       }*/
-	}); //End Ajax
+	}).error(function(xhr, status, error) {  alert(xhr.status); }); //End Ajax
 
 });// END DOCUMENT READY
 
