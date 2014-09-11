@@ -27,6 +27,9 @@ gem 'therubyracer', platforms: :ruby
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
+# Use modernizr
+gem 'modernizr-rails'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 #gem 'turbolinks'
 #gem 'jquery-turbolinks'

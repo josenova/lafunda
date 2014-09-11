@@ -106,6 +106,8 @@
   width:5050px;
   left: 1200px;
   position: absolute;
+  -webkit-animation:slideLeft 60s linear 0s infinite;
+  animation: slideLeft 60s linear 0s infinite;
 }
 
 .lotto_info:hover {
@@ -160,6 +162,16 @@
   font-family: calibri, arial;
   border-radius: 3px;
   display:none;
+}
+
+@-webkit-keyframes slideLeft {
+  0%   { margin-left:0; }
+  100% { margin-left:-6060px; }
+}
+
+@keyframes slideLeft {
+  0%   { margin-left:0; }
+  100% { margin-left:-6060px; }
 }
 
 

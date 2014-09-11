@@ -51,18 +51,20 @@ $(document).ready(function() {
 		}
 		
 		
-		
-		function slideLeft() {
-        $lotto_info.animate({
-            marginLeft: "-6060px"
-        }, 60000, "linear", function() {
-            $lotto_info.css("margin-left", 0);
-            slideLeft();
-        });
-    }
+		if(!Modernizr.csstransitions) { // Test if CSS transitions are supported
+			function slideLeft() {
+				$lotto_info.animate({
+					marginLeft: "-6060px"
+				}, 60000, "linear", function() {
+					$lotto_info.css("margin-left", 0);
+					slideLeft();
+				});
+			}    
+			 slideLeft();  
+        }
 
-    slideLeft();
-		
+
+	
 	  } // End Success function
 	}); //End Ajax
 

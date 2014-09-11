@@ -20,7 +20,6 @@
 //= require bxslider
 //= require placeholders.min
 //= require iframeresizer.min
-// require lotto_ticker
 
 // require turbolinks
 
