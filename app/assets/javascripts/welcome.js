@@ -58,8 +58,8 @@ $(document).ready(function() {
 			 slideLeft();  
         }
 
-	}).error(function(xhr, status, error) {  alert(xhr.status); }); //End getJSON
-
+	})/*.error(function(xhr, status, error) {  alert(xhr.status); });  //End getJSON
+*/
 });// END DOCUMENT READY
 
 
