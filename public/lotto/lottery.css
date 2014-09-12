@@ -327,6 +327,10 @@ padding: 0;
 line-height: 23px;
 }
 
+.no-csstransitions table.table thead th  {
+  padding-right:60px;
+}
+
 table.table td {
 text-align: center !important;
 font-size: 12px;
