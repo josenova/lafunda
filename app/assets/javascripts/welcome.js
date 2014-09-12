@@ -44,7 +44,7 @@ $(document).ready(function() {
 				} 
 			}
 		}
-		
+		/*
 		
 		if(!Modernizr.csstransitions) { // Test if CSS transitions are supported
 			function slideLeft() {
@@ -56,7 +56,7 @@ $(document).ready(function() {
 				});
 			}    
 			 slideLeft();  
-        }
+        } */
 
 	})/*.error(function(xhr, status, error) {  alert(xhr.status); });  //End getJSON
 */
