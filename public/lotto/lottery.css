@@ -14,6 +14,9 @@ box-sizing: border-box;
 
 p {
 margin: 0;
+color: #333;
+font-family: calibri;
+padding: 12px 12px 0;
 }
 
 div.errors {
@@ -196,6 +199,7 @@ color: #222;
 #entry #number input#numbers {
 font-size:1.25em;
 width:100%;	
+border: 1px solid #aaa;
 }
 
 #entry #straight input#straightAmount {
@@ -203,7 +207,8 @@ font-size: 1.25em;
 width:100%;
 text-align:center;
 background:url(images/box_currency.png) center left no-repeat;
-background-position: 20px center;
+background-position: 15px center;
+border: 1px solid #aaa;
 }
 
 #entry #number {
@@ -286,13 +291,18 @@ font-size: 1.25em;
 width: 100%;
 text-align: center;
 background:url(images/box_currency.png) center left no-repeat;
-background-position: 20px center;
+background-position: 25px center;
+border: 1px solid #aaa;
+}
+
+p > a[href="/Lottery"] {
+display: none;
 }
 
 #entry #addBet {
 position: relative;
 right: 0;
-top: 18px;
+top: 17px;
 float: left;
 width: 21%;
 left: 0;
