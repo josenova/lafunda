@@ -286,6 +286,7 @@ font-size: 1.25em;
 width: 100%;
 text-align: center;
 background:url(images/box_currency.png) center left no-repeat;
+background-position: 10px center;
 }
 
 #entry #addBet {
