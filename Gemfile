@@ -66,10 +66,14 @@ gem 'rake', '10.3.2'
 
 gem 'savon'
 
+#Devise
 gem 'devise'
 gem 'devise-async'
 
+#Delayed job not being used
 gem 'delayed_job_active_record'
 gem 'daemons'
 
+#For Chrome Plugin
 gem 'meta_request', group: :development
+
