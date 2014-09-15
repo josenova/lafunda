@@ -202,6 +202,7 @@ width:100%;
 font-size: 1.25em;
 width:100%;
 text-align:center;
+background:url(images/box_currency.png) center left no-repeat;
 }
 
 #entry #number {
@@ -283,6 +284,7 @@ color: #222;
 font-size: 1.25em;
 width: 100%;
 text-align: center;
+background:url(images/box_currency.png) center left no-repeat;
 }
 
 #entry #addBet {
