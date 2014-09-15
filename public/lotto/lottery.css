@@ -295,8 +295,8 @@ background-position: 25px center;
 border: 1px solid #aaa;
 }
 
-p > a[href="/Lottery"] {
-display: none;
+a {
+color:#111;
 }
 
 #entry #addBet {
