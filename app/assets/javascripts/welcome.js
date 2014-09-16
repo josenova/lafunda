@@ -1,4 +1,6 @@
 
+//= require date
+
 $(document).ready(function() {
 	
   /*************************************** START SLIDER *************************************************/
@@ -14,8 +16,8 @@ $(document).ready(function() {
 		var date_before = new Date();
 		date_before.setDate(recent_date.getDate() - 1);
 		
-		var slim_recent_date = recent_date.toString().slice(4,-50);
-		var slim_date_before = date_before.toString().slice(4,-50);
+		var slim_recent_date = recent_date.toString('MMMM d, yyyy');
+		var slim_date_before = date_before.toString('MMMM d, yyyy');
 		
 		var $lotto_info = $('.lotto_info');
 		
