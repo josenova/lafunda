@@ -635,7 +635,11 @@ display:none;
 }
 
 #entry {
-margin-bottom:3.444%;	
+height:auto;	
+}
+
+#entry #addBet {
+height:60px;	
 }
 
 #details .action .placeOrder form input {
