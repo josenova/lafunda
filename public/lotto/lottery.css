@@ -625,7 +625,13 @@ margin-left:0;
 }
 
 #custFavorites {
-height:75px;	
+height:75px;
+display:none;	
+}
+
+#nextHouseCloses {
+display:none;	
+}
 }
 
 /**************************WINNING NUMBERS********************/ 
