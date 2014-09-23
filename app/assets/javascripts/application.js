@@ -17,6 +17,7 @@
 // require_tree .
 //= require jquery.ui.accordion
 //= require heap
+//= require ganalytics
 //= require bxslider
 //= require placeholders.min
 //= require iframeresizer.min

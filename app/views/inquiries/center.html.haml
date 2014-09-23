@@ -7,14 +7,14 @@
   %tr{:class => "tabletop"}
     %td= t('views.date')
     %td= t('views.subject')
-    %td= t('views.status')
+    %td= t('views.username')
     %td= t('views.last_update')
     %td .
-    - @inquiry.where("status = true").order("created_at desc").each do |ticket|
+    - @inquiries.where("status = true").order("created_at desc").each do |ticket|
       %tr{:class => cycle('odd', 'even')}
         %td= ticket.created_at.strftime("%d/%m/%Y")
         %td= link_to ticket.subject, ticket
-        %td.status= get_status(ticket.status)
+        %td.status= @users.find(ticket.user_id).username
         %td= ticket.updated_at.strftime("%d/%m/%Y %H:%M:%S")
         %td= link_to 'ver ticket', ticket, :class => "see_ticket"
 
@@ -24,13 +24,13 @@
   %tr{:class => "tabletop"}
     %td= t('views.date')
     %td= t('views.subject')
-    %td= t('views.status')
+    %td= t('views.username')
     %td= t('views.last_update')
     %td .
-    - @inquiry.where("status = false").order("created_at desc").each do |ticket|
+    - @inquiries.where("status = false").order("created_at desc").each do |ticket|
       %tr{:class => cycle('odd', 'even')}
         %td= ticket.created_at.strftime("%d/%m/%Y")
         %td= link_to ticket.subject, ticket
-        %td.status= get_status(ticket.status)
+        %td.status= @users.find(ticket.user_id).username
         %td= ticket.updated_at.strftime("%d/%m/%Y %H:%M:%S")
         %td= link_to 'ver ticket', ticket, :class => "see_ticket"

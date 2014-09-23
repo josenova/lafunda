@@ -31,7 +31,8 @@ class InquiriesController < ApplicationController
   end
 
   def center
-    @inquiry = Inquiry.all
+    @inquiries = Inquiry.all
+    @users = User.all
   end
 
 
