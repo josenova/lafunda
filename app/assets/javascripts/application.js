@@ -35,20 +35,6 @@ if($(window).width() <= 568) {
 /*Height for cover layer*/		
 	  $('#layer').css('height', $(window).height());
 
-/*Replace Colchian URL for Mobile*/	  
-	  if ($('#race_frame').length > 0) {
-		  var url = $("#race_frame").attr('src');
-		  var urlarray = url.split('=lafunda');
-		  $('#race_frame').attr("src","https://wagering.lafunda.com.do/BOSSWagering/Racebook/MobileBetTaker?siteid=lafunda" + urlarray[1]);
-		  //$('#race_frame').attr("src","http://www.colchian.eu/BOSS_DEMO/BOSSWagering/Racebook/MobileBetTaker/?SiteID=LaFunda&stoken=" + urlarray[1]);
-	  }
-	  if ($('#sport_frame').length > 0) {
-		  var url = $("#sport_frame").attr('src');
-		  var urlarray = url.split('=lafunda');
-		  $('#sport_frame').attr("src","https://wagering.lafunda.com.do/BOSSWagering/Sportsbook/MobileBetTaker?siteid=lafunda" + urlarray[1]);
-		  //$('#sport_frame').attr("src","http://www.colchian.eu/BOSS_DEMO/BOSSWagering/Sportsbook/MobileBetTaker/?SiteID=LaFunda&stoken=" + urlarray[1]);
-	  }
-
 /*Open hamburger menu function*/		
 	$('#open_mobile_menu').click(function () {
 	  $('#main').css('width', $('#main').width());
@@ -104,17 +90,6 @@ if($(window).width() <= 568) {
 	
 
 
-/******************************* PAYMENT PROVIDERS ALERTS **************************************/
-
-		$( "#providers #bank_transfer" ).click(function() {
-		  alert( "Banco BHD\nCuenta: 15216080019\nNombre: Kingsley Edgecombe\n\nDepósitos\nColoca en la nota de depósito tu nombre e email registrado con nosotros.\n\nRetiros\nSolícita tu retiro a hfernandez@kinbar.com.do. Solo se aceptarán solicitudes y se enviarán pagos a cuentas de email que estén registradas con nosotros." );
-		});
-		
-		$( "#providers #paypal" ).click(function() {
-		  alert( "Paypal\nCuenta: hfernandez@kinbar.com.do\nNombre: La Funda\n\nDepósitos\nColoca en la nota de depósito tu nombre (e email registrado con nosotros, en caso de no usarlo para realizar el depósito).\n\nRetiros\nSolícita tu retiro a hfernandez@kinbar.com.do. Solo se aceptarán solicitudes y se enviarán pagos a cuentas de email que estén registradas con nosotros. " );
-		});
-
- 
  
 
  
