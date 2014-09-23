@@ -401,6 +401,7 @@ font-family: calibri, arial;
 font-weight: bold;
 text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
 height:29px;
+border-radius:none;
 -webkit-appearance:none;
 -moz-appearance:none;
 }
@@ -631,6 +632,18 @@ display:none;
 
 #nextHouseCloses {
 display:none;	
+}
+
+#entry {
+margin-bottom:3.444%;	
+}
+
+#details .action .placeOrder form input {
+margin:0 auto;	
+}
+
+#details .action .cancelOrder form input {
+margin:0 auto;
 }
 }
 
