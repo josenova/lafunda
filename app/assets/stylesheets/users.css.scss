@@ -211,13 +211,12 @@ input#user_pin {
   #gender label {
     margin: 0;
     width: 35%;
+    font-size: 0.8125em;
   }
 
   #gender input[type="radio"] {
     width: 11%;
     margin: 0 2%;
-    -webkit-appearance: none;
-    -moz-appearance: none;
   }
 
   .terms {
@@ -230,17 +229,17 @@ input#user_pin {
 
   #user_birthday_3i {
     width:28%;
-    font-size: 13px;
+    font-size: 0.8125em;
   }
 
   #user_birthday_2i {
     width:33%;
-    font-size: 13px;
+    font-size: 0.8125em;
   }
 
   #user_birthday_1i {
     width: 35%;
-    font-size: 13px;
+    font-size: 0.8125em;
   }
 
 
