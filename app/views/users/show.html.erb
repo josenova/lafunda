@@ -1,10 +1,10 @@
 <h1><%= t('views.my_account') %></h1>
-<h3><%= t('views.welcome') + ', ' + @current_user.name %></h3>
+<h3><%= t('views.welcome') + ', ' + @current_user.name + '.' %></h3>
 
 
 <div id="controlpanel">
   <%= link_to edit_account_path do %><%= image_tag(asset_path("icons/edit_profile.png")) %><span><%= t('views.edit_profile') %></span><% end %>
-  <%= link_to cashier_path do %><%= image_tag(asset_path("icons/wallet_top.png"), :style => "width:47px;") %><span><%= t('views.cashier') %></span><% end %>
+  <%= link_to cashier_path do %><%= image_tag(asset_path("icons/wallet.png"), :style => "width:47px;") %><span><%= t('views.cashier') %></span><% end %>
 </div>
 
 

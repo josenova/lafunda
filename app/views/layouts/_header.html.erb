@@ -8,8 +8,10 @@
   <div id="topmenu">
     <ul id="topleft">
       <li id="support"><%= link_to support_path do %><%= image_tag(asset_path("icons/support.png"), class: 'icon' ) %><%= t('views.help') %><% end %></li>
+      <% if @current_user %>
       <li id="account"><%= link_to account_path do %><%= image_tag(asset_path("icons/account_top.png"), :style => "float:left; width: 28px;" ) %><%= t('views.my_account') %><% end %></li>
       <li id="cashier"><%= link_to cashier_path do %><%= image_tag(asset_path("icons/wallet_top.png"), :style => "float:left; width: 28px;" ) %><%= t('views.cashier') %><% end %></li>
+      <% end %>
       <!--<li id="community"><%= link_to community_path do %><%= image_tag(asset_path("icons/community.png"), class: 'icon' ) %><%= t('views.community') %><% end %></li>-->
     </ul>
     <div id="topright">

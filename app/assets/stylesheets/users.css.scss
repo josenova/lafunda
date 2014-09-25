@@ -169,7 +169,7 @@ input#user_pin {
   text-align:center;
   text-decoration: none;
   border:1px solid #d0d0d0;
-  width:120px;
+  width:128px;
   margin:0 2.1289% 0 0;
 }
 
@@ -209,8 +209,13 @@ input#user_pin {
   }
 
   #gender label {
-    margin: 0 0 0 4%;
-    width: 31%;
+    margin: 0;
+    width: 35%;
+  }
+
+  #gender input[type="radio"] {
+    width: 9%;
+    margin: 0 3%;
   }
 
   .terms {
@@ -221,6 +226,17 @@ input#user_pin {
     display:none !important;
   }
 
+  #user_birthday_3i {
+    width:28%;
+  }
+
+  #user_birthday_2i {
+    width:38%;
+  }
+
+  #user_birthday_1i {
+    width: 32%;
+  }
 
 
 }
