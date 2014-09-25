@@ -217,11 +217,12 @@ input#user_pin {
   #gender input[type="radio"] {
     width: 11%;
     margin: 0 2%;
+    background: #222;
   }
 
   #gender input[type="radio"]:checked {
-    border:1px solid #000;
-    background: #222;
+    border:1px solid #111;
+
 
   }
 
@@ -246,6 +247,10 @@ input#user_pin {
   #user_birthday_1i {
     width: 35%;
     font-size: 0.8125em;
+  }
+
+  #user_terms_of_service {
+    border:1px solid #111;
   }
 
 
