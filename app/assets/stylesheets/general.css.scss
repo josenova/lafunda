@@ -1138,10 +1138,6 @@ select {
     padding:0;
   }
 
-  .tip_wrapper input {
-    width:99% !important;
-  }
-
   [data_tip]:hover:after {
     display:none !important;
   }
@@ -1150,6 +1146,8 @@ select {
 
   .module { display:none; }
 
-
+  .tip_wrapper input {
+    width:99% !important;
+  }
 
 }
