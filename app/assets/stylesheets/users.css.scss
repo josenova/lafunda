@@ -170,7 +170,7 @@ input#user_pin {
   text-decoration: none;
   border:1px solid #d0d0d0;
   width:128px;
-  margin:0 2.1289% 0 0;
+  margin:0 2.1289% 1.315% 0;
 }
 
 #controlpanel span {
@@ -217,6 +217,11 @@ input#user_pin {
   #gender input[type="radio"] {
     width: 11%;
     margin: 0 2%;
+  }
+
+  #gender input[type="radio"]:checked {
+    border:1px solid #000;
+
   }
 
   .terms {
