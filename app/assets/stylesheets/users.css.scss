@@ -218,10 +218,11 @@ input#user_pin {
     width: 11%;
     margin: 0 2%;
     background: #222;
+    border:1px solid #111;
   }
 
   #gender input[type="radio"]:checked {
-    border:1px solid #111;
+
 
 
   }

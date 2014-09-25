@@ -1,7 +1,7 @@
 <div id="mobile_menu">
 
     <% if @current_user %>
-      <h6><%= @current_user.username %></h6>
+      <h5><%= @current_user.username %></h5>
       <ul style="margin:0">
         <%= nav_link t('views.sportsbook'), sportsbook_path %>
         <%= nav_link t('views.racebook'), racebook_path %>
