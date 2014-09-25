@@ -11,6 +11,14 @@ if($(window).width() <= 568) {
 		  //$('#sport_frame').attr("src","http://www.colchian.eu/BOSS_DEMO/BOSSWagering/Sportsbook/MobileBetTaker/?SiteID=LaFunda&stoken=" + urlarray[1]);
 
 
+} else {
+
+
+
+  $('#sport_frame').iFrameResize({
+	  enablePublicMethods: true                  
+  });
+  
 }
  
 
