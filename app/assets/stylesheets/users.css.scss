@@ -216,6 +216,7 @@ input#user_pin {
   #gender input[type="radio"] {
     width: 9%;
     margin: 0 3%;
+    border-radius: initial;
   }
 
   .terms {
@@ -231,11 +232,11 @@ input#user_pin {
   }
 
   #user_birthday_2i {
-    width:38%;
+    width:34%;
   }
 
   #user_birthday_1i {
-    width: 32%;
+    width: 34%;
   }
 
 
