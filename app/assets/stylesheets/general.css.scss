@@ -746,7 +746,7 @@ legend {
 }
 
 .tip_wrapper input {
-  width:99% !important;
+  width:100% !important;
   margin-right:0;
 }
 
@@ -1138,6 +1138,10 @@ select {
     padding:0;
   }
 
+  .tip_wrapper input {
+    width:99% !important;
+  }
+
   [data_tip]:hover:after {
     display:none !important;
   }
@@ -1145,5 +1149,7 @@ select {
   .buttons {margin: 3% 1% 3% 10%;}
 
   .module { display:none; }
+
+
 
 }

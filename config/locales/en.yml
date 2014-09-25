@@ -24,6 +24,7 @@ en:
     views:
       user: User
       username: Username
+      live_casino: "Live Casino"
       password: Password
       log_in: "Log In"
       name: Name
@@ -86,6 +87,7 @@ en:
       address: Address
       promotions: Promotions
       how_to_play: "How to play"
+      lottery_results: "Lottery Results"
     flash:
       cannot_log_in: "Cannot log in at this time. Please contact support."
       confirm_account: "Please confirm your account."
