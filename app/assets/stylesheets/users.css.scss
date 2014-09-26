@@ -70,7 +70,7 @@ margin-right:0;
 }
 
 input#user_pin {
-  width: 80px;
+  width: 80px !important;
 }
 
 #pswd_info {
@@ -134,9 +134,8 @@ input#user_pin {
 }
 
 .right #balance p {
-  font-size: 2em;
+  font-size: 1.75em;
   text-align: center;
-  margin-bottom: 5.573%;
   font-family:Calibri, Arial;
 }
 
