@@ -40,7 +40,6 @@ if($(window).width() <= 568) {
 	  $('#main').css('width', $('#main').width());
 	  $('#all').toggleClass('open');
 	  $('#layer').toggleClass('hidden');
-	  $('#main').bind('touchmove', function(e){e.preventDefault()});
 	  $('#layer').bind('touchmove', function(e){e.preventDefault()});
     });
 
@@ -49,7 +48,6 @@ if($(window).width() <= 568) {
 	  $('#all').toggleClass('open');
 	  setTimeout( "$('#main').css('width', 'auto');",200 );
 	  $('#layer').toggleClass('hidden');
-	  $('#main').unbind('touchmove');
 	  $('#layer').unbind('touchmove');
 	 
 	});
