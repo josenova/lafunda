@@ -1057,7 +1057,7 @@ select {
   margin-bottom: 2px;
 }
 
-.open {margin-left:70%;  transition: all 0.2s linear; -webkit-transition:  all 0.2s linear;}
+.open {position:relative; left:70%;  transition: all 0.2s linear; -webkit-transition:  all 0.2s linear;}
 
 #layer {
   height: 100%;
