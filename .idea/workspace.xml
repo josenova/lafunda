@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/general.css.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.82847536" vertical-offset="17264" max-vertical-offset="19703">
-              <caret line="1059" column="26" selection-start-line="1059" selection-start-column="26" selection-end-line="1059" selection-end-column="26" />
+              <caret line="1059" column="14" selection-start-line="1059" selection-start-column="14" selection-end-line="1059" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -755,7 +755,7 @@
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/general.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.82847536" vertical-offset="17264" max-vertical-offset="19703">
-          <caret line="1059" column="26" selection-start-line="1059" selection-start-column="26" selection-end-line="1059" selection-end-column="26" />
+          <caret line="1059" column="14" selection-start-line="1059" selection-start-column="14" selection-end-line="1059" selection-end-column="14" />
           <folding />
         </state>
       </provider>
