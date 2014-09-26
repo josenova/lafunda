@@ -89,6 +89,7 @@ input#user_pin {
   padding-left:22px;
   line-height:24px;
   color:#ae4f50 !important;
+  list-style: none !important;
 }
 .valid {
   background-image: url(asset-path('icons/mini_check.png'));
@@ -97,6 +98,7 @@ input#user_pin {
   padding-left:22px;
   line-height:24px;
   color:#376130 !important;
+  list-style: none !important;
 }
 
 
@@ -182,6 +184,7 @@ input#user_pin {
   padding-top:3.444%
 }
 
+/********************************************** MEDIA QUERIES *****************************************************************/
 
 @media screen and (max-width: 568px) {
 
