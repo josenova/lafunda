@@ -1077,6 +1077,9 @@ select {
 
 .hidden { display: none; }
 
+@media screen and (max-width: 1024px) {
+  #topright form input[type="submit"] {font-size:11px !important}
+}
 
 
 @media screen and (max-width: 568px) {
