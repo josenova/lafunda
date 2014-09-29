@@ -29,7 +29,7 @@ $(document).ready(function() {
 	
 /******************************************  MOBILE  **************************************************/
 
-if($(window).width() <= 568) {
+if($(window).width() <= 768) {
 
 /*Height for cover layer*/		
 	  $('#layer').css('height', $(window).height());
