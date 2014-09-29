@@ -1001,7 +1001,7 @@ select {
   height:100%;
   overflow-x:hidden;
   overflow-y: scroll;
-  display: block;
+  display: none;
   box-shadow: -5px 0px 8px 0px rgba(0, 0, 0, 0.4) inset;
   }
 
@@ -1077,6 +1077,7 @@ select {
 .hidden { display: none; }
 
 
+
 @media screen and (max-width: 568px) {
 
   #main {padding-top:64px;}
@@ -1101,6 +1102,7 @@ select {
   #footer {display:none;}
   #copyright {display:none;}
   #open_mobile_menu {display:inline;}
+  #mobile_menu {display:block;}
 
   #topright form {padding:0; margin: 2.1289% 0;}
   #topright form input {width: 100%; margin: 0.8% 0; height: 32px;}
