@@ -3,7 +3,7 @@
 
 %h2= t('views.opened_tickets')
 %h3= t('views.open')
-%table#tickets{:cellpadding => 0, :cellspacing => 0}
+%table.ticketcenter.tickets{:cellpadding => 0, :cellspacing => 0}
   %tr{:class => "tabletop"}
     %td= t('views.date')
     %td= t('views.subject')
@@ -20,7 +20,7 @@
 
 
 %h3= t('views.closed')
-%table#tickets{:cellpadding => 0, :cellspacing => 0}
+%table.ticketcenter.tickets{:cellpadding => 0, :cellspacing => 0}
   %tr{:class => "tabletop"}
     %td= t('views.date')
     %td= t('views.subject')

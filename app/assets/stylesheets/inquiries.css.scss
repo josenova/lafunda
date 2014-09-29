@@ -64,6 +64,10 @@
   color: #222;
 }
 
+.ui-accordion-header:hover {
+  cursor:pointer;
+}
+
 .accordion p {
   padding: 9px;
 }
@@ -84,11 +88,11 @@
 
 /********************************************************************* TICKET TABLE *******************************************************************/
 
-#tickets {
+.usertickets {
   margin-bottom: 5.573%;
 }
 
-#tickets tr td {
+.tickets tr td {
   padding: 0.813% 2.1289% 0.813% 2.1289%;
   font-size:0.875em;
 }
@@ -101,35 +105,27 @@
   padding: 0.502% 2.1289% !important;
 }
 
-#tickets tr td:nth-child(1) {
-width:13%;
+.usertickets tr td:nth-child(1) {
+width:15%;
 }
 
-#tickets tr td:nth-child(2) {
-  width:38%;
+.usertickets tr td:nth-child(2) {
+  width:45%;
 }
 
-#tickets tr td:nth-child(3) {
-  width:11%;
+
+.usertickets tr td:nth-child(3) {
+  width:27%;
 }
 
-#tickets tr td:nth-child(4) {
-  width:25%;
-  padding-right:0;
-}
-
-#tickets tr td:nth-child(5){
+.usertickets tr td:nth-child(4){
   width:13%;
   text-align:center;
   color:#2b2f2f;
 }
 
-#tickets #none {
+.usertickets #none {
   width:100%;
-}
-
-#tickets .status {
-  font-weight:bold;
 }
 
 tr.odd {
@@ -148,17 +144,32 @@ tr.even {
 }
 
 
-/********************************************************************* TICKET DETAILS *******************************************************************/
+/********************************************************************* TICKET CENTER *******************************************************************/
 
-#ticket_detail {
-  margin-bottom: 3.444%;
+.ticketcenter tr td:nth-child(1) {
+  width:13%;
 }
 
-#ticket_detail td {
-  width:33.33%;
-  padding: 0 2.1289%;
-  font-size:0.875em;
+.ticketcenter tr td:nth-child(2) {
+  width:36%;
 }
+
+
+.ticketcenter tr td:nth-child(3) {
+  width:13%;
+  font-weight: bold;
+}
+
+.ticketcenter tr td:nth-child(4) {
+  width:25%;
+}
+
+.ticketcenter tr td:nth-child(5){
+  width:13%;
+  text-align:center;
+  color:#2b2f2f;
+}
+
 
 /*********************************************************************** ENTRIES ********************************************************************/
 

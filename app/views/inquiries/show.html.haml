@@ -2,17 +2,6 @@
 
 %h3= @inquiry.subject
 
-%table#ticket_detail{:cellpadding => 0, :cellspacing => 0}
-  %tr.tabletop
-    %td= t('views.date')
-    %td= t('views.status')
-    %td= t('views.last_update')
-  %tr
-    %td= @inquiry.created_at.strftime("%d/%m/%Y")
-    %td.status= get_status(@inquiry.status)
-    %td= @inquiry.updated_at.strftime("%d/%m/%Y %H:%M:%S")
-
-
 .entrywrap
   .user
     .author= @inquiry.user.name + " " + @inquiry.user.surname + ":"

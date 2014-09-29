@@ -28,11 +28,10 @@
 
 - if @current_user
   %h2= t('views.opened_tickets')
-  %table#tickets{:cellpadding => 0, :cellspacing => 0}
+  %table.usertickets.tickets{:cellpadding => 0, :cellspacing => 0}
     %tr{:class => "tabletop"}
       %td= t('views.date')
       %td= t('views.subject')
-      %td= t('views.status')
       %td= t('views.last_update')
       %td .
     - if @user_inquiries.exists?
@@ -40,7 +39,6 @@
         %tr{:class => cycle('odd', 'even')}
           %td= ticket.created_at.strftime("%d/%m/%Y")
           %td= link_to ticket.subject, ticket
-          %td.status= get_status(ticket.status)
           %td= ticket.updated_at.strftime("%d/%m/%Y %H:%M:%S")
           %td= link_to 'ver ticket', ticket, :class => "see_ticket"
     - else
