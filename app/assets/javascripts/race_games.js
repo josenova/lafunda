@@ -2,7 +2,7 @@
 $(document).ready(function() {
 		 
 
-if($(window).width() <= 568) {
+if($(window).width() <= 768) {
 
 /*Replace Colchian URL for Mobile*/	  
 		  var url = $("#race_frame").attr('src');

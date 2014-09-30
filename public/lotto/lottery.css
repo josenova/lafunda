@@ -15,7 +15,7 @@ box-sizing: border-box;
 p {
 margin: 0;
 color: #333;
-font-family: calibri;
+font-family: calibri, arial;
 padding: 12px 12px 0;
 }
 
@@ -224,7 +224,7 @@ left: 0;
 #entry #quickPick {
 position: absolute;
 left: 0;
-top: 50px;
+top: 55px;
 font-size: 13px;
 width: 23%;
 text-align:center;
@@ -374,6 +374,7 @@ border: 1px solid rgb(00, 51, 09);
 -webkit-appearance:none;
 -moz-appearance:none;
 text-shadow:1px 1px rgba(0,0,0,0.3);
+border-radius:0;
 }
 
 table.table tbody tr:nth-child(even) {
@@ -404,6 +405,7 @@ height:29px;
 border-radius:none;
 -webkit-appearance:none;
 -moz-appearance:none;
+border-radius:0;
 }
 
 #details .action .cancelOrder {
