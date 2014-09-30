@@ -25,10 +25,10 @@
   overflow: hidden;
   display: block;
   float:right;
-  background:none;
-  border:none;
   padding:0;
   margin-right: 8%;
+  background: #222;
+  border:1px solid #111;
 }
 
 .terms {
@@ -42,7 +42,7 @@
   margin:0;
   padding: 0;
   background: none;
-  border: none;
+  border:1px solid #111;
 }
 
 .terms p {
@@ -52,6 +52,8 @@
   margin:0;
   line-height:30px;
 }
+
+
 
 #user_birthday_1i {
 margin-right:0;
@@ -185,7 +187,7 @@ input#user_pin {
 
 /********************************************** MEDIA QUERIES *****************************************************************/
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 768px) {
 
   #controlpanel a {
     width: 100%;
@@ -219,8 +221,6 @@ input#user_pin {
   #gender input[type="radio"] {
     width: 11%;
     margin: 0 2%;
-    background: #222;
-    border:1px solid #111;
   }
 
   #gender input[type="radio"]:checked {
@@ -252,9 +252,7 @@ input#user_pin {
     font-size: 0.8125em;
   }
 
-  #user_terms_of_service {
-    border:1px solid #111;
-  }
+
 
 
 }
