@@ -1033,6 +1033,10 @@ select {
   border-bottom: 1px solid #444;
 }
 
+#mobile_menu ul li a:active {
+  background:#333;
+}
+
 #open_mobile_menu {
   float: left;
   padding: 5px 8px;
