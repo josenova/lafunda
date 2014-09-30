@@ -1033,7 +1033,7 @@ select {
   border-bottom: 1px solid #444;
 }
 
-#mobile_menu ul li a:active {
+#mobile_menu ul li a:hover {
   background:#333;
 }
 
@@ -1091,7 +1091,7 @@ select {
   #main {padding-top:64px;}
   .wrapper {padding:0; min-width: initial;}
   #miniheader {margin-top:0px !important; background: #030303; padding: 0 3.444%;  height: 64px;}
-  #minilogo { margin: 0 auto; padding: 2.1289% 0 0;}
+  #minilogo { margin: 0 auto; padding: 8px 0 0;}
   #header {display:none;}
   #content {padding: 3.444% 3.444% 0;}
   #content .left {padding:3.444%;}
