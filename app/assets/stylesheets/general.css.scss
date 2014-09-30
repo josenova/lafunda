@@ -794,6 +794,7 @@ select {
   -webkit-appearance:none;
   -moz-appearance:none;
   font-family:calibri, calibriregular, arial;
+  border-radius: 0;
 }
 
 .left input[readonly="readonly"] {
@@ -1034,7 +1035,7 @@ select {
 }
 
 #mobile_menu ul li a:hover {
-  background:#333;
+  background:#222;
 }
 
 #open_mobile_menu {
