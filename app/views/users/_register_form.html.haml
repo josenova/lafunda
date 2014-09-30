@@ -27,8 +27,6 @@
   = f.label :password_confirmation, t('views.confirm_password')
   = f.password_field :password_confirmation, :required => true
 
-
-  %br
   = field_set_tag t('views.personal') do
     = f.label :name, t('views.name')
     = f.text_field :name, :required => true, :maxlength => 35
