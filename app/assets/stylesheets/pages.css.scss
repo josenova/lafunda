@@ -44,8 +44,13 @@
 }
 
 @media screen and (max-width: 768px) {
+
  #cashier_frame {
    height: 400px;
+ }
+
+ #providers li>a {
+  font-size: 11px !important;
  }
 
 }

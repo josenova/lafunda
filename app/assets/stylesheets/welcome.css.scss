@@ -202,7 +202,7 @@
 }
 
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 768px) {
 
   #tabs {border-radius: 3px;}
 
@@ -224,6 +224,11 @@
 
   #lotto_box h5 {
     display:none;
+  }
+
+  #tabs li img {
+    height: 28px;
+    padding-right: 18px;
   }
 
 }
