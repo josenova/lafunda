@@ -26,8 +26,8 @@
       <file leaf-file-name="general.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/general.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.6111112" vertical-offset="17230" max-vertical-offset="19975">
-              <caret line="1025" column="36" selection-start-line="1025" selection-start-column="36" selection-end-line="1025" selection-end-column="36" />
+            <state vertical-scroll-proportion="-5.5" vertical-offset="16159" max-vertical-offset="19975">
+              <caret line="968" column="18" selection-start-line="968" selection-start-column="18" selection-end-line="968" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -36,8 +36,8 @@
       <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12579282" vertical-offset="357" max-vertical-offset="2363">
-              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+            <state vertical-scroll-proportion="1.3837209" vertical-offset="306" max-vertical-offset="2363">
+              <caret line="95" column="54" selection-start-line="95" selection-start-column="54" selection-end-line="95" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -46,18 +46,8 @@
       <file leaf-file-name="_register_form.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/_register_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-31.384615" vertical-offset="0" max-vertical-offset="1496">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inquiries.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/inquiries.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.538462" vertical-offset="4010" max-vertical-offset="4930">
-              <caret line="252" column="31" selection-start-line="252" selection-start-column="31" selection-end-line="252" selection-end-column="31" />
+            <state vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="1547">
+              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -76,8 +66,8 @@
       <file leaf-file-name="users.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/users.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.692308" vertical-offset="3551" max-vertical-offset="4471">
-              <caret line="239" column="21" selection-start-line="239" selection-start-column="21" selection-end-line="239" selection-end-column="21" />
+            <state vertical-scroll-proportion="-13.807693" vertical-offset="542" max-vertical-offset="4539">
+              <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -123,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20140814195544_add_address_to_user.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_copyright.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/cashier.html.erb" />
@@ -136,7 +125,6 @@
         <option value="$PROJECT_DIR$/app/views/race_games/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/sport_games/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/lotteries/_blocked.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/sessions/_sign_in_form.html.haml" />
         <option value="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/sessions/_top_sign_in_form.html.erb" />
@@ -165,15 +153,17 @@
         <option value="$PROJECT_DIR$/app/views/inquiries/center.html.haml" />
         <option value="$PROJECT_DIR$/app/views/inquiries/show.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/users.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/lotteries.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/inquiries.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/users/_register_form.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/general.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/pages.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/welcome.css.scss" />
         <option value="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/welcome/_homebox.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20141001135629_add_referral_to_user.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/_register_form.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/general.css.scss" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/users.css.scss" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
     </option>
   </component>
@@ -374,20 +364,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/race_games/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sport_games/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/lotteries/_blocked.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.036956523" vertical-offset="0" max-vertical-offset="920">
@@ -680,30 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/users.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.692308" vertical-offset="3551" max-vertical-offset="4471">
-          <caret line="239" column="21" selection-start-line="239" selection-start-column="21" selection-end-line="239" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/_register_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.384615" vertical-offset="0" max-vertical-offset="1496">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/general.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6111112" vertical-offset="17230" max-vertical-offset="19975">
-          <caret line="1025" column="36" selection-start-line="1025" selection-start-column="36" selection-end-line="1025" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/lotteries.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="850">
@@ -744,10 +696,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140814195544_add_address_to_user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.036836404" vertical-offset="0" max-vertical-offset="923">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20141001135629_add_referral_to_user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.089852005" vertical-offset="0" max-vertical-offset="946">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/general.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5" vertical-offset="16159" max-vertical-offset="19975">
+          <caret line="968" column="18" selection-start-line="968" selection-start-column="18" selection-end-line="968" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_register_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="1547">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/users.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.807693" vertical-offset="542" max-vertical-offset="4539">
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12579282" vertical-offset="357" max-vertical-offset="2363">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        <state vertical-scroll-proportion="1.3837209" vertical-offset="306" max-vertical-offset="2363">
+          <caret line="95" column="54" selection-start-line="95" selection-start-column="54" selection-end-line="95" selection-end-column="54" />
           <folding />
         </state>
       </provider>

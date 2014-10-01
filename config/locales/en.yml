@@ -89,6 +89,8 @@ en:
       promotions: Promotions
       how_to_play: "How to play"
       lottery_results: "Lottery Results"
+      referred_by: "Referred by"	  
+      reffered_text: "Username or email of your referral."	 
     flash:
       cannot_log_in: "Cannot log in at this time. Please contact support."
       confirm_account: "Please confirm your account."

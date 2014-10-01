@@ -105,6 +105,8 @@ es:
       promotions: Promociones
       how_to_play: "Cómo jugar"
       lottery_results: "Resultados Lotería"
+      referred_by: "Referido por"
+      reffered_text: "Usuario o email de quien te refirió a la página."	  
     flash:
       cannot_log_in: "No puedes ingresar en estos momentos. Favor contacta servicio al cliente."
       confirm_account: "Debes confirmar tu cuenta."

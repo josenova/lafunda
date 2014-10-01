@@ -23,9 +23,12 @@
         %li#number.invalid Un número
 
 
-
   = f.label :password_confirmation, t('views.confirm_password')
   = f.password_field :password_confirmation, :required => true
+
+  = f.label :referral, t('views.referred_by')
+  .tip_wrapper{data_tip: t('views.reffered_text')}
+    = f.text_field :referral
 
   = field_set_tag t('views.personal') do
     = f.label :name, t('views.name')

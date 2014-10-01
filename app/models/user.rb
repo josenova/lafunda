@@ -106,7 +106,7 @@ class User < ActiveRecord::Base
             <tem:state>#{self.state}</tem:state>
             <tem:country>DO</tem:country>
             <tem:zipCode></tem:zipCode>
-            <tem:referral></tem:referral>
+            <tem:referral>#{self.referral}</tem:referral>
             <tem:defaultLanguage>#{$default_language}</tem:defaultLanguage>
             <tem:externalCode></tem:externalCode>
             <tem:secondaryExternalCode></tem:secondaryExternalCode>
