@@ -54,7 +54,8 @@ en:
       state: State
       account: Account
       new_user: "New user?"
-      register: Register now.
+      register: Register
+      register_now: Register now.
       have_an_account?: "Already have an account?"
       click_to_sign_in: "Click here to sign in."
       sign_in: "Sign In"

@@ -78,6 +78,7 @@ es:
       account: Cuenta
       new_user: "¿No tienes usuario?"
       register: Regístrate
+      register_now: Regístrate aquí.
       have_an_account?: "¿Ya tienes una cuenta?"
       click_to_sign_in: "Clic aquí para iniciar sesión."
       help: Ayuda
