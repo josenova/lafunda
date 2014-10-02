@@ -10,6 +10,7 @@ class UsersController < ApplicationController
   end
 
   def create
+    @province = params[:user][:state]
     @user = User.new(user_params)
     respond_to do |format|
       if @user.save
@@ -48,7 +49,7 @@ class UsersController < ApplicationController
   private
   # Never trust parameters from the scary internet, only allow the white list through.
   def user_params
-    params.require(:user).permit(:username, :password, :password_confirmation, :email, :email_confirmation, :name, :surname, :identification, :gender, :birthday, :cellphone, :pin, :country, :state, :city, :address, :terms_of_service)
+    params.require(:user).permit(:username, :password, :password_confirmation, :email, :email_confirmation, :name, :surname, :identification, :gender, :birthday, :cellphone, :pin, :country, :state, :city, :address, :referral, :terms_of_service)
   end
 
 end

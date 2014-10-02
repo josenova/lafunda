@@ -47,12 +47,14 @@ class User < ActiveRecord::Base
 
   validates :birthday, presence: true
 
-  validates :cellphone, presence: true, uniqueness: true, numericality: { only_integer: true }, length: { minimum: 10, maximum: 11}
+  validates :cellphone, presence: true, uniqueness: true, numericality: { only_integer: true }, length: { minimum: 10, maximum: 11 }
 
   validates :country, presence: true
-  validates :state, presence: true, length: { maximum: 40}
-  validates :city, presence: true, length: { maximum: 40}
-  validates :address, presence: true, length: { maximum: 120}
+  validates :state, presence: true, length: { maximum: 40 }
+  validates :city, presence: true, length: { maximum: 40 }
+  validates :address, presence: true, length: { maximum: 120 }
+
+  validates :referral, length: { maximum: 50 }
 
   validates :pin, presence: true, length: { is: 4 }, numericality: { only_integer: true, greater_than: -1 }
 

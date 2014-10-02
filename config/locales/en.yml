@@ -171,7 +171,9 @@ en:
                 accepted: "must be agreed upon."
               confirmation_token:
                 blank: "can't be blank."
-                invalid: "invalid."				
+                invalid: "invalid."	
+              referral:
+                too_long: "must be a valid username or email."			  
     date:
       month_names: [~, January, February, March, April, May, June, July, August, September, October, November, December]
 

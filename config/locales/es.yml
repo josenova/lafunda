@@ -190,6 +190,8 @@ es:
               confirmation_token:
                 blank: "inválido."
                 invalid: "inválido."
+              referral:
+                too_long: "- tu referido debe ser un email o usuario."	
     date:
       month_names: [~, Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre]
       

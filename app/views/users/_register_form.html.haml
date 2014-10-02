@@ -62,7 +62,7 @@
 
     = f.label :state, t('views.state')
     .tip_wrapper
-      = f.select(:state, options_for_select(provincias))
+      = f.select(:state, options_for_select(provincias, @province))
 
     = f.label :city, t('views.city')
     = f.text_field :city, :required => true
