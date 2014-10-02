@@ -53,8 +53,13 @@
   font-size: 11px !important;
  }
 
+
+
+}
+
+@media screen and (max-width: 1024px) {
+
   #providers li > img {
     display:none;
   }
-
 }
