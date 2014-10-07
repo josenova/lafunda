@@ -110,13 +110,7 @@ module SessionsHelper
         if @response[:get_player_personal_information_with_player_id_response][:get_player_personal_information_with_player_id_result][:error_code] != '0'
           logger.warn @response
         else
-          @current_user_bonus_funds ||= @response[:get_player_personal_information_with_player_id_response][:get_player_personal_information_with_player_id_result][:current_free_play_balance]
-          if @current_user_bonus_funds.nil?
-            @current_user_bonus_funds = sprintf( "%0.02f", 0)
-          else
-            @current_user_bonus_funds = sprintf( "%0.02f", @current_user_bonus_funds)
-          end
-
+          @current_user_bonus_funds ||= sprintf( "%0.02f", @response[:get_player_personal_information_with_player_id_response][:get_player_personal_information_with_player_id_result][:player_info][:current_free_play_balance])
         end
       else
         logger.warn @response if @response
