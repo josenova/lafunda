@@ -95,22 +95,22 @@ module SessionsHelper
       <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
          <soapenv:Header/>
          <soapenv:Body>
-            <tem:GetPlayerPersonalInformationWithPlayerId>
+            <tem:GetPlayerPersonalInformation>
                <tem:sourceId>#{$source_id}</tem:sourceId>
                <tem:sourcePassword>#{$source_password}</tem:sourcePassword>
-               <tem:playerId>#{@current_user.username}</tem:playerId>
-            </tem:GetPlayerPersonalInformationWithPlayerId>
+               <tem:token>#{session[:user_token]}</tem:token>
+            </tem:GetPlayerPersonalInformation>
          </soapenv:Body>
       </soapenv:Envelope>
       )
-      @response = $client.call(:get_player_personal_information_with_player_id, xml: @request)
+      @response = $client.call(:get_player_personal_information, xml: @request)
 
       if @response.success?
         @response = @response.to_hash
-        if @response[:get_player_personal_information_with_player_id_response][:get_player_personal_information_with_player_id_result][:error_code] != '0'
+        if @response[:get_player_personal_information_response][:get_player_personal_information_result][:error_code] != '0'
           logger.warn @response
         else
-          @current_user_bonus_funds ||= sprintf( "%0.02f", @response[:get_player_personal_information_with_player_id_response][:get_player_personal_information_with_player_id_result][:player_info][:current_free_play_balance])
+          @current_user_bonus_funds ||= sprintf( "%0.02f", @response[:get_player_personal_information_response][:get_player_personal_information_result][:player_info][:current_free_play_balance])
           logger.warn @response
         end
       else
