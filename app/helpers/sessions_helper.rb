@@ -90,27 +90,29 @@ module SessionsHelper
 
   def get_player_info
     if @current_user
+      @bonus_client = Savon.client(wsdl: 'http://wagering.lafunda.com.do/BOSSWebServices/SportsBettingService/SportsBettingService.asmx?wsdl')
 
       @request = %Q(
-      <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
-         <soapenv:Header/>
-         <soapenv:Body>
-            <tem:GetPlayerPersonalInformation>
-               <tem:sourceId>#{$source_id}</tem:sourceId>
-               <tem:sourcePassword>#{$source_password}</tem:sourcePassword>
-               <tem:token>#{session[:user_token]}</tem:token>
-            </tem:GetPlayerPersonalInformation>
-         </soapenv:Body>
+      <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:spor="SportsBettingService">
+        <soapenv:Header/>
+        <soapenv:Body>
+          <spor:GetPlayerInfo>
+          <spor:sourceID>#{$source_id}</spor:sourceID>
+          <spor:passwordID>#{$source_password}</spor:passwordID>
+          <spor:token>#{session[:user_token]}</spor:token>
+          <spor:withCurrencyOfPlayer>false</spor:withCurrencyOfPlayer>
+        </spor:GetPlayerInfo>
+      </soapenv:Body>
       </soapenv:Envelope>
       )
-      @response = $client.call(:get_player_personal_information, xml: @request)
+      @response = @bonus_client.call(:get_player_info, xml: @request)
 
       if @response.success?
         @response = @response.to_hash
-        if @response[:get_player_personal_information_response][:get_player_personal_information_result][:error_code] != '0'
+        if @response[:get_player_info_response][:get_player_info_result][:error_code] != '0'
           logger.warn @response
         else
-          @current_user_bonus_funds ||= sprintf( "%0.02f", @response[:get_player_personal_information_response][:get_player_personal_information_result][:player_info][:current_free_play_balance])
+          @current_user_bonus_funds ||= sprintf( "%0.02f", @response[:get_player_info_response][:get_player_info_result][:player_info][:current_free_play_balance])
           logger.warn @response
         end
       else
