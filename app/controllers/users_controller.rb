@@ -3,6 +3,7 @@ class UsersController < ApplicationController
   before_action :confirm_logged_in, only: [:show, :edit, :update]
   before_action :already_logged_in, only: [:new, :create]
   before_action :get_funds, only: [:show, :edit]
+  before_action :get_player_info, only: [:show, :edit]
 
 
   def new

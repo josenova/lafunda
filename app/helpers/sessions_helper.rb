@@ -49,6 +49,10 @@ module SessionsHelper
     @admin_status = true if @current_user && @current_user.admin
   end
 
+  def finance_status
+    @finance_status = true if @current_user && @current_user.username == 'josenova'
+  end
+
   def current_url
     @current_url = request.original_url
   end
@@ -76,6 +80,43 @@ module SessionsHelper
           logger.warn @response
         else
           @current_user_funds ||= sprintf( "%0.02f", @response[:get_funds_response][:get_funds_result][:result])
+        end
+      else
+        logger.warn @response if @response
+      end
+    end
+  end
+
+
+  def get_player_info
+    if @current_user
+
+      @request = %Q(
+      <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+         <soapenv:Header/>
+         <soapenv:Body>
+            <tem:GetPlayerPersonalInformationWithPlayerId>
+               <tem:sourceId>#{$source_id}</tem:sourceId>
+               <tem:sourcePassword>#{$source_password}</tem:sourcePassword>
+               <tem:playerId>#{@current_user.username}</tem:playerId>
+            </tem:GetPlayerPersonalInformationWithPlayerId>
+         </soapenv:Body>
+      </soapenv:Envelope>
+      )
+      @response = $client.call(:get_player_personal_information_with_player_id, xml: @request)
+
+      if @response.success?
+        @response = @response.to_hash
+        if @response[:get_player_personal_information_with_player_id_response][:get_player_personal_information_with_player_id_result][:error_code] != '0'
+          logger.warn @response
+        else
+          @current_user_bonus_funds ||= @response[:get_player_personal_information_with_player_id_response][:get_player_personal_information_with_player_id_result][:current_free_play_balance]
+          if @current_user_bonus_funds.nil?
+            @current_user_bonus_funds = sprintf( "%0.02f", 0)
+          else
+            @current_user_bonus_funds = sprintf( "%0.02f", @current_user_bonus_funds)
+          end
+
         end
       else
         logger.warn @response if @response

@@ -43,6 +43,20 @@
   height: 615px;
 }
 
+.pages form {
+  width: 100%;
+  overflow: hidden;
+  padding: 5px 0;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.pages form input {
+  float: left;
+  width: 25%;
+  margin: 0;
+}
+
+
 @media screen and (max-width: 768px) {
 
  #cashier_frame {

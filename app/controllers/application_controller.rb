@@ -22,6 +22,7 @@ class ApplicationController < ActionController::Base
   before_action :set_locale
   before_action :current_user
   before_action :admin_status
+  before_action :finance_status
   before_action :current_url
 
   extend Savon::Model

@@ -1,6 +1,8 @@
 <div id="header">
   <% if admin_status %>
       <div id="admin_panel"><%= link_to ticket_center_path, id: 'ticket_path' do %>Ticket Center<%= inquiry_alert %><% end %></div>
+  <% elsif finance_status %>
+      <div id="admin_panel"><%= link_to bonus_center_path, id: 'ticket_path' do %>Bonus Center<% end %></div>
   <% end %>
   <!--<div id="langselect"><%= link_to_unless I18n.locale == :es, "Español", locale: :es %> | <%= link_to_unless I18n.locale == :en, "English", locale: :en %></div>-->
   <div id="signup"><%= link_to image_tag("registrate.png"), register_path unless @current_user %></div>
