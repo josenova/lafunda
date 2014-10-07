@@ -90,6 +90,8 @@ module SessionsHelper
 
   def get_player_info
     if @current_user
+      @current_user_bonus_funds = sprintf( "%0.02f",0)
+=begin
       @bonus_client = Savon.client(wsdl: 'http://wagering.lafunda.com.do/BOSSWebServices/SportsBettingService/SportsBettingService.asmx?wsdl')
 
       @request = %Q(
@@ -118,6 +120,7 @@ module SessionsHelper
       else
         logger.warn @response if @response
       end
+=end
     end
   end
 
