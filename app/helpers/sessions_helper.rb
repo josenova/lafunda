@@ -90,9 +90,7 @@ module SessionsHelper
 
   def get_player_info
     if @current_user
-      @current_user_bonus_funds = sprintf( "%0.02f",0)
-=begin
-      @bonus_client = Savon.client(wsdl: 'http://wagering.lafunda.com.do/BOSSWebServices/SportsBettingService/SportsBettingService.asmx?wsdl')
+      @bonus_client = Savon.client(wsdl: 'http://services.colchian.eu/BOSS_DEMO/BOSSWebServices/SportsBettingService/SportsBettingService.asmx?wsdl')
 
       @request = %Q(
       <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:spor="SportsBettingService">
@@ -114,13 +112,12 @@ module SessionsHelper
         if @response[:get_player_info_response][:get_player_info_result][:error_code] != '0'
           logger.warn @response
         else
-          @current_user_bonus_funds ||= sprintf( "%0.02f", @response[:get_player_info_response][:get_player_info_result][:player_info][:current_free_play_balance])
+          @current_user_bonus_funds ||= sprintf( "%0.02f", @response[:get_player_info_response][:get_player_info_result][:result][:pending_freeplay])
           logger.warn @response
         end
       else
         logger.warn @response if @response
       end
-=end
     end
   end
 
