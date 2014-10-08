@@ -89,7 +89,7 @@ module SessionsHelper
 
 
   def get_player_info
-=begin
+
     if @current_user
       @bonus_client = Savon.client(wsdl: 'http://wagering.lafunda.com.do/BOSSWebServices/SportsBettingService/SportsBettingService.asmx?wsdl')
 
@@ -101,7 +101,7 @@ module SessionsHelper
           <spor:sourceID>#{$source_id}</spor:sourceID>
           <spor:passwordID>#{$source_password}</spor:passwordID>
           <spor:token>#{session[:user_token]}</spor:token>
-          <spor:withCurrencyOfPlayer>false</spor:withCurrencyOfPlayer>
+          <spor:withCurrencyOfPlayer>true</spor:withCurrencyOfPlayer>
         </spor:GetPlayerInfo>
       </soapenv:Body>
       </soapenv:Envelope>
@@ -120,7 +120,6 @@ module SessionsHelper
         logger.warn @response if @response
       end
     end
-=end
   end
 
 
