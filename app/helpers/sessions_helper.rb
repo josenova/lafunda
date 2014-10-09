@@ -91,7 +91,11 @@ module SessionsHelper
   def get_player_info
 
     if @current_user
-      @bonus_client = Savon.client(wsdl: 'http://wagering.lafunda.com.do/BOSSWebServices/SportsBettingService/SportsBettingService.asmx?wsdl')
+      if Rails.env.production?
+        @bonus_client = Savon.client(wsdl: 'http://wagering.lafunda.com.do/BOSSWebServices/SportsBettingService/SportsBettingService.asmx?wsdl')
+      else
+        @bonus_client = Savon.client(wsdl: 'http://services.colchian.eu/BOSS_DEMO/BOSSWebServices/SportsBettingService/SportsBettingService.asmx?wsdl')
+      end
 
       @request = %Q(
       <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:spor="SportsBettingService">
