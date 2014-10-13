@@ -1112,6 +1112,7 @@ select {
   #copyright {display:none;}
   #open_mobile_menu {display:inline;}
   #mobile_menu {display:block;}
+  .double_item li {float:left !important; width:50%; text-align:center;}
 
   #topright form {padding:0; margin: 2.1289% 0;}
   #topright form input {width: 100%; margin: 0.8% 0; height: 32px;}
