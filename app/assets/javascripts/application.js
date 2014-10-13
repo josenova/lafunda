@@ -39,7 +39,7 @@ if($(window).width() <= 1024) {
 	  $('#main').css('width', $('#main').width());
 	  $('#all').toggleClass('open');
 	  $('#layer').toggleClass('hidden');
-	  $('#main').bind('touchmove', function(e){e.preventDefault()});
+	  $('#all').bind('touchmove', function(e){e.preventDefault()});
     });
 
 /*Close hamburger menu function*/		
@@ -47,7 +47,7 @@ if($(window).width() <= 1024) {
 	  $('#all').toggleClass('open');
 	  setTimeout( "$('#main').css('width', 'auto');",200 );
 	  $('#layer').toggleClass('hidden');
-	  $('#main').unbind('touchmove');
+	  $('#all').unbind('touchmove');
 	 
 	});
 
