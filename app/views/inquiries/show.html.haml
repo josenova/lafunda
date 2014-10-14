@@ -19,7 +19,7 @@
 
 = render "entries/new_form"
 
-- if @inquiry.status
+- if @inquiry.status && @admin_status
   = link_to 'Cerrar Caso', close_ticket_path(:inquiry_id => @inquiry.id), :class => 'button'
 
 - content_for :modules do
