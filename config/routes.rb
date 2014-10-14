@@ -18,6 +18,7 @@ Lafunda::Application.routes.draw do
   get "promotions" => 'pages#promotions'
   get "bonus_center" => 'pages#bonus_center'
   match 'bonus_center_edit', to: 'pages#bonus_center_edit', via: [:put, :post]
+  match 'close_ticket', to:'inquiries#close', via: [:get]
 
   #Users and Sessions
   get "register" => 'users#new'

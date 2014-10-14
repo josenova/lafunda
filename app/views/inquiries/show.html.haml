@@ -18,3 +18,9 @@
 
 
 = render "entries/new_form"
+
+- if @inquiry.status
+  = link_to 'Cerrar Caso', close_ticket_path(:inquiry_id => @inquiry.id), :class => 'button'
+
+- content_for :modules do
+  = render 'entries/history'

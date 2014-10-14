@@ -1,9 +1,9 @@
 class InquiriesController < ApplicationController
 
-  before_action :confirm_logged_in, only: [:new, :create, :show, :center]
+  before_action :confirm_logged_in, only: [:new, :create, :show, :center, :close]
   before_action :set_inquiries, only: [:index]
   before_action :set_inquiry, only: [:show]
-  before_action :confirm_admin, only: [:center]
+  before_action :confirm_admin, only: [:center, :close]
 
   def new
     @inquiry = Inquiry.new
@@ -35,6 +35,13 @@ class InquiriesController < ApplicationController
     @users = User.all
   end
 
+  def close
+    @ticket = Inquiry.find(params[:inquiry_id])
+    @ticket.status = false
+    @ticket.save
+    redirect_to @ticket
+  end
+
 
 
   private
@@ -43,6 +50,8 @@ class InquiriesController < ApplicationController
   def set_inquiry
     if @admin_status
       @inquiry = Inquiry.find(params[:id])
+      @inquiry_user = @inquiry.user_id
+      @history = User.find(@inquiry_user).inquiries
     else
       @inquiry = @current_user.inquiries.find(params[:id])
     end

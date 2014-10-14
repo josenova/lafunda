@@ -170,6 +170,28 @@ tr.even {
   color:#2b2f2f;
 }
 
+/*********************************************************************** HISTORY ********************************************************************/
+
+.right #history {
+  padding:5.573%;
+  overflow:hidden;
+  background-image: url(asset-path('blacks/black60.png'));
+  background-repeat: repeat;
+}
+
+#history li {
+  padding:0 5px;
+}
+
+#history a {
+  text-decoration: none;
+  width: 100%;
+  display: block;
+}
+
+#history li.odd {
+  background:rgba(255,255,255,0.08)
+}
 
 /*********************************************************************** ENTRIES ********************************************************************/
 

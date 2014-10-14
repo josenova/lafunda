@@ -1,0 +1,8 @@
+.module
+  %h5 Historial:
+  #history
+    - if @history.exists?
+      %ul
+        - @history.order("created_at desc").each do |ticket|
+          %li{:class => cycle('odd', 'even')}=link_to ticket.subject, ticket
+
