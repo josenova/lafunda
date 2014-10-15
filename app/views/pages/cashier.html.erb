@@ -1,7 +1,7 @@
 <h1><%= t('views.cashier')%></h1>
 
 <iframe id="cashier_frame" src="https://cashier.lafunda.com.do/Pages/frmLogin.aspx?CustPIN=<%= @current_user.username %>&Password=<%= session[:user_token] %>&Language=ES" width="100%"></iframe>
-<p style="text-align: center; font-weight: bold">Las aprobaciones de depósitos y retiros pueden tomar hasta 48 horas laborables.</p><%= link_to 'Mas detalles aquí', support_path(:anchor => 'faq'), :class => 'button', :style => 'margin:0 auto;float: none;width: 145px;' %>
+<p style="text-align: center; font-weight: bold">Las aprobaciones de depósitos y retiros pueden tomar hasta 48 horas laborables.</p><%= link_to 'Más detalles aquí', support_path(:anchor => 'faq'), :class => 'button', :style => 'margin:0 auto;float: none;width: 160px; text-align:center;' %>
 
 
 <% content_for :modules do %>

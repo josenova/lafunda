@@ -9,8 +9,8 @@ $(document).ready(function() {
 	
  /******************************** GET LOTTO WINNING NUMBERS *************************************************/
     
-
-	$.getJSON('https://lottery.lafunda.com.do/Lottery/WinningNumbers?key=664cf843-8904-4212-9503-d4733651f519&gobackdays=2&grouped=true&language=es-DO').done(function(data) {
+	    
+$.getJSON('https://lottery.lafunda.com.do/Lottery/WinningNumbers?key=664cf843-8904-4212-9503-d4733651f519&gobackdays=2&grouped=true&language=es-DO').done(function(data) {
 		
 		var recent_date = new Date(data[0].ClosesOn);
 		var date_before = new Date();
@@ -63,5 +63,3 @@ $(document).ready(function() {
 	})/*.error(function(xhr, status, error) {  alert(xhr.status); });  //End getJSON
 */
 });// END DOCUMENT READY
-
-
