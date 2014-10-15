@@ -37,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/pages/cashier.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.08994709" vertical-offset="0" max-vertical-offset="567">
-              <caret line="3" column="264" selection-start-line="3" selection-start-column="264" selection-end-line="3" selection-end-column="264" />
+              <caret line="3" column="263" selection-start-line="3" selection-start-column="263" selection-end-line="3" selection-end-column="263" />
               <folding>
                 <element signature="e#232#277#0#HTML" expanded="true" />
               </folding>
@@ -737,7 +737,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/pages/cashier.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08994709" vertical-offset="0" max-vertical-offset="567">
-          <caret line="3" column="264" selection-start-line="3" selection-start-column="264" selection-end-line="3" selection-end-column="264" />
+          <caret line="3" column="263" selection-start-line="3" selection-start-column="263" selection-end-line="3" selection-end-column="263" />
           <folding>
             <element signature="e#232#277#0#HTML" expanded="true" />
           </folding>
