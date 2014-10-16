@@ -1,3 +1,21 @@
 // Place all the styles related to the casino controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.casino_games .left {
+
+  width:100%;
+  padding: 0 !important;
+}
+
+#casino_frame {
+  min-height:600px;
+}
+
+
+@media screen and (max-width: 568px) {
+  #casino_frame {
+    height: 568px;
+  }
+
+}
