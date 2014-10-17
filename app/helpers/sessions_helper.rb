@@ -50,7 +50,7 @@ module SessionsHelper
   end
 
   def finance_status
-    @finance_status = true if @current_user && @current_user.username == 'fdg22' || 'hfernandez'
+    @finance_status = true if @current_user && @current_user.username == 'fdg22'
   end
 
   def current_url
