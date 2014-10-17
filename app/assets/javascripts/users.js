@@ -44,7 +44,18 @@ $(document).ready(function() {
 	 $('#user_email_confirmation').bind("cut copy paste",function(e) {
 	   e.preventDefault();
 	 });
+	 
+ /******************************* BONUS PROGRESS BAR ******************************************/		 
 			 
+	var percent = $(".bar_liquid").attr('percent');		 
+	$('.bar_liquid').css("width", percent + "%");
+	if (percent == 100) {
+	  $('.bar_liquid').css({
+   			"background" : "#dfab3e",
+  			 "border-radius" : "5px"
+	  });
+	  $('span.meter_amount').css("color", "#dfab3e");
+	}
 
 });// END DOCUMENT READY
 
