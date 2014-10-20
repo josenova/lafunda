@@ -118,7 +118,6 @@ module SessionsHelper
           logger.warn @response
         else
           @current_user_bonus_funds ||= sprintf( "%0.02f", @response[:get_player_info_response][:get_player_info_result][:result][:current_free_play_balance])
-          logger.warn @response
         end
       else
         logger.warn @response if @response
