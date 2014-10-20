@@ -576,19 +576,19 @@ font-size:11px;
 }
 
 #entry #boxed {
-	margin-top: -14px;
-	width: 33%;
-	margin-right: 0;
+	width: 100%;
+margin: 15px 0 0;
 }
 
 #entry #straight {
-	width: 32%;
-	margin-right: 2%;
+	width: 100%;
+margin-right: 0%;
+margin-top: 15px;
 }
 
 #entry #number {
-	width: 31%;
-	margin-right: 2%;
+	width: 100%;
+	margin-right: 0;
 }
 
 #entry #quickPick {
@@ -620,11 +620,11 @@ margin-left:0;
 }
 
 #entry #straight input#straightAmount {
-	background:none;
+	width:80%;
 }
 
 #entry #boxed input#boxedAmount {
-  background:none;
+  width:80%;
 }
 
 #custFavorites {
