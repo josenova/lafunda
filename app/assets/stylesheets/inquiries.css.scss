@@ -276,7 +276,12 @@ tr.even {
   #inquiry { border-top: 1px solid #dbdbdb; width:100% !important; border-left:0px; padding:2.1289% 0;}
   #phone {width:100% !important; padding: 2.1289% 0;}
   #phone li {float:left; padding-bottom: 3.444%; padding-left:5.573%;}
-  #chat {display:none !important;}
+
+  #chat {
+    width: 100%;
+    border: 0px;
+    padding-bottom: 15px;
+  }
 
   #tickets tr td:nth-child(1) {
     width:22%;
