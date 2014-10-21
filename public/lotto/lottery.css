@@ -644,6 +644,10 @@ height:auto;
 height:60px;	
 }
 
+#entry #number input#numbers {
+width:80% !important;	
+}
+
 
 }
 
