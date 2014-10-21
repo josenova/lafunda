@@ -620,11 +620,11 @@ margin-left:0;
 }
 
 #entry #straight input#straightAmount {
-	width:80%;
+	width:70%;
 }
 
 #entry #boxed input#boxedAmount {
-  width:80%;
+  width:70%;
 }
 
 #custFavorites {
@@ -645,7 +645,7 @@ height:60px;
 }
 
 #entry #number input#numbers {
-width:80% !important;	
+width:70% !important;	
 }
 
 
