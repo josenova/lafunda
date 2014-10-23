@@ -48,7 +48,7 @@ $.getJSON('https://lottery.lafunda.com.do/Lottery/WinningNumbers?key=664cf843-89
 		}
 		
 		
-		if(!Modernizr.csstransitions) { // Test if CSS transitions are supported
+		/*if(!Modernizr.csstransitions) { // Test if CSS transitions are supported
 			function slideLeft() {
 				$lotto_info.animate({
 					marginLeft: "-6060px"
@@ -58,7 +58,7 @@ $.getJSON('https://lottery.lafunda.com.do/Lottery/WinningNumbers?key=664cf843-89
 				});
 			}    
 			 slideLeft();  
-        } 
+        } */
 
 	})/*.error(function(xhr, status, error) {  alert(xhr.status); });  //End getJSON
 */

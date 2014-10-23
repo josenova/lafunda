@@ -74,6 +74,7 @@ top: 10px;
 	font-family:@Arial Unicode MS;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	display:none;
 }
 
 .flashDiv
