@@ -23,6 +23,7 @@
 es:
     views:
       categories: Categorías
+      games: Juegos 
       home: Inicio
       live_casino: "Casino en Vivo"
       sportsbook: Deportes

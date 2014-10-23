@@ -23,6 +23,7 @@
 en:
     views:
       user: User
+      games: Games
       username: Username
       live_casino: "Live Casino"
       password: Password
