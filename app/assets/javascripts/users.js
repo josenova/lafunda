@@ -47,8 +47,10 @@ $(document).ready(function() {
 	 
  /******************************* BONUS PROGRESS BAR ******************************************/		 
 			 
-	var percent = $(".bar_liquid").attr('percent');		 
-	$('.bar_liquid').css("width", percent + "%");
+	var percent = $(".bar_liquid").attr('percent');	
+	if (percent > 5) {	 
+		$('.bar_liquid').css("width", percent + "%");
+	}
 	if (percent == 100) {
 	  $('.bar_liquid').css({
    			"background" : "#dfab3e",
