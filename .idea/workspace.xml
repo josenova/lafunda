@@ -108,8 +108,8 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/casino_games/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.094339624" vertical-offset="0" max-vertical-offset="901">
-              <caret line="5" column="100" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="100" />
+            <state vertical-scroll-proportion="0.1509434" vertical-offset="0" max-vertical-offset="901">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -166,7 +166,6 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_copyright.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/cashier.html.erb" />
         <option value="$PROJECT_DIR$/app/views/inquiries/_faq.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/casino_games/index.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20141017124343_add_default_to_bonus_status.rb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/users.css.scss" />
@@ -176,6 +175,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/inquiries.css.scss" />
         <option value="$PROJECT_DIR$/app/views/pages/promotions.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/casino_games.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/casino_games/index.html.erb" />
       </list>
     </option>
   </component>
@@ -792,8 +792,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/casino_games/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.094339624" vertical-offset="0" max-vertical-offset="901">
-          <caret line="5" column="100" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="100" />
+        <state vertical-scroll-proportion="0.1509434" vertical-offset="0" max-vertical-offset="901">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
