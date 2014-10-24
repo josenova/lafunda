@@ -446,12 +446,11 @@ body {
 
 #mainmenu #promotions {
   float:right;
-  margin-right: 34px;
 }
 
 #mainmenu #promotions a {
   background-image: url(asset-path('icons/promotions_top.png'));
-  color:#dfab3e;
+  color:#efbc4f;
 }
 #mainmenu .current#promotions a {
   background-image: url(asset-path('icons/promotions_top_active.png')) !important;
@@ -463,7 +462,7 @@ body {
 
 #mainmenu #instructions a {
   background-image: url(asset-path('icons/instructions_top.png'));
-  color:#dfab3e;
+  color:#efbc4f;
 }
 #mainmenu .current#instructions a {
   background-image: url(asset-path('icons/instructions_top_active.png')) !important;
