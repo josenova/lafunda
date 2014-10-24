@@ -20,11 +20,13 @@
         <li><%= link_to sportsbook_path do %><%= image_tag "icons/sportsbook.png" %><%= t('views.sportsbook') %><% end %></li>
         <li><%= link_to racebook_path do %><%= image_tag "icons/racebook.png" %><%= t('views.racebook') %><% end %></li>
         <li><%= link_to lottery_path do %><%= image_tag "icons/lottery.png" %><%= t('views.lottery') %><% end %></li>
-        <li><%= link_to '#' do %><%= image_tag "icons/casino.png" %><%= t('views.casino') %> <span>Pronto</span><% end %></li>
-        <li><%= link_to '#' do %><%= image_tag "icons/live_casino.png" %><%= t('views.live_casino') %> <span>Pronto</span><% end %></li>
-        <li><%= link_to '#' do %><%= image_tag "icons/poker.png" %><%= t('views.poker') %> <span>Pronto</span><% end %></li>
+        <li><%= link_to casino_path do %><%= image_tag "icons/casino.png" %><%= t('views.casino') %><% end %></li>
       </ul>
-      <!---<%= link_to image_tag("registrate.png"), register_path %>--->
+
+      <div>
+      <%= link_to image_tag("bg/siguenos1.png"), 'http://www.facebook.com/lafundard', :target => "_blank", :style => "margin-bottom:2.12%;float:left; width:30%;" %>
+      <%= link_to image_tag("bg/siguenos2.png"), 'http://www.twitter.com/lafundard', :target => "_blank", :style => "margin-bottom:2.12%;float:left; width:70%;" %>
+      </div>
       <%= link_to image_tag("ayuda.png"), support_path, :style => "text-align:center" %>
     </div> <!--- End Right --->
 

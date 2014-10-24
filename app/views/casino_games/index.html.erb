@@ -1,8 +1,11 @@
 
 
 <% if Rails.env.production? %>
-    <iframe id="casino_frame" src="https://wagering.lafunda.com.do/BOSSWagering/Casino/InternetGaming/?SiteId=LaFunda<%= '&stoken=' + session[:user_token] if @current_user %>" width="100%" seamless="seamless"></iframe>
+    <% if @current_user %>
+       <iframe id="casino_frame" src="https://wagering.lafunda.com.do/BOSSWagering/Casino/InternetGaming/?SiteId=LaFunda<%= '&stoken=' + session[:user_token] %>" width="100%" seamless="seamless"></iframe>
+    <% else %>
+       <iframe id="casino_frame" src="https://wagering.lafunda.com.do/BOSSWagering/Casino/InternetGaming/?siteid=LaFunda&txtcode=PLAYFORFUN&txtpassword=" width="100%" seamless="seamless"></iframe>
+    <% end %>
 <% else %>
     <iframe id="casino_frame" src="http://www.colchian.eu/BOSS_DEMO/BOSSWagering/Casino/OnlineGaming/?SiteId=LaFunda&stoken=<%= session[:user_token] %>" width="100%" seamless="seamless"></iframe>
 <% end %>
-
