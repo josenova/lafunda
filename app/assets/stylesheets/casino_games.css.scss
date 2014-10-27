@@ -2,8 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.casino_games .left {
 
+.casino_games, .casino_games .left {
   padding: 0 !important;
 }
 
