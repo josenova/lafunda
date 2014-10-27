@@ -1096,6 +1096,12 @@ select {
 
 .hidden { display: none; }
 
+#bj {display:none;}
+
+
+
+/************************************************************************************************************/
+
 @media screen and (max-width: 1024px) {
   #topright form input[type="submit"] {font-size:11px !important}
 }
@@ -1126,6 +1132,12 @@ select {
   #copyright {display:none;}
   #open_mobile_menu {display:inline;}
   #mobile_menu {display:block;}
+
+  #bj {display:block;}
+  
+  a[href*="/casino"] {
+    display:none !important;
+  }
 
 
   #topright form {padding:0; margin: 2.1289% 0;}

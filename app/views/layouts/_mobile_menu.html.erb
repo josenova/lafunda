@@ -6,6 +6,7 @@
         <%= nav_link t('views.sportsbook'), sportsbook_path %>
         <%= nav_link t('views.racebook'), racebook_path %>
         <%= nav_link t('views.lottery'), lottery_path %>
+        <li><%= link_to t('views.blackjack'), "https://wagering.lafunda.com.do/BOSSWagering/Casino/InternetGaming?siteID=mobile&ssc=1014&stoken=#{session[:user_token]}", :target => "_blank" %></li>
       </ul>
 
       <ul>
