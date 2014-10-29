@@ -9,7 +9,7 @@ $(document).ready(function() {
 		});
 		
 		$( "#providers #paypal" ).click(function() {
-		  alert( "Paypal\nCuenta: finances@lafunda.do\n\nDepósitos\nColoca en la nota de depósito tu nombre (e email registrado con nosotros, en caso de no usarlo para realizar el depósito).\n\nRetiros\nSolícita tu retiro a finances@lafunda.do. Solo se aceptarán solicitudes y se enviarán pagos a cuentas de email que estén registradas con nosotros. " );
+		  alert( "Paypal\nCuenta: finances@lafunda.do\n\nDepósitos\nColoca en la nota de depósito tu nombre e email registrado con nosotros.\n\nRetiros\nSolícita tu retiro a finances@lafunda.do. \nSolo se aceptarán solicitudes y se enviarán pagos a cuentas de email que estén registradas con nosotros. " );
 		});
 
  
