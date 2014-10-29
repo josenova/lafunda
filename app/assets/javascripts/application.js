@@ -31,25 +31,23 @@ $(document).ready(function() {
 
 if($(window).width() <= 1024) {
 
-/*Height for cover layer*/		
-	  $('#layer').css('height', $(window).height());
-
-/*Open hamburger menu function*/		
+/*Open/Close hamburger menu function*/	
+	var status = 0;	
 	$('#open_mobile_menu').click(function () {
-	  $('#main').css('width', $('#main').width());
-	  $('#all').toggleClass('open');
-	  $('#layer').toggleClass('hidden');
-	  $('#all').bind('touchmove', function(e){e.preventDefault()});
-    });
-
-/*Close hamburger menu function*/		
-	$('#layer').click(function () {	  
-	  $('#all').toggleClass('open');
-	  setTimeout( "$('#main').css('width', 'auto');",200 );
-	  $('#layer').toggleClass('hidden');
-	  $('#all').unbind('touchmove');
-	 
+		if (status == 0) {
+		 	$('#mobile_menu').css('display', 'block');
+		  	$('#miniheader').css('position', 'relative');
+			$('#main').css('paddingTop', '0px');
+			status++;
+		}
+		else {
+	  		$('#miniheader').css('position', 'fixed');
+	  		$('#mobile_menu').css('display', 'none');
+			$('#main').css('paddingTop', '64px');
+			status=0;
+		}
 	});
+
 
 }
 
