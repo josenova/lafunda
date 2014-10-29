@@ -24,9 +24,9 @@
         <li id="bj"><%= link_to "https://wagering.lafunda.com.do/BOSSWagering/Casino/InternetGaming?siteID=mobile&ssc=1014#{"&txtcode=PLAYFORFUN&txtpassword=" unless @current_user}#{'&stoken=' + session[:user_token] if @current_user}", :target => "_blank" do %><%= image_tag "icons/casino.png" %><%= t('views.blackjack') %><% end %></li>
       </ul>
 
-      <div>
-      <%= link_to image_tag("bg/siguenos1.png"), 'http://www.facebook.com/lafundard', :target => "_blank", :style => "margin-bottom:2.12%;float:left; width:29%;" %>
-      <%= link_to image_tag("bg/siguenos2.png"), 'http://www.twitter.com/lafundard', :target => "_blank", :style => "margin-bottom:2.12%;float:left; width:71%;" %>
+      <div style="text-align:center">
+      <%= link_to image_tag("bg/siguenos1.png"), 'http://www.facebook.com/lafundard', :target => "_blank", :style => "margin-bottom:2.12%;display:inline-block; text-align:right;" %>
+      <%= link_to image_tag("bg/siguenos2.png"), 'http://www.twitter.com/lafundard', :target => "_blank", :style => "margin-bottom:2.12%;display:inline-block;" %>
       </div>
       <%= link_to image_tag("ayuda.png"), support_path, :style => "text-align:center" %>
     </div> <!--- End Right --->
