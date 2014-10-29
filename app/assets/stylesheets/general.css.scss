@@ -1075,7 +1075,10 @@ select {
 }
 
 
+@media screen and (min-width:568px) and (max-width: 768px) {
 
+  #social  {padding-left:40px;}
+}
 
 @media screen and (max-width: 768px) {
 
@@ -1108,7 +1111,6 @@ select {
     display:none !important;
   }
 
-  #social  {padding-left:0;}
 
 
   #topright form {padding:0; margin: 2.1289% 0;}
