@@ -87,7 +87,7 @@ if($(window).width() <= 1024) {
 	
 
 
- 
+ window.alert(window.navigator.standalone);
 
  
 }); // END DOCUMENT READY
@@ -105,4 +105,7 @@ if($(window).width() <= 1024) {
       		divResize();
 		},150);	
 	});
+
+
+
 
