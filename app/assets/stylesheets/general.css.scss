@@ -993,8 +993,7 @@ select {
   position: relative;
   top:0px;
   left: 0px;
-  background: #3e3c3d;
-  background: linear-gradient(to bottom, #3e3c3d 0%,#2d2c2d 100%);
+  background: #030303;
   width: 100%;
   padding: 3.444% 0;
   z-index: 0;
@@ -1019,7 +1018,7 @@ select {
   border-top: 1px solid #444;
   text-decoration: none;
   text-shadow: 1px 1px rgba(0,0,0,0.4);
-  background:rgba(255,255,255,0.02);
+  background:rgba(255,255,255,0.1);
 }
 
 #mobile_menu ul li.current a {
