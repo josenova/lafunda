@@ -19,9 +19,9 @@
         <%= nav_link t('views.sign_out'), sign_out_path %>
       </ul>
     <% else %>
-      <ul style="margin:0">
-        <%= nav_link t('views.sign_in'), sign_in_path %>
-        <%= nav_link t('views.register'), register_path %>
+      <ul style="margin:0; background:#030303;overflow: hidden;">
+        <li><%= link_to t('views.sign_in'), sign_in_path, :class => 'button', :style => 'background:#dfab3e; float:left; width:50%; text-shadow:none; text-align:center;' %></li>
+        <li><%= link_to t('views.register'), register_path, :class => 'button', :style => 'background:#dfab3e; float:left; width:50%; text-shadow:none; text-align:center;' %></li>
       </ul>
 
       <ul>
