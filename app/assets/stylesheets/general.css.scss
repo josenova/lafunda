@@ -1074,11 +1074,6 @@ select {
 }
 
 
-@media screen and (min-width:568px) and (max-width: 768px) {
-
-  #social  {padding-left:40px;}
-}
-
 @media screen and (max-width: 768px) {
 
   #main {padding-top:64px;}
@@ -1108,7 +1103,7 @@ select {
 
   a[href*="/casino"] {display:none !important;}
 
-
+  #social {display:none;}
 
   #topright form {padding:0; margin: 2.1289% 0;}
   #topright form input {width: 100%; margin: 0.8% 0; height: 32px;}

@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="884">
-              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.16981132" vertical-offset="0" max-vertical-offset="952">
+              <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -115,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="general.css.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="general.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/general.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4861265" vertical-offset="16902" max-vertical-offset="19958">
-              <caret line="1020" column="33" selection-start-line="1020" selection-start-column="33" selection-end-line="1020" selection-end-column="33" />
+            <state vertical-scroll-proportion="-15.692307" vertical-offset="18275" max-vertical-offset="19873">
+              <caret line="1099" column="37" selection-start-line="1099" selection-start-column="37" selection-end-line="1099" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -181,11 +181,11 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/race_games.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/sport_games.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_miniheader.html.erb" />
         <option value="$PROJECT_DIR$/app/views/welcome/_homebox.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_mobile_menu.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/general.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -767,14 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="884">
-          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/_homebox.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="850">
@@ -803,8 +795,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/general.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4861265" vertical-offset="16902" max-vertical-offset="19958">
-          <caret line="1020" column="33" selection-start-line="1020" selection-start-column="33" selection-end-line="1020" selection-end-column="33" />
+        <state vertical-scroll-proportion="-15.692307" vertical-offset="18275" max-vertical-offset="19873">
+          <caret line="1099" column="37" selection-start-line="1099" selection-start-column="37" selection-end-line="1099" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16981132" vertical-offset="0" max-vertical-offset="952">
+          <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
           <folding />
         </state>
       </provider>
