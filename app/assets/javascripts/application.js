@@ -86,9 +86,6 @@ if($(window).width() <= 1024) {
 	  });
 	
 
-
- window.alert(window.navigator.standalone);
-
  
 }); // END DOCUMENT READY
 
@@ -107,5 +104,15 @@ if($(window).width() <= 1024) {
 	});
 
 
+ /******************************** MOBILE SAFARI IN STANDALONE *************************************************/ 
 
-
+if(("standalone" in window.navigator) && window.navigator.standalone){
+	$( document ).on(
+    "click",
+    "a",
+		function( event ){
+			event.preventDefault();
+			location.href = $( event.target ).attr( "href" );
+		}
+	);
+}
