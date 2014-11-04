@@ -548,6 +548,22 @@ body {
   color:#ffcd5f;
 }
 
+#mobile_menu #instructions a {
+  background-image: url(asset-path('icons/instructions_mobile.png'));
+}
+#mobile_menu .current#instructions a {
+  background-image: url(asset-path('icons/instructions_top.png')) !important;
+  color:#ffcd5f;
+}
+
+#mobile_menu #promotions a {
+  background-image: url(asset-path('icons/promotions_mobile.png'));
+}
+#mobile_menu .current#promotions a {
+  background-image: url(asset-path('icons/promotions_top.png')) !important;
+  color:#ffcd5f;
+}
+
 #mobile_menu ul {
     padding: 2.12% 0;
     border-top: 2px solid rgba(255, 255, 255, 0.1);
