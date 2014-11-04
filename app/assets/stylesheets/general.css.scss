@@ -1087,7 +1087,7 @@ select {
   left: 0px;
   background: #030303;
   width: 100%;
-  padding: 3.444% 0 0;
+  padding: 64px 0 0;
   z-index: 0;
   height:100%;
   overflow-x:hidden;
@@ -1097,8 +1097,11 @@ select {
   }
 
 #mobile_menu h5 {
-  padding: 3.7% 5.573% 5.573%;
+  padding: 24px 0 0 3.444%;
   font-size: 0.9375em;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 
 
