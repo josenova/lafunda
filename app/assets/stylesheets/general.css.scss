@@ -56,12 +56,11 @@ body {
   width: 100%;
   position: fixed;
   top: 0;
-  background-image: url(asset-path('blacks/black90.png'));
-  background-repeat: repeat;
   z-index: 2;
   margin-top:-74px;
   transition: all 0.3s linear;
   -webkit-transition:  all 0.3s linear;
+  background: #030303;
 }
 
 .corner {
@@ -447,8 +446,8 @@ body {
 }
 
 #mainmenu #promotions a {
-  background-image: url(asset-path('icons/promotions_top.png'));
-  color:#efbc4f;
+  background-image: url(asset-path('icons/promotions_mobile.png'));
+  color:#ffcd5f;
 }
 #mainmenu .current#promotions a {
   background-image: url(asset-path('icons/promotions_top_active.png')) !important;
@@ -459,13 +458,12 @@ body {
 }
 
 #mainmenu #instructions a {
-  background-image: url(asset-path('icons/instructions_top.png'));
-  color:#efbc4f;
+  background-image: url(asset-path('icons/instructions_mobile.png'));
+  color:#ffcd5f;
 }
 #mainmenu .current#instructions a {
   background-image: url(asset-path('icons/instructions_top_active.png')) !important;
 }
-
 
 #social a {
   margin-bottom: 2.12%;
@@ -473,9 +471,103 @@ body {
 }
 
 #social a img {
-
 }
 
+/*************************************************************** MOBILE MENU ICONS ***************************************************************/
+
+
+#mobile_menu #home a {
+  background-image: url(asset-path('icons/home_mobile.png'));
+}
+#mobile_menu .current#home a {
+  background-image: url(asset-path('icons/home_top.png')) !important;
+  color:#ffcd5f;
+}
+
+#mobile_menu #sportsbook a {
+  background-image: url(asset-path('icons/sportsbook_mobile.png'));
+}
+#mobile_menu .current#sportsbook a {
+  background-image: url(asset-path('icons/sportsbook_top.png')) !important;
+  color:#ffcd5f;
+}
+
+#mobile_menu #racebook a {
+   background-image: url(asset-path('icons/racebook_mobile.png'));
+ }
+#mobile_menu .current#racebook a {
+  background-image: url(asset-path('icons/racebook_top.png')) !important;
+  color:#ffcd5f;
+}
+
+#mobile_menu #lottery a {
+  background-image: url(asset-path('icons/lottery_mobile.png'));
+}
+#mobile_menu .current#lottery a {
+  background-image: url(asset-path('icons/lottery_top.png')) !important;
+  color:#ffcd5f;
+}
+
+#mobile_menu #casino a {
+  background-image: url(asset-path('icons/casino_mobile.png'));
+}
+#mobile_menu .current#casino a {
+  background-image: url(asset-path('icons/casino_top.png')) !important;
+  color:#ffcd5f;
+}
+
+#mobile_menu #account a {
+  background-image: url(asset-path('icons/account_mobile.png'));
+}
+#mobile_menu .current#account a {
+  background-image: url(asset-path('icons/account_top.png')) !important;
+  color:#ffcd5f;
+}
+
+#mobile_menu #cashier a {
+  background-image: url(asset-path('icons/cashier_mobile.png'));
+}
+#mobile_menu .current#cashier a {
+  background-image: url(asset-path('icons/cashier_top.png')) !important;
+  color:#ffcd5f;
+}
+
+#mobile_menu #support a {
+  background-image: url(asset-path('icons/support_mobile.png'));
+}
+#mobile_menu .current#support a {
+  background-image: url(asset-path('icons/support_top.png')) !important;
+  color:#ffcd5f;
+}
+
+#mobile_menu #logout a {
+  background-image: url(asset-path('icons/logout_mobile.png'));
+}
+#mobile_menu .current#logout a {
+  background-image: url(asset-path('icons/logout_top.png')) !important;
+  color:#ffcd5f;
+}
+
+#mobile_menu ul {
+    padding: 2.12% 0;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+#mobile_menu ul li a {
+  width: 45%;
+  margin: 0 auto;
+  display: block;
+  padding: 3.444% 5.573%;
+  text-decoration: none;
+  text-shadow: 1px 1px rgba(0,0,0,0.4);
+  background-repeat: no-repeat !important;
+  background-position: 15px center !important;
+  padding-left:60px;
+}
+
+#mobile_menu ul li:hover {
+  background:rgba(255,255,255,0.1);
+}
 
 /*********************************************************************** CONTENT **************************************************************************************/
 
@@ -995,43 +1087,20 @@ select {
   left: 0px;
   background: #030303;
   width: 100%;
-  padding: 3.444% 0;
+  padding: 3.444% 0 0;
   z-index: 0;
   height:100%;
   overflow-x:hidden;
   display: none;
+  background-image: url(asset-path('bg/mobile_menu_bg.jpg'));
+  background-size: cover;
   }
 
 #mobile_menu h5 {
-  padding: 0 5.573% 5.573%;
+  padding: 2.12% 5.573% 5.573%;
   font-size: 0.9375em;
 }
 
-#mobile_menu ul {
-  margin-top: 5.57%;
-}
-
-#mobile_menu ul li a {
-  width: 100%;
-  display: block;
-  padding: 3.444% 5.573%;
-  border-top: 1px solid #444;
-  text-decoration: none;
-  text-shadow: 1px 1px rgba(0,0,0,0.4);
-  background:rgba(255,255,255,0.1);
-}
-
-#mobile_menu ul li.current a {
-  border-left: 2px solid #dfab3e;
-}
-
-#mobile_menu ul li:last-child a {
-  border-bottom: 1px solid #444;
-}
-
-#mobile_menu ul li a:hover {
-  background:#222;
-}
 
 #open_mobile_menu {
   float: right;
@@ -1078,7 +1147,7 @@ select {
 
   #main {padding-top:64px;}
   .wrapper {padding:0; min-width: initial;}
-  #miniheader {margin-top:0px !important; background: #030303; padding: 0 3.444%;  height: 64px;}
+  #miniheader {margin-top:0px !important; padding: 0 3.444%;  height: 64px;}
   #minilogo { margin: 0 auto; padding: 8px 0 0;}
   #header {display:none;}
   #content {padding: 3.444% 3.444% 0;}

@@ -36,12 +36,12 @@ if($(window).width() <= 1024) {
 	$('#open_mobile_menu').click(function () {
 		if (status == 0) {
 		 	$('#mobile_menu').css('display', 'block');
-		  	$('#miniheader').css('position', 'relative');
+		  	$('#miniheader').css({'position' : 'relative', 'position' : 'absolute', 'background' : 'transparent'});
 			$('#main').css('paddingTop', '0px');
 			status++;
 		}
 		else {
-	  		$('#miniheader').css('position', 'fixed');
+	  		$('#miniheader').css({'position' : 'fixed', 'background' : '#030303'});
 	  		$('#mobile_menu').css('display', 'none');
 			$('#main').css('paddingTop', '64px');
 			status=0;

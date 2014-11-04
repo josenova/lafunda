@@ -3,20 +3,24 @@
     <% if @current_user %>
       <h5><%= @current_user.username %></h5>
       <ul style="margin:0">
-        <%= nav_link t('views.sportsbook'), sportsbook_path %>
-        <%= nav_link t('views.racebook'), racebook_path %>
-        <%= nav_link t('views.lottery'), lottery_path %>
-        <li><%= link_to t('views.blackjack'), "https://wagering.lafunda.com.do/BOSSWagering/Casino/InternetGaming?siteID=mobile&ssc=1014&stoken=#{session[:user_token]}", :target => "_blank" %></li>
+        <%= nav_link t('views.home'), root_path, 'home' %>
       </ul>
 
       <ul>
-        <%= nav_link t('views.my_account'), account_path %>
-        <%= nav_link t('views.cashier'), cashier_path %>
-        <%= nav_link t('views.help'), support_path %>
+        <%= nav_link t('views.sportsbook'), sportsbook_path, 'sportsbook' %>
+        <%= nav_link t('views.racebook'), racebook_path, 'racebook' %>
+        <%= nav_link t('views.lottery'), lottery_path, 'lottery' %>
+        <li id="casino"><%= link_to t('views.blackjack'), "https://wagering.lafunda.com.do/BOSSWagering/Casino/InternetGaming?siteID=mobile&ssc=1014&stoken=#{session[:user_token]}", :target => "_blank" %></li>
       </ul>
 
       <ul>
-        <%= nav_link t('views.sign_out'), sign_out_path %>
+        <%= nav_link t('views.my_account'), account_path, 'account' %>
+        <%= nav_link t('views.cashier'), cashier_path, 'cashier' %>
+        <%= nav_link t('views.help'), support_path, 'support' %>
+      </ul>
+
+      <ul>
+        <%= nav_link t('views.sign_out'), sign_out_path, 'logout' %>
       </ul>
     <% else %>
       <ul style="margin:0; background:#030303;overflow: hidden;">
@@ -25,12 +29,12 @@
       </ul>
 
       <ul>
-        <%= nav_link t('views.how_to_play'), support_path(:anchor => 'faq') %>
-        <%= nav_link t('views.promotions'), promotions_path %>
+        <%= nav_link t('views.how_to_play'), support_path(:anchor => 'faq'), 'instructions' %>
+        <%= nav_link t('views.promotions'), promotions_path, 'promotions' %>
       </ul>
 
       <ul>
-        <%= nav_link t('views.help'), support_path %>
+        <%= nav_link t('views.help'), support_path, 'support' %>
       </ul>
     <% end %>
 
