@@ -204,6 +204,10 @@
 
 @media screen and (max-width: 768px) {
 
+  .lotto_info {
+    left: 750px;
+  }
+
   #tabs {border-radius: 3px;}
 
   #tabs li a {
@@ -229,6 +233,16 @@
   #tabs li img {
     height: 28px;
     padding-right: 18px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 568px) {
+
+  .lotto_info {
+    left: 550px;
   }
 
 }
