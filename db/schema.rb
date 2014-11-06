@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141017124343) do
+ActiveRecord::Schema.define(version: 20141106143303) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -87,6 +87,7 @@ ActiveRecord::Schema.define(version: 20141017124343) do
     t.string   "referral"
     t.integer  "bonus_status",           default: 0
     t.datetime "bonus_updated"
+    t.string   "promotion"
   end
 
   add_index "users", ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true, using: :btree

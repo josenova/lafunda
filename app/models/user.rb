@@ -88,7 +88,7 @@ class User < ActiveRecord::Base
             <tem:password>#{self.password_digest}</tem:password>
             <tem:nickname>#{self.username}</tem:nickname>
             <tem:firstSecurityQuestion>1</tem:firstSecurityQuestion>
-            <tem:firstSecurityAnswer></tem:firstSecurityAnswer>
+            <tem:firstSecurityAnswer>#{self.promotion}</tem:firstSecurityAnswer>
             <tem:secondSecurityQuestion>2</tem:secondSecurityQuestion>
             <tem:secondSecurityAnswer></tem:secondSecurityAnswer>
             <tem:thirdSecurityQuestion>3</tem:thirdSecurityQuestion>
@@ -106,7 +106,7 @@ class User < ActiveRecord::Base
             <tem:secondAddress></tem:secondAddress>
             <tem:city>#{self.city}</tem:city>
             <tem:state>#{self.state}</tem:state>
-            <tem:country>DO</tem:country>
+            <tem:country>#{self.country}</tem:country>
             <tem:zipCode></tem:zipCode>
             <tem:referral>#{self.referral}</tem:referral>
             <tem:defaultLanguage>#{$default_language}</tem:defaultLanguage>

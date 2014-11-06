@@ -30,6 +30,9 @@
   .tip_wrapper{data_tip: t('views.reffered_text')}
     = f.text_field :referral
 
+  = f.label :promotion, t('views.promo_code')
+  = f.text_field :promotion, :maxlength => 35
+
   = field_set_tag t('views.personal') do
     = f.label :name, t('views.name')
     = f.text_field :name, :required => true, :maxlength => 35
