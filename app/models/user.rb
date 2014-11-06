@@ -88,7 +88,7 @@ class User < ActiveRecord::Base
             <tem:password>#{self.password_digest}</tem:password>
             <tem:nickname>#{self.username}</tem:nickname>
             <tem:firstSecurityQuestion>1</tem:firstSecurityQuestion>
-            <tem:firstSecurityAnswer>#{self.promotion}</tem:firstSecurityAnswer>
+            <tem:firstSecurityAnswer>Promo:#{self.promotion}</tem:firstSecurityAnswer>
             <tem:secondSecurityQuestion>2</tem:secondSecurityQuestion>
             <tem:secondSecurityAnswer></tem:secondSecurityAnswer>
             <tem:thirdSecurityQuestion>3</tem:thirdSecurityQuestion>
