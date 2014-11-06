@@ -38,12 +38,14 @@ if($(window).width() <= 1024) {
 		 	$('#mobile_menu').css('display', 'block');
 		  	$('#miniheader').css({'position' : 'relative', 'position' : 'absolute', 'background' : 'transparent'});
 			$('#main').css('paddingTop', '0px');
+			$('#open_mobile_menu').css('background-position', '0 25px');
 			status++;
 		}
 		else {
 	  		$('#miniheader').css({'position' : 'fixed', 'background' : '#030303'});
 	  		$('#mobile_menu').css('display', 'none');
 			$('#main').css('paddingTop', '64px');
+			$('#open_mobile_menu').css('background-position', 'initial');
 			status=0;
 		}
 	});

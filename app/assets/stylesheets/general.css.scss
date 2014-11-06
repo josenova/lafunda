@@ -1125,15 +1125,12 @@ select {
 #open_mobile_menu {
   float: right;
   padding: 5px 8px;
-  background: #dfab3e;
   margin: 17px 0;
-  border-radius: 3px;
-  text-decoration: none;
-  color: #222;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size:0.8125em;
   display:none;
+  width:70px;
+  height:25px;
+  background-image: url(asset-path('bg/mobile_menu.png'));
+  background-size: 70px;
   }
 
 #open_mobile_menu .hamburger {
