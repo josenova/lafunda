@@ -21,9 +21,9 @@
 
       <ul class="double" style="overflow:hidden;">
         <%= nav_link t('views.how_to_play'), support_path(:anchor => 'faq'), 'instructions' %>
-        <%= nav_link 'Facebook', 'http://facebook.com/lafundard', 'facebook' %>
+        <li id="facebook"><%= link_to 'Facebook', 'http://facebook.com/lafundard', :target => '_blank' %></li>
         <%= nav_link t('views.promotions'), promotions_path, 'promotions' %>
-        <%= nav_link 'Twitter', 'http://twitter.com/lafundard', 'twitter' %>
+        <li id="twitter"><%= link_to 'Twitter', 'https://twitter.com/lafundard', :target => '_blank' %></li>
       </ul>
 
       <ul>
@@ -46,9 +46,9 @@
 
       <ul class="double" style="overflow:hidden;">
         <%= nav_link t('views.how_to_play'), support_path(:anchor => 'faq'), 'instructions' %>
-        <%= nav_link 'Facebook', 'http://facebook.com/lafundard', 'facebook' %>
+        <li id="facebook"><%= link_to 'Facebook', 'http://facebook.com/lafundard', :target => '_blank' %></li>
         <%= nav_link t('views.promotions'), promotions_path, 'promotions' %>
-        <%= nav_link 'Twitter', 'http://twitter.com/lafundard', 'twitter' %>
+        <li id="twitter"><%= link_to 'Twitter', 'https://twitter.com/lafundard', :target => '_blank' %></li>
       </ul>
 
     <% end %>
