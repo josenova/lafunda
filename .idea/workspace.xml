@@ -53,16 +53,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_mobile_menu.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_mobile_menu.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_mobile_menu.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26086956" vertical-offset="202" max-vertical-offset="1122">
-              <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+            <state vertical-scroll-proportion="-10.538462" vertical-offset="202" max-vertical-offset="1122">
+              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#3;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#5;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#0;n#ul#5;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#5;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#8;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="general.css.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="general.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/general.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.166667" vertical-offset="9240" max-vertical-offset="21794">
-              <caret line="579" column="49" selection-start-line="579" selection-start-column="49" selection-end-line="579" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.8856502" vertical-offset="9546" max-vertical-offset="21828">
+              <caret line="608" column="21" selection-start-line="608" selection-start-column="21" selection-end-line="608" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -187,8 +189,8 @@
         <option value="$PROJECT_DIR$/app/views/users/_register_form.html.haml" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_miniheader.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/general.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/_mobile_menu.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/general.css.scss" />
       </list>
     </option>
   </component>
@@ -798,24 +800,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/general.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.166667" vertical-offset="9240" max-vertical-offset="21794">
-          <caret line="579" column="49" selection-start-line="579" selection-start-column="49" selection-end-line="579" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_mobile_menu.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26086956" vertical-offset="202" max-vertical-offset="1122">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        <state vertical-scroll-proportion="-10.538462" vertical-offset="202" max-vertical-offset="1122">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#3;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#5;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#5;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#8;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/general.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8856502" vertical-offset="9546" max-vertical-offset="21828">
+          <caret line="608" column="21" selection-start-line="608" selection-start-column="21" selection-end-line="608" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
