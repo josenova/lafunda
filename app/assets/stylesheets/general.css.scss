@@ -390,6 +390,7 @@ body {
   display: block;
   background-repeat: no-repeat !important;
   background-position: 7px center !important;
+  background-size: contain;
 }
 
 #mainmenu .current a {
@@ -398,6 +399,7 @@ body {
   background-color: #dfab3e;
   color: #111 !important;
   box-shadow: 1px 1px rgba(0,0,0,0.3);
+  background-size: initial;
 }
 
 /********************************************************************* MAIN MENU ICONS ************************************************************/
@@ -428,7 +430,6 @@ body {
 
 #mainmenu #racebook a {
   background-image: url(asset-path('icons/racebook_top.png'));
-  padding-left:45px;
 }
 #mainmenu .current#racebook a {
   background-image: url(asset-path('icons/racebook_top_active.png')) !important;
@@ -632,7 +633,7 @@ body {
 
 #content .left li {
   color:#333;
-  margin: 0 0 0.813% 5.57%;
+  margin: 0 0 0.813% 3.444%;
   list-style:initial;
   font-size:15px;
 }
@@ -1247,6 +1248,10 @@ select {
 
   .tip_wrapper input {
     width:99% !important;
+  }
+
+  #content .left li {
+    margin-left: 7%;
   }
 
 }
