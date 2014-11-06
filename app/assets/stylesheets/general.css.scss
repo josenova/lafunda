@@ -565,6 +565,22 @@ body {
   color:#ffcd5f;
 }
 
+#mobile_menu #facebook a {
+  background-image: url(asset-path('icons/facebook_mobile.png'));
+}
+#mobile_menu .current#facebook a {
+  background-image: url(asset-path('icons/facebook_top.png')) !important;
+  color:#ffcd5f;
+}
+
+#mobile_menu #twitter a {
+  background-image: url(asset-path('icons/twitter_mobile.png'));
+}
+#mobile_menu .current#twitter a {
+  background-image: url(asset-path('icons/twitter_top.png')) !important;
+  color:#ffcd5f;
+}
+
 #mobile_menu ul {
     padding: 2.12% 0;
     border-top: 2px solid rgba(255, 255, 255, 0.1);
@@ -584,6 +600,11 @@ body {
 
 #mobile_menu ul li:hover {
   background:rgba(255,255,255,0.1);
+}
+
+#mobile_menu .double li a {
+  float: left;
+  width: 50%;
 }
 
 /*********************************************************************** CONTENT **************************************************************************************/
