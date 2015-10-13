@@ -1,28 +1,6 @@
-== README
+# lafunda
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+La Funda was an online casino startup located in Santo Domingo. This RoR platform served as a middleware between the casino's payment and gaming services and also includes a front-end website where users could create their account, log in and submit inquiries. 
 
-Things you may want to cover:
+The startup ran out of money on January 2015 and no longer exists. R.I.P.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
