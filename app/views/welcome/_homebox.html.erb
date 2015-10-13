@@ -12,26 +12,19 @@
       </ul>
       <!-- end Basic jQuery Slider -->
 
-    </div> <!--- End Left --->
+    </div> <!--- End Left -->
 
 
     <div class="right">
-      <ul id="tabs">
-        <li><%= link_to sportsbook_path do %><%= image_tag "icons/sportsbook.png" %><%= t('views.sportsbook') %><% end %></li>
-        <li><%= link_to racebook_path do %><%= image_tag "icons/racebook.png" %><%= t('views.racebook') %><% end %></li>
-        <li><%= link_to lottery_path do %><%= image_tag "icons/lottery.png" %><%= t('views.lottery') %><% end %></li>
-        <li><%= link_to casino_path do %><%= image_tag "icons/casino.png" %><%= t('views.casino') %><% end %></li>
-        <li id="bj"><%= link_to "https://wagering.lafunda.com.do/BOSSWagering/Casino/InternetGaming?siteID=mobile&ssc=1014#{"&txtcode=PLAYFORFUN&txtpassword=" unless @current_user}#{'&stoken=' + session[:user_token] if @current_user}", :target => "_blank" do %><%= image_tag "icons/casino.png" %><%= t('views.blackjack') %><% end %></li>
-      </ul>
 
       <div style="text-align:center" id="social">
       <%= link_to image_tag("bg/siguenos1.png"), 'http://www.facebook.com/lafundard', :target => "_blank", :style => "text-align:right;width:25%;" %>
       <%= link_to image_tag("bg/siguenos2.png"), 'http://www.twitter.com/lafundard', :target => "_blank", :style => "text-align:left;width:73%" %>
       </div>
       <%= link_to image_tag("ayuda.png"), support_path, :style => "text-align:center" %>
-    </div> <!--- End Right --->
+    </div> <!--- End Right -->
 
-</div> <!--- End Homebox --->
+</div> <!--- End Homebox -->
 
 <div id="homebottom">
 

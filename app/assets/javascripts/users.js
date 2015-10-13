@@ -45,19 +45,7 @@ $(document).ready(function() {
 	   e.preventDefault();
 	 });
 	 
- /******************************* BONUS PROGRESS BAR ******************************************/		 
-			 
-	var percent = $(".bar_liquid").attr('percent');	
-	if (percent > 5) {	 
-		$('.bar_liquid').css("width", percent + "%");
-	}
-	if (percent == 100) {
-	  $('.bar_liquid').css({
-   			"background" : "#dfab3e",
-  			 "border-radius" : "5px"
-	  });
-	  $('span.meter_amount').css("color", "#dfab3e");
-	}
+
 
 });// END DOCUMENT READY
 
